@@ -22,7 +22,7 @@
 
 - 运行源码与Sites版本见交付证据sites-deployment-v2.json；同一站已成功公开发布，仍为同一免登录地址。终局败方坐下收势与初号机抬手已补强，并同步更新构建与实录。
 - Chromium154全新无Cookie/认证上下文在生产站直接进入游戏，与真实AI实际操作8回合；加载与最终构建一致的版本化脚本，3节拍/3技能正确，无调试接口、脚本错误或404。证据public-access-v2.json、sites-deployment-v2.json随证据包提供。
-- ZIP 53文件、入口723字节、未压缩约1.99MB、压缩约1.62MB，Toy doctor无findings。38秒实画面/实际声道录像，峰值约−5.4dBFS，无削波。
+- ZIP 53文件、入口723字节、未压缩约1.99MB、压缩约1.62MB，Toy doctor无findings。38秒实画面/实际声道录像，峰值低于−5dBFS，无削波。
 - 交付索引docs/DELIVERY.md；原声音源核查docs/AUDIO_RESEARCH.md，37文件实际清单data/audio-manifest.json。当前无原作录音，七类使用原创暂用版本，替换接口完整保留。
 - 本次可独立完成的玩法/表现/素材/验证/公开部署与下载包工作完成；后续仅待可用原声文件与许可，以及既有物理真机/人类手感/Toy实际账号条件。没有把这些缺口标成通过。
 
