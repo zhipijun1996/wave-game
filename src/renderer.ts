@@ -56,6 +56,7 @@ export class Renderer {
   if(finished&&result){const e=result.winner==='draw'?'draw':result.winner===side?'win':'lose';return {pose:mix(P.idle,P[e],clamp((time)/450)),hand:'idle',emotion:e};}
   if(!id||local<1800){const t=local%900;const p=t<220?mix(P.clap,P.open,t/220):mix(P.open,P.idle,(t-220)/450);return {pose:p,hand:t<170?'clap':'idle',emotion:'idle'};}
   const s=SKILLS[id],u=(local-1800)/450;let target=P[id]||P.charge,prep=P.wavePrep;
+  if(s.kind==='idle'){target=P.idle;prep=P.idle;}
   if(s.kind==='charge'){target=P[id==='quick'?'quick':'charge'];prep=P.chargePrep;}
   if(s.kind==='guard'){target=P[id];prep=P[id];}
   if(s.kind==='reflect'){target=P[id];prep=P.reflectPrep;}

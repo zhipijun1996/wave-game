@@ -9,7 +9,7 @@
 - 故事模式：放学后的八位同学、七招逐关解锁与毕业战。
 - 开始游戏：充气 / 小波 / 防御；1或3血，三档AI。
 - 进阶游戏：十招齐开，双方5血。
-- 四款纯外观皮肤、可跳过实操教学、本地自动存档、音量/震动/减弱动效与标准/慢速设置。
+- 四款纯外观皮肤、可跳过实操教学、本地自动存档、音量/震动/减弱动效与慢速/标准/快档设置。
 
 ## 运行
 
@@ -26,8 +26,8 @@ npm run dev
 npm test
 npm run build
 python3 scripts/simulate.py --search-seeds 5 --seeds 40
-npx tsx scripts/ai-calibrate.ts
-python3 scripts/report.py
+npm run usage
+python3 scripts/usage_report.py
 python3 -m http.server 4173 --directory dist
 # 另一个终端，安装系统Chromium后：
 npm run qa
@@ -40,11 +40,11 @@ npm run qa
 npm run package
 ```
 
-生成 `artifacts/paipai-wave-toy-v1.0.0.zip`；根目录为 `index.html`。解压后用任意HTTP静态服务器启动。直接双击 `file://` 不受支持。
+生成 `artifacts/paipai-wave-toy-v1.1.0.zip`；根目录为 `index.html`。解压后用任意HTTP静态服务器启动。直接双击 `file://` 不受支持。
 
 ## 操作与规则
 
-在「拍、拍」期间点选，可以反复改选；第三拍同时亮招。点击只选中，扣气与伤害在统一结果点发生。未选默认充气；快充后的禁充回合默认防御。桌面可用数字1–0选招、空格暂停。切后台暂停，返回后手动继续。
+等第二拍拍手后按钮区亮框才点；窗口内可改选，第三拍同时亮招。标准600ms、慢速900ms、快档420ms。没有窗口内合法点击则空过：不充气、不防御、不攻击。桌面可用数字1–0选招、空格暂停。切后台暂停，返回后手动继续。
 
 完整权威规格在 [docs/GAME_SPEC.md](docs/GAME_SPEC.md)。进度与验收证据在 [docs/PROGRESS.md](docs/PROGRESS.md)。
 
@@ -60,7 +60,7 @@ npm run package
 | `src/content.ts` / `src/main.ts` | 八关、解锁、界面、教程、衣橱 |
 | `src/platform.ts` | 可注入的Toy接口隔离层；无SDK时完全离线可玩 |
 | `public/assets` / `scripts/make_assets.py` | 原创SVG/WAV与生成源代码 |
-| `tests/rule-cases.json` | 986个共享输入/期望结果 |
+| `tests/rule-cases.json` | 1007个共享输入/期望结果 |
 | `artifacts` | 离线原始数据、验收日志与打包输出 |
 
 资源许可见 [docs/ASSETS.md](docs/ASSETS.md)。代码/原创资源为MIT；文楷字体子集为OFL。
@@ -72,4 +72,4 @@ Toy云存档与安全区适配可通过 `Platform.connect(adapter)` 挂接已获
 
 ## 固定种子回放
 
-运行 `npx tsx scripts/seeded-replay.ts` 生成27回合真实AI回放JSON（seed=173）。本地网页调用 `__PAIPAI_TEST__.start('advanced', {seed:173, difficulty:'hard'})`，按回放的玩家动作逐回合点击即可重现封存AI序列。`__PAIPAI_TEST__.exportReplay()` 导出当前对局的初态、种子与已揭晓动作。验收录像另使用固定合法动作场景，和正常独立暗选AI对战明确区分。
+运行 `npx tsx scripts/seeded-replay.ts` 生成真实AI完整回放JSON（seed=173）。本地网页调用 `__PAIPAI_TEST__.start('advanced', {seed:173, difficulty:'hard'})`，按回放的玩家动作逐回合点击即可重现封存AI序列。`__PAIPAI_TEST__.exportReplay()` 导出当前对局的初态、种子与已揭晓动作。验收录像另使用固定合法动作场景，和正常独立暗选AI对战明确区分。

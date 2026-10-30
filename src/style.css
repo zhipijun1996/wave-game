@@ -13,3 +13,13 @@
 @media(min-width:1000px) and (max-height:850px){.battle-body{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:24px;align-items:center}.stage-canvas{height:300px;max-height:300px;aspect-ratio:auto}.controls{padding:15px 13px}.skill-grid{gap:6px}.skill{min-height:80px}.skill img{width:29px;height:29px}.skill .skill-name{font-size:14px}.skill .skill-value{font-size:10px}.selection-line{font-size:12px}.countdown{width:50px}.deck-foot{font-size:10px}.battle-help{margin-top:7px}}
 
 @media(orientation:landscape) and (max-height:600px){#app{padding:calc(8px + env(safe-area-inset-top) + var(--toy-safe-top)) calc(22px + env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom) + var(--toy-safe-bottom)) calc(22px + env(safe-area-inset-left))}}
+/* Rhythm v1.1: the second clap opens a short, explicit input gate. */
+.controls.rhythm-open{border:2px solid #d08a49;padding:16px 17px 13px;box-shadow:0 0 0 4px #dfb06123,0 4px 0 #dedbcb36;background:#fff9e9}
+.controls.rhythm-open .status-dot{background:#c78032;box-shadow:0 0 0 4px #e8bc6f28}
+.controls.rhythm-open .selection-line strong{color:#b2722b}.controls.rhythm-open .countdown i{background:#d19745}
+.controls.rhythm-missed{border-color:#d7b6a4}.controls.rhythm-missed .selection-line strong{color:#b3745d}
+.skill.timing-closed:not(.selected):not(.unavailable){opacity:.68}.controls.rhythm-open .skill:not(.unavailable){box-shadow:0 2px 0 #d7caac55}
+@media(max-width:600px) and (orientation:portrait){.controls.rhythm-open{padding:11px 9px 9px}.controls .selection-line strong{font-size:11px}}
+@media(max-width:600px) and (max-height:700px) and (orientation:portrait){.controls.rhythm-open{padding:9px 7px 7px}}
+@media(orientation:landscape) and (max-height:600px){.controls.rhythm-open{padding:10px 9px}}
+@media(min-width:1000px) and (max-height:850px){.controls.rhythm-open{padding:14px 12px}}

@@ -1,13 +1,13 @@
 import config from '../data/skills.json';
-export type SkillId = 'charge'|'quick'|'wave1'|'wave2'|'wave3'|'guard1'|'guard2'|'guard3'|'reflect1'|'reflect2';
+export type SkillId = 'charge'|'quick'|'wave1'|'wave2'|'wave3'|'guard1'|'guard2'|'guard3'|'reflect1'|'reflect2'|'idle';
 export type Fighter = {hp:number;energy:number;blocked:boolean;skills:SkillId[]};
 export type State = {round:number;players:[Fighter,Fighter]};
-export type Event = {type:'hit'|'break'|'block'|'reflect'|'cancel'|'partial'|'charge'|'interrupted';side:number;amount:number};
+export type Event = {type:'hit'|'break'|'block'|'reflect'|'cancel'|'partial'|'charge'|'interrupted'|'miss';side:number;amount:number};
 export type Resolution = {actions:[SkillId,SkillId];next:State;damage:[number,number];gain:[number,number];cost:[number,number];events:Event[];winner:0|1|'draw'|null};
 export const CONFIG = config;
 export const ALL = config.skills.map(s=>s.id as SkillId);
 export const BASIC:SkillId[] = ['charge','wave1','guard1'];
-export const SKILLS = Object.fromEntries(config.skills.map(s=>[s.id,s])) as Record<SkillId,typeof config.skills[number]>;
+export const SKILLS = Object.fromEntries([...config.skills,config.missAction].map(s=>[s.id,s])) as Record<SkillId,typeof config.skills[number]>;
 export function reason(p:Fighter,id:SkillId):string {
   if(!p.skills.includes(id)) return '尚未学会';
   if(p.blocked && SKILLS[id].kind==='charge') return '本回合禁充';
@@ -16,7 +16,7 @@ export function reason(p:Fighter,id:SkillId):string {
   return '';
 }
 export const legal = (p:Fighter)=>p.skills.filter(id=>!reason(p,id));
-export const defaultAction = (p:Fighter):SkillId=>p.blocked?'guard1':'charge';
+export const defaultAction = (p:Fighter):SkillId=>'idle';
 export const validAction = (p:Fighter,id?:SkillId|null):SkillId=>id && !reason(p,id)?id:defaultAction(p);
 export function initial(hp:number=5,skills:SkillId[]=ALL,enemySkills:SkillId[]=skills):State {
   return {round:1,players:[{hp,energy:0,blocked:false,skills:[...skills]},{hp,energy:0,blocked:false,skills:[...enemySkills]}]};
@@ -39,6 +39,7 @@ export function resolve(state:State,requested:[SkillId|null,SkillId|null]):Resol
   }
   const players=state.players.map((p,i)=>{
     gain[i]=s[i].gain && !(s[i].hitCancelsGain && damage[i]>0)?Math.min(s[i].gain,config.energyCap-p.energy+cost[i]):0;
+    if(s[i].kind==='idle') events.push({type:'miss',side:i,amount:0});
     if(s[i].kind==='charge') events.push({type:actions[i]==='quick' && damage[i]>0?'interrupted':'charge',side:i,amount:gain[i]});
     return {...p,hp:Math.max(0,p.hp-damage[i]),energy:p.energy-cost[i]+gain[i],blocked:s[i].lockCharge};
   }) as [Fighter,Fighter];

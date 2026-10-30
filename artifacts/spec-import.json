@@ -6,5 +6,9 @@
     "provisional name sentence replaced with formal name 拍拍波"
   ],
   "completeChapters": 15,
-  "identicalExceptNameChanges": true
+  "identicalExceptNameChanges": true,
+  "savedPath": "docs/archive/GAME_SPEC_v0.5.md",
+  "currentSpec": "docs/GAME_SPEC.md",
+  "currentVersion": "0.6",
+  "currentSHA256": "5b727ffdcf6de39ada01f9b8b90307d3240e676b2bcfac7beaef57c15563c23c"
 }

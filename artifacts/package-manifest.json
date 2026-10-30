@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "entryBytes": 723,
-  "uncompressedBytes": 1008478,
-  "zipBytes": 731605,
+  "uncompressedBytes": 1024162,
+  "zipBytes": 744881,
   "files": 36,
   "under10MB": true,
-  "zipSHA256": "13e68579f89e3e401873801740d8c678498c018941c3d5cc57793440658625a6",
+  "zipSHA256": "b1b487616f98bc26fde6e174ea6921c7df785f1ff86671c64ea05ad40279295b",
   "assets": {
     "assets/audio/block.wav": "1f9b4c5b46842f1104c23e4b17d8c86fad0b50bf637222afc7fd11cc68a3a7fa",
     "assets/audio/break.wav": "2b72752e26085ff45150f4516eb585eb6107a8648fcf9dc0c693de4bee4bdd3d",
@@ -29,7 +29,7 @@
     "assets/audio/win.wav": "7fb8798167fb9695d4d7d44d0d046febfff22ae94006108beead4e511e80c4e0",
     "assets/favicon.svg": "7ed849dbbfdf8a57da306fd0da45e6ad2bab24ac0624b1928a62b20d48f639a3",
     "assets/fonts/OFL.txt": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
-    "assets/fonts/PlaygroundWenKai.woff2": "6a1ffe3744a2547ee1215a6d56a3852261159c3cec7ece9a5f404e9c2561f288",
+    "assets/fonts/PlaygroundWenKai.woff2": "e6bb58ad6f3588c4eaa46d17a435dd7ee033274de2e2c90b8eed7c38e60313d4",
     "assets/icons/charge.svg": "b915aaa5816044bee14599bbdcc41adc857c376e5a749fbc5995875b37d96f93",
     "assets/icons/guard1.svg": "6072b07eb6f4ca79e30be04c48e7b3d5e09ac52fca3f60d4c2fc65a72fe710b9",
     "assets/icons/guard2.svg": "03fffd0dffb4a69c0d6e4e0159de75e51218f7c195b79be3fd3fa7ebd8002c1d",
@@ -40,8 +40,8 @@
     "assets/icons/wave1.svg": "a6a4a687d2ec7bbade4c1b7abb8216bc9d242b366785900d6a674b2154f057c1",
     "assets/icons/wave2.svg": "10ece3a6f0ec845ff754e4281ea35d5ea116a83d6b2546ac3a4a7d0d783e6310",
     "assets/icons/wave3.svg": "fc4a5519e63ddc781ce733802f5fcace1cbf770f410c26799c8dc33463115ad3",
-    "assets/index-B0AkkNVi.js": "297f5ef92d178bef8ba66f8a4d8e22f15ab2e0385d96b02df2d7f1c3aeb13a0c",
-    "assets/index-CugEL8uF.css": "826de06029890dd1d19444b5ba03989844786874eae0b93b0f205ab0dba50916",
-    "index.html": "b2b855d3e8203a5aa06cdff3ce699c9f88ca572fb371a50caa280ace737f51ce"
+    "assets/index-CcNJHioj.css": "afb7dc5f01f3c32c9da953d9a3f602e26b3147a8502379cc0d4b299a1356ed18",
+    "assets/index-DJUY0DHQ.js": "1adeb90019c365ddb617cb2fbea2870b963d8af2b2cca33d6166b24af528790a",
+    "index.html": "09649f0d7a7a98b58182ee5ce8ea1408084d52962b2d510a1691e7bf62d3eac4"
   }
 }

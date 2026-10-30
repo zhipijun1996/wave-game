@@ -9,6 +9,9 @@ UNLOCK=['quick','reflect1','wave2','guard2','reflect2','wave3','guard3']
 
 def choose(st,side,strategy,rng,hist):
     p=st['players'][side];opp=st['players'][1-side];ls=legal(p);others=legal(opp)
+    if strategy not in ['always_guard','always_charge','quick_guard'] and p['energy']==0 and opp['energy']==0:
+        charging=[a for a in ls if SKILLS[a]['kind']=='charge']
+        if charging:return rng.choice(charging)
     if strategy=='always_guard':return 'guard1'
     if strategy=='always_charge':return 'charge' if 'charge' in ls else 'guard1'
     if strategy=='quick_guard':return 'quick' if 'quick' in ls else 'guard1'
@@ -130,7 +133,7 @@ def main():
     for hp,start,a,b in itertools.product([1,3,5],[(0,3),(0,5),(1,8),(3,0),(5,0),(8,1)],['resource','history','mixed'],['attack','defense','mixed']):
         for seed in range(max(5,args.seeds//4)):rows.append(run_match(f'stress-hp{hp}',a,b,173+seed*97,hp,ALL,start=start,metrics=metrics))
     with (OUT/'balance-matches.csv').open('w') as f:
-        w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=rows[0].keys(),lineterminator='\n');w.writeheader();w.writerows(rows)
     summaries={name:summarize([r for r in rows if r['scenario']==name]) for name in sorted(set(r['scenario'] for r in rows))}
     opportunity={a:dict(selected=metrics['selected'][a],available=metrics['available'][a],rate=round(metrics['selected'][a]/max(1,metrics['available'][a]),5),energySpent=metrics['energySpent'][a]) for a in ALL}
     thresholdRows=[r for r in rows if r['scenario']=='advanced5'];thresholds={k:dict(observed=sum(r[k] is not None for r in thresholdRows),median=statistics.median([r[k] for r in thresholdRows if r[k] is not None])) for k in ['first3_0','first5_0','actualWave2_0','actualWave3_0']}

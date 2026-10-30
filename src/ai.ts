@@ -3,7 +3,13 @@ export type History = {actions:[SkillId,SkillId]}[];
 export function random(seed:number) {let x=seed>>>0;return ()=>{x+=0x6D2B79F5;let t=Math.imul(x^x>>>15,1|x);t^=t+Math.imul(t^t>>>7,61|t);return ((t^t>>>14)>>>0)/4294967296;};}
 // Only public round-start state, revealed history and independent PRNG enter this function.
 export function chooseAI(state:State,side:0|1,rng:()=>number,difficulty='normal',history:History=[],personality='mixed'):SkillId {
-  const me=state.players[side],them=state.players[1-side],actions=legal(me),opponent=legal(them);
+  const me=state.players[side],them=state.players[1-side],allActions=legal(me),opponent=legal(them);
+  const threat=Math.max(0,...opponent.filter(id=>SKILLS[id].kind==='attack').map(id=>SKILLS[id].power));
+  // Paid defense is dominated when no attack is affordable, or a cheaper same-kind
+  // skill covers every currently possible attack. Easy keeps deliberate mistakes.
+  const actions=difficulty==='easy'?allActions:allActions.filter(id=>{const a=SKILLS[id];if(!['guard','reflect'].includes(a.kind)||!a.cost)return true;if(!threat)return false;return !allActions.some(other=>{const b=SKILLS[other];return b.kind===a.kind&&b.cost<a.cost&&b.cover>=threat;});});
+  // With no attack resource on either side, only charging makes progress.
+  if(me.energy===0&&them.energy===0){const charging=actions.filter(id=>SKILLS[id].kind==='charge');if(charging.length){const weights=charging.map(id=>id==='quick'&&personality==='quick'?2:1);let n=rng()*weights.reduce((a,b)=>a+b,0);return charging.find((_,i)=>(n-=weights[i])<0)??charging[0];}}
   const freq=Object.fromEntries(opponent.map(id=>[id,1]));
   for(const h of history.slice(-10)) {const id=h.actions[1-side];if(id in freq)freq[id]+=difficulty==='hard'?2:1;}
   const scores=actions.map(a=>{

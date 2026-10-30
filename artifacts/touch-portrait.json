@@ -11,126 +11,175 @@
       "round": 1,
       "at": 0,
       "local": 0,
-      "wall": 846.1000000000931
-    },
-    {
-      "type": "select",
-      "round": 1,
-      "at": 97.79999999981374,
-      "local": 97.79999999981374,
-      "wall": 944
+      "wall": 2148.0999999996275
     },
     {
       "type": "clap",
       "round": 1,
       "at": 900,
       "local": 900,
-      "wall": 1747.8000000002794
+      "wall": 3024
+    },
+    {
+      "type": "window-open",
+      "round": 1,
+      "at": 900,
+      "local": 900,
+      "wall": 3024.5
+    },
+    {
+      "type": "select",
+      "round": 1,
+      "at": 1101.599999999255,
+      "local": 1101.6,
+      "wall": 3223.399999999441
+    },
+    {
+      "type": "window-close",
+      "round": 1,
+      "at": 1500,
+      "local": 1500,
+      "wall": 3622.0999999996275
     },
     {
       "type": "reveal",
       "round": 1,
       "at": 1800,
       "local": 1800,
-      "wall": 2648.100000000093
+      "wall": 3928.699999999255
     },
     {
       "type": "fx",
       "round": 1,
       "at": 1950,
       "local": 1950,
-      "wall": 2798
+      "wall": 4073.5
     },
     {
       "type": "commit",
       "round": 1,
       "at": 2250,
       "local": 2250,
-      "wall": 3098.100000000093
+      "wall": 4371.899999999441
     },
     {
       "type": "start",
       "round": 2,
       "at": 2700,
       "local": 0,
-      "wall": 3548.2000000001863
-    },
-    {
-      "type": "select",
-      "round": 2,
-      "at": 2772.5,
-      "local": 72.5,
-      "wall": 3618.7000000001863
+      "wall": 4822.699999999255
     },
     {
       "type": "clap",
       "round": 2,
       "at": 3600,
       "local": 900,
-      "wall": 4447.700000000186
+      "wall": 5721.899999999441
+    },
+    {
+      "type": "window-open",
+      "round": 2,
+      "at": 3600,
+      "local": 900,
+      "wall": 5722.199999999255
+    },
+    {
+      "type": "select",
+      "round": 2,
+      "at": 3673.499999999255,
+      "local": 973.5,
+      "wall": 5793.5
+    },
+    {
+      "type": "window-close",
+      "round": 2,
+      "at": 4200,
+      "local": 1500,
+      "wall": 6321.799999999814
     },
     {
       "type": "reveal",
       "round": 2,
       "at": 4500,
       "local": 1800,
-      "wall": 5347.700000000186
+      "wall": 6622.0999999996275
     },
     {
       "type": "fx",
       "round": 2,
       "at": 4650,
       "local": 1950,
-      "wall": 5497.800000000279
+      "wall": 6772.199999999255
     },
     {
       "type": "commit",
       "round": 2,
       "at": 4950,
       "local": 2250,
-      "wall": 5797.800000000279
+      "wall": 7072.0999999996275
     },
     {
       "type": "start",
       "round": 3,
       "at": 5400,
       "local": 0,
-      "wall": 6248.100000000093
-    },
-    {
-      "type": "select",
-      "round": 3,
-      "at": 5472.899999999907,
-      "local": 72.89999999990687,
-      "wall": 6319.200000000186
+      "wall": 7522.799999999814
     },
     {
       "type": "clap",
       "round": 3,
       "at": 6300,
       "local": 900,
-      "wall": 7147.600000000093
+      "wall": 8422
+    },
+    {
+      "type": "window-open",
+      "round": 3,
+      "at": 6300,
+      "local": 900,
+      "wall": 8422.099999999627
+    },
+    {
+      "type": "select",
+      "round": 3,
+      "at": 6373.19999999851,
+      "local": 973.2,
+      "wall": 8493.299999999814
+    },
+    {
+      "type": "window-close",
+      "round": 3,
+      "at": 6900,
+      "local": 1500,
+      "wall": 9022.199999999255
     },
     {
       "type": "reveal",
       "round": 3,
       "at": 7200,
       "local": 1800,
-      "wall": 8047.5
+      "wall": 9322.099999999627
     },
     {
       "type": "fx",
       "round": 3,
       "at": 7350,
       "local": 1950,
-      "wall": 8197.600000000093
+      "wall": 9471.899999999441
     },
     {
       "type": "commit",
       "round": 3,
       "at": 7650,
       "local": 2250,
-      "wall": 8497.600000000093
+      "wall": 9771.799999999814
+    },
+    {
+      "type": "start",
+      "round": 4,
+      "at": 8100,
+      "local": 0,
+      "wall": 10222
     }
   ]
 }

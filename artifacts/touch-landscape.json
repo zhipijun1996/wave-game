@@ -11,126 +11,175 @@
       "round": 1,
       "at": 0,
       "local": 0,
-      "wall": 971.1000000000931
-    },
-    {
-      "type": "select",
-      "round": 1,
-      "at": 100.5,
-      "local": 100.5,
-      "wall": 1071.7999999998137
+      "wall": 1917.0999999996275
     },
     {
       "type": "clap",
       "round": 1,
       "at": 900,
       "local": 900,
-      "wall": 1881.6000000000931
+      "wall": 2825.399999999441
+    },
+    {
+      "type": "window-open",
+      "round": 1,
+      "at": 900,
+      "local": 900,
+      "wall": 2825.7999999998137
+    },
+    {
+      "type": "select",
+      "round": 1,
+      "at": 1066.4000000003725,
+      "local": 1066.4,
+      "wall": 2984
+    },
+    {
+      "type": "window-close",
+      "round": 1,
+      "at": 1500,
+      "local": 1500,
+      "wall": 3426
     },
     {
       "type": "reveal",
       "round": 1,
       "at": 1800,
       "local": 1800,
-      "wall": 2781.7999999998137
+      "wall": 3727.0999999996275
     },
     {
       "type": "fx",
       "round": 1,
       "at": 1950,
       "local": 1950,
-      "wall": 2931.6999999997206
+      "wall": 3875.899999999441
     },
     {
       "type": "commit",
       "round": 1,
       "at": 2250,
       "local": 2250,
-      "wall": 3231.899999999907
+      "wall": 4175.299999999814
     },
     {
       "type": "start",
       "round": 2,
       "at": 2700,
       "local": 0,
-      "wall": 3682.1999999997206
-    },
-    {
-      "type": "select",
-      "round": 2,
-      "at": 2799,
-      "local": 99,
-      "wall": 3770.100000000093
+      "wall": 4625.899999999441
     },
     {
       "type": "clap",
       "round": 2,
       "at": 3600,
       "local": 900,
-      "wall": 4581.5
+      "wall": 5524.899999999441
+    },
+    {
+      "type": "window-open",
+      "round": 2,
+      "at": 3600,
+      "local": 900,
+      "wall": 5525
+    },
+    {
+      "type": "select",
+      "round": 2,
+      "at": 3689.400000000559,
+      "local": 989.4,
+      "wall": 5597.700000000186
+    },
+    {
+      "type": "window-close",
+      "round": 2,
+      "at": 4200,
+      "local": 1500,
+      "wall": 6126.899999999441
     },
     {
       "type": "reveal",
       "round": 2,
       "at": 4500,
       "local": 1800,
-      "wall": 5481.5
+      "wall": 6425
     },
     {
       "type": "fx",
       "round": 2,
       "at": 4650,
       "local": 1950,
-      "wall": 5631.5
+      "wall": 6575.0999999996275
     },
     {
       "type": "commit",
       "round": 2,
       "at": 4950,
       "local": 2250,
-      "wall": 5931.5
+      "wall": 6874.899999999441
     },
     {
       "type": "start",
       "round": 3,
       "at": 5400,
       "local": 0,
-      "wall": 6381.600000000093
-    },
-    {
-      "type": "select",
-      "round": 3,
-      "at": 5500.0999999996275,
-      "local": 100.09999999962747,
-      "wall": 6471.299999999814
+      "wall": 7325.5
     },
     {
       "type": "clap",
       "round": 3,
       "at": 6300,
       "local": 900,
-      "wall": 7281.5
+      "wall": 8224.899999999441
+    },
+    {
+      "type": "window-open",
+      "round": 3,
+      "at": 6300,
+      "local": 900,
+      "wall": 8225
+    },
+    {
+      "type": "select",
+      "round": 3,
+      "at": 6387.3,
+      "local": 987.3,
+      "wall": 8295.599999999627
+    },
+    {
+      "type": "window-close",
+      "round": 3,
+      "at": 6900,
+      "local": 1500,
+      "wall": 8826.200000000186
     },
     {
       "type": "reveal",
       "round": 3,
       "at": 7200,
       "local": 1800,
-      "wall": 8181.5
+      "wall": 9125.200000000186
     },
     {
       "type": "fx",
       "round": 3,
       "at": 7350,
       "local": 1950,
-      "wall": 8331.299999999814
+      "wall": 9275.099999999627
     },
     {
       "type": "commit",
       "round": 3,
       "at": 7650,
       "local": 2250,
-      "wall": 8631.399999999907
+      "wall": 9574.799999999814
+    },
+    {
+      "type": "start",
+      "round": 4,
+      "at": 8100,
+      "local": 0,
+      "wall": 10025.299999999814
     }
   ]
 }

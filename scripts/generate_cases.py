@@ -3,7 +3,7 @@ from pathlib import Path
 from rules import *
 cases=[]
 def add(name,state,actions):cases.append(dict(name=name,state=state,actions=actions,expected=resolve(state,actions)))
-for a,b in itertools.product(ALL,repeat=2):
+for a,b in itertools.product(ALL+[None],repeat=2):
     s=initial();s['players'][0]['energy']=s['players'][1]['energy']=9
     # Quick must have room, while all attacks remain affordable.
     s['players'][0]['energy']=s['players'][1]['energy']=8

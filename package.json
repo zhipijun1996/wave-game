@@ -1,1 +1,23 @@
-{"name":"paipai-wave","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"tsc --noEmit && vite build","test":"tsx --test tests/*.test.ts","fixtures":"python3 scripts/generate_cases.py","simulate":"python3 scripts/simulate.py","qa":"tsx scripts/browser-qa.ts","package":"python3 scripts/package.py"},"devDependencies":{"@playwright/test":"1.56.1","@types/node":"24.9.1","tsx":"4.20.6","typescript":"5.9.3","vite":"7.1.12"}}
+{
+  "name": "paipai-wave",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsx --test tests/*.test.ts",
+    "fixtures": "python3 scripts/generate_cases.py",
+    "simulate": "python3 scripts/simulate.py",
+    "qa": "tsx scripts/browser-qa.ts",
+    "package": "python3 scripts/package.py",
+    "usage": "tsx scripts/skill-usage.ts 1000"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "24.9.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "7.1.12"
+  }
+}

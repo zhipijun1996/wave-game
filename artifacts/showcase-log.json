@@ -32,42 +32,56 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         }
       ]
     },
@@ -97,91 +111,308 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         },
         {
           "type": "start",
           "round": 2,
           "at": 2700,
           "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
+          "wall": 5537.899999999441
         },
         {
           "type": "clap",
           "round": 2,
           "at": 3600,
           "local": 900,
-          "wall": 6237.100000000093
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
         },
         {
           "type": "reveal",
           "round": 2,
           "at": 4500,
           "local": 1800,
-          "wall": 7137
+          "wall": 7336.0999999996275
         },
         {
           "type": "fx",
           "round": 2,
           "at": 4650,
           "local": 1950,
-          "wall": 7286.9000000003725
+          "wall": 7487.899999999441
         },
         {
           "type": "commit",
           "round": 2,
           "at": 4950,
           "local": 2250,
-          "wall": 7586.9000000003725
+          "wall": 7786.200000000186
+        }
+      ]
+    },
+    {
+      "actions": [
+        "idle",
+        "quick"
+      ],
+      "damage": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "type": "miss",
+          "side": 0,
+          "amount": 0
+        },
+        {
+          "type": "charge",
+          "side": 1,
+          "amount": 2
+        }
+      ],
+      "energy": [
+        0,
+        2
+      ],
+      "log": [
+        {
+          "type": "start",
+          "round": 1,
+          "at": 0,
+          "local": 0,
+          "wall": 2828.899999999441
+        },
+        {
+          "type": "clap",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
+        },
+        {
+          "type": "reveal",
+          "round": 1,
+          "at": 1800,
+          "local": 1800,
+          "wall": 4636.5999999996275
+        },
+        {
+          "type": "fx",
+          "round": 1,
+          "at": 1950,
+          "local": 1950,
+          "wall": 4786.299999999814
+        },
+        {
+          "type": "commit",
+          "round": 1,
+          "at": 2250,
+          "local": 2250,
+          "wall": 5086
+        },
+        {
+          "type": "start",
+          "round": 2,
+          "at": 2700,
+          "local": 0,
+          "wall": 5537.899999999441
+        },
+        {
+          "type": "clap",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
+        },
+        {
+          "type": "reveal",
+          "round": 2,
+          "at": 4500,
+          "local": 1800,
+          "wall": 7336.0999999996275
+        },
+        {
+          "type": "fx",
+          "round": 2,
+          "at": 4650,
+          "local": 1950,
+          "wall": 7487.899999999441
+        },
+        {
+          "type": "commit",
+          "round": 2,
+          "at": 4950,
+          "local": 2250,
+          "wall": 7786.200000000186
+        },
+        {
+          "type": "start",
+          "round": 3,
+          "at": 5400,
+          "local": 0,
+          "wall": 8236
+        },
+        {
+          "type": "clap",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 3,
+          "at": 6900,
+          "local": 1500,
+          "wall": 9736
+        },
+        {
+          "type": "reveal",
+          "round": 3,
+          "at": 7200,
+          "local": 1800,
+          "wall": 10035.799999999814
+        },
+        {
+          "type": "fx",
+          "round": 3,
+          "at": 7350,
+          "local": 1950,
+          "wall": 10185.899999999441
+        },
+        {
+          "type": "commit",
+          "round": 3,
+          "at": 7650,
+          "local": 2250,
+          "wall": 10485.599999999627
         }
       ]
     },
     {
       "actions": [
         "charge",
-        "quick"
+        "guard1"
       ],
       "damage": [
         0,
@@ -192,11 +423,6 @@
           "type": "charge",
           "side": 0,
           "amount": 1
-        },
-        {
-          "type": "charge",
-          "side": 1,
-          "amount": 2
         }
       ],
       "energy": [
@@ -209,126 +435,224 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         },
         {
           "type": "start",
           "round": 2,
           "at": 2700,
           "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
+          "wall": 5537.899999999441
         },
         {
           "type": "clap",
           "round": 2,
           "at": 3600,
           "local": 900,
-          "wall": 6237.100000000093
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
         },
         {
           "type": "reveal",
           "round": 2,
           "at": 4500,
           "local": 1800,
-          "wall": 7137
+          "wall": 7336.0999999996275
         },
         {
           "type": "fx",
           "round": 2,
           "at": 4650,
           "local": 1950,
-          "wall": 7286.9000000003725
+          "wall": 7487.899999999441
         },
         {
           "type": "commit",
           "round": 2,
           "at": 4950,
           "local": 2250,
-          "wall": 7586.9000000003725
+          "wall": 7786.200000000186
         },
         {
           "type": "start",
           "round": 3,
           "at": 5400,
           "local": 0,
-          "wall": 8036.9000000003725
+          "wall": 8236
         },
         {
           "type": "clap",
           "round": 3,
           "at": 6300,
           "local": 900,
-          "wall": 8936.900000000373
+          "wall": 9136.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 3,
+          "at": 6900,
+          "local": 1500,
+          "wall": 9736
         },
         {
           "type": "reveal",
           "round": 3,
           "at": 7200,
           "local": 1800,
-          "wall": 9837.100000000093
+          "wall": 10035.799999999814
         },
         {
           "type": "fx",
           "round": 3,
           "at": 7350,
           "local": 1950,
-          "wall": 9986.700000000186
+          "wall": 10185.899999999441
         },
         {
           "type": "commit",
           "round": 3,
           "at": 7650,
           "local": 2250,
-          "wall": 10286.700000000186
+          "wall": 10485.599999999627
+        },
+        {
+          "type": "start",
+          "round": 4,
+          "at": 8100,
+          "local": 0,
+          "wall": 10935.799999999814
+        },
+        {
+          "type": "clap",
+          "round": 4,
+          "at": 9000,
+          "local": 900,
+          "wall": 11838.799999999814
+        },
+        {
+          "type": "window-open",
+          "round": 4,
+          "at": 9000,
+          "local": 900,
+          "wall": 11838.899999999441
+        },
+        {
+          "type": "select",
+          "round": 4,
+          "at": 9051,
+          "local": 951,
+          "wall": 11879.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 4,
+          "at": 9600,
+          "local": 1500,
+          "wall": 12435.700000000186
+        },
+        {
+          "type": "reveal",
+          "round": 4,
+          "at": 9900,
+          "local": 1800,
+          "wall": 12738.299999999814
+        },
+        {
+          "type": "fx",
+          "round": 4,
+          "at": 10050,
+          "local": 1950,
+          "wall": 12885.799999999814
+        },
+        {
+          "type": "commit",
+          "round": 4,
+          "at": 10350,
+          "local": 2250,
+          "wall": 13185.899999999441
         }
       ]
     },
     {
       "actions": [
         "quick",
-        "guard1"
+        "charge"
       ],
       "damage": [
         0,
@@ -339,186 +663,7 @@
           "type": "charge",
           "side": 0,
           "amount": 2
-        }
-      ],
-      "energy": [
-        3,
-        2
-      ],
-      "log": [
-        {
-          "type": "start",
-          "round": 1,
-          "at": 0,
-          "local": 0,
-          "wall": 2628.8000000002794
         },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 900,
-          "local": 900,
-          "wall": 3537
-        },
-        {
-          "type": "reveal",
-          "round": 1,
-          "at": 1800,
-          "local": 1800,
-          "wall": 4437.100000000093
-        },
-        {
-          "type": "fx",
-          "round": 1,
-          "at": 1950,
-          "local": 1950,
-          "wall": 4587.300000000279
-        },
-        {
-          "type": "commit",
-          "round": 1,
-          "at": 2250,
-          "local": 2250,
-          "wall": 4886.800000000279
-        },
-        {
-          "type": "start",
-          "round": 2,
-          "at": 2700,
-          "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
-        },
-        {
-          "type": "clap",
-          "round": 2,
-          "at": 3600,
-          "local": 900,
-          "wall": 6237.100000000093
-        },
-        {
-          "type": "reveal",
-          "round": 2,
-          "at": 4500,
-          "local": 1800,
-          "wall": 7137
-        },
-        {
-          "type": "fx",
-          "round": 2,
-          "at": 4650,
-          "local": 1950,
-          "wall": 7286.9000000003725
-        },
-        {
-          "type": "commit",
-          "round": 2,
-          "at": 4950,
-          "local": 2250,
-          "wall": 7586.9000000003725
-        },
-        {
-          "type": "start",
-          "round": 3,
-          "at": 5400,
-          "local": 0,
-          "wall": 8036.9000000003725
-        },
-        {
-          "type": "clap",
-          "round": 3,
-          "at": 6300,
-          "local": 900,
-          "wall": 8936.900000000373
-        },
-        {
-          "type": "reveal",
-          "round": 3,
-          "at": 7200,
-          "local": 1800,
-          "wall": 9837.100000000093
-        },
-        {
-          "type": "fx",
-          "round": 3,
-          "at": 7350,
-          "local": 1950,
-          "wall": 9986.700000000186
-        },
-        {
-          "type": "commit",
-          "round": 3,
-          "at": 7650,
-          "local": 2250,
-          "wall": 10286.700000000186
-        },
-        {
-          "type": "start",
-          "round": 4,
-          "at": 8100,
-          "local": 0,
-          "wall": 10736.900000000373
-        },
-        {
-          "type": "select",
-          "round": 4,
-          "at": 8154.899999999907,
-          "local": 54.89999999990687,
-          "wall": 10783.80000000028
-        },
-        {
-          "type": "clap",
-          "round": 4,
-          "at": 9000,
-          "local": 900,
-          "wall": 11636.700000000186
-        },
-        {
-          "type": "reveal",
-          "round": 4,
-          "at": 9900,
-          "local": 1800,
-          "wall": 12536.700000000186
-        },
-        {
-          "type": "fx",
-          "round": 4,
-          "at": 10050,
-          "local": 1950,
-          "wall": 12686.600000000093
-        },
-        {
-          "type": "commit",
-          "round": 4,
-          "at": 10350,
-          "local": 2250,
-          "wall": 12986.700000000186
-        }
-      ]
-    },
-    {
-      "actions": [
-        "guard1",
-        "charge"
-      ],
-      "damage": [
-        0,
-        0
-      ],
-      "events": [
         {
           "type": "charge",
           "side": 1,
@@ -535,203 +680,273 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         },
         {
           "type": "start",
           "round": 2,
           "at": 2700,
           "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
+          "wall": 5537.899999999441
         },
         {
           "type": "clap",
           "round": 2,
           "at": 3600,
           "local": 900,
-          "wall": 6237.100000000093
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
         },
         {
           "type": "reveal",
           "round": 2,
           "at": 4500,
           "local": 1800,
-          "wall": 7137
+          "wall": 7336.0999999996275
         },
         {
           "type": "fx",
           "round": 2,
           "at": 4650,
           "local": 1950,
-          "wall": 7286.9000000003725
+          "wall": 7487.899999999441
         },
         {
           "type": "commit",
           "round": 2,
           "at": 4950,
           "local": 2250,
-          "wall": 7586.9000000003725
+          "wall": 7786.200000000186
         },
         {
           "type": "start",
           "round": 3,
           "at": 5400,
           "local": 0,
-          "wall": 8036.9000000003725
+          "wall": 8236
         },
         {
           "type": "clap",
           "round": 3,
           "at": 6300,
           "local": 900,
-          "wall": 8936.900000000373
+          "wall": 9136.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 3,
+          "at": 6900,
+          "local": 1500,
+          "wall": 9736
         },
         {
           "type": "reveal",
           "round": 3,
           "at": 7200,
           "local": 1800,
-          "wall": 9837.100000000093
+          "wall": 10035.799999999814
         },
         {
           "type": "fx",
           "round": 3,
           "at": 7350,
           "local": 1950,
-          "wall": 9986.700000000186
+          "wall": 10185.899999999441
         },
         {
           "type": "commit",
           "round": 3,
           "at": 7650,
           "local": 2250,
-          "wall": 10286.700000000186
+          "wall": 10485.599999999627
         },
         {
           "type": "start",
           "round": 4,
           "at": 8100,
           "local": 0,
-          "wall": 10736.900000000373
-        },
-        {
-          "type": "select",
-          "round": 4,
-          "at": 8154.899999999907,
-          "local": 54.89999999990687,
-          "wall": 10783.80000000028
+          "wall": 10935.799999999814
         },
         {
           "type": "clap",
           "round": 4,
           "at": 9000,
           "local": 900,
-          "wall": 11636.700000000186
+          "wall": 11838.799999999814
+        },
+        {
+          "type": "window-open",
+          "round": 4,
+          "at": 9000,
+          "local": 900,
+          "wall": 11838.899999999441
+        },
+        {
+          "type": "select",
+          "round": 4,
+          "at": 9051,
+          "local": 951,
+          "wall": 11879.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 4,
+          "at": 9600,
+          "local": 1500,
+          "wall": 12435.700000000186
         },
         {
           "type": "reveal",
           "round": 4,
           "at": 9900,
           "local": 1800,
-          "wall": 12536.700000000186
+          "wall": 12738.299999999814
         },
         {
           "type": "fx",
           "round": 4,
           "at": 10050,
           "local": 1950,
-          "wall": 12686.600000000093
+          "wall": 12885.799999999814
         },
         {
           "type": "commit",
           "round": 4,
           "at": 10350,
           "local": 2250,
-          "wall": 12986.700000000186
+          "wall": 13185.899999999441
         },
         {
           "type": "start",
           "round": 5,
           "at": 10800,
           "local": 0,
-          "wall": 13437.200000000186
-        },
-        {
-          "type": "select",
-          "round": 5,
-          "at": 10870.899999999907,
-          "local": 70.89999999990687,
-          "wall": 13499.700000000186
+          "wall": 13636.299999999814
         },
         {
           "type": "clap",
           "round": 5,
           "at": 11700,
           "local": 900,
-          "wall": 14336.600000000093
+          "wall": 14535.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 5,
+          "at": 11700,
+          "local": 900,
+          "wall": 14535.399999999441
+        },
+        {
+          "type": "select",
+          "round": 5,
+          "at": 11765.5,
+          "local": 965.5,
+          "wall": 14594.599999999627
+        },
+        {
+          "type": "window-close",
+          "round": 5,
+          "at": 12300,
+          "local": 1500,
+          "wall": 15136.399999999441
         },
         {
           "type": "reveal",
           "round": 5,
           "at": 12600,
           "local": 1800,
-          "wall": 15236.600000000093
+          "wall": 15470.200000000186
         },
         {
           "type": "fx",
           "round": 5,
           "at": 12750,
           "local": 1950,
-          "wall": 15386.600000000093
+          "wall": 15585.899999999441
         },
         {
           "type": "commit",
           "round": 5,
           "at": 13050,
           "local": 2250,
-          "wall": 15686.700000000186
+          "wall": 15885.5
         }
       ]
     },
@@ -761,245 +976,329 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         },
         {
           "type": "start",
           "round": 2,
           "at": 2700,
           "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
+          "wall": 5537.899999999441
         },
         {
           "type": "clap",
           "round": 2,
           "at": 3600,
           "local": 900,
-          "wall": 6237.100000000093
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
         },
         {
           "type": "reveal",
           "round": 2,
           "at": 4500,
           "local": 1800,
-          "wall": 7137
+          "wall": 7336.0999999996275
         },
         {
           "type": "fx",
           "round": 2,
           "at": 4650,
           "local": 1950,
-          "wall": 7286.9000000003725
+          "wall": 7487.899999999441
         },
         {
           "type": "commit",
           "round": 2,
           "at": 4950,
           "local": 2250,
-          "wall": 7586.9000000003725
+          "wall": 7786.200000000186
         },
         {
           "type": "start",
           "round": 3,
           "at": 5400,
           "local": 0,
-          "wall": 8036.9000000003725
+          "wall": 8236
         },
         {
           "type": "clap",
           "round": 3,
           "at": 6300,
           "local": 900,
-          "wall": 8936.900000000373
+          "wall": 9136.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 3,
+          "at": 6900,
+          "local": 1500,
+          "wall": 9736
         },
         {
           "type": "reveal",
           "round": 3,
           "at": 7200,
           "local": 1800,
-          "wall": 9837.100000000093
+          "wall": 10035.799999999814
         },
         {
           "type": "fx",
           "round": 3,
           "at": 7350,
           "local": 1950,
-          "wall": 9986.700000000186
+          "wall": 10185.899999999441
         },
         {
           "type": "commit",
           "round": 3,
           "at": 7650,
           "local": 2250,
-          "wall": 10286.700000000186
+          "wall": 10485.599999999627
         },
         {
           "type": "start",
           "round": 4,
           "at": 8100,
           "local": 0,
-          "wall": 10736.900000000373
-        },
-        {
-          "type": "select",
-          "round": 4,
-          "at": 8154.899999999907,
-          "local": 54.89999999990687,
-          "wall": 10783.80000000028
+          "wall": 10935.799999999814
         },
         {
           "type": "clap",
           "round": 4,
           "at": 9000,
           "local": 900,
-          "wall": 11636.700000000186
+          "wall": 11838.799999999814
+        },
+        {
+          "type": "window-open",
+          "round": 4,
+          "at": 9000,
+          "local": 900,
+          "wall": 11838.899999999441
+        },
+        {
+          "type": "select",
+          "round": 4,
+          "at": 9051,
+          "local": 951,
+          "wall": 11879.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 4,
+          "at": 9600,
+          "local": 1500,
+          "wall": 12435.700000000186
         },
         {
           "type": "reveal",
           "round": 4,
           "at": 9900,
           "local": 1800,
-          "wall": 12536.700000000186
+          "wall": 12738.299999999814
         },
         {
           "type": "fx",
           "round": 4,
           "at": 10050,
           "local": 1950,
-          "wall": 12686.600000000093
+          "wall": 12885.799999999814
         },
         {
           "type": "commit",
           "round": 4,
           "at": 10350,
           "local": 2250,
-          "wall": 12986.700000000186
+          "wall": 13185.899999999441
         },
         {
           "type": "start",
           "round": 5,
           "at": 10800,
           "local": 0,
-          "wall": 13437.200000000186
-        },
-        {
-          "type": "select",
-          "round": 5,
-          "at": 10870.899999999907,
-          "local": 70.89999999990687,
-          "wall": 13499.700000000186
+          "wall": 13636.299999999814
         },
         {
           "type": "clap",
           "round": 5,
           "at": 11700,
           "local": 900,
-          "wall": 14336.600000000093
+          "wall": 14535.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 5,
+          "at": 11700,
+          "local": 900,
+          "wall": 14535.399999999441
+        },
+        {
+          "type": "select",
+          "round": 5,
+          "at": 11765.5,
+          "local": 965.5,
+          "wall": 14594.599999999627
+        },
+        {
+          "type": "window-close",
+          "round": 5,
+          "at": 12300,
+          "local": 1500,
+          "wall": 15136.399999999441
         },
         {
           "type": "reveal",
           "round": 5,
           "at": 12600,
           "local": 1800,
-          "wall": 15236.600000000093
+          "wall": 15470.200000000186
         },
         {
           "type": "fx",
           "round": 5,
           "at": 12750,
           "local": 1950,
-          "wall": 15386.600000000093
+          "wall": 15585.899999999441
         },
         {
           "type": "commit",
           "round": 5,
           "at": 13050,
           "local": 2250,
-          "wall": 15686.700000000186
+          "wall": 15885.5
         },
         {
           "type": "start",
           "round": 6,
           "at": 13500,
           "local": 0,
-          "wall": 16137.200000000186
-        },
-        {
-          "type": "select",
-          "round": 6,
-          "at": 13550.5,
-          "local": 50.5,
-          "wall": 16179.400000000373
+          "wall": 16337.299999999814
         },
         {
           "type": "clap",
           "round": 6,
           "at": 14400,
           "local": 900,
-          "wall": 17036.700000000186
+          "wall": 17235.700000000186
+        },
+        {
+          "type": "window-open",
+          "round": 6,
+          "at": 14400,
+          "local": 900,
+          "wall": 17235.799999999814
+        },
+        {
+          "type": "select",
+          "round": 6,
+          "at": 14452.200000000186,
+          "local": 952.2,
+          "wall": 17281.200000000186
+        },
+        {
+          "type": "window-close",
+          "round": 6,
+          "at": 15000,
+          "local": 1500,
+          "wall": 17835.299999999814
         },
         {
           "type": "reveal",
           "round": 6,
           "at": 15300,
           "local": 1800,
-          "wall": 17936.900000000373
+          "wall": 18137.299999999814
         },
         {
           "type": "fx",
           "round": 6,
           "at": 15450,
           "local": 1950,
-          "wall": 18086.5
+          "wall": 18285.799999999814
         },
         {
           "type": "commit",
           "round": 6,
           "at": 15750,
           "local": 2250,
-          "wall": 18386.5
+          "wall": 18585.39999999944
         }
       ]
     },
@@ -1034,287 +1333,385 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         },
         {
           "type": "start",
           "round": 2,
           "at": 2700,
           "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
+          "wall": 5537.899999999441
         },
         {
           "type": "clap",
           "round": 2,
           "at": 3600,
           "local": 900,
-          "wall": 6237.100000000093
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
         },
         {
           "type": "reveal",
           "round": 2,
           "at": 4500,
           "local": 1800,
-          "wall": 7137
+          "wall": 7336.0999999996275
         },
         {
           "type": "fx",
           "round": 2,
           "at": 4650,
           "local": 1950,
-          "wall": 7286.9000000003725
+          "wall": 7487.899999999441
         },
         {
           "type": "commit",
           "round": 2,
           "at": 4950,
           "local": 2250,
-          "wall": 7586.9000000003725
+          "wall": 7786.200000000186
         },
         {
           "type": "start",
           "round": 3,
           "at": 5400,
           "local": 0,
-          "wall": 8036.9000000003725
+          "wall": 8236
         },
         {
           "type": "clap",
           "round": 3,
           "at": 6300,
           "local": 900,
-          "wall": 8936.900000000373
+          "wall": 9136.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 3,
+          "at": 6900,
+          "local": 1500,
+          "wall": 9736
         },
         {
           "type": "reveal",
           "round": 3,
           "at": 7200,
           "local": 1800,
-          "wall": 9837.100000000093
+          "wall": 10035.799999999814
         },
         {
           "type": "fx",
           "round": 3,
           "at": 7350,
           "local": 1950,
-          "wall": 9986.700000000186
+          "wall": 10185.899999999441
         },
         {
           "type": "commit",
           "round": 3,
           "at": 7650,
           "local": 2250,
-          "wall": 10286.700000000186
+          "wall": 10485.599999999627
         },
         {
           "type": "start",
           "round": 4,
           "at": 8100,
           "local": 0,
-          "wall": 10736.900000000373
-        },
-        {
-          "type": "select",
-          "round": 4,
-          "at": 8154.899999999907,
-          "local": 54.89999999990687,
-          "wall": 10783.80000000028
+          "wall": 10935.799999999814
         },
         {
           "type": "clap",
           "round": 4,
           "at": 9000,
           "local": 900,
-          "wall": 11636.700000000186
+          "wall": 11838.799999999814
+        },
+        {
+          "type": "window-open",
+          "round": 4,
+          "at": 9000,
+          "local": 900,
+          "wall": 11838.899999999441
+        },
+        {
+          "type": "select",
+          "round": 4,
+          "at": 9051,
+          "local": 951,
+          "wall": 11879.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 4,
+          "at": 9600,
+          "local": 1500,
+          "wall": 12435.700000000186
         },
         {
           "type": "reveal",
           "round": 4,
           "at": 9900,
           "local": 1800,
-          "wall": 12536.700000000186
+          "wall": 12738.299999999814
         },
         {
           "type": "fx",
           "round": 4,
           "at": 10050,
           "local": 1950,
-          "wall": 12686.600000000093
+          "wall": 12885.799999999814
         },
         {
           "type": "commit",
           "round": 4,
           "at": 10350,
           "local": 2250,
-          "wall": 12986.700000000186
+          "wall": 13185.899999999441
         },
         {
           "type": "start",
           "round": 5,
           "at": 10800,
           "local": 0,
-          "wall": 13437.200000000186
-        },
-        {
-          "type": "select",
-          "round": 5,
-          "at": 10870.899999999907,
-          "local": 70.89999999990687,
-          "wall": 13499.700000000186
+          "wall": 13636.299999999814
         },
         {
           "type": "clap",
           "round": 5,
           "at": 11700,
           "local": 900,
-          "wall": 14336.600000000093
+          "wall": 14535.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 5,
+          "at": 11700,
+          "local": 900,
+          "wall": 14535.399999999441
+        },
+        {
+          "type": "select",
+          "round": 5,
+          "at": 11765.5,
+          "local": 965.5,
+          "wall": 14594.599999999627
+        },
+        {
+          "type": "window-close",
+          "round": 5,
+          "at": 12300,
+          "local": 1500,
+          "wall": 15136.399999999441
         },
         {
           "type": "reveal",
           "round": 5,
           "at": 12600,
           "local": 1800,
-          "wall": 15236.600000000093
+          "wall": 15470.200000000186
         },
         {
           "type": "fx",
           "round": 5,
           "at": 12750,
           "local": 1950,
-          "wall": 15386.600000000093
+          "wall": 15585.899999999441
         },
         {
           "type": "commit",
           "round": 5,
           "at": 13050,
           "local": 2250,
-          "wall": 15686.700000000186
+          "wall": 15885.5
         },
         {
           "type": "start",
           "round": 6,
           "at": 13500,
           "local": 0,
-          "wall": 16137.200000000186
-        },
-        {
-          "type": "select",
-          "round": 6,
-          "at": 13550.5,
-          "local": 50.5,
-          "wall": 16179.400000000373
+          "wall": 16337.299999999814
         },
         {
           "type": "clap",
           "round": 6,
           "at": 14400,
           "local": 900,
-          "wall": 17036.700000000186
+          "wall": 17235.700000000186
+        },
+        {
+          "type": "window-open",
+          "round": 6,
+          "at": 14400,
+          "local": 900,
+          "wall": 17235.799999999814
+        },
+        {
+          "type": "select",
+          "round": 6,
+          "at": 14452.200000000186,
+          "local": 952.2,
+          "wall": 17281.200000000186
+        },
+        {
+          "type": "window-close",
+          "round": 6,
+          "at": 15000,
+          "local": 1500,
+          "wall": 17835.299999999814
         },
         {
           "type": "reveal",
           "round": 6,
           "at": 15300,
           "local": 1800,
-          "wall": 17936.900000000373
+          "wall": 18137.299999999814
         },
         {
           "type": "fx",
           "round": 6,
           "at": 15450,
           "local": 1950,
-          "wall": 18086.5
+          "wall": 18285.799999999814
         },
         {
           "type": "commit",
           "round": 6,
           "at": 15750,
           "local": 2250,
-          "wall": 18386.5
+          "wall": 18585.39999999944
         },
         {
           "type": "start",
           "round": 7,
           "at": 16200,
           "local": 0,
-          "wall": 18836.600000000093
-        },
-        {
-          "type": "select",
-          "round": 7,
-          "at": 16247.899999999907,
-          "local": 47.89999999990687,
-          "wall": 18876.700000000186
+          "wall": 19037.599999999627
         },
         {
           "type": "clap",
           "round": 7,
           "at": 17100,
           "local": 900,
-          "wall": 19736.400000000373
+          "wall": 19935.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 7,
+          "at": 17100,
+          "local": 900,
+          "wall": 19935.5
+        },
+        {
+          "type": "select",
+          "round": 7,
+          "at": 17180.800000000745,
+          "local": 980.8,
+          "wall": 20009.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 7,
+          "at": 17700,
+          "local": 1500,
+          "wall": 20535.200000000186
         },
         {
           "type": "reveal",
           "round": 7,
           "at": 18000,
           "local": 1800,
-          "wall": 20636.400000000373
+          "wall": 20835.299999999814
         },
         {
           "type": "fx",
           "round": 7,
           "at": 18150,
           "local": 1950,
-          "wall": 20786.30000000028
+          "wall": 20985.200000000186
         },
         {
           "type": "commit",
           "round": 7,
           "at": 18450,
           "local": 2250,
-          "wall": 21086.400000000373
+          "wall": 21285.299999999814
         }
       ]
     },
@@ -1344,329 +1741,441 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         },
         {
           "type": "start",
           "round": 2,
           "at": 2700,
           "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
+          "wall": 5537.899999999441
         },
         {
           "type": "clap",
           "round": 2,
           "at": 3600,
           "local": 900,
-          "wall": 6237.100000000093
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
         },
         {
           "type": "reveal",
           "round": 2,
           "at": 4500,
           "local": 1800,
-          "wall": 7137
+          "wall": 7336.0999999996275
         },
         {
           "type": "fx",
           "round": 2,
           "at": 4650,
           "local": 1950,
-          "wall": 7286.9000000003725
+          "wall": 7487.899999999441
         },
         {
           "type": "commit",
           "round": 2,
           "at": 4950,
           "local": 2250,
-          "wall": 7586.9000000003725
+          "wall": 7786.200000000186
         },
         {
           "type": "start",
           "round": 3,
           "at": 5400,
           "local": 0,
-          "wall": 8036.9000000003725
+          "wall": 8236
         },
         {
           "type": "clap",
           "round": 3,
           "at": 6300,
           "local": 900,
-          "wall": 8936.900000000373
+          "wall": 9136.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 3,
+          "at": 6900,
+          "local": 1500,
+          "wall": 9736
         },
         {
           "type": "reveal",
           "round": 3,
           "at": 7200,
           "local": 1800,
-          "wall": 9837.100000000093
+          "wall": 10035.799999999814
         },
         {
           "type": "fx",
           "round": 3,
           "at": 7350,
           "local": 1950,
-          "wall": 9986.700000000186
+          "wall": 10185.899999999441
         },
         {
           "type": "commit",
           "round": 3,
           "at": 7650,
           "local": 2250,
-          "wall": 10286.700000000186
+          "wall": 10485.599999999627
         },
         {
           "type": "start",
           "round": 4,
           "at": 8100,
           "local": 0,
-          "wall": 10736.900000000373
-        },
-        {
-          "type": "select",
-          "round": 4,
-          "at": 8154.899999999907,
-          "local": 54.89999999990687,
-          "wall": 10783.80000000028
+          "wall": 10935.799999999814
         },
         {
           "type": "clap",
           "round": 4,
           "at": 9000,
           "local": 900,
-          "wall": 11636.700000000186
+          "wall": 11838.799999999814
+        },
+        {
+          "type": "window-open",
+          "round": 4,
+          "at": 9000,
+          "local": 900,
+          "wall": 11838.899999999441
+        },
+        {
+          "type": "select",
+          "round": 4,
+          "at": 9051,
+          "local": 951,
+          "wall": 11879.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 4,
+          "at": 9600,
+          "local": 1500,
+          "wall": 12435.700000000186
         },
         {
           "type": "reveal",
           "round": 4,
           "at": 9900,
           "local": 1800,
-          "wall": 12536.700000000186
+          "wall": 12738.299999999814
         },
         {
           "type": "fx",
           "round": 4,
           "at": 10050,
           "local": 1950,
-          "wall": 12686.600000000093
+          "wall": 12885.799999999814
         },
         {
           "type": "commit",
           "round": 4,
           "at": 10350,
           "local": 2250,
-          "wall": 12986.700000000186
+          "wall": 13185.899999999441
         },
         {
           "type": "start",
           "round": 5,
           "at": 10800,
           "local": 0,
-          "wall": 13437.200000000186
-        },
-        {
-          "type": "select",
-          "round": 5,
-          "at": 10870.899999999907,
-          "local": 70.89999999990687,
-          "wall": 13499.700000000186
+          "wall": 13636.299999999814
         },
         {
           "type": "clap",
           "round": 5,
           "at": 11700,
           "local": 900,
-          "wall": 14336.600000000093
+          "wall": 14535.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 5,
+          "at": 11700,
+          "local": 900,
+          "wall": 14535.399999999441
+        },
+        {
+          "type": "select",
+          "round": 5,
+          "at": 11765.5,
+          "local": 965.5,
+          "wall": 14594.599999999627
+        },
+        {
+          "type": "window-close",
+          "round": 5,
+          "at": 12300,
+          "local": 1500,
+          "wall": 15136.399999999441
         },
         {
           "type": "reveal",
           "round": 5,
           "at": 12600,
           "local": 1800,
-          "wall": 15236.600000000093
+          "wall": 15470.200000000186
         },
         {
           "type": "fx",
           "round": 5,
           "at": 12750,
           "local": 1950,
-          "wall": 15386.600000000093
+          "wall": 15585.899999999441
         },
         {
           "type": "commit",
           "round": 5,
           "at": 13050,
           "local": 2250,
-          "wall": 15686.700000000186
+          "wall": 15885.5
         },
         {
           "type": "start",
           "round": 6,
           "at": 13500,
           "local": 0,
-          "wall": 16137.200000000186
-        },
-        {
-          "type": "select",
-          "round": 6,
-          "at": 13550.5,
-          "local": 50.5,
-          "wall": 16179.400000000373
+          "wall": 16337.299999999814
         },
         {
           "type": "clap",
           "round": 6,
           "at": 14400,
           "local": 900,
-          "wall": 17036.700000000186
+          "wall": 17235.700000000186
+        },
+        {
+          "type": "window-open",
+          "round": 6,
+          "at": 14400,
+          "local": 900,
+          "wall": 17235.799999999814
+        },
+        {
+          "type": "select",
+          "round": 6,
+          "at": 14452.200000000186,
+          "local": 952.2,
+          "wall": 17281.200000000186
+        },
+        {
+          "type": "window-close",
+          "round": 6,
+          "at": 15000,
+          "local": 1500,
+          "wall": 17835.299999999814
         },
         {
           "type": "reveal",
           "round": 6,
           "at": 15300,
           "local": 1800,
-          "wall": 17936.900000000373
+          "wall": 18137.299999999814
         },
         {
           "type": "fx",
           "round": 6,
           "at": 15450,
           "local": 1950,
-          "wall": 18086.5
+          "wall": 18285.799999999814
         },
         {
           "type": "commit",
           "round": 6,
           "at": 15750,
           "local": 2250,
-          "wall": 18386.5
+          "wall": 18585.39999999944
         },
         {
           "type": "start",
           "round": 7,
           "at": 16200,
           "local": 0,
-          "wall": 18836.600000000093
-        },
-        {
-          "type": "select",
-          "round": 7,
-          "at": 16247.899999999907,
-          "local": 47.89999999990687,
-          "wall": 18876.700000000186
+          "wall": 19037.599999999627
         },
         {
           "type": "clap",
           "round": 7,
           "at": 17100,
           "local": 900,
-          "wall": 19736.400000000373
+          "wall": 19935.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 7,
+          "at": 17100,
+          "local": 900,
+          "wall": 19935.5
+        },
+        {
+          "type": "select",
+          "round": 7,
+          "at": 17180.800000000745,
+          "local": 980.8,
+          "wall": 20009.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 7,
+          "at": 17700,
+          "local": 1500,
+          "wall": 20535.200000000186
         },
         {
           "type": "reveal",
           "round": 7,
           "at": 18000,
           "local": 1800,
-          "wall": 20636.400000000373
+          "wall": 20835.299999999814
         },
         {
           "type": "fx",
           "round": 7,
           "at": 18150,
           "local": 1950,
-          "wall": 20786.30000000028
+          "wall": 20985.200000000186
         },
         {
           "type": "commit",
           "round": 7,
           "at": 18450,
           "local": 2250,
-          "wall": 21086.400000000373
+          "wall": 21285.299999999814
         },
         {
           "type": "start",
           "round": 8,
           "at": 18900,
           "local": 0,
-          "wall": 21536.5
-        },
-        {
-          "type": "select",
-          "round": 8,
-          "at": 18947,
-          "local": 47,
-          "wall": 21575.80000000028
+          "wall": 21735.5
         },
         {
           "type": "clap",
           "round": 8,
           "at": 19800,
           "local": 900,
-          "wall": 22436.400000000373
+          "wall": 22635.099999999627
+        },
+        {
+          "type": "window-open",
+          "round": 8,
+          "at": 19800,
+          "local": 900,
+          "wall": 22635.200000000186
+        },
+        {
+          "type": "select",
+          "round": 8,
+          "at": 19863.900000000373,
+          "local": 963.9,
+          "wall": 22692.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 8,
+          "at": 20400,
+          "local": 1500,
+          "wall": 23235.299999999814
         },
         {
           "type": "reveal",
           "round": 8,
           "at": 20700,
           "local": 1800,
-          "wall": 23336.400000000373
+          "wall": 23535.200000000186
         },
         {
           "type": "fx",
           "round": 8,
           "at": 20850,
           "local": 1950,
-          "wall": 23486.30000000028
+          "wall": 23685.799999999814
         },
         {
           "type": "commit",
           "round": 8,
           "at": 21150,
           "local": 2250,
-          "wall": 23786.400000000373
+          "wall": 23986.89999999944
         }
       ]
     },
@@ -1701,371 +2210,497 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         },
         {
           "type": "start",
           "round": 2,
           "at": 2700,
           "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
+          "wall": 5537.899999999441
         },
         {
           "type": "clap",
           "round": 2,
           "at": 3600,
           "local": 900,
-          "wall": 6237.100000000093
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
         },
         {
           "type": "reveal",
           "round": 2,
           "at": 4500,
           "local": 1800,
-          "wall": 7137
+          "wall": 7336.0999999996275
         },
         {
           "type": "fx",
           "round": 2,
           "at": 4650,
           "local": 1950,
-          "wall": 7286.9000000003725
+          "wall": 7487.899999999441
         },
         {
           "type": "commit",
           "round": 2,
           "at": 4950,
           "local": 2250,
-          "wall": 7586.9000000003725
+          "wall": 7786.200000000186
         },
         {
           "type": "start",
           "round": 3,
           "at": 5400,
           "local": 0,
-          "wall": 8036.9000000003725
+          "wall": 8236
         },
         {
           "type": "clap",
           "round": 3,
           "at": 6300,
           "local": 900,
-          "wall": 8936.900000000373
+          "wall": 9136.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 3,
+          "at": 6900,
+          "local": 1500,
+          "wall": 9736
         },
         {
           "type": "reveal",
           "round": 3,
           "at": 7200,
           "local": 1800,
-          "wall": 9837.100000000093
+          "wall": 10035.799999999814
         },
         {
           "type": "fx",
           "round": 3,
           "at": 7350,
           "local": 1950,
-          "wall": 9986.700000000186
+          "wall": 10185.899999999441
         },
         {
           "type": "commit",
           "round": 3,
           "at": 7650,
           "local": 2250,
-          "wall": 10286.700000000186
+          "wall": 10485.599999999627
         },
         {
           "type": "start",
           "round": 4,
           "at": 8100,
           "local": 0,
-          "wall": 10736.900000000373
-        },
-        {
-          "type": "select",
-          "round": 4,
-          "at": 8154.899999999907,
-          "local": 54.89999999990687,
-          "wall": 10783.80000000028
+          "wall": 10935.799999999814
         },
         {
           "type": "clap",
           "round": 4,
           "at": 9000,
           "local": 900,
-          "wall": 11636.700000000186
+          "wall": 11838.799999999814
+        },
+        {
+          "type": "window-open",
+          "round": 4,
+          "at": 9000,
+          "local": 900,
+          "wall": 11838.899999999441
+        },
+        {
+          "type": "select",
+          "round": 4,
+          "at": 9051,
+          "local": 951,
+          "wall": 11879.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 4,
+          "at": 9600,
+          "local": 1500,
+          "wall": 12435.700000000186
         },
         {
           "type": "reveal",
           "round": 4,
           "at": 9900,
           "local": 1800,
-          "wall": 12536.700000000186
+          "wall": 12738.299999999814
         },
         {
           "type": "fx",
           "round": 4,
           "at": 10050,
           "local": 1950,
-          "wall": 12686.600000000093
+          "wall": 12885.799999999814
         },
         {
           "type": "commit",
           "round": 4,
           "at": 10350,
           "local": 2250,
-          "wall": 12986.700000000186
+          "wall": 13185.899999999441
         },
         {
           "type": "start",
           "round": 5,
           "at": 10800,
           "local": 0,
-          "wall": 13437.200000000186
-        },
-        {
-          "type": "select",
-          "round": 5,
-          "at": 10870.899999999907,
-          "local": 70.89999999990687,
-          "wall": 13499.700000000186
+          "wall": 13636.299999999814
         },
         {
           "type": "clap",
           "round": 5,
           "at": 11700,
           "local": 900,
-          "wall": 14336.600000000093
+          "wall": 14535.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 5,
+          "at": 11700,
+          "local": 900,
+          "wall": 14535.399999999441
+        },
+        {
+          "type": "select",
+          "round": 5,
+          "at": 11765.5,
+          "local": 965.5,
+          "wall": 14594.599999999627
+        },
+        {
+          "type": "window-close",
+          "round": 5,
+          "at": 12300,
+          "local": 1500,
+          "wall": 15136.399999999441
         },
         {
           "type": "reveal",
           "round": 5,
           "at": 12600,
           "local": 1800,
-          "wall": 15236.600000000093
+          "wall": 15470.200000000186
         },
         {
           "type": "fx",
           "round": 5,
           "at": 12750,
           "local": 1950,
-          "wall": 15386.600000000093
+          "wall": 15585.899999999441
         },
         {
           "type": "commit",
           "round": 5,
           "at": 13050,
           "local": 2250,
-          "wall": 15686.700000000186
+          "wall": 15885.5
         },
         {
           "type": "start",
           "round": 6,
           "at": 13500,
           "local": 0,
-          "wall": 16137.200000000186
-        },
-        {
-          "type": "select",
-          "round": 6,
-          "at": 13550.5,
-          "local": 50.5,
-          "wall": 16179.400000000373
+          "wall": 16337.299999999814
         },
         {
           "type": "clap",
           "round": 6,
           "at": 14400,
           "local": 900,
-          "wall": 17036.700000000186
+          "wall": 17235.700000000186
+        },
+        {
+          "type": "window-open",
+          "round": 6,
+          "at": 14400,
+          "local": 900,
+          "wall": 17235.799999999814
+        },
+        {
+          "type": "select",
+          "round": 6,
+          "at": 14452.200000000186,
+          "local": 952.2,
+          "wall": 17281.200000000186
+        },
+        {
+          "type": "window-close",
+          "round": 6,
+          "at": 15000,
+          "local": 1500,
+          "wall": 17835.299999999814
         },
         {
           "type": "reveal",
           "round": 6,
           "at": 15300,
           "local": 1800,
-          "wall": 17936.900000000373
+          "wall": 18137.299999999814
         },
         {
           "type": "fx",
           "round": 6,
           "at": 15450,
           "local": 1950,
-          "wall": 18086.5
+          "wall": 18285.799999999814
         },
         {
           "type": "commit",
           "round": 6,
           "at": 15750,
           "local": 2250,
-          "wall": 18386.5
+          "wall": 18585.39999999944
         },
         {
           "type": "start",
           "round": 7,
           "at": 16200,
           "local": 0,
-          "wall": 18836.600000000093
-        },
-        {
-          "type": "select",
-          "round": 7,
-          "at": 16247.899999999907,
-          "local": 47.89999999990687,
-          "wall": 18876.700000000186
+          "wall": 19037.599999999627
         },
         {
           "type": "clap",
           "round": 7,
           "at": 17100,
           "local": 900,
-          "wall": 19736.400000000373
+          "wall": 19935.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 7,
+          "at": 17100,
+          "local": 900,
+          "wall": 19935.5
+        },
+        {
+          "type": "select",
+          "round": 7,
+          "at": 17180.800000000745,
+          "local": 980.8,
+          "wall": 20009.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 7,
+          "at": 17700,
+          "local": 1500,
+          "wall": 20535.200000000186
         },
         {
           "type": "reveal",
           "round": 7,
           "at": 18000,
           "local": 1800,
-          "wall": 20636.400000000373
+          "wall": 20835.299999999814
         },
         {
           "type": "fx",
           "round": 7,
           "at": 18150,
           "local": 1950,
-          "wall": 20786.30000000028
+          "wall": 20985.200000000186
         },
         {
           "type": "commit",
           "round": 7,
           "at": 18450,
           "local": 2250,
-          "wall": 21086.400000000373
+          "wall": 21285.299999999814
         },
         {
           "type": "start",
           "round": 8,
           "at": 18900,
           "local": 0,
-          "wall": 21536.5
-        },
-        {
-          "type": "select",
-          "round": 8,
-          "at": 18947,
-          "local": 47,
-          "wall": 21575.80000000028
+          "wall": 21735.5
         },
         {
           "type": "clap",
           "round": 8,
           "at": 19800,
           "local": 900,
-          "wall": 22436.400000000373
+          "wall": 22635.099999999627
+        },
+        {
+          "type": "window-open",
+          "round": 8,
+          "at": 19800,
+          "local": 900,
+          "wall": 22635.200000000186
+        },
+        {
+          "type": "select",
+          "round": 8,
+          "at": 19863.900000000373,
+          "local": 963.9,
+          "wall": 22692.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 8,
+          "at": 20400,
+          "local": 1500,
+          "wall": 23235.299999999814
         },
         {
           "type": "reveal",
           "round": 8,
           "at": 20700,
           "local": 1800,
-          "wall": 23336.400000000373
+          "wall": 23535.200000000186
         },
         {
           "type": "fx",
           "round": 8,
           "at": 20850,
           "local": 1950,
-          "wall": 23486.30000000028
+          "wall": 23685.799999999814
         },
         {
           "type": "commit",
           "round": 8,
           "at": 21150,
           "local": 2250,
-          "wall": 23786.400000000373
+          "wall": 23986.89999999944
         },
         {
           "type": "start",
           "round": 9,
           "at": 21600,
           "local": 0,
-          "wall": 24236.200000000186
-        },
-        {
-          "type": "select",
-          "round": 9,
-          "at": 21650.899999999907,
-          "local": 50.89999999990687,
-          "wall": 24279.700000000186
+          "wall": 24435.39999999944
         },
         {
           "type": "clap",
           "round": 9,
           "at": 22500,
           "local": 900,
-          "wall": 25136.30000000028
+          "wall": 25335.200000000186
+        },
+        {
+          "type": "window-open",
+          "round": 9,
+          "at": 22500,
+          "local": 900,
+          "wall": 25335.39999999944
+        },
+        {
+          "type": "select",
+          "round": 9,
+          "at": 22583.900000000373,
+          "local": 983.9,
+          "wall": 25412.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 9,
+          "at": 23100,
+          "local": 1500,
+          "wall": 25936.39999999944
         },
         {
           "type": "reveal",
           "round": 9,
           "at": 23400,
           "local": 1800,
-          "wall": 26036.200000000186
+          "wall": 26235.099999999627
         },
         {
           "type": "fx",
           "round": 9,
           "at": 23550,
           "local": 1950,
-          "wall": 26186.200000000186
+          "wall": 26385.099999999627
         },
         {
           "type": "commit",
           "round": 9,
           "at": 23850,
           "local": 2250,
-          "wall": 26486.100000000093
+          "wall": 26685
         }
       ]
     },
@@ -2095,417 +2730,557 @@
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2628.8000000002794
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 123.10000000009313,
-          "local": 123.10000000009313,
-          "wall": 2752
+          "wall": 2828.899999999441
         },
         {
           "type": "clap",
           "round": 1,
           "at": 900,
           "local": 900,
-          "wall": 3537
+          "wall": 3736.5999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "wall": 3742.7000000001863
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 982.8000000007451,
+          "local": 982.8,
+          "wall": 3811.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 1,
+          "at": 1500,
+          "local": 1500,
+          "wall": 4336.0999999996275
         },
         {
           "type": "reveal",
           "round": 1,
           "at": 1800,
           "local": 1800,
-          "wall": 4437.100000000093
+          "wall": 4636.5999999996275
         },
         {
           "type": "fx",
           "round": 1,
           "at": 1950,
           "local": 1950,
-          "wall": 4587.300000000279
+          "wall": 4786.299999999814
         },
         {
           "type": "commit",
           "round": 1,
           "at": 2250,
           "local": 2250,
-          "wall": 4886.800000000279
+          "wall": 5086
         },
         {
           "type": "start",
           "round": 2,
           "at": 2700,
           "local": 0,
-          "wall": 5337.300000000279
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 2751.100000000093,
-          "local": 51.10000000009313,
-          "wall": 5380
+          "wall": 5537.899999999441
         },
         {
           "type": "clap",
           "round": 2,
           "at": 3600,
           "local": 900,
-          "wall": 6237.100000000093
+          "wall": 6436.0999999996275
+        },
+        {
+          "type": "window-open",
+          "round": 2,
+          "at": 3600,
+          "local": 900,
+          "wall": 6436.200000000186
+        },
+        {
+          "type": "select",
+          "round": 2,
+          "at": 3666.4000000003725,
+          "local": 966.4,
+          "wall": 6495.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 2,
+          "at": 4200,
+          "local": 1500,
+          "wall": 7037.200000000186
         },
         {
           "type": "reveal",
           "round": 2,
           "at": 4500,
           "local": 1800,
-          "wall": 7137
+          "wall": 7336.0999999996275
         },
         {
           "type": "fx",
           "round": 2,
           "at": 4650,
           "local": 1950,
-          "wall": 7286.9000000003725
+          "wall": 7487.899999999441
         },
         {
           "type": "commit",
           "round": 2,
           "at": 4950,
           "local": 2250,
-          "wall": 7586.9000000003725
+          "wall": 7786.200000000186
         },
         {
           "type": "start",
           "round": 3,
           "at": 5400,
           "local": 0,
-          "wall": 8036.9000000003725
+          "wall": 8236
         },
         {
           "type": "clap",
           "round": 3,
           "at": 6300,
           "local": 900,
-          "wall": 8936.900000000373
+          "wall": 9136.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 3,
+          "at": 6300,
+          "local": 900,
+          "wall": 9136.399999999441
+        },
+        {
+          "type": "window-close",
+          "round": 3,
+          "at": 6900,
+          "local": 1500,
+          "wall": 9736
         },
         {
           "type": "reveal",
           "round": 3,
           "at": 7200,
           "local": 1800,
-          "wall": 9837.100000000093
+          "wall": 10035.799999999814
         },
         {
           "type": "fx",
           "round": 3,
           "at": 7350,
           "local": 1950,
-          "wall": 9986.700000000186
+          "wall": 10185.899999999441
         },
         {
           "type": "commit",
           "round": 3,
           "at": 7650,
           "local": 2250,
-          "wall": 10286.700000000186
+          "wall": 10485.599999999627
         },
         {
           "type": "start",
           "round": 4,
           "at": 8100,
           "local": 0,
-          "wall": 10736.900000000373
-        },
-        {
-          "type": "select",
-          "round": 4,
-          "at": 8154.899999999907,
-          "local": 54.89999999990687,
-          "wall": 10783.80000000028
+          "wall": 10935.799999999814
         },
         {
           "type": "clap",
           "round": 4,
           "at": 9000,
           "local": 900,
-          "wall": 11636.700000000186
+          "wall": 11838.799999999814
+        },
+        {
+          "type": "window-open",
+          "round": 4,
+          "at": 9000,
+          "local": 900,
+          "wall": 11838.899999999441
+        },
+        {
+          "type": "select",
+          "round": 4,
+          "at": 9051,
+          "local": 951,
+          "wall": 11879.899999999441
+        },
+        {
+          "type": "window-close",
+          "round": 4,
+          "at": 9600,
+          "local": 1500,
+          "wall": 12435.700000000186
         },
         {
           "type": "reveal",
           "round": 4,
           "at": 9900,
           "local": 1800,
-          "wall": 12536.700000000186
+          "wall": 12738.299999999814
         },
         {
           "type": "fx",
           "round": 4,
           "at": 10050,
           "local": 1950,
-          "wall": 12686.600000000093
+          "wall": 12885.799999999814
         },
         {
           "type": "commit",
           "round": 4,
           "at": 10350,
           "local": 2250,
-          "wall": 12986.700000000186
+          "wall": 13185.899999999441
         },
         {
           "type": "start",
           "round": 5,
           "at": 10800,
           "local": 0,
-          "wall": 13437.200000000186
-        },
-        {
-          "type": "select",
-          "round": 5,
-          "at": 10870.899999999907,
-          "local": 70.89999999990687,
-          "wall": 13499.700000000186
+          "wall": 13636.299999999814
         },
         {
           "type": "clap",
           "round": 5,
           "at": 11700,
           "local": 900,
-          "wall": 14336.600000000093
+          "wall": 14535.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 5,
+          "at": 11700,
+          "local": 900,
+          "wall": 14535.399999999441
+        },
+        {
+          "type": "select",
+          "round": 5,
+          "at": 11765.5,
+          "local": 965.5,
+          "wall": 14594.599999999627
+        },
+        {
+          "type": "window-close",
+          "round": 5,
+          "at": 12300,
+          "local": 1500,
+          "wall": 15136.399999999441
         },
         {
           "type": "reveal",
           "round": 5,
           "at": 12600,
           "local": 1800,
-          "wall": 15236.600000000093
+          "wall": 15470.200000000186
         },
         {
           "type": "fx",
           "round": 5,
           "at": 12750,
           "local": 1950,
-          "wall": 15386.600000000093
+          "wall": 15585.899999999441
         },
         {
           "type": "commit",
           "round": 5,
           "at": 13050,
           "local": 2250,
-          "wall": 15686.700000000186
+          "wall": 15885.5
         },
         {
           "type": "start",
           "round": 6,
           "at": 13500,
           "local": 0,
-          "wall": 16137.200000000186
-        },
-        {
-          "type": "select",
-          "round": 6,
-          "at": 13550.5,
-          "local": 50.5,
-          "wall": 16179.400000000373
+          "wall": 16337.299999999814
         },
         {
           "type": "clap",
           "round": 6,
           "at": 14400,
           "local": 900,
-          "wall": 17036.700000000186
+          "wall": 17235.700000000186
+        },
+        {
+          "type": "window-open",
+          "round": 6,
+          "at": 14400,
+          "local": 900,
+          "wall": 17235.799999999814
+        },
+        {
+          "type": "select",
+          "round": 6,
+          "at": 14452.200000000186,
+          "local": 952.2,
+          "wall": 17281.200000000186
+        },
+        {
+          "type": "window-close",
+          "round": 6,
+          "at": 15000,
+          "local": 1500,
+          "wall": 17835.299999999814
         },
         {
           "type": "reveal",
           "round": 6,
           "at": 15300,
           "local": 1800,
-          "wall": 17936.900000000373
+          "wall": 18137.299999999814
         },
         {
           "type": "fx",
           "round": 6,
           "at": 15450,
           "local": 1950,
-          "wall": 18086.5
+          "wall": 18285.799999999814
         },
         {
           "type": "commit",
           "round": 6,
           "at": 15750,
           "local": 2250,
-          "wall": 18386.5
+          "wall": 18585.39999999944
         },
         {
           "type": "start",
           "round": 7,
           "at": 16200,
           "local": 0,
-          "wall": 18836.600000000093
-        },
-        {
-          "type": "select",
-          "round": 7,
-          "at": 16247.899999999907,
-          "local": 47.89999999990687,
-          "wall": 18876.700000000186
+          "wall": 19037.599999999627
         },
         {
           "type": "clap",
           "round": 7,
           "at": 17100,
           "local": 900,
-          "wall": 19736.400000000373
+          "wall": 19935.299999999814
+        },
+        {
+          "type": "window-open",
+          "round": 7,
+          "at": 17100,
+          "local": 900,
+          "wall": 19935.5
+        },
+        {
+          "type": "select",
+          "round": 7,
+          "at": 17180.800000000745,
+          "local": 980.8,
+          "wall": 20009.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 7,
+          "at": 17700,
+          "local": 1500,
+          "wall": 20535.200000000186
         },
         {
           "type": "reveal",
           "round": 7,
           "at": 18000,
           "local": 1800,
-          "wall": 20636.400000000373
+          "wall": 20835.299999999814
         },
         {
           "type": "fx",
           "round": 7,
           "at": 18150,
           "local": 1950,
-          "wall": 20786.30000000028
+          "wall": 20985.200000000186
         },
         {
           "type": "commit",
           "round": 7,
           "at": 18450,
           "local": 2250,
-          "wall": 21086.400000000373
+          "wall": 21285.299999999814
         },
         {
           "type": "start",
           "round": 8,
           "at": 18900,
           "local": 0,
-          "wall": 21536.5
-        },
-        {
-          "type": "select",
-          "round": 8,
-          "at": 18947,
-          "local": 47,
-          "wall": 21575.80000000028
+          "wall": 21735.5
         },
         {
           "type": "clap",
           "round": 8,
           "at": 19800,
           "local": 900,
-          "wall": 22436.400000000373
+          "wall": 22635.099999999627
+        },
+        {
+          "type": "window-open",
+          "round": 8,
+          "at": 19800,
+          "local": 900,
+          "wall": 22635.200000000186
+        },
+        {
+          "type": "select",
+          "round": 8,
+          "at": 19863.900000000373,
+          "local": 963.9,
+          "wall": 22692.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 8,
+          "at": 20400,
+          "local": 1500,
+          "wall": 23235.299999999814
         },
         {
           "type": "reveal",
           "round": 8,
           "at": 20700,
           "local": 1800,
-          "wall": 23336.400000000373
+          "wall": 23535.200000000186
         },
         {
           "type": "fx",
           "round": 8,
           "at": 20850,
           "local": 1950,
-          "wall": 23486.30000000028
+          "wall": 23685.799999999814
         },
         {
           "type": "commit",
           "round": 8,
           "at": 21150,
           "local": 2250,
-          "wall": 23786.400000000373
+          "wall": 23986.89999999944
         },
         {
           "type": "start",
           "round": 9,
           "at": 21600,
           "local": 0,
-          "wall": 24236.200000000186
-        },
-        {
-          "type": "select",
-          "round": 9,
-          "at": 21650.899999999907,
-          "local": 50.89999999990687,
-          "wall": 24279.700000000186
+          "wall": 24435.39999999944
         },
         {
           "type": "clap",
           "round": 9,
           "at": 22500,
           "local": 900,
-          "wall": 25136.30000000028
+          "wall": 25335.200000000186
+        },
+        {
+          "type": "window-open",
+          "round": 9,
+          "at": 22500,
+          "local": 900,
+          "wall": 25335.39999999944
+        },
+        {
+          "type": "select",
+          "round": 9,
+          "at": 22583.900000000373,
+          "local": 983.9,
+          "wall": 25412.799999999814
+        },
+        {
+          "type": "window-close",
+          "round": 9,
+          "at": 23100,
+          "local": 1500,
+          "wall": 25936.39999999944
         },
         {
           "type": "reveal",
           "round": 9,
           "at": 23400,
           "local": 1800,
-          "wall": 26036.200000000186
+          "wall": 26235.099999999627
         },
         {
           "type": "fx",
           "round": 9,
           "at": 23550,
           "local": 1950,
-          "wall": 26186.200000000186
+          "wall": 26385.099999999627
         },
         {
           "type": "commit",
           "round": 9,
           "at": 23850,
           "local": 2250,
-          "wall": 26486.100000000093
+          "wall": 26685
         },
         {
           "type": "start",
           "round": 10,
           "at": 24300,
           "local": 0,
-          "wall": 26936.100000000093
-        },
-        {
-          "type": "select",
-          "round": 10,
-          "at": 24364.19999999972,
-          "local": 64.1999999997206,
-          "wall": 26993.100000000093
+          "wall": 27135.599999999627
         },
         {
           "type": "clap",
           "round": 10,
           "at": 25200,
           "local": 900,
-          "wall": 27836.30000000028
+          "wall": 28035
+        },
+        {
+          "type": "window-open",
+          "round": 10,
+          "at": 25200,
+          "local": 900,
+          "wall": 28035.099999999627
+        },
+        {
+          "type": "select",
+          "round": 10,
+          "at": 25265.400000000373,
+          "local": 965.4,
+          "wall": 28094.299999999814
+        },
+        {
+          "type": "window-close",
+          "round": 10,
+          "at": 25800,
+          "local": 1500,
+          "wall": 28635.700000000186
         },
         {
           "type": "reveal",
           "round": 10,
           "at": 26100,
           "local": 1800,
-          "wall": 28736.100000000093
+          "wall": 28934.89999999944
         },
         {
           "type": "fx",
           "round": 10,
           "at": 26250,
           "local": 1950,
-          "wall": 28886
+          "wall": 29085.200000000186
         },
         {
           "type": "commit",
           "round": 10,
           "at": 26550,
           "local": 2250,
-          "wall": 29186
+          "wall": 29385
         }
       ]
     }
   ],
-  "audioDuration": 38.96220000000019,
-  "audioStartPerf": 661.2000000001863
+  "audioDuration": 38.9345,
+  "audioStartPerf": 860.7999999998137
 }

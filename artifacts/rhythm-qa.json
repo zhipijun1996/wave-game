@@ -1,0 +1,384 @@
+{
+  "browser": "154.0.8037.57",
+  "version": "1.1.0",
+  "desktopEmulation": true,
+  "checks": [
+    {
+      "speed": 0.7,
+      "windowMs": 420,
+      "earlyRejected": true,
+      "lateRejected": true,
+      "missedAction": "idle",
+      "missHitDamage": [
+        3,
+        0
+      ]
+    },
+    {
+      "speed": 1,
+      "windowMs": 600,
+      "earlyRejected": true,
+      "lateRejected": true,
+      "missedAction": "idle",
+      "missHitDamage": [
+        3,
+        0
+      ]
+    },
+    {
+      "speed": 1.5,
+      "windowMs": 900,
+      "earlyRejected": true,
+      "lateRejected": true,
+      "missedAction": "idle",
+      "missHitDamage": [
+        3,
+        0
+      ]
+    },
+    {
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "skills": [
+        {
+          "width": 57.1875,
+          "height": 70,
+          "bottom": 476,
+          "right": 84.1875
+        },
+        {
+          "width": 57.203125,
+          "height": 70,
+          "bottom": 476,
+          "right": 146.390625
+        },
+        {
+          "width": 57.203125,
+          "height": 70,
+          "bottom": 476,
+          "right": 208.59375
+        },
+        {
+          "width": 57.203125,
+          "height": 70,
+          "bottom": 476,
+          "right": 270.796875
+        },
+        {
+          "width": 57.203125,
+          "height": 70,
+          "bottom": 476,
+          "right": 333
+        },
+        {
+          "width": 57.1875,
+          "height": 70,
+          "bottom": 551,
+          "right": 84.1875
+        },
+        {
+          "width": 57.203125,
+          "height": 70,
+          "bottom": 551,
+          "right": 146.390625
+        },
+        {
+          "width": 57.203125,
+          "height": 70,
+          "bottom": 551,
+          "right": 208.59375
+        },
+        {
+          "width": 57.203125,
+          "height": 70,
+          "bottom": 551,
+          "right": 270.796875
+        },
+        {
+          "width": 57.203125,
+          "height": 70,
+          "bottom": 551,
+          "right": 333
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "skills": [
+        {
+          "width": 62.390625,
+          "height": 77,
+          "bottom": 571.875,
+          "right": 91.390625
+        },
+        {
+          "width": 62.40625,
+          "height": 77,
+          "bottom": 571.875,
+          "right": 158.796875
+        },
+        {
+          "width": 62.390625,
+          "height": 77,
+          "bottom": 571.875,
+          "right": 226.1875
+        },
+        {
+          "width": 62.40625,
+          "height": 77,
+          "bottom": 571.875,
+          "right": 293.59375
+        },
+        {
+          "width": 62.40625,
+          "height": 77,
+          "bottom": 571.875,
+          "right": 361
+        },
+        {
+          "width": 62.390625,
+          "height": 77,
+          "bottom": 653.875,
+          "right": 91.390625
+        },
+        {
+          "width": 62.40625,
+          "height": 77,
+          "bottom": 653.875,
+          "right": 158.796875
+        },
+        {
+          "width": 62.390625,
+          "height": 77,
+          "bottom": 653.875,
+          "right": 226.1875
+        },
+        {
+          "width": 62.40625,
+          "height": 77,
+          "bottom": 653.875,
+          "right": 293.59375
+        },
+        {
+          "width": 62.40625,
+          "height": 77,
+          "bottom": 653.875,
+          "right": 361
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "skills": [
+        {
+          "width": 53.59375,
+          "height": 68,
+          "bottom": 207.5,
+          "right": 576.59375
+        },
+        {
+          "width": 53.59375,
+          "height": 68,
+          "bottom": 207.5,
+          "right": 635.1875
+        },
+        {
+          "width": 53.609375,
+          "height": 68,
+          "bottom": 207.5,
+          "right": 693.796875
+        },
+        {
+          "width": 53.59375,
+          "height": 68,
+          "bottom": 207.5,
+          "right": 752.390625
+        },
+        {
+          "width": 53.59375,
+          "height": 68,
+          "bottom": 207.5,
+          "right": 810.984375
+        },
+        {
+          "width": 53.59375,
+          "height": 68,
+          "bottom": 280.5,
+          "right": 576.59375
+        },
+        {
+          "width": 53.59375,
+          "height": 68,
+          "bottom": 280.5,
+          "right": 635.1875
+        },
+        {
+          "width": 53.609375,
+          "height": 68,
+          "bottom": 280.5,
+          "right": 693.796875
+        },
+        {
+          "width": 53.59375,
+          "height": 68,
+          "bottom": 280.5,
+          "right": 752.390625
+        },
+        {
+          "width": 53.59375,
+          "height": 68,
+          "bottom": 280.5,
+          "right": 810.984375
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "skills": [
+        {
+          "width": 59.59375,
+          "height": 80,
+          "bottom": 376,
+          "right": 921.59375
+        },
+        {
+          "width": 59.59375,
+          "height": 80,
+          "bottom": 376,
+          "right": 987.1875
+        },
+        {
+          "width": 59.609375,
+          "height": 80,
+          "bottom": 376,
+          "right": 1052.796875
+        },
+        {
+          "width": 59.59375,
+          "height": 80,
+          "bottom": 376,
+          "right": 1118.390625
+        },
+        {
+          "width": 59.59375,
+          "height": 80,
+          "bottom": 376,
+          "right": 1183.984375
+        },
+        {
+          "width": 59.59375,
+          "height": 80,
+          "bottom": 462,
+          "right": 921.59375
+        },
+        {
+          "width": 59.59375,
+          "height": 80,
+          "bottom": 462,
+          "right": 987.1875
+        },
+        {
+          "width": 59.609375,
+          "height": 80,
+          "bottom": 462,
+          "right": 1052.796875
+        },
+        {
+          "width": 59.59375,
+          "height": 80,
+          "bottom": 462,
+          "right": 1118.390625
+        },
+        {
+          "width": 59.59375,
+          "height": 80,
+          "bottom": 462,
+          "right": 1183.984375
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "skills": [
+        {
+          "width": 208.390625,
+          "height": 96,
+          "bottom": 840,
+          "right": 629.390625
+        },
+        {
+          "width": 208.40625,
+          "height": 96,
+          "bottom": 840,
+          "right": 846.796875
+        },
+        {
+          "width": 208.390625,
+          "height": 96,
+          "bottom": 840,
+          "right": 1064.1875
+        },
+        {
+          "width": 208.40625,
+          "height": 96,
+          "bottom": 840,
+          "right": 1281.59375
+        },
+        {
+          "width": 208.390625,
+          "height": 96,
+          "bottom": 840,
+          "right": 1498.984375
+        },
+        {
+          "width": 208.390625,
+          "height": 96,
+          "bottom": 945,
+          "right": 629.390625
+        },
+        {
+          "width": 208.40625,
+          "height": 96,
+          "bottom": 945,
+          "right": 846.796875
+        },
+        {
+          "width": 208.390625,
+          "height": 96,
+          "bottom": 945,
+          "right": 1064.1875
+        },
+        {
+          "width": 208.40625,
+          "height": 96,
+          "bottom": 945,
+          "right": 1281.59375
+        },
+        {
+          "width": 208.390625,
+          "height": 96,
+          "bottom": 945,
+          "right": 1498.984375
+        }
+      ]
+    },
+    {
+      "tutorial": "four steps including missed-beat idle"
+    }
+  ],
+  "errors": []
+}

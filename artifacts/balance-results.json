@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "seeds": [
     173,
     270,
@@ -43,7 +43,7 @@
     3956
   ],
   "totalMatches": 37700,
-  "seconds": 60.77,
+  "seconds": 54.08,
   "search": [
     {
       "candidate": "initial",
@@ -54,82 +54,415 @@
       },
       "summary": {
         "samples": 605,
-        "winRate": 0.36529,
-        "lossRate": 0.34545,
-        "drawRate": 0.28926,
+        "winRate": 0.31901,
+        "lossRate": 0.40826,
+        "drawRate": 0.27273,
         "win95CI": [
-          0.32788,
-          0.4044
+          0.28311,
+          0.35719
         ],
         "draw95CI": [
-          0.25454,
-          0.32663
+          0.23876,
+          0.30957
         ],
         "roundMedian": 29,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 175,
-        "meanEnergySpent": 25.021
+        "limit60": 165,
+        "meanEnergySpent": 26.471
       },
       "byStrategy": {
         "random": {
           "samples": 55,
-          "winRate": 0.2,
-          "lossRate": 0.41818,
-          "drawRate": 0.38182,
+          "winRate": 0.25455,
+          "lossRate": 0.45455,
+          "drawRate": 0.29091,
           "win95CI": [
-            0.11552,
-            0.32365
+            0.15812,
+            0.38302
           ],
           "draw95CI": [
-            0.26516,
-            0.51391
+            0.18771,
+            0.42141
           ],
-          "roundMedian": 43,
+          "roundMedian": 38,
           "roundP90": 60,
           "roundP95": 60,
-          "limit60": 21,
-          "meanEnergySpent": 35.909
+          "limit60": 16,
+          "meanEnergySpent": 35.982
         },
         "bank": {
           "samples": 55,
-          "winRate": 0.76364,
-          "lossRate": 0.23636,
+          "winRate": 0.72727,
+          "lossRate": 0.27273,
           "drawRate": 0.0,
           "win95CI": [
-            0.63651,
-            0.85633
+            0.59768,
+            0.82719
           ],
           "draw95CI": [
             0,
             0.06529
           ],
-          "roundMedian": 16,
-          "roundP90": 27,
-          "roundP95": 28,
+          "roundMedian": 21,
+          "roundP90": 29,
+          "roundP95": 32,
           "limit60": 0,
-          "meanEnergySpent": 20.782
+          "meanEnergySpent": 24.273
         },
         "attack": {
           "samples": 55,
-          "winRate": 0.81818,
-          "lossRate": 0.18182,
+          "winRate": 0.58182,
+          "lossRate": 0.4,
+          "drawRate": 0.01818,
+          "win95CI": [
+            0.45033,
+            0.70262
+          ],
+          "draw95CI": [
+            0.00322,
+            0.09606
+          ],
+          "roundMedian": 19,
+          "roundP90": 32,
+          "roundP95": 35,
+          "limit60": 1,
+          "meanEnergySpent": 20.582
+        },
+        "defense": {
+          "samples": 55,
+          "winRate": 0.0,
+          "lossRate": 0.43636,
+          "drawRate": 0.56364,
+          "win95CI": [
+            0,
+            0.06529
+          ],
+          "draw95CI": [
+            0.4327,
+            0.68627
+          ],
+          "roundMedian": 60,
+          "roundP90": 60,
+          "roundP95": 60,
+          "limit60": 31,
+          "meanEnergySpent": 38.182
+        },
+        "reflect": {
+          "samples": 55,
+          "winRate": 0.03636,
+          "lossRate": 0.50909,
+          "drawRate": 0.45455,
+          "win95CI": [
+            0.01003,
+            0.12324
+          ],
+          "draw95CI": [
+            0.33025,
+            0.58478
+          ],
+          "roundMedian": 41,
+          "roundP90": 60,
+          "roundP95": 60,
+          "limit60": 25,
+          "meanEnergySpent": 39.2
+        },
+        "resource": {
+          "samples": 55,
+          "winRate": 0.61818,
+          "lossRate": 0.32727,
+          "drawRate": 0.05455,
+          "win95CI": [
+            0.48609,
+            0.73484
+          ],
+          "draw95CI": [
+            0.01872,
+            0.14853
+          ],
+          "roundMedian": 28,
+          "roundP90": 48,
+          "roundP95": 52,
+          "limit60": 3,
+          "meanEnergySpent": 29.345
+        },
+        "history": {
+          "samples": 55,
+          "winRate": 0.65455,
+          "lossRate": 0.34545,
           "drawRate": 0.0,
           "win95CI": [
-            0.69669,
-            0.89812
+            0.52254,
+            0.76637
+          ],
+          "draw95CI": [
+            0,
+            0.06529
+          ],
+          "roundMedian": 23,
+          "roundP90": 37,
+          "roundP95": 38,
+          "limit60": 0,
+          "meanEnergySpent": 25.327
+        },
+        "mixed": {
+          "samples": 55,
+          "winRate": 0.63636,
+          "lossRate": 0.32727,
+          "drawRate": 0.03636,
+          "win95CI": [
+            0.50423,
+            0.7507
+          ],
+          "draw95CI": [
+            0.01003,
+            0.12324
+          ],
+          "roundMedian": 26,
+          "roundP90": 45,
+          "roundP95": 47,
+          "limit60": 2,
+          "meanEnergySpent": 27.509
+        },
+        "always_guard": {
+          "samples": 55,
+          "winRate": 0.0,
+          "lossRate": 0.47273,
+          "drawRate": 0.52727,
+          "win95CI": [
+            0,
+            0.06529
+          ],
+          "draw95CI": [
+            0.39791,
+            0.65307
+          ],
+          "roundMedian": 60,
+          "roundP90": 60,
+          "roundP95": 60,
+          "limit60": 29,
+          "meanEnergySpent": 18.964
+        },
+        "always_charge": {
+          "samples": 55,
+          "winRate": 0.0,
+          "lossRate": 0.52727,
+          "drawRate": 0.47273,
+          "win95CI": [
+            0,
+            0.06529
+          ],
+          "draw95CI": [
+            0.34693,
+            0.60209
+          ],
+          "roundMedian": 53,
+          "roundP90": 60,
+          "roundP95": 60,
+          "limit60": 26,
+          "meanEnergySpent": 13.964
+        },
+        "quick_guard": {
+          "samples": 55,
+          "winRate": 0.0,
+          "lossRate": 0.41818,
+          "drawRate": 0.58182,
+          "win95CI": [
+            0,
+            0.06529
+          ],
+          "draw95CI": [
+            0.45033,
+            0.70262
+          ],
+          "roundMedian": 60,
+          "roundP90": 60,
+          "roundP95": 60,
+          "limit60": 32,
+          "meanEnergySpent": 17.855
+        }
+      }
+    },
+    {
+      "candidate": "cheap-guard",
+      "costs": {
+        "guard2": 0,
+        "guard3": 1,
+        "reflect2": 2
+      },
+      "summary": {
+        "samples": 605,
+        "winRate": 0.36033,
+        "lossRate": 0.36033,
+        "drawRate": 0.27934,
+        "win95CI": [
+          0.32307,
+          0.39936
+        ],
+        "draw95CI": [
+          0.24506,
+          0.3164
+        ],
+        "roundMedian": 32,
+        "roundP90": 60,
+        "roundP95": 60,
+        "limit60": 169,
+        "meanEnergySpent": 24.147
+      },
+      "byStrategy": {
+        "random": {
+          "samples": 55,
+          "winRate": 0.30909,
+          "lossRate": 0.45455,
+          "drawRate": 0.23636,
+          "win95CI": [
+            0.20282,
+            0.44029
+          ],
+          "draw95CI": [
+            0.14367,
+            0.36349
+          ],
+          "roundMedian": 42,
+          "roundP90": 60,
+          "roundP95": 60,
+          "limit60": 13,
+          "meanEnergySpent": 33.945
+        },
+        "bank": {
+          "samples": 55,
+          "winRate": 0.74545,
+          "lossRate": 0.25455,
+          "drawRate": 0.0,
+          "win95CI": [
+            0.61698,
+            0.84188
+          ],
+          "draw95CI": [
+            0,
+            0.06529
+          ],
+          "roundMedian": 17,
+          "roundP90": 27,
+          "roundP95": 31,
+          "limit60": 0,
+          "meanEnergySpent": 19.673
+        },
+        "attack": {
+          "samples": 55,
+          "winRate": 0.67273,
+          "lossRate": 0.32727,
+          "drawRate": 0.0,
+          "win95CI": [
+            0.54103,
+            0.78187
           ],
           "draw95CI": [
             0,
             0.06529
           ],
           "roundMedian": 20,
-          "roundP90": 32,
-          "roundP95": 33,
+          "roundP90": 36,
+          "roundP95": 41,
           "limit60": 0,
-          "meanEnergySpent": 20.236
+          "meanEnergySpent": 21.055
         },
         "defense": {
+          "samples": 55,
+          "winRate": 0.07273,
+          "lossRate": 0.36364,
+          "drawRate": 0.56364,
+          "win95CI": [
+            0.02864,
+            0.1726
+          ],
+          "draw95CI": [
+            0.4327,
+            0.68627
+          ],
+          "roundMedian": 60,
+          "roundP90": 60,
+          "roundP95": 60,
+          "limit60": 31,
+          "meanEnergySpent": 33.691
+        },
+        "reflect": {
+          "samples": 55,
+          "winRate": 0.07273,
+          "lossRate": 0.45455,
+          "drawRate": 0.47273,
+          "win95CI": [
+            0.02864,
+            0.1726
+          ],
+          "draw95CI": [
+            0.34693,
+            0.60209
+          ],
+          "roundMedian": 45,
+          "roundP90": 60,
+          "roundP95": 60,
+          "limit60": 26,
+          "meanEnergySpent": 35.491
+        },
+        "resource": {
+          "samples": 55,
+          "winRate": 0.72727,
+          "lossRate": 0.18182,
+          "drawRate": 0.09091,
+          "win95CI": [
+            0.59768,
+            0.82719
+          ],
+          "draw95CI": [
+            0.03946,
+            0.19578
+          ],
+          "roundMedian": 31,
+          "roundP90": 53,
+          "roundP95": 60,
+          "limit60": 5,
+          "meanEnergySpent": 27.964
+        },
+        "history": {
+          "samples": 55,
+          "winRate": 0.8,
+          "lossRate": 0.2,
+          "drawRate": 0.0,
+          "win95CI": [
+            0.67635,
+            0.88448
+          ],
+          "draw95CI": [
+            0,
+            0.06529
+          ],
+          "roundMedian": 28,
+          "roundP90": 44,
+          "roundP95": 50,
+          "limit60": 0,
+          "meanEnergySpent": 25.018
+        },
+        "mixed": {
+          "samples": 55,
+          "winRate": 0.56364,
+          "lossRate": 0.32727,
+          "drawRate": 0.10909,
+          "win95CI": [
+            0.4327,
+            0.68627
+          ],
+          "draw95CI": [
+            0.05097,
+            0.21826
+          ],
+          "roundMedian": 30,
+          "roundP90": 58,
+          "roundP95": 60,
+          "limit60": 6,
+          "meanEnergySpent": 28.164
+        },
+        "always_guard": {
           "samples": 55,
           "winRate": 0.0,
           "lossRate": 0.45455,
@@ -146,340 +479,7 @@
           "roundP90": 60,
           "roundP95": 60,
           "limit60": 30,
-          "meanEnergySpent": 33.964
-        },
-        "reflect": {
-          "samples": 55,
-          "winRate": 0.05455,
-          "lossRate": 0.47273,
-          "drawRate": 0.47273,
-          "win95CI": [
-            0.01872,
-            0.14853
-          ],
-          "draw95CI": [
-            0.34693,
-            0.60209
-          ],
-          "roundMedian": 57,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 26,
-          "meanEnergySpent": 40.545
-        },
-        "resource": {
-          "samples": 55,
-          "winRate": 0.67273,
-          "lossRate": 0.2,
-          "drawRate": 0.12727,
-          "win95CI": [
-            0.54103,
-            0.78187
-          ],
-          "draw95CI": [
-            0.06304,
-            0.24017
-          ],
-          "roundMedian": 29,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 7,
-          "meanEnergySpent": 28.273
-        },
-        "history": {
-          "samples": 55,
-          "winRate": 0.8,
-          "lossRate": 0.18182,
-          "drawRate": 0.01818,
-          "win95CI": [
-            0.67635,
-            0.88448
-          ],
-          "draw95CI": [
-            0.00322,
-            0.09606
-          ],
-          "roundMedian": 25,
-          "roundP90": 37,
-          "roundP95": 40,
-          "limit60": 1,
-          "meanEnergySpent": 23.364
-        },
-        "mixed": {
-          "samples": 55,
-          "winRate": 0.70909,
-          "lossRate": 0.27273,
-          "drawRate": 0.01818,
-          "win95CI": [
-            0.57859,
-            0.81229
-          ],
-          "draw95CI": [
-            0.00322,
-            0.09606
-          ],
-          "roundMedian": 22,
-          "roundP90": 35,
-          "roundP95": 48,
-          "limit60": 1,
-          "meanEnergySpent": 24.491
-        },
-        "always_guard": {
-          "samples": 55,
-          "winRate": 0.0,
-          "lossRate": 0.43636,
-          "drawRate": 0.56364,
-          "win95CI": [
-            0,
-            0.06529
-          ],
-          "draw95CI": [
-            0.4327,
-            0.68627
-          ],
-          "roundMedian": 60,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 31,
-          "meanEnergySpent": 17.964
-        },
-        "always_charge": {
-          "samples": 55,
-          "winRate": 0.0,
-          "lossRate": 0.50909,
-          "drawRate": 0.49091,
-          "win95CI": [
-            0,
-            0.06529
-          ],
-          "draw95CI": [
-            0.36377,
-            0.61924
-          ],
-          "roundMedian": 58,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 27,
-          "meanEnergySpent": 13.055
-        },
-        "quick_guard": {
-          "samples": 55,
-          "winRate": 0.0,
-          "lossRate": 0.43636,
-          "drawRate": 0.56364,
-          "win95CI": [
-            0,
-            0.06529
-          ],
-          "draw95CI": [
-            0.4327,
-            0.68627
-          ],
-          "roundMedian": 60,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 31,
-          "meanEnergySpent": 16.655
-        }
-      }
-    },
-    {
-      "candidate": "cheap-guard",
-      "costs": {
-        "guard2": 0,
-        "guard3": 1,
-        "reflect2": 2
-      },
-      "summary": {
-        "samples": 605,
-        "winRate": 0.3719,
-        "lossRate": 0.32231,
-        "drawRate": 0.30579,
-        "win95CI": [
-          0.33431,
-          0.41111
-        ],
-        "draw95CI": [
-          0.27039,
-          0.34363
-        ],
-        "roundMedian": 31,
-        "roundP90": 60,
-        "roundP95": 60,
-        "limit60": 185,
-        "meanEnergySpent": 22.554
-      },
-      "byStrategy": {
-        "random": {
-          "samples": 55,
-          "winRate": 0.29091,
-          "lossRate": 0.36364,
-          "drawRate": 0.34545,
-          "win95CI": [
-            0.18771,
-            0.42141
-          ],
-          "draw95CI": [
-            0.23363,
-            0.47746
-          ],
-          "roundMedian": 39,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 19,
-          "meanEnergySpent": 30.145
-        },
-        "bank": {
-          "samples": 55,
-          "winRate": 0.78182,
-          "lossRate": 0.21818,
-          "drawRate": 0.0,
-          "win95CI": [
-            0.6563,
-            0.87054
-          ],
-          "draw95CI": [
-            0,
-            0.06529
-          ],
-          "roundMedian": 23,
-          "roundP90": 26,
-          "roundP95": 32,
-          "limit60": 0,
-          "meanEnergySpent": 20.218
-        },
-        "attack": {
-          "samples": 55,
-          "winRate": 0.78182,
-          "lossRate": 0.16364,
-          "drawRate": 0.05455,
-          "win95CI": [
-            0.6563,
-            0.87054
-          ],
-          "draw95CI": [
-            0.01872,
-            0.14853
-          ],
-          "roundMedian": 21,
-          "roundP90": 32,
-          "roundP95": 37,
-          "limit60": 3,
-          "meanEnergySpent": 19.964
-        },
-        "defense": {
-          "samples": 55,
-          "winRate": 0.0,
-          "lossRate": 0.38182,
-          "drawRate": 0.61818,
-          "win95CI": [
-            0,
-            0.06529
-          ],
-          "draw95CI": [
-            0.48609,
-            0.73484
-          ],
-          "roundMedian": 60,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 34,
-          "meanEnergySpent": 29.964
-        },
-        "reflect": {
-          "samples": 55,
-          "winRate": 0.07273,
-          "lossRate": 0.4,
-          "drawRate": 0.52727,
-          "win95CI": [
-            0.02864,
-            0.1726
-          ],
-          "draw95CI": [
-            0.39791,
-            0.65307
-          ],
-          "roundMedian": 60,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 29,
-          "meanEnergySpent": 37.545
-        },
-        "resource": {
-          "samples": 55,
-          "winRate": 0.63636,
-          "lossRate": 0.25455,
-          "drawRate": 0.10909,
-          "win95CI": [
-            0.50423,
-            0.7507
-          ],
-          "draw95CI": [
-            0.05097,
-            0.21826
-          ],
-          "roundMedian": 27,
-          "roundP90": 54,
-          "roundP95": 60,
-          "limit60": 6,
-          "meanEnergySpent": 24.364
-        },
-        "history": {
-          "samples": 55,
-          "winRate": 0.81818,
-          "lossRate": 0.18182,
-          "drawRate": 0.0,
-          "win95CI": [
-            0.69669,
-            0.89812
-          ],
-          "draw95CI": [
-            0,
-            0.06529
-          ],
-          "roundMedian": 26,
-          "roundP90": 35,
-          "roundP95": 44,
-          "limit60": 0,
-          "meanEnergySpent": 21.345
-        },
-        "mixed": {
-          "samples": 55,
-          "winRate": 0.70909,
-          "lossRate": 0.25455,
-          "drawRate": 0.03636,
-          "win95CI": [
-            0.57859,
-            0.81229
-          ],
-          "draw95CI": [
-            0.01003,
-            0.12324
-          ],
-          "roundMedian": 28,
-          "roundP90": 40,
-          "roundP95": 57,
-          "limit60": 2,
-          "meanEnergySpent": 24.745
-        },
-        "always_guard": {
-          "samples": 55,
-          "winRate": 0.0,
-          "lossRate": 0.38182,
-          "drawRate": 0.61818,
-          "win95CI": [
-            0,
-            0.06529
-          ],
-          "draw95CI": [
-            0.48609,
-            0.73484
-          ],
-          "roundMedian": 60,
-          "roundP90": 60,
-          "roundP95": 60,
-          "limit60": 34,
-          "meanEnergySpent": 15.073
+          "meanEnergySpent": 15.964
         },
         "always_charge": {
           "samples": 55,
@@ -494,11 +494,11 @@
             0.33025,
             0.58478
           ],
-          "roundMedian": 51,
+          "roundMedian": 47,
           "roundP90": 60,
           "roundP95": 60,
           "limit60": 25,
-          "meanEnergySpent": 10.636
+          "meanEnergySpent": 11.109
         },
         "quick_guard": {
           "samples": 55,
@@ -517,7 +517,7 @@
           "roundP90": 60,
           "roundP95": 60,
           "limit60": 33,
-          "meanEnergySpent": 14.091
+          "meanEnergySpent": 13.545
         }
       }
     },
@@ -530,80 +530,80 @@
       },
       "summary": {
         "samples": 605,
-        "winRate": 0.38678,
-        "lossRate": 0.35207,
-        "drawRate": 0.26116,
+        "winRate": 0.33388,
+        "lossRate": 0.40331,
+        "drawRate": 0.26281,
         "win95CI": [
-          0.3488,
-          0.42618
+          0.29746,
+          0.37241
         ],
         "draw95CI": [
-          0.22774,
-          0.29759
+          0.22931,
+          0.2993
         ],
-        "roundMedian": 28,
+        "roundMedian": 27,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 158,
-        "meanEnergySpent": 24.074
+        "limit60": 159,
+        "meanEnergySpent": 25.131
       },
       "byStrategy": {
         "random": {
           "samples": 55,
-          "winRate": 0.30909,
-          "lossRate": 0.41818,
+          "winRate": 0.2,
+          "lossRate": 0.52727,
           "drawRate": 0.27273,
           "win95CI": [
-            0.20282,
-            0.44029
+            0.11552,
+            0.32365
           ],
           "draw95CI": [
             0.17281,
             0.40232
           ],
-          "roundMedian": 30,
+          "roundMedian": 36,
           "roundP90": 60,
           "roundP95": 60,
           "limit60": 15,
-          "meanEnergySpent": 32.255
+          "meanEnergySpent": 35.745
         },
         "bank": {
           "samples": 55,
-          "winRate": 0.78182,
-          "lossRate": 0.21818,
+          "winRate": 0.63636,
+          "lossRate": 0.36364,
           "drawRate": 0.0,
           "win95CI": [
-            0.6563,
-            0.87054
+            0.50423,
+            0.7507
           ],
           "draw95CI": [
             0,
             0.06529
           ],
-          "roundMedian": 16,
+          "roundMedian": 18,
           "roundP90": 27,
-          "roundP95": 33,
+          "roundP95": 30,
           "limit60": 0,
-          "meanEnergySpent": 21.673
+          "meanEnergySpent": 22.218
         },
         "attack": {
           "samples": 55,
-          "winRate": 0.85455,
-          "lossRate": 0.14545,
+          "winRate": 0.74545,
+          "lossRate": 0.25455,
           "drawRate": 0.0,
           "win95CI": [
-            0.73839,
-            0.92441
+            0.61698,
+            0.84188
           ],
           "draw95CI": [
             0,
             0.06529
           ],
-          "roundMedian": 19,
-          "roundP90": 31,
-          "roundP95": 33,
+          "roundMedian": 17,
+          "roundP90": 28,
+          "roundP95": 30,
           "limit60": 0,
-          "meanEnergySpent": 18.455
+          "meanEnergySpent": 18.945
         },
         "defense": {
           "samples": 55,
@@ -622,140 +622,140 @@
           "roundP90": 60,
           "roundP95": 60,
           "limit60": 28,
-          "meanEnergySpent": 32.073
+          "meanEnergySpent": 35.436
         },
         "reflect": {
           "samples": 55,
-          "winRate": 0.10909,
-          "lossRate": 0.45455,
-          "drawRate": 0.43636,
+          "winRate": 0.03636,
+          "lossRate": 0.49091,
+          "drawRate": 0.47273,
           "win95CI": [
-            0.05097,
-            0.21826
+            0.01003,
+            0.12324
           ],
           "draw95CI": [
-            0.31373,
-            0.5673
+            0.34693,
+            0.60209
           ],
-          "roundMedian": 57,
+          "roundMedian": 34,
           "roundP90": 60,
           "roundP95": 60,
-          "limit60": 24,
-          "meanEnergySpent": 40.091
+          "limit60": 26,
+          "meanEnergySpent": 37.255
         },
         "resource": {
           "samples": 55,
-          "winRate": 0.67273,
-          "lossRate": 0.25455,
+          "winRate": 0.58182,
+          "lossRate": 0.34545,
           "drawRate": 0.07273,
           "win95CI": [
-            0.54103,
-            0.78187
+            0.45033,
+            0.70262
           ],
           "draw95CI": [
             0.02864,
             0.1726
           ],
           "roundMedian": 27,
-          "roundP90": 52,
+          "roundP90": 37,
           "roundP95": 60,
           "limit60": 4,
-          "meanEnergySpent": 25.618
+          "meanEnergySpent": 27.345
         },
         "history": {
           "samples": 55,
-          "winRate": 0.81818,
-          "lossRate": 0.16364,
-          "drawRate": 0.01818,
-          "win95CI": [
-            0.69669,
-            0.89812
-          ],
-          "draw95CI": [
-            0.00322,
-            0.09606
-          ],
-          "roundMedian": 25,
-          "roundP90": 35,
-          "roundP95": 39,
-          "limit60": 1,
-          "meanEnergySpent": 22.655
-        },
-        "mixed": {
-          "samples": 55,
           "winRate": 0.70909,
-          "lossRate": 0.27273,
-          "drawRate": 0.01818,
+          "lossRate": 0.29091,
+          "drawRate": 0.0,
           "win95CI": [
             0.57859,
             0.81229
           ],
           "draw95CI": [
-            0.00322,
-            0.09606
+            0,
+            0.06529
           ],
           "roundMedian": 25,
-          "roundP90": 35,
+          "roundP90": 37,
           "roundP95": 41,
-          "limit60": 1,
-          "meanEnergySpent": 25.309
+          "limit60": 0,
+          "meanEnergySpent": 26.764
+        },
+        "mixed": {
+          "samples": 55,
+          "winRate": 0.76364,
+          "lossRate": 0.23636,
+          "drawRate": 0.0,
+          "win95CI": [
+            0.63651,
+            0.85633
+          ],
+          "draw95CI": [
+            0,
+            0.06529
+          ],
+          "roundMedian": 25,
+          "roundP90": 37,
+          "roundP95": 40,
+          "limit60": 0,
+          "meanEnergySpent": 25.109
         },
         "always_guard": {
           "samples": 55,
           "winRate": 0.0,
-          "lossRate": 0.43636,
-          "drawRate": 0.56364,
+          "lossRate": 0.49091,
+          "drawRate": 0.50909,
           "win95CI": [
             0,
             0.06529
           ],
           "draw95CI": [
-            0.4327,
-            0.68627
+            0.38076,
+            0.63623
           ],
           "roundMedian": 60,
           "roundP90": 60,
           "roundP95": 60,
-          "limit60": 31,
-          "meanEnergySpent": 18.236
+          "limit60": 28,
+          "meanEnergySpent": 18.127
         },
         "always_charge": {
           "samples": 55,
           "winRate": 0.0,
-          "lossRate": 0.54545,
-          "drawRate": 0.45455,
+          "lossRate": 0.52727,
+          "drawRate": 0.47273,
           "win95CI": [
             0,
             0.06529
           ],
           "draw95CI": [
-            0.33025,
-            0.58478
+            0.34693,
+            0.60209
           ],
-          "roundMedian": 51,
+          "roundMedian": 39,
           "roundP90": 60,
           "roundP95": 60,
-          "limit60": 25,
-          "meanEnergySpent": 12.509
+          "limit60": 26,
+          "meanEnergySpent": 12.291
         },
         "quick_guard": {
           "samples": 55,
           "winRate": 0.0,
-          "lossRate": 0.47273,
-          "drawRate": 0.52727,
+          "lossRate": 0.41818,
+          "drawRate": 0.58182,
           "win95CI": [
             0,
             0.06529
           ],
           "draw95CI": [
-            0.39791,
-            0.65307
+            0.45033,
+            0.70262
           ],
           "roundMedian": 60,
           "roundP90": 60,
           "roundP95": 60,
-          "limit60": 29,
-          "meanEnergySpent": 15.945
+          "limit60": 32,
+          "meanEnergySpent": 17.2
         }
       }
     }
@@ -764,183 +764,183 @@
   "summaries": {
     "advanced5": {
       "samples": 9680,
-      "winRate": 0.35744,
-      "lossRate": 0.35744,
-      "drawRate": 0.28512,
+      "winRate": 0.35816,
+      "lossRate": 0.35816,
+      "drawRate": 0.28368,
       "win95CI": [
-        0.34795,
-        0.36704
+        0.34867,
+        0.36777
       ],
       "draw95CI": [
-        0.27622,
-        0.2942
+        0.27478,
+        0.29274
       ],
-      "roundMedian": 28.0,
+      "roundMedian": 29.0,
       "roundP90": 60,
       "roundP95": 60,
-      "limit60": 2760,
-      "meanEnergySpent": 24.931
+      "limit60": 2746,
+      "meanEnergySpent": 26.454
     },
     "basic1": {
       "samples": 9680,
-      "winRate": 0.32965,
-      "lossRate": 0.32965,
-      "drawRate": 0.3407,
+      "winRate": 0.32986,
+      "lossRate": 0.32986,
+      "drawRate": 0.34029,
       "win95CI": [
-        0.32035,
-        0.33908
+        0.32056,
+        0.33929
       ],
       "draw95CI": [
-        0.33133,
-        0.35021
+        0.33092,
+        0.34979
       ],
-      "roundMedian": 8.0,
+      "roundMedian": 7.0,
       "roundP90": 60,
       "roundP95": 60,
-      "limit60": 3298,
-      "meanEnergySpent": 5.366
+      "limit60": 3294,
+      "meanEnergySpent": 5.882
     },
     "basic3": {
       "samples": 9680,
-      "winRate": 0.31364,
-      "lossRate": 0.31364,
-      "drawRate": 0.37273,
+      "winRate": 0.31446,
+      "lossRate": 0.31446,
+      "drawRate": 0.37107,
       "win95CI": [
-        0.30447,
-        0.32295
+        0.30529,
+        0.32378
       ],
       "draw95CI": [
-        0.36315,
-        0.38241
+        0.3615,
+        0.38075
       ],
-      "roundMedian": 26.0,
+      "roundMedian": 27.0,
       "roundP90": 60,
       "roundP95": 60,
-      "limit60": 3608,
-      "meanEnergySpent": 9.155
+      "limit60": 3592,
+      "meanEnergySpent": 10.122
     },
     "story1": {
       "samples": 440,
-      "winRate": 0.23182,
-      "lossRate": 0.56136,
-      "drawRate": 0.20682,
+      "winRate": 0.24318,
+      "lossRate": 0.56364,
+      "drawRate": 0.19318,
       "win95CI": [
-        0.19481,
-        0.27347
+        0.20543,
+        0.28538
       ],
       "draw95CI": [
-        0.17159,
-        0.24712
+        0.15901,
+        0.23266
       ],
-      "roundMedian": 20.0,
+      "roundMedian": 19.0,
       "roundP90": 60,
       "roundP95": 60,
-      "limit60": 91,
-      "meanEnergySpent": 11.22
+      "limit60": 85,
+      "meanEnergySpent": 11.195
     },
     "story1-swap": {
       "samples": 440,
-      "winRate": 0.56136,
-      "lossRate": 0.23182,
-      "drawRate": 0.20682,
+      "winRate": 0.56364,
+      "lossRate": 0.24318,
+      "drawRate": 0.19318,
       "win95CI": [
-        0.51466,
-        0.607
+        0.51694,
+        0.60923
       ],
       "draw95CI": [
-        0.17159,
-        0.24712
+        0.15901,
+        0.23266
       ],
-      "roundMedian": 20.0,
+      "roundMedian": 19.0,
       "roundP90": 60,
       "roundP95": 60,
-      "limit60": 91,
-      "meanEnergySpent": 11.22
+      "limit60": 85,
+      "meanEnergySpent": 11.195
     },
     "story2": {
       "samples": 440,
-      "winRate": 0.21136,
-      "lossRate": 0.61136,
-      "drawRate": 0.17727,
+      "winRate": 0.17955,
+      "lossRate": 0.65227,
+      "drawRate": 0.16818,
       "win95CI": [
-        0.1758,
-        0.25193
+        0.1465,
+        0.21813
       ],
       "draw95CI": [
-        0.14443,
-        0.21571
+        0.13614,
+        0.20597
       ],
       "roundMedian": 15.0,
       "roundP90": 60,
       "roundP95": 60,
-      "limit60": 78,
-      "meanEnergySpent": 11.98
+      "limit60": 74,
+      "meanEnergySpent": 12.116
     },
     "story2-swap": {
       "samples": 440,
-      "winRate": 0.61136,
-      "lossRate": 0.21136,
-      "drawRate": 0.17727,
+      "winRate": 0.65227,
+      "lossRate": 0.17955,
+      "drawRate": 0.16818,
       "win95CI": [
-        0.56504,
-        0.65576
+        0.60663,
+        0.69528
       ],
       "draw95CI": [
-        0.14443,
-        0.21571
+        0.13614,
+        0.20597
       ],
       "roundMedian": 15.0,
       "roundP90": 60,
       "roundP95": 60,
-      "limit60": 78,
-      "meanEnergySpent": 11.98
+      "limit60": 74,
+      "meanEnergySpent": 12.116
     },
     "story3": {
       "samples": 440,
-      "winRate": 0.14318,
-      "lossRate": 0.85682,
+      "winRate": 0.12727,
+      "lossRate": 0.87273,
       "drawRate": 0.0,
       "win95CI": [
-        0.11354,
-        0.179
+        0.09933,
+        0.16167
       ],
       "draw95CI": [
         0,
         0.00866
       ],
-      "roundMedian": 11.0,
-      "roundP90": 20,
+      "roundMedian": 10.0,
+      "roundP90": 18,
       "roundP95": 24,
       "limit60": 0,
-      "meanEnergySpent": 9.486
+      "meanEnergySpent": 9.4
     },
     "story3-swap": {
       "samples": 440,
-      "winRate": 0.85682,
-      "lossRate": 0.14318,
+      "winRate": 0.87273,
+      "lossRate": 0.12727,
       "drawRate": 0.0,
       "win95CI": [
-        0.821,
-        0.88646
+        0.83833,
+        0.90067
       ],
       "draw95CI": [
         0,
         0.00866
       ],
-      "roundMedian": 11.0,
-      "roundP90": 20,
+      "roundMedian": 10.0,
+      "roundP90": 18,
       "roundP95": 24,
       "limit60": 0,
-      "meanEnergySpent": 9.486
+      "meanEnergySpent": 9.4
     },
     "story4": {
       "samples": 440,
-      "winRate": 0.33409,
-      "lossRate": 0.66591,
+      "winRate": 0.32727,
+      "lossRate": 0.67273,
       "drawRate": 0.0,
       "win95CI": [
-        0.29162,
-        0.37943
+        0.28509,
+        0.37245
       ],
       "draw95CI": [
         0,
@@ -948,189 +948,189 @@
       ],
       "roundMedian": 11.0,
       "roundP90": 22,
-      "roundP95": 26,
+      "roundP95": 25,
       "limit60": 0,
-      "meanEnergySpent": 10.609
+      "meanEnergySpent": 10.823
     },
     "story4-swap": {
       "samples": 440,
-      "winRate": 0.66591,
-      "lossRate": 0.33409,
-      "drawRate": 0.0,
-      "win95CI": [
-        0.62057,
-        0.70838
-      ],
-      "draw95CI": [
-        0,
-        0.00866
-      ],
-      "roundMedian": 11.0,
-      "roundP90": 22,
-      "roundP95": 26,
-      "limit60": 0,
-      "meanEnergySpent": 10.609
-    },
-    "story5": {
-      "samples": 440,
-      "winRate": 0.31818,
-      "lossRate": 0.67273,
-      "drawRate": 0.00909,
-      "win95CI": [
-        0.27639,
-        0.36312
-      ],
-      "draw95CI": [
-        0.00354,
-        0.02314
-      ],
-      "roundMedian": 13.0,
-      "roundP90": 26,
-      "roundP95": 32,
-      "limit60": 4,
-      "meanEnergySpent": 12.625
-    },
-    "story5-swap": {
-      "samples": 440,
       "winRate": 0.67273,
-      "lossRate": 0.31818,
-      "drawRate": 0.00909,
+      "lossRate": 0.32727,
+      "drawRate": 0.0,
       "win95CI": [
         0.62755,
         0.71491
       ],
       "draw95CI": [
-        0.00354,
-        0.02314
+        0,
+        0.00866
+      ],
+      "roundMedian": 11.0,
+      "roundP90": 22,
+      "roundP95": 25,
+      "limit60": 0,
+      "meanEnergySpent": 10.823
+    },
+    "story5": {
+      "samples": 440,
+      "winRate": 0.29091,
+      "lossRate": 0.70682,
+      "drawRate": 0.00227,
+      "win95CI": [
+        0.25043,
+        0.33501
+      ],
+      "draw95CI": [
+        0.0004,
+        0.01276
       ],
       "roundMedian": 13.0,
       "roundP90": 26,
-      "roundP95": 32,
-      "limit60": 4,
-      "meanEnergySpent": 12.625
+      "roundP95": 31,
+      "limit60": 1,
+      "meanEnergySpent": 13.555
+    },
+    "story5-swap": {
+      "samples": 440,
+      "winRate": 0.70682,
+      "lossRate": 0.29091,
+      "drawRate": 0.00227,
+      "win95CI": [
+        0.66264,
+        0.74742
+      ],
+      "draw95CI": [
+        0.0004,
+        0.01276
+      ],
+      "roundMedian": 13.0,
+      "roundP90": 26,
+      "roundP95": 31,
+      "limit60": 1,
+      "meanEnergySpent": 13.555
     },
     "story6": {
       "samples": 440,
-      "winRate": 0.25682,
-      "lossRate": 0.73182,
-      "drawRate": 0.01136,
+      "winRate": 0.28636,
+      "lossRate": 0.71364,
+      "drawRate": 0.0,
       "win95CI": [
-        0.21822,
-        0.29962
+        0.24611,
+        0.33031
       ],
       "draw95CI": [
-        0.00486,
-        0.02632
+        0,
+        0.00866
       ],
-      "roundMedian": 13.0,
-      "roundP90": 26,
-      "roundP95": 34,
-      "limit60": 5,
-      "meanEnergySpent": 13.345
+      "roundMedian": 12.5,
+      "roundP90": 27,
+      "roundP95": 32,
+      "limit60": 0,
+      "meanEnergySpent": 13.843
     },
     "story6-swap": {
       "samples": 440,
-      "winRate": 0.73182,
-      "lossRate": 0.25682,
-      "drawRate": 0.01136,
-      "win95CI": [
-        0.68855,
-        0.77108
-      ],
-      "draw95CI": [
-        0.00486,
-        0.02632
-      ],
-      "roundMedian": 13.0,
-      "roundP90": 26,
-      "roundP95": 34,
-      "limit60": 5,
-      "meanEnergySpent": 13.345
-    },
-    "story7": {
-      "samples": 440,
-      "winRate": 0.33409,
-      "lossRate": 0.65909,
-      "drawRate": 0.00682,
-      "win95CI": [
-        0.29162,
-        0.37943
-      ],
-      "draw95CI": [
-        0.00232,
-        0.01985
-      ],
-      "roundMedian": 13.0,
-      "roundP90": 30,
-      "roundP95": 38,
-      "limit60": 3,
-      "meanEnergySpent": 14.486
-    },
-    "story7-swap": {
-      "samples": 440,
-      "winRate": 0.65909,
-      "lossRate": 0.33409,
-      "drawRate": 0.00682,
-      "win95CI": [
-        0.61359,
-        0.70183
-      ],
-      "draw95CI": [
-        0.00232,
-        0.01985
-      ],
-      "roundMedian": 13.0,
-      "roundP90": 30,
-      "roundP95": 38,
-      "limit60": 3,
-      "meanEnergySpent": 14.486
-    },
-    "story8": {
-      "samples": 440,
-      "winRate": 0.27955,
-      "lossRate": 0.71364,
-      "drawRate": 0.00682,
-      "win95CI": [
-        0.23966,
-        0.32325
-      ],
-      "draw95CI": [
-        0.00232,
-        0.01985
-      ],
-      "roundMedian": 13.0,
-      "roundP90": 31,
-      "roundP95": 39,
-      "limit60": 3,
-      "meanEnergySpent": 14.964
-    },
-    "story8-swap": {
-      "samples": 440,
       "winRate": 0.71364,
-      "lossRate": 0.27955,
-      "drawRate": 0.00682,
+      "lossRate": 0.28636,
+      "drawRate": 0.0,
       "win95CI": [
         0.66969,
         0.75389
       ],
       "draw95CI": [
-        0.00232,
-        0.01985
+        0,
+        0.00866
+      ],
+      "roundMedian": 12.5,
+      "roundP90": 27,
+      "roundP95": 32,
+      "limit60": 0,
+      "meanEnergySpent": 13.843
+    },
+    "story7": {
+      "samples": 440,
+      "winRate": 0.29545,
+      "lossRate": 0.70227,
+      "drawRate": 0.00227,
+      "win95CI": [
+        0.25474,
+        0.33971
+      ],
+      "draw95CI": [
+        0.0004,
+        0.01276
       ],
       "roundMedian": 13.0,
-      "roundP90": 31,
+      "roundP90": 29,
+      "roundP95": 35,
+      "limit60": 1,
+      "meanEnergySpent": 15.064
+    },
+    "story7-swap": {
+      "samples": 440,
+      "winRate": 0.70227,
+      "lossRate": 0.29545,
+      "drawRate": 0.00227,
+      "win95CI": [
+        0.65795,
+        0.7431
+      ],
+      "draw95CI": [
+        0.0004,
+        0.01276
+      ],
+      "roundMedian": 13.0,
+      "roundP90": 29,
+      "roundP95": 35,
+      "limit60": 1,
+      "meanEnergySpent": 15.064
+    },
+    "story8": {
+      "samples": 440,
+      "winRate": 0.26818,
+      "lossRate": 0.72955,
+      "drawRate": 0.00227,
+      "win95CI": [
+        0.22892,
+        0.31145
+      ],
+      "draw95CI": [
+        0.0004,
+        0.01276
+      ],
+      "roundMedian": 13.0,
+      "roundP90": 32,
       "roundP95": 39,
-      "limit60": 3,
-      "meanEnergySpent": 14.964
+      "limit60": 1,
+      "meanEnergySpent": 15.891
+    },
+    "story8-swap": {
+      "samples": 440,
+      "winRate": 0.72955,
+      "lossRate": 0.26818,
+      "drawRate": 0.00227,
+      "win95CI": [
+        0.68619,
+        0.76893
+      ],
+      "draw95CI": [
+        0.0004,
+        0.01276
+      ],
+      "roundMedian": 13.0,
+      "roundP90": 32,
+      "roundP95": 39,
+      "limit60": 1,
+      "meanEnergySpent": 15.891
     },
     "stress-hp1": {
       "samples": 540,
-      "winRate": 0.64259,
-      "lossRate": 0.35741,
+      "winRate": 0.62963,
+      "lossRate": 0.37037,
       "drawRate": 0.0,
       "win95CI": [
-        0.60129,
-        0.68188
+        0.58812,
+        0.66931
       ],
       "draw95CI": [
         0.0,
@@ -1138,177 +1138,139 @@
       ],
       "roundMedian": 1.0,
       "roundP90": 5,
-      "roundP95": 8,
+      "roundP95": 7,
       "limit60": 0,
-      "meanEnergySpent": 5.146
+      "meanEnergySpent": 5.148
     },
     "stress-hp3": {
       "samples": 540,
-      "winRate": 0.65741,
-      "lossRate": 0.34259,
-      "drawRate": 0.0,
+      "winRate": 0.66111,
+      "lossRate": 0.32593,
+      "drawRate": 0.01296,
       "win95CI": [
-        0.61639,
-        0.6962
+        0.62017,
+        0.69977
       ],
       "draw95CI": [
-        0.0,
-        0.00706
+        0.00629,
+        0.02651
       ],
       "roundMedian": 3.0,
       "roundP90": 18,
-      "roundP95": 25,
-      "limit60": 0,
-      "meanEnergySpent": 9.756
+      "roundP95": 27,
+      "limit60": 7,
+      "meanEnergySpent": 10.7
     },
     "stress-hp5": {
       "samples": 540,
-      "winRate": 0.66667,
-      "lossRate": 0.32778,
-      "drawRate": 0.00556,
+      "winRate": 0.67037,
+      "lossRate": 0.31296,
+      "drawRate": 0.01667,
       "win95CI": [
-        0.62585,
-        0.70513
+        0.62964,
+        0.70869
       ],
       "draw95CI": [
-        0.00189,
-        0.01621
+        0.00879,
+        0.03137
       ],
-      "roundMedian": 14.5,
-      "roundP90": 30,
-      "roundP95": 37,
-      "limit60": 3,
-      "meanEnergySpent": 20.456
+      "roundMedian": 14.0,
+      "roundP90": 34,
+      "roundP95": 44,
+      "limit60": 9,
+      "meanEnergySpent": 21.696
     }
   },
   "opportunity": {
     "charge": {
-      "selected": 585670,
-      "available": 1948366,
-      "rate": 0.3006,
+      "selected": 592267,
+      "available": 1931089,
+      "rate": 0.3067,
       "energySpent": 0
     },
     "quick": {
-      "selected": 146959,
-      "available": 649996,
-      "rate": 0.22609,
+      "selected": 155313,
+      "available": 637487,
+      "rate": 0.24363,
       "energySpent": 0
     },
     "wave1": {
-      "selected": 220927,
-      "available": 1193014,
-      "rate": 0.18518,
-      "energySpent": 220927
+      "selected": 237442,
+      "available": 1238910,
+      "rate": 0.19165,
+      "energySpent": 237442
     },
     "wave2": {
-      "selected": 20151,
-      "available": 230891,
-      "rate": 0.08727,
-      "energySpent": 60453
+      "selected": 20122,
+      "available": 231758,
+      "rate": 0.08682,
+      "energySpent": 60366
     },
     "wave3": {
-      "selected": 3605,
-      "available": 147015,
-      "rate": 0.02452,
-      "energySpent": 18025
+      "selected": 3541,
+      "available": 147889,
+      "rate": 0.02394,
+      "energySpent": 17705
     },
     "guard1": {
-      "selected": 966404,
-      "available": 2091102,
-      "rate": 0.46215,
+      "selected": 913053,
+      "available": 2082014,
+      "rate": 0.43854,
       "energySpent": 0
     },
     "guard2": {
-      "selected": 46669,
-      "available": 522340,
-      "rate": 0.08935,
-      "energySpent": 46669
+      "selected": 52775,
+      "available": 543408,
+      "rate": 0.09712,
+      "energySpent": 52775
     },
     "guard3": {
-      "selected": 19252,
-      "available": 329220,
-      "rate": 0.05848,
-      "energySpent": 38504
+      "selected": 21304,
+      "available": 338578,
+      "rate": 0.06292,
+      "energySpent": 42608
     },
     "reflect1": {
-      "selected": 59655,
-      "available": 561152,
-      "rate": 0.10631,
-      "energySpent": 59655
+      "selected": 62362,
+      "available": 582058,
+      "rate": 0.10714,
+      "energySpent": 62362
     },
     "reflect2": {
-      "selected": 21810,
-      "available": 349950,
-      "rate": 0.06232,
-      "energySpent": 43620
+      "selected": 23835,
+      "available": 359434,
+      "rate": 0.06631,
+      "energySpent": 47670
     }
   },
   "thresholds": {
     "first3_0": {
-      "observed": 7863,
-      "median": 6
-    },
-    "first5_0": {
-      "observed": 3266,
+      "observed": 8004,
       "median": 6.0
     },
+    "first5_0": {
+      "observed": 3229,
+      "median": 6
+    },
     "actualWave2_0": {
-      "observed": 3811,
-      "median": 12
+      "observed": 3688,
+      "median": 12.0
     },
     "actualWave3_0": {
-      "observed": 1009,
-      "median": 13
+      "observed": 995,
+      "median": 14
     }
   },
   "byStrategy": {
     "basic1": {
       "random": {
         "samples": 880,
-        "winRate": 0.48182,
-        "lossRate": 0.33636,
+        "winRate": 0.46818,
+        "lossRate": 0.35,
         "drawRate": 0.18182,
         "win95CI": [
-          0.44895,
-          0.51484
-        ],
-        "draw95CI": [
-          0.15774,
-          0.20867
-        ],
-        "roundMedian": 6.0,
-        "roundP90": 60,
-        "roundP95": 60,
-        "limit60": 160,
-        "meanEnergySpent": 4.963
-      },
-      "bank": {
-        "samples": 880,
-        "winRate": 0.22955,
-        "lossRate": 0.58636,
-        "drawRate": 0.18409,
-        "win95CI": [
-          0.20297,
-          0.25847
-        ],
-        "draw95CI": [
-          0.15988,
-          0.21105
-        ],
-        "roundMedian": 5.0,
-        "roundP90": 60,
-        "roundP95": 60,
-        "limit60": 162,
-        "meanEnergySpent": 2.026
-      },
-      "attack": {
-        "samples": 880,
-        "winRate": 0.59886,
-        "lossRate": 0.21932,
-        "drawRate": 0.18182,
-        "win95CI": [
-          0.56612,
-          0.63075
+          0.43542,
+          0.50122
         ],
         "draw95CI": [
           0.15774,
@@ -1318,102 +1280,140 @@
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 160,
-        "meanEnergySpent": 6.91
+        "meanEnergySpent": 5.528
+      },
+      "bank": {
+        "samples": 880,
+        "winRate": 0.19886,
+        "lossRate": 0.61705,
+        "drawRate": 0.18409,
+        "win95CI": [
+          0.17383,
+          0.22652
+        ],
+        "draw95CI": [
+          0.15988,
+          0.21105
+        ],
+        "roundMedian": 4.0,
+        "roundP90": 60,
+        "roundP95": 60,
+        "limit60": 162,
+        "meanEnergySpent": 1.915
+      },
+      "attack": {
+        "samples": 880,
+        "winRate": 0.5,
+        "lossRate": 0.31818,
+        "drawRate": 0.18182,
+        "win95CI": [
+          0.46704,
+          0.53296
+        ],
+        "draw95CI": [
+          0.15774,
+          0.20867
+        ],
+        "roundMedian": 3.0,
+        "roundP90": 60,
+        "roundP95": 60,
+        "limit60": 160,
+        "meanEnergySpent": 7.153
       },
       "defense": {
         "samples": 880,
-        "winRate": 0.29659,
-        "lossRate": 0.50795,
-        "drawRate": 0.19545,
+        "winRate": 0.36364,
+        "lossRate": 0.44318,
+        "drawRate": 0.19318,
         "win95CI": [
-          0.26735,
-          0.3276
+          0.33251,
+          0.39595
         ],
         "draw95CI": [
-          0.1706,
-          0.22296
+          0.16845,
+          0.22058
         ],
-        "roundMedian": 13.0,
+        "roundMedian": 12.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 172,
-        "meanEnergySpent": 3.391
+        "limit60": 170,
+        "meanEnergySpent": 3.647
       },
       "reflect": {
         "samples": 880,
-        "winRate": 0.35341,
-        "lossRate": 0.46364,
-        "drawRate": 0.18295,
+        "winRate": 0.31818,
+        "lossRate": 0.5,
+        "drawRate": 0.18182,
         "win95CI": [
-          0.32252,
-          0.38557
+          0.28825,
+          0.34969
         ],
         "draw95CI": [
-          0.15881,
-          0.20986
+          0.15774,
+          0.20867
         ],
-        "roundMedian": 5.0,
+        "roundMedian": 4.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 161,
-        "meanEnergySpent": 3.507
+        "limit60": 160,
+        "meanEnergySpent": 3.714
       },
       "resource": {
         "samples": 880,
-        "winRate": 0.55909,
-        "lossRate": 0.25909,
+        "winRate": 0.5875,
+        "lossRate": 0.23068,
         "drawRate": 0.18182,
         "win95CI": [
-          0.5261,
-          0.59157
+          0.55466,
+          0.61958
         ],
         "draw95CI": [
           0.15774,
           0.20867
         ],
-        "roundMedian": 5.0,
+        "roundMedian": 4.0,
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 160,
-        "meanEnergySpent": 5.893
+        "meanEnergySpent": 7.276
       },
       "history": {
         "samples": 880,
-        "winRate": 0.55227,
-        "lossRate": 0.26591,
+        "winRate": 0.61818,
+        "lossRate": 0.2,
         "drawRate": 0.18182,
         "win95CI": [
-          0.51926,
-          0.58483
+          0.58563,
+          0.6497
         ],
         "draw95CI": [
           0.15774,
           0.20867
         ],
-        "roundMedian": 5.0,
+        "roundMedian": 4.0,
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 160,
-        "meanEnergySpent": 5.001
+        "meanEnergySpent": 5.664
       },
       "mixed": {
         "samples": 880,
-        "winRate": 0.55455,
-        "lossRate": 0.2625,
-        "drawRate": 0.18295,
+        "winRate": 0.57386,
+        "lossRate": 0.24432,
+        "drawRate": 0.18182,
         "win95CI": [
-          0.52154,
-          0.58708
+          0.54094,
+          0.60615
         ],
         "draw95CI": [
-          0.15881,
-          0.20986
+          0.15774,
+          0.20867
         ],
-        "roundMedian": 5.0,
+        "roundMedian": 4.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 161,
-        "meanEnergySpent": 5.089
+        "limit60": 160,
+        "meanEnergySpent": 5.522
       },
       "always_guard": {
         "samples": 880,
@@ -1432,7 +1432,7 @@
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 880,
-        "meanEnergySpent": 10.759
+        "meanEnergySpent": 11.781
       },
       "always_charge": {
         "samples": 880,
@@ -1447,7 +1447,7 @@
           0.24652,
           0.30543
         ],
-        "roundMedian": 6.0,
+        "roundMedian": 4.0,
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 242,
@@ -1470,161 +1470,161 @@
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 880,
-        "meanEnergySpent": 10.759
+        "meanEnergySpent": 11.781
       }
     },
     "basic3": {
       "random": {
         "samples": 880,
-        "winRate": 0.49318,
+        "winRate": 0.49432,
         "lossRate": 0.30795,
-        "drawRate": 0.19886,
+        "drawRate": 0.19773,
         "win95CI": [
-          0.46025,
-          0.52617
+          0.46138,
+          0.5273
         ],
         "draw95CI": [
-          0.17383,
-          0.22652
+          0.17275,
+          0.22533
         ],
-        "roundMedian": 20.0,
+        "roundMedian": 21.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 175,
-        "meanEnergySpent": 10.455
+        "limit60": 174,
+        "meanEnergySpent": 12.011
       },
       "bank": {
         "samples": 880,
-        "winRate": 0.13864,
-        "lossRate": 0.64432,
-        "drawRate": 0.21705,
+        "winRate": 0.13068,
+        "lossRate": 0.65568,
+        "drawRate": 0.21364,
         "win95CI": [
-          0.11737,
-          0.16304
+          0.11001,
+          0.15457
         ],
         "draw95CI": [
-          0.19107,
-          0.24548
+          0.18783,
+          0.24193
         ],
-        "roundMedian": 18.0,
+        "roundMedian": 17.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 191,
-        "meanEnergySpent": 4.627
+        "limit60": 188,
+        "meanEnergySpent": 4.615
       },
       "attack": {
         "samples": 880,
-        "winRate": 0.58636,
-        "lossRate": 0.22955,
-        "drawRate": 0.18409,
+        "winRate": 0.51023,
+        "lossRate": 0.30682,
+        "drawRate": 0.18295,
         "win95CI": [
-          0.55352,
-          0.61846
+          0.47723,
+          0.54314
         ],
         "draw95CI": [
-          0.15988,
-          0.21105
+          0.15881,
+          0.20986
         ],
         "roundMedian": 14.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 162,
-        "meanEnergySpent": 12.226
+        "limit60": 161,
+        "meanEnergySpent": 13.253
       },
       "defense": {
         "samples": 880,
-        "winRate": 0.19545,
-        "lossRate": 0.40682,
-        "drawRate": 0.39773,
+        "winRate": 0.24545,
+        "lossRate": 0.37386,
+        "drawRate": 0.38068,
         "win95CI": [
-          0.1706,
-          0.22296
+          0.21817,
+          0.27495
         ],
         "draw95CI": [
-          0.3659,
-          0.43044
+          0.34918,
+          0.41322
         ],
-        "roundMedian": 46.0,
+        "roundMedian": 48.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 350,
-        "meanEnergySpent": 9.202
+        "limit60": 335,
+        "meanEnergySpent": 10.466
       },
       "reflect": {
         "samples": 880,
-        "winRate": 0.31136,
-        "lossRate": 0.48182,
-        "drawRate": 0.20682,
+        "winRate": 0.275,
+        "lossRate": 0.51932,
+        "drawRate": 0.20568,
         "win95CI": [
-          0.28164,
-          0.34272
+          0.24652,
+          0.30543
         ],
         "draw95CI": [
-          0.18136,
-          0.23483
+          0.18028,
+          0.23364
         ],
         "roundMedian": 18.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 182,
-        "meanEnergySpent": 7.513
+        "limit60": 181,
+        "meanEnergySpent": 8.005
       },
       "resource": {
         "samples": 880,
-        "winRate": 0.58523,
-        "lossRate": 0.21591,
+        "winRate": 0.60682,
+        "lossRate": 0.19432,
         "drawRate": 0.19886,
         "win95CI": [
-          0.55237,
-          0.61734
+          0.57415,
+          0.63856
         ],
         "draw95CI": [
           0.17383,
           0.22652
         ],
-        "roundMedian": 20.0,
+        "roundMedian": 21.0,
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 175,
-        "meanEnergySpent": 11.741
+        "meanEnergySpent": 13.583
       },
       "history": {
         "samples": 880,
-        "winRate": 0.575,
-        "lossRate": 0.22614,
-        "drawRate": 0.19886,
+        "winRate": 0.6125,
+        "lossRate": 0.18636,
+        "drawRate": 0.20114,
         "win95CI": [
-          0.54208,
-          0.60727
+          0.57989,
+          0.64413
         ],
         "draw95CI": [
-          0.17383,
-          0.22652
+          0.17598,
+          0.22889
         ],
-        "roundMedian": 19.0,
+        "roundMedian": 20.5,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 175,
-        "meanEnergySpent": 10.652
+        "limit60": 177,
+        "meanEnergySpent": 12.443
       },
       "mixed": {
         "samples": 880,
-        "winRate": 0.56477,
-        "lossRate": 0.23977,
-        "drawRate": 0.19545,
+        "winRate": 0.58409,
+        "lossRate": 0.21477,
+        "drawRate": 0.20114,
         "win95CI": [
-          0.5318,
-          0.59718
+          0.55123,
+          0.61622
         ],
         "draw95CI": [
-          0.1706,
-          0.22296
+          0.17598,
+          0.22889
         ],
         "roundMedian": 20.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 172,
-        "meanEnergySpent": 11.025
+        "limit60": 177,
+        "meanEnergySpent": 12.088
       },
       "always_guard": {
         "samples": 880,
@@ -1643,25 +1643,25 @@
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 880,
-        "meanEnergySpent": 10.562
+        "meanEnergySpent": 11.367
       },
       "always_charge": {
         "samples": 880,
         "winRate": 0.0,
-        "lossRate": 0.69773,
-        "drawRate": 0.30227,
+        "lossRate": 0.7,
+        "drawRate": 0.3,
         "win95CI": [
           0,
           0.00435
         ],
         "draw95CI": [
-          0.27284,
-          0.33342
+          0.27064,
+          0.33109
         ],
-        "roundMedian": 17.0,
+        "roundMedian": 15.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 266,
+        "limit60": 264,
         "meanEnergySpent": 2.141
       },
       "quick_guard": {
@@ -1681,593 +1681,665 @@
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 880,
-        "meanEnergySpent": 10.562
+        "meanEnergySpent": 11.367
       }
     },
     "advanced5": {
       "random": {
         "samples": 880,
-        "winRate": 0.25568,
-        "lossRate": 0.43523,
-        "drawRate": 0.30909,
+        "winRate": 0.27386,
+        "lossRate": 0.43068,
+        "drawRate": 0.29545,
         "win95CI": [
-          0.22796,
-          0.28552
+          0.24543,
+          0.30426
         ],
         "draw95CI": [
-          0.27944,
-          0.3404
+          0.26625,
+          0.32644
         ],
         "roundMedian": 38.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 272,
-        "meanEnergySpent": 34.235
+        "limit60": 260,
+        "meanEnergySpent": 36.611
       },
       "bank": {
         "samples": 880,
-        "winRate": 0.77159,
-        "lossRate": 0.22841,
+        "winRate": 0.75909,
+        "lossRate": 0.24091,
         "drawRate": 0.0,
         "win95CI": [
-          0.74271,
-          0.79811
+          0.72975,
+          0.78618
         ],
         "draw95CI": [
           0,
           0.00435
         ],
-        "roundMedian": 19.0,
-        "roundP90": 28,
-        "roundP95": 31,
+        "roundMedian": 18.0,
+        "roundP90": 29,
+        "roundP95": 34,
         "limit60": 0,
-        "meanEnergySpent": 22.252
+        "meanEnergySpent": 23.132
       },
       "attack": {
         "samples": 880,
-        "winRate": 0.80682,
-        "lossRate": 0.17841,
-        "drawRate": 0.01477,
+        "winRate": 0.76364,
+        "lossRate": 0.21818,
+        "drawRate": 0.01818,
         "win95CI": [
-          0.77942,
-          0.83155
+          0.73446,
+          0.79052
         ],
         "draw95CI": [
-          0.00865,
-          0.02511
+          0.01122,
+          0.02933
         ],
-        "roundMedian": 18.0,
-        "roundP90": 32,
+        "roundMedian": 19.0,
+        "roundP90": 34,
         "roundP95": 43,
-        "limit60": 13,
-        "meanEnergySpent": 19.197
+        "limit60": 16,
+        "meanEnergySpent": 20.494
       },
       "defense": {
         "samples": 880,
-        "winRate": 0.01591,
-        "lossRate": 0.45568,
-        "drawRate": 0.52841,
+        "winRate": 0.00455,
+        "lossRate": 0.44432,
+        "drawRate": 0.55114,
         "win95CI": [
-          0.0095,
-          0.02653
+          0.00177,
+          0.01163
         ],
         "draw95CI": [
-          0.49537,
-          0.5612
+          0.51812,
+          0.58371
         ],
         "roundMedian": 60.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 465,
-        "meanEnergySpent": 33.275
+        "limit60": 485,
+        "meanEnergySpent": 38.575
       },
       "reflect": {
         "samples": 880,
-        "winRate": 0.06591,
-        "lossRate": 0.45227,
-        "drawRate": 0.48182,
-        "win95CI": [
-          0.05133,
-          0.08426
-        ],
-        "draw95CI": [
-          0.44895,
-          0.51484
-        ],
-        "roundMedian": 52.5,
-        "roundP90": 60,
-        "roundP95": 60,
-        "limit60": 424,
-        "meanEnergySpent": 40.151
-      },
-      "resource": {
-        "samples": 880,
-        "winRate": 0.62841,
-        "lossRate": 0.27045,
-        "drawRate": 0.10114,
-        "win95CI": [
-          0.59599,
-          0.65971
-        ],
-        "draw95CI": [
-          0.08292,
-          0.12282
-        ],
-        "roundMedian": 26.0,
-        "roundP90": 60,
-        "roundP95": 60,
-        "limit60": 89,
-        "meanEnergySpent": 26.723
-      },
-      "history": {
-        "samples": 880,
-        "winRate": 0.72727,
-        "lossRate": 0.25795,
-        "drawRate": 0.01477,
-        "win95CI": [
-          0.69691,
-          0.75566
-        ],
-        "draw95CI": [
-          0.00865,
-          0.02511
-        ],
-        "roundMedian": 22.5,
-        "roundP90": 41,
-        "roundP95": 47,
-        "limit60": 13,
-        "meanEnergySpent": 23.834
-      },
-      "mixed": {
-        "samples": 880,
-        "winRate": 0.66023,
-        "lossRate": 0.30227,
-        "drawRate": 0.0375,
-        "win95CI": [
-          0.6283,
-          0.69076
-        ],
-        "draw95CI": [
-          0.02682,
-          0.0522
-        ],
-        "roundMedian": 24.0,
-        "roundP90": 47,
-        "roundP95": 56,
-        "limit60": 33,
-        "meanEnergySpent": 25.73
-      },
-      "always_guard": {
-        "samples": 880,
-        "winRate": 0.0,
-        "lossRate": 0.42273,
-        "drawRate": 0.57727,
-        "win95CI": [
-          0,
-          0.00435
-        ],
-        "draw95CI": [
-          0.54437,
-          0.60951
-        ],
-        "roundMedian": 60.0,
-        "roundP90": 60,
-        "roundP95": 60,
-        "limit60": 508,
-        "meanEnergySpent": 18.258
-      },
-      "always_charge": {
-        "samples": 880,
-        "winRate": 0.0,
-        "lossRate": 0.53182,
+        "winRate": 0.06932,
+        "lossRate": 0.4625,
         "drawRate": 0.46818,
         "win95CI": [
-          0,
-          0.00435
+          0.05434,
+          0.08804
         ],
         "draw95CI": [
           0.43542,
           0.50122
         ],
-        "roundMedian": 43.5,
+        "roundMedian": 49.0,
         "roundP90": 60,
         "roundP95": 60,
         "limit60": 412,
-        "meanEnergySpent": 12.824
+        "meanEnergySpent": 40.78
       },
-      "quick_guard": {
+      "resource": {
+        "samples": 880,
+        "winRate": 0.65455,
+        "lossRate": 0.2625,
+        "drawRate": 0.08295,
+        "win95CI": [
+          0.62252,
+          0.68523
+        ],
+        "draw95CI": [
+          0.06649,
+          0.10304
+        ],
+        "roundMedian": 27.0,
+        "roundP90": 53,
+        "roundP95": 60,
+        "limit60": 73,
+        "meanEnergySpent": 28.262
+      },
+      "history": {
+        "samples": 880,
+        "winRate": 0.74205,
+        "lossRate": 0.24318,
+        "drawRate": 0.01477,
+        "win95CI": [
+          0.71213,
+          0.76986
+        ],
+        "draw95CI": [
+          0.00865,
+          0.02511
+        ],
+        "roundMedian": 22.0,
+        "roundP90": 41,
+        "roundP95": 48,
+        "limit60": 13,
+        "meanEnergySpent": 24.627
+      },
+      "mixed": {
+        "samples": 880,
+        "winRate": 0.67273,
+        "lossRate": 0.28523,
+        "drawRate": 0.04205,
+        "win95CI": [
+          0.64103,
+          0.70292
+        ],
+        "draw95CI": [
+          0.03066,
+          0.05742
+        ],
+        "roundMedian": 25.0,
+        "roundP90": 46,
+        "roundP95": 56,
+        "limit60": 37,
+        "meanEnergySpent": 27.382
+      },
+      "always_guard": {
         "samples": 880,
         "winRate": 0.0,
-        "lossRate": 0.39659,
-        "drawRate": 0.60341,
+        "lossRate": 0.42727,
+        "drawRate": 0.57273,
         "win95CI": [
           0,
           0.00435
         ],
         "draw95CI": [
-          0.57071,
-          0.63521
+          0.5398,
+          0.60503
         ],
         "roundMedian": 60.0,
         "roundP90": 60,
         "roundP95": 60,
-        "limit60": 531,
-        "meanEnergySpent": 17.758
+        "limit60": 504,
+        "meanEnergySpent": 19.87
+      },
+      "always_charge": {
+        "samples": 880,
+        "winRate": 0.0,
+        "lossRate": 0.53523,
+        "drawRate": 0.46477,
+        "win95CI": [
+          0,
+          0.00435
+        ],
+        "draw95CI": [
+          0.43204,
+          0.49781
+        ],
+        "roundMedian": 45.0,
+        "roundP90": 60,
+        "roundP95": 60,
+        "limit60": 409,
+        "meanEnergySpent": 13.109
+      },
+      "quick_guard": {
+        "samples": 880,
+        "winRate": 0.0,
+        "lossRate": 0.38977,
+        "drawRate": 0.61023,
+        "win95CI": [
+          0,
+          0.00435
+        ],
+        "draw95CI": [
+          0.57759,
+          0.6419
+        ],
+        "roundMedian": 60.0,
+        "roundP90": 60,
+        "roundP95": 60,
+        "limit60": 537,
+        "meanEnergySpent": 18.152
       }
     }
   },
   "metrics": {
-    "rounds": 1045551,
+    "rounds": 1041007,
     "available": {
-      "charge": 1948366,
-      "guard1": 2091102,
-      "wave1": 1193014,
-      "quick": 649996,
-      "guard2": 522340,
-      "reflect1": 561152,
-      "guard3": 329220,
-      "reflect2": 349950,
-      "wave2": 230891,
-      "wave3": 147015
+      "charge": 1931089,
+      "guard1": 2082014,
+      "wave1": 1238910,
+      "quick": 637487,
+      "guard2": 543408,
+      "guard3": 338578,
+      "reflect1": 582058,
+      "reflect2": 359434,
+      "wave2": 231758,
+      "wave3": 147889
     },
     "selected": {
-      "charge": 585670,
-      "guard1": 966404,
-      "wave1": 220927,
-      "guard2": 46669,
-      "quick": 146959,
-      "reflect1": 59655,
-      "reflect2": 21810,
-      "guard3": 19252,
-      "wave2": 20151,
-      "wave3": 3605
+      "charge": 592267,
+      "wave1": 237442,
+      "guard1": 913053,
+      "quick": 155313,
+      "guard2": 52775,
+      "reflect1": 62362,
+      "reflect2": 23835,
+      "wave2": 20122,
+      "guard3": 21304,
+      "wave3": 3541
     },
     "energySpent": {
       "charge": 0,
+      "wave1": 237442,
       "guard1": 0,
-      "wave1": 220927,
-      "guard2": 46669,
       "quick": 0,
-      "reflect1": 59655,
-      "reflect2": 43620,
-      "guard3": 38504,
-      "wave2": 60453,
-      "wave3": 18025
+      "guard2": 52775,
+      "reflect1": 62362,
+      "reflect2": 47670,
+      "wave2": 60366,
+      "guard3": 42608,
+      "wave3": 17705
     },
-    "blockedTurns": 142736,
-    "blockedWithRoom": 138630,
+    "blockedTurns": 150925,
+    "blockedWithRoom": 146897,
     "paidDefense": {
       "guard2": {
-        "attempts": 46669,
-        "blocks": 4490,
-        "preventedDamage": 5728,
-        "empty": 41916,
-        "broken": 263
+        "attempts": 52775,
+        "blocks": 5645,
+        "preventedDamage": 6932,
+        "empty": 46851,
+        "broken": 279
       },
       "guard3": {
-        "attempts": 19252,
-        "blocks": 1517,
-        "preventedDamage": 2143,
-        "empty": 17735,
+        "attempts": 21304,
+        "blocks": 1794,
+        "preventedDamage": 2338,
+        "empty": 19510,
         "broken": 0
       }
     },
-    "forcedDefense": 6249,
-    "zeroInterruptedSurvived": 6253,
-    "reflectAttempts": 81465,
-    "reflectSuccess": 6378,
+    "forcedDefense": 6035,
+    "zeroInterruptedSurvived": 6041,
+    "reflectAttempts": 86197,
+    "reflectSuccess": 7424,
     "attacks": {
       "wave1": {
-        "attempts": 220927,
-        "actualDamage": 60203,
-        "hit": 60203,
-        "cancel": 21262,
-        "blocked": 132152,
-        "reflected": 5900,
-        "partial": 1410
+        "attempts": 237442,
+        "actualDamage": 59934,
+        "hit": 59934,
+        "blocked": 142012,
+        "cancel": 27208,
+        "reflected": 6950,
+        "partial": 1338
       },
       "wave2": {
-        "attempts": 20151,
-        "actualDamage": 34002,
-        "blocked": 1654,
-        "hit": 6975,
-        "break": 9428,
-        "reflected": 478,
-        "partial": 1262,
-        "cancel": 354
+        "attempts": 20122,
+        "actualDamage": 34128,
+        "break": 9554,
+        "blocked": 1649,
+        "partial": 1215,
+        "hit": 6928,
+        "cancel": 302,
+        "reflected": 474
       },
       "wave3": {
-        "attempts": 3605,
-        "actualDamage": 10094,
-        "hit": 1470,
-        "break": 1730,
-        "partial": 280,
-        "blocked": 105,
-        "cancel": 20
+        "attempts": 3541,
+        "actualDamage": 10038,
+        "break": 1871,
+        "hit": 1342,
+        "blocked": 91,
+        "partial": 225,
+        "cancel": 12
       }
     },
     "quickStrata": {
-      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=0": {
-        "attempts": 33125,
-        "success": 28041,
-        "gain": 56082,
-        "lostGain": 10168
-      },
       "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=0": {
-        "attempts": 31858,
-        "success": 31858,
-        "gain": 63716,
+        "attempts": 38445,
+        "success": 38445,
+        "gain": 76890,
         "lostGain": 0
       },
       "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=1": {
-        "attempts": 17395,
-        "success": 14651,
-        "gain": 29302,
-        "lostGain": 5488
+        "attempts": 19633,
+        "success": 16630,
+        "gain": 33260,
+        "lostGain": 6006
       },
-      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=1": {
-        "attempts": 9531,
-        "success": 9531,
-        "gain": 19062,
+      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=0": {
+        "attempts": 31494,
+        "success": 26614,
+        "gain": 53228,
+        "lostGain": 9760
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=0": {
+        "attempts": 635,
+        "success": 635,
+        "gain": 1270,
         "lostGain": 0
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=4": {
-        "attempts": 2658,
-        "success": 2156,
-        "gain": 4312,
-        "lostGain": 1004
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=3": {
-        "attempts": 2316,
-        "success": 1970,
-        "gain": 3940,
-        "lostGain": 692
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=2": {
-        "attempts": 7981,
-        "success": 6850,
-        "gain": 13700,
-        "lostGain": 2262
       },
       "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=1": {
-        "attempts": 3844,
-        "success": 2640,
-        "gain": 5280,
-        "lostGain": 2408
-      },
-      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=0": {
-        "attempts": 7912,
-        "success": 5199,
-        "gain": 10398,
-        "lostGain": 5426
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=2": {
-        "attempts": 907,
-        "success": 907,
-        "gain": 1814,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=2": {
-        "attempts": 4465,
-        "success": 4465,
-        "gain": 8930,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=0": {
-        "attempts": 4756,
-        "success": 4756,
-        "gain": 9512,
-        "lostGain": 0
+        "attempts": 4327,
+        "success": 3149,
+        "gain": 6298,
+        "lostGain": 2356
       },
       "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=1": {
-        "attempts": 2103,
-        "success": 2103,
-        "gain": 4206,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=3": {
-        "attempts": 1201,
-        "success": 1201,
-        "gain": 2402,
+        "attempts": 1849,
+        "success": 1849,
+        "gain": 3698,
         "lostGain": 0
       },
       "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=2": {
-        "attempts": 1649,
-        "success": 1166,
-        "gain": 2332,
-        "lostGain": 966
+        "attempts": 1821,
+        "success": 1259,
+        "gain": 2518,
+        "lostGain": 1124
       },
-      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=4": {
-        "attempts": 1304,
-        "success": 1304,
-        "gain": 2608,
+      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=2": {
+        "attempts": 4542,
+        "success": 4542,
+        "gain": 9084,
         "lostGain": 0
       },
-      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=3": {
-        "attempts": 369,
-        "success": 369,
-        "gain": 738,
+      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=0": {
+        "attempts": 7745,
+        "success": 4808,
+        "gain": 9616,
+        "lostGain": 5874
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=1": {
+        "attempts": 8876,
+        "success": 8876,
+        "gain": 17752,
         "lostGain": 0
       },
-      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=4": {
-        "attempts": 617,
-        "success": 422,
-        "gain": 844,
-        "lostGain": 390
+      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=2": {
+        "attempts": 8378,
+        "success": 7126,
+        "gain": 14252,
+        "lostGain": 2504
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=0": {
+        "attempts": 5906,
+        "success": 5906,
+        "gain": 11812,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=1": {
+        "attempts": 199,
+        "success": 114,
+        "gain": 228,
+        "lostGain": 170
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=3": {
+        "attempts": 2268,
+        "success": 1935,
+        "gain": 3870,
+        "lostGain": 666
       },
       "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=4": {
-        "attempts": 264,
-        "success": 264,
-        "gain": 528,
+        "attempts": 307,
+        "success": 307,
+        "gain": 614,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=3": {
+        "attempts": 758,
+        "success": 507,
+        "gain": 1014,
+        "lostGain": 502
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=2": {
+        "attempts": 834,
+        "success": 834,
+        "gain": 1668,
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=3": {
+        "attempts": 1252,
+        "success": 1252,
+        "gain": 2504,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=4": {
+        "attempts": 2507,
+        "success": 2033,
+        "gain": 4066,
+        "lostGain": 948
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=0": {
+        "attempts": 300,
+        "success": 162,
+        "gain": 324,
+        "lostGain": 276
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=4": {
+        "attempts": 558,
+        "success": 307,
+        "gain": 614,
+        "lostGain": 502
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=5": {
+        "attempts": 298,
+        "success": 182,
+        "gain": 364,
+        "lostGain": 232
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=0": {
+        "attempts": 406,
+        "success": 406,
+        "gain": 812,
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=1": {
+        "attempts": 102,
+        "success": 102,
+        "gain": 204,
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=4": {
+        "attempts": 1355,
+        "success": 1355,
+        "gain": 2710,
         "lostGain": 0
       },
       "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=5": {
-        "attempts": 528,
-        "success": 460,
-        "gain": 920,
-        "lostGain": 136
+        "attempts": 507,
+        "success": 441,
+        "gain": 882,
+        "lostGain": 132
       },
       "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=5": {
-        "attempts": 344,
-        "success": 344,
-        "gain": 688,
-        "lostGain": 0
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=6": {
-        "attempts": 1656,
-        "success": 1364,
-        "gain": 2728,
-        "lostGain": 584
-      },
-      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=3": {
-        "attempts": 720,
-        "success": 492,
-        "gain": 984,
-        "lostGain": 456
-      },
-      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=2": {
-        "attempts": 67,
-        "success": 39,
-        "gain": 78,
-        "lostGain": 56
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=5": {
-        "attempts": 143,
-        "success": 143,
-        "gain": 286,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=8": {
-        "attempts": 1418,
-        "success": 1418,
-        "gain": 1418,
-        "lostGain": 0
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=7": {
-        "attempts": 218,
-        "success": 190,
-        "gain": 380,
-        "lostGain": 56
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=0": {
-        "attempts": 312,
-        "success": 312,
-        "gain": 624,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=1": {
-        "attempts": 138,
-        "success": 138,
-        "gain": 276,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=0": {
-        "attempts": 529,
-        "success": 529,
-        "gain": 1058,
-        "lostGain": 0
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=0": {
-        "attempts": 350,
-        "success": 172,
-        "gain": 344,
-        "lostGain": 356
-      },
-      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=0": {
-        "attempts": 465,
-        "success": 236,
-        "gain": 472,
-        "lostGain": 458
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=1": {
-        "attempts": 126,
-        "success": 72,
-        "gain": 144,
-        "lostGain": 108
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=2": {
-        "attempts": 54,
-        "success": 32,
-        "gain": 64,
-        "lostGain": 44
-      },
-      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=1": {
-        "attempts": 140,
-        "success": 98,
-        "gain": 196,
-        "lostGain": 84
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=8": {
-        "attempts": 1542,
-        "success": 1294,
-        "gain": 1294,
-        "lostGain": 248
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=6": {
-        "attempts": 840,
-        "success": 840,
-        "gain": 1680,
+        "attempts": 414,
+        "success": 414,
+        "gain": 828,
         "lostGain": 0
       },
       "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=6": {
-        "attempts": 612,
-        "success": 376,
-        "gain": 752,
-        "lostGain": 472
+        "attempts": 454,
+        "success": 334,
+        "gain": 668,
+        "lostGain": 240
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=6": {
+        "attempts": 876,
+        "success": 876,
+        "gain": 1752,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=7": {
+        "attempts": 232,
+        "success": 212,
+        "gain": 424,
+        "lostGain": 40
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=7": {
+        "attempts": 212,
+        "success": 154,
+        "gain": 308,
+        "lostGain": 116
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=5": {
+        "attempts": 109,
+        "success": 109,
+        "gain": 218,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=2": {
+        "attempts": 70,
+        "success": 40,
+        "gain": 80,
+        "lostGain": 60
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=1": {
+        "attempts": 160,
+        "success": 160,
+        "gain": 320,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=0": {
+        "attempts": 418,
+        "success": 223,
+        "gain": 446,
+        "lostGain": 390
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=1": {
+        "attempts": 225,
+        "success": 119,
+        "gain": 238,
+        "lostGain": 212
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=3": {
+        "attempts": 303,
+        "success": 303,
+        "gain": 606,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=2": {
+        "attempts": 86,
+        "success": 58,
+        "gain": 116,
+        "lostGain": 56
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=3": {
+        "attempts": 14,
+        "success": 14,
+        "gain": 28,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=6": {
+        "attempts": 1718,
+        "success": 1440,
+        "gain": 2880,
+        "lostGain": 556
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=False/startEnergy=8": {
+        "attempts": 1512,
+        "success": 1276,
+        "gain": 1276,
+        "lostGain": 236
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=8": {
+        "attempts": 1430,
+        "success": 1430,
+        "gain": 1430,
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=2": {
+        "attempts": 48,
+        "success": 48,
+        "gain": 96,
+        "lostGain": 0
       },
       "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=8": {
-        "attempts": 198,
-        "success": 198,
-        "gain": 198,
+        "attempts": 158,
+        "success": 158,
+        "gain": 158,
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=8": {
+        "attempts": 18,
+        "success": 18,
+        "gain": 18,
         "lostGain": 0
       },
       "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=6": {
-        "attempts": 174,
-        "success": 174,
-        "gain": 348,
+        "attempts": 164,
+        "success": 164,
+        "gain": 328,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=3": {
+        "attempts": 36,
+        "success": 20,
+        "gain": 40,
+        "lostGain": 32
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=2": {
+        "attempts": 70,
+        "success": 70,
+        "gain": 140,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=4": {
+        "attempts": 26,
+        "success": 10,
+        "gain": 20,
+        "lostGain": 32
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=4": {
+        "attempts": 20,
+        "success": 20,
+        "gain": 40,
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=7": {
+        "attempts": 350,
+        "success": 350,
+        "gain": 700,
         "lostGain": 0
       },
       "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=8": {
-        "attempts": 591,
-        "success": 395,
-        "gain": 395,
-        "lostGain": 196
+        "attempts": 565,
+        "success": 361,
+        "gain": 361,
+        "lostGain": 204
       },
-      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=5": {
-        "attempts": 314,
-        "success": 200,
-        "gain": 400,
-        "lostGain": 228
+      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=4": {
+        "attempts": 36,
+        "success": 36,
+        "gain": 72,
+        "lostGain": 0
       },
-      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=3": {
-        "attempts": 14,
+      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=5": {
+        "attempts": 8,
         "success": 4,
         "gain": 8,
-        "lostGain": 20
-      },
-      "enemyCanAttack=True/lowHP=True/recentAttack=False/startEnergy=7": {
-        "attempts": 200,
-        "success": 138,
-        "gain": 276,
-        "lostGain": 124
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=2": {
-        "attempts": 40,
-        "success": 40,
-        "gain": 80,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=2": {
-        "attempts": 46,
-        "success": 46,
-        "gain": 92,
-        "lostGain": 0
+        "lostGain": 8
       },
       "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=3": {
-        "attempts": 10,
+        "attempts": 8,
+        "success": 4,
+        "gain": 8,
+        "lostGain": 8
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=4": {
+        "attempts": 20,
+        "success": 12,
+        "gain": 24,
+        "lostGain": 16
+      },
+      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=3": {
+        "attempts": 6,
         "success": 6,
         "gain": 12,
-        "lostGain": 8
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=8": {
+        "attempts": 12,
+        "success": 12,
+        "gain": 12,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=6": {
+        "attempts": 24,
+        "success": 6,
+        "gain": 12,
+        "lostGain": 36
       },
       "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=6": {
         "attempts": 24,
@@ -2275,124 +2347,64 @@
         "gain": 48,
         "lostGain": 0
       },
-      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=4": {
-        "attempts": 24,
-        "success": 10,
-        "gain": 20,
-        "lostGain": 28
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=4": {
-        "attempts": 24,
-        "success": 24,
-        "gain": 48,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=5": {
-        "attempts": 10,
-        "success": 10,
-        "gain": 20,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=False/startEnergy=7": {
-        "attempts": 372,
-        "success": 372,
-        "gain": 744,
-        "lostGain": 0
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=8": {
+      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=8": {
         "attempts": 28,
         "success": 16,
         "gain": 16,
         "lostGain": 12
       },
-      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=3": {
-        "attempts": 12,
-        "success": 12,
-        "gain": 24,
-        "lostGain": 0
-      },
-      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=1": {
-        "attempts": 94,
-        "success": 94,
-        "gain": 188,
-        "lostGain": 0
-      },
-      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=4": {
-        "attempts": 42,
-        "success": 18,
-        "gain": 36,
-        "lostGain": 48
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=4": {
+      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=6": {
         "attempts": 20,
         "success": 20,
         "gain": 40,
         "lostGain": 0
       },
-      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=6": {
-        "attempts": 24,
-        "success": 24,
-        "gain": 48,
-        "lostGain": 0
-      },
-      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=8": {
-        "attempts": 40,
-        "success": 22,
-        "gain": 22,
-        "lostGain": 18
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=8": {
-        "attempts": 24,
-        "success": 24,
-        "gain": 24,
-        "lostGain": 0
-      },
       "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=6": {
-        "attempts": 26,
-        "success": 20,
-        "gain": 40,
-        "lostGain": 12
+        "attempts": 32,
+        "success": 22,
+        "gain": 44,
+        "lostGain": 20
       },
-      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=6": {
-        "attempts": 26,
-        "success": 12,
-        "gain": 24,
-        "lostGain": 28
+      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=8": {
+        "attempts": 32,
+        "success": 18,
+        "gain": 18,
+        "lostGain": 14
       },
-      "enemyCanAttack=False/lowHP=False/recentAttack=True/startEnergy=8": {
-        "attempts": 8,
-        "success": 8,
+      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=7": {
+        "attempts": 47,
+        "success": 47,
+        "gain": 94,
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=5": {
+        "attempts": 14,
+        "success": 14,
+        "gain": 28,
+        "lostGain": 0
+      },
+      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=7": {
+        "attempts": 4,
+        "success": 4,
         "gain": 8,
         "lostGain": 0
       },
-      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=3": {
-        "attempts": 32,
-        "success": 32,
-        "gain": 64,
-        "lostGain": 0
-      },
-      "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=5": {
-        "attempts": 10,
-        "success": 6,
-        "gain": 12,
-        "lostGain": 8
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=False/startEnergy=7": {
-        "attempts": 53,
-        "success": 53,
-        "gain": 106,
-        "lostGain": 0
-      },
       "enemyCanAttack=True/lowHP=True/recentAttack=True/startEnergy=7": {
-        "attempts": 14,
+        "attempts": 4,
+        "success": 4,
+        "gain": 8,
+        "lostGain": 0
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=5": {
+        "attempts": 2,
+        "success": 0,
+        "gain": 0,
+        "lostGain": 4
+      },
+      "enemyCanAttack=True/lowHP=False/recentAttack=True/startEnergy=7": {
+        "attempts": 2,
         "success": 2,
         "gain": 4,
-        "lostGain": 24
-      },
-      "enemyCanAttack=False/lowHP=True/recentAttack=True/startEnergy=7": {
-        "attempts": 8,
-        "success": 8,
-        "gain": 16,
         "lostGain": 0
       }
     }
