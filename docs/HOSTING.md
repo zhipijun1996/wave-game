@@ -14,3 +14,7 @@ https://paipai-wave-playground.zhipijun1996.chatgpt.site
 首次发布时站点为所有者私有。2026-10-30，按用户“部署一个不需要登陆的网站试玩”的明确要求，将同一站点访问模式改为 `public`（访问策略revision 2），保留当前v1.2游戏版本与网址。任何持有链接的访客均可匿名试玩，无需ChatGPT账号。
 
 匿名验证：全新Chromium浏览器上下文，不提供Cookie、认证或绕过请求头；首页HTTP 200，正常进入基础对战并显示3个技能，无脚本或HTTP错误。证据：`artifacts/public-access-qa.json`、`artifacts/public-anonymous-game.png`。此操作只改变托管访问权限，无需重新构建或发布游戏源码。
+
+## v2.0公开更新
+
+保留用户已明确设置的public受众和同一project_id，不创建新站。公开站按原生save_site_version（匹配的完整提交SHA与构建归档）→deploy_site_version发布；不使用owner-private部署接口。部署结果及匿名构建检查记录在交付证据的sites-deployment-v2.json、public-access-v2.json。源码与构建不含账号或原声素材授权依赖，所有运行声音为包内37个文件。

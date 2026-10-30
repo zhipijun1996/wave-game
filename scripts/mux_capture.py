@@ -12,7 +12,7 @@ assert starts and ends,'Both capture synchronization markers are required'
 start=starts[0]/25;end=ends[0]/25;duration=float(probe(audio)['duration']);ratio=(end-start)/duration
 # Playwright's constant-25fps recording can quantize screencast timestamps.
 # Fit its start/end markers to the actual continuous audio clock, preserving all real frames.
-cut=.22;out_duration=duration-cut;assert 20<=out_duration<=40
+cut=.22;out_duration=duration-cut;assert 30<=out_duration<=60
 raw_start=start+cut*ratio
 filters=f'[0:v]trim=start={raw_start}:end={end},setpts=(PTS-STARTPTS)/{ratio},fps=30[v];[1:a]atrim=start={cut},asetpts=PTS-STARTPTS[a]'
 out=a/'paipai-wave-showcase.mp4'

@@ -10,13 +10,13 @@ export const BASIC:SkillId[] = ['charge','wave1','guard1'];
 export const SKILLS = Object.fromEntries([...config.skills,config.missAction].map(s=>[s.id,s])) as Record<SkillId,typeof config.skills[number]>;
 export function reason(p:Fighter,id:SkillId):string {
   if(!p.skills.includes(id)) return '尚未学会';
-  if(p.blocked && SKILLS[id].kind==='charge') return '本回合禁充';
+  if(p.blocked && SKILLS[id].kind==='charge') return '过热 · 本回合禁充';
   if(id==='quick' && p.energy>=config.energyCap) return '气已满';
   if(p.energy<SKILLS[id].cost) return `需 ${SKILLS[id].cost} 气`;
   return '';
 }
 export const legal = (p:Fighter)=>p.skills.filter(id=>!reason(p,id));
-export const defaultAction = (p:Fighter):SkillId=>'idle';
+export const defaultAction = (p:Fighter):SkillId=>!reason(p,'charge')?'charge':'guard1';
 export const validAction = (p:Fighter,id?:SkillId|null):SkillId=>id && !reason(p,id)?id:defaultAction(p);
 export function initial(hp:number=5,skills:SkillId[]=ALL,enemySkills:SkillId[]=skills):State {
   return {round:1,players:[{hp,energy:0,blocked:false,skills:[...skills]},{hp,energy:0,blocked:false,skills:[...enemySkills]}]};

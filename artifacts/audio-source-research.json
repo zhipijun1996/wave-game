@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-10-30T10:26:54.364314+00:00",
+  "method": "urllib HTTPS GET of official source/terms pages and Freesound metadata; no episode or game audio extraction",
+  "usableOriginalClipsFound": 0,
+  "downloadedAudioFiles": [],
+  "sources": [
+    {
+      "id": "capcom-policy",
+      "url": "https://www.capcomusa.com/video-policy/",
+      "httpStatus": 200,
+      "finding": "禁止将vocal等元素拆出分发，政策非衍生授权"
+    },
+    {
+      "id": "ultraman-1966",
+      "url": "https://tsuburaya-prod.com/heroes/ultraman",
+      "httpStatus": 200,
+      "finding": "官方确认Spacium Beam姿势与白光"
+    },
+    {
+      "id": "tsuburaya-terms",
+      "url": "https://m-78.jp/attention/",
+      "httpStatus": 200,
+      "finding": "音乐音声等保留知识产权，未提供游戏再分发许可"
+    },
+    {
+      "id": "tsuburaya-faq",
+      "url": "https://m-78.jp/faq/",
+      "httpStatus": 200,
+      "finding": "无本项目原声素材许可"
+    },
+    {
+      "id": "khara-guideline",
+      "url": "https://www.khara.co.jp/guideline/",
+      "httpStatus": 200,
+      "finding": "第5条原则上不允许使用官方视频音乐音声"
+    },
+    {
+      "id": "gundam-official",
+      "url": "https://en.gundam-official.com/",
+      "httpStatus": 200,
+      "finding": "官方入口，无音频素材许可"
+    },
+    {
+      "id": "bandai-terms",
+      "url": "https://www.bandainamco.co.jp/en/terms/index.html",
+      "httpStatus": 200,
+      "finding": "网站材料仅个人使用，不得再分发"
+    },
+    {
+      "id": "magic-cylinder",
+      "url": "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=5124&request_locale=en",
+      "httpStatus": 200,
+      "finding": "确认卡片身份，非动画声音许可"
+    },
+    {
+      "id": "naruto-official",
+      "url": "https://naruto-official.com/en/about",
+      "httpStatus": 200,
+      "finding": "确认官方作品出处，非音频许可"
+    },
+    {
+      "id": "viz-copyright",
+      "url": "https://www.viz.com/copyrights",
+      "httpStatus": 200,
+      "finding": "站点录音受保护，未经书面许可不得再分发"
+    },
+    {
+      "id": "jojo-official",
+      "url": "https://jojo-portal.com/en/",
+      "httpStatus": 200,
+      "finding": "官方版权归属，未给出音频素材授权"
+    },
+    {
+      "id": "fan-hadouken",
+      "url": "https://freesound.org/people/Syna-Max/sounds/67674/",
+      "httpStatus": 200,
+      "finding": "粉丝自录，CC BY-NC4.0，非原声且未采用"
+    }
+  ]
+}

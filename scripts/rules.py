@@ -13,7 +13,7 @@ def initial(hp=5,skills=None,enemy=None):
     skills=ALL if skills is None else skills
     return {'round':1,'players':[{'hp':hp,'energy':0,'blocked':False,'skills':skills.copy()},{'hp':hp,'energy':0,'blocked':False,'skills':(enemy or skills).copy()}]}
 def resolve(state,requested):
-    actions=[a if a in SKILLS and not reason(p,a) else 'idle' for p,a in zip(state['players'],requested)]
+    actions=[a if a in SKILLS and not reason(p,a) else ('charge' if not reason(p,'charge') else 'guard1') for p,a in zip(state['players'],requested)]
     s=[SKILLS[a] for a in actions]; damage=[0,0];gain=[0,0];events=[];cost=[x['cost'] for x in s]
     if all(x['kind']=='attack' for x in s):
         damage=[max(0,s[1]['damage']-s[0]['damage']),max(0,s[0]['damage']-s[1]['damage'])]

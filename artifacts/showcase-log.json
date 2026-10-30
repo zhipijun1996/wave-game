@@ -1,3671 +1,4308 @@
 {
-  "description": "Actual production build; fixed-action acceptance replay from graduation story, followed by a 1-heart basic defeat. Opponent choices sealed by local fixture before player input.",
-  "rounds": [
+  "version": "2.0.0",
+  "description": "Actual production build scenes with legal fixture starting resources, real controls and actual compressed WebAudio. Original temporary effects/synthetic chants, zero franchise recordings. No fabricated poses or replacement audio.",
+  "scenes": [
     {
-      "actions": [
-        "charge",
-        "charge"
-      ],
-      "damage": [
-        0,
-        0
-      ],
-      "events": [
-        {
-          "type": "charge",
-          "side": 0,
-          "amount": 1
+      "name": "普通充气与超级快充",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 2,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 2,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "charge",
+          "quick"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 3,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 4,
+              "blocked": true,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
         },
-        {
-          "type": "charge",
-          "side": 1,
-          "amount": 1
-        }
-      ],
-      "energy": [
-        1,
-        1
-      ],
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          1,
+          2
+        ],
+        "cost": [
+          0,
+          0
+        ],
+        "events": [
+          {
+            "type": "charge",
+            "side": 0,
+            "amount": 1
+          },
+          {
+            "type": "charge",
+            "side": 1,
+            "amount": 2
+          }
+        ],
+        "winner": null
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 3,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 4,
+            "blocked": true,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
-        },
-        {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 1491.300000000745
         },
         {
           "type": "select",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
+          "at": 131.10000000149012,
+          "local": 187.28571428784304,
+          "phase": "select",
+          "phaseTime": 187.28571428784304,
+          "wall": 1622.4000000022352
+        },
+        {
+          "type": "clap",
+          "round": 1,
+          "at": 630.0000000000001,
+          "local": 900,
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 2128.199999999255
+        },
+        {
+          "type": "third-beat",
+          "round": 1,
+          "at": 1259.9999999999995,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 2761.60000000149
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
+          "at": 1259.9999999999995,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 2762.400000002235
+        },
+        {
+          "type": "launch",
+          "round": 1,
+          "at": 1259.9999999999995,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 2762.60000000149
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
+          "at": 1658.9999999999995,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 3160.400000002235
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
+          "at": 2100,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 3595
+        },
+        {
+          "type": "recover",
+          "round": 1,
+          "at": 2100,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 3595.900000002235
+        }
+      ],
+      "audio": [
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
         }
       ]
     },
     {
-      "actions": [
-        "wave1",
-        "wave1"
-      ],
-      "damage": [
-        0,
-        0
-      ],
-      "events": [
-        {
-          "type": "cancel",
-          "side": 1,
-          "amount": 0
-        }
-      ],
-      "energy": [
-        0,
-        0
-      ],
+      "name": "平底锅与口技小波",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "guard1",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 8,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 7,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
-        },
-        {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 4177.5
         },
         {
           "type": "select",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
-        },
-        {
-          "type": "reveal",
-          "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
-        },
-        {
-          "type": "fx",
-          "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
-        },
-        {
-          "type": "commit",
-          "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
-        },
-        {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
+          "at": 79.20000000149048,
+          "local": 113.14285714498641,
+          "phase": "select",
+          "phaseTime": 113.14285714498641,
+          "wall": 4255.60000000149
         },
         {
           "type": "clap",
-          "round": 2,
-          "at": 3150,
+          "round": 1,
+          "at": 629.9999999999999,
           "local": 900,
-          "wall": 5729.399999999441
-        },
-        {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 4810.5
         },
         {
           "type": "third-beat",
-          "round": 2,
-          "at": 3780,
+          "round": 1,
+          "at": 1260.0000000000002,
           "local": 1800,
-          "wall": 6362.799999999814
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 5443.699999999255
         },
         {
           "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "round": 1,
+          "at": 1260.0000000000002,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 5444.199999999255
+        },
+        {
+          "type": "launch",
+          "round": 1,
+          "at": 1260.0000000000002,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 5444.400000002235
         },
         {
           "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
-        },
-        {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
+          "round": 1,
+          "at": 1659.0000000000002,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 5844.800000000745
         },
         {
           "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
+          "round": 1,
+          "at": 2100.0000000000005,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 6293.5
+        },
+        {
+          "type": "recover",
+          "round": 1,
+          "at": 2100.0000000000005,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 6294.199999999255
+        }
+      ],
+      "audio": [
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.622312925170068
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.6919727891156464
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.252154195011338
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "guard1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "block",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.712108843537415
         }
       ]
     },
     {
-      "actions": [
-        "idle",
-        "quick"
-      ],
-      "damage": [
-        0,
-        0
-      ],
-      "events": [
-        {
-          "type": "miss",
-          "side": 0,
-          "amount": 0
+      "name": "快充断电与过热",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "quick",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 4,
+              "energy": 8,
+              "blocked": true,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
         },
-        {
-          "type": "charge",
-          "side": 1,
-          "amount": 2
-        }
-      ],
-      "energy": [
-        0,
-        2
-      ],
+        "damage": [
+          1,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "type": "hit",
+            "side": 0,
+            "amount": 1
+          },
+          {
+            "type": "interrupted",
+            "side": 0,
+            "amount": 0
+          }
+        ],
+        "winner": null
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 4,
+            "energy": 8,
+            "blocked": true,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 7,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
-        },
-        {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 6900.5
         },
         {
           "type": "select",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
-        },
-        {
-          "type": "reveal",
-          "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
-        },
-        {
-          "type": "fx",
-          "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
-        },
-        {
-          "type": "commit",
-          "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
-        },
-        {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
+          "at": 81.90000000223517,
+          "local": 117.00000000319312,
+          "phase": "select",
+          "phaseTime": 117.00000000319312,
+          "wall": 6982.400000002235
         },
         {
           "type": "clap",
-          "round": 2,
-          "at": 3150,
+          "round": 1,
+          "at": 630.0000000000002,
           "local": 900,
-          "wall": 5729.399999999441
-        },
-        {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 7543.699999999255
         },
         {
           "type": "third-beat",
-          "round": 2,
-          "at": 3780,
+          "round": 1,
+          "at": 1260.0000000000002,
           "local": 1800,
-          "wall": 6362.799999999814
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 8177.699999999255
         },
         {
           "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
-        },
-        {
-          "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
-        },
-        {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
-        },
-        {
-          "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
-        },
-        {
-          "type": "start",
-          "round": 3,
-          "at": 5040,
-          "local": 0,
-          "wall": 7612.5
-        },
-        {
-          "type": "clap",
-          "round": 3,
-          "at": 5670,
-          "local": 900,
-          "wall": 8245.599999999627
-        },
-        {
-          "type": "window-open",
-          "round": 3,
-          "at": 5985,
-          "local": 1350,
-          "wall": 8562.399999999441
-        },
-        {
-          "type": "third-beat",
-          "round": 3,
-          "at": 6300,
+          "round": 1,
+          "at": 1260.0000000000002,
           "local": 1800,
-          "wall": 8879.200000000186
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 8178.300000000745
         },
         {
-          "type": "window-close",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9195.700000000186
-        },
-        {
-          "type": "reveal",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9196.700000000186
+          "type": "launch",
+          "round": 1,
+          "at": 1260.0000000000002,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 8178.400000002235
         },
         {
           "type": "fx",
-          "round": 3,
-          "at": 6720,
-          "local": 2400,
-          "wall": 9295.700000000186
+          "round": 1,
+          "at": 1659.0000000000002,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 8560.60000000149
         },
         {
           "type": "commit",
-          "round": 3,
-          "at": 6930,
-          "local": 2700,
-          "wall": 9512.5
+          "round": 1,
+          "at": 2100,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 9010.10000000149
+        },
+        {
+          "type": "recover",
+          "round": 1,
+          "at": 2100,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 9012
+        }
+      ],
+      "audio": [
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.622312925170068
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.6919727891156464
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.252154195011338
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "guard1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "block",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.712108843537415
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.321632653061225
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.4
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.960181405895692
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 7.590022675736962
+        },
+        {
+          "name": "quick",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 7.590022675736962
+        },
+        {
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 7.590022675736962
+        },
+        {
+          "name": "interrupted",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.431746031746032
         }
       ]
     },
     {
-      "actions": [
-        "charge",
-        "guard1"
-      ],
-      "damage": [
-        0,
-        0
-      ],
-      "events": [
-        {
-          "type": "charge",
-          "side": 0,
-          "amount": 1
-        }
-      ],
-      "energy": [
-        1,
-        2
-      ],
+      "name": "波动拳特写与初号机AT力场",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "guard2",
+          "wave2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          1,
+          3
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 2
+          }
+        ],
+        "winner": null
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 7,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 5,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
-        },
-        {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 9559.60000000149
         },
         {
           "type": "select",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
-        },
-        {
-          "type": "reveal",
-          "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
-        },
-        {
-          "type": "fx",
-          "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
-        },
-        {
-          "type": "commit",
-          "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
-        },
-        {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
+          "at": 57.80000000223481,
+          "local": 82.57142857462117,
+          "phase": "select",
+          "phaseTime": 82.57142857462117,
+          "wall": 9617.400000002235
         },
         {
           "type": "clap",
-          "round": 2,
-          "at": 3150,
+          "round": 1,
+          "at": 629.9999999999999,
           "local": 900,
-          "wall": 5729.399999999441
-        },
-        {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 10193.800000000745
         },
         {
           "type": "third-beat",
-          "round": 2,
-          "at": 3780,
+          "round": 1,
+          "at": 1260.0000000000005,
           "local": 1800,
-          "wall": 6362.799999999814
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 10827.10000000149
         },
         {
           "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
-        },
-        {
-          "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
-        },
-        {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
-        },
-        {
-          "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
-        },
-        {
-          "type": "start",
-          "round": 3,
-          "at": 5040,
-          "local": 0,
-          "wall": 7612.5
-        },
-        {
-          "type": "clap",
-          "round": 3,
-          "at": 5670,
-          "local": 900,
-          "wall": 8245.599999999627
-        },
-        {
-          "type": "window-open",
-          "round": 3,
-          "at": 5985,
-          "local": 1350,
-          "wall": 8562.399999999441
-        },
-        {
-          "type": "third-beat",
-          "round": 3,
-          "at": 6300,
+          "round": 1,
+          "at": 1260.0000000000005,
           "local": 1800,
-          "wall": 8879.200000000186
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 10827.699999999255
         },
         {
-          "type": "window-close",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9195.700000000186
-        },
-        {
-          "type": "reveal",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9196.700000000186
-        },
-        {
-          "type": "fx",
-          "round": 3,
-          "at": 6720,
-          "local": 2400,
-          "wall": 9295.700000000186
-        },
-        {
-          "type": "commit",
-          "round": 3,
-          "at": 6930,
-          "local": 2700,
-          "wall": 9512.5
-        },
-        {
-          "type": "start",
-          "round": 4,
-          "at": 7560,
-          "local": 0,
-          "wall": 10145.799999999814
-        },
-        {
-          "type": "clap",
-          "round": 4,
-          "at": 8190,
-          "local": 900,
-          "wall": 10762.299999999814
-        },
-        {
-          "type": "window-open",
-          "round": 4,
-          "at": 8505,
-          "local": 1350,
-          "wall": 11079.200000000186
-        },
-        {
-          "type": "third-beat",
-          "round": 4,
-          "at": 8820,
+          "type": "cutin-start",
+          "round": 1,
+          "at": 1260.0000000000005,
           "local": 1800,
-          "wall": 11395.700000000186
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 10827.900000002235
         },
         {
-          "type": "select",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.399999999441
+          "type": "cutin-end",
+          "round": 1,
+          "at": 3460.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 2200,
+          "wall": 13026.60000000149
         },
         {
-          "type": "reveal",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.5
+          "type": "launch",
+          "round": 1,
+          "at": 3460.0000000000005,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 13026.60000000149
         },
         {
           "type": "fx",
-          "round": 4,
-          "at": 8976.8,
-          "local": 2024,
-          "wall": 11562.399999999441
-        },
-        {
-          "type": "window-close",
-          "round": 4,
-          "at": 9135,
-          "local": 2250,
-          "wall": 11712.099999999627
+          "round": 1,
+          "at": 3859.0000000000005,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 13433.300000000745
         },
         {
           "type": "commit",
-          "round": 4,
-          "at": 9186.8,
-          "local": 2324,
-          "wall": 11762.200000000186
+          "round": 1,
+          "at": 4300.000000000001,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 13878.300000000745
+        },
+        {
+          "type": "recover",
+          "round": 1,
+          "at": 4300.000000000001,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 13879.10000000149
+        }
+      ],
+      "audio": [
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
+        },
+        {
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.622312925170068
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.6919727891156464
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.252154195011338
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "guard1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 4.861678004535148
+        },
+        {
+          "name": "block",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.712108843537415
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.321632653061225
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.4
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.960181405895692
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 7.590022675736962
+        },
+        {
+          "name": "quick",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 7.590022675736962
+        },
+        {
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 7.590022675736962
+        },
+        {
+          "name": "interrupted",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.431746031746032
+        },
+        {
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.98031746031746
+        },
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.032562358276644
+        },
+        {
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.61015873015873
+        },
+        {
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 10.24
+        },
+        {
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 10.251609977324263
+        },
+        {
+          "name": "guard2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 12.440090702947845
+        },
+        {
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 12.440090702947845
+        },
+        {
+          "name": "at-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.252789115646259
         }
       ]
     },
     {
-      "actions": [
-        "quick",
-        "charge"
-      ],
-      "damage": [
-        0,
-        0
-      ],
-      "events": [
-        {
-          "type": "charge",
-          "side": 0,
-          "amount": 2
+      "name": "斯派修姆光线与独角兽精神场",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "guard3",
+          "wave3"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 6,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 3,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
         },
-        {
-          "type": "charge",
-          "side": 1,
-          "amount": 1
-        }
-      ],
-      "energy": [
-        3,
-        3
-      ],
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          2,
+          5
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 3
+          }
+        ],
+        "winner": null
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 6,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 3,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
-        },
-        {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 14449.199999999255
         },
         {
           "type": "select",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
+          "at": 105.20000000298023,
+          "local": 150.28571428997176,
+          "phase": "select",
+          "phaseTime": 150.28571428997176,
+          "wall": 14554.5
+        },
+        {
+          "type": "clap",
+          "round": 1,
+          "at": 629.9999999999999,
+          "local": 900,
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 15093.60000000149
+        },
+        {
+          "type": "third-beat",
+          "round": 1,
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 15710
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 15710.60000000149
+        },
+        {
+          "type": "cutin-start",
+          "round": 1,
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 15710.699999999255
+        },
+        {
+          "type": "cutin-end",
+          "round": 1,
+          "at": 3860.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 2600,
+          "wall": 18309.800000000745
+        },
+        {
+          "type": "launch",
+          "round": 1,
+          "at": 3860.0000000000005,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 18309.800000000745
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
+          "at": 4259,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 18709.60000000149
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
+          "at": 4700.000000000001,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 19159.800000000745
         },
         {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
+          "type": "recover",
+          "round": 1,
+          "at": 4700.000000000001,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 19160.60000000149
+        }
+      ],
+      "audio": [
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
         },
         {
-          "type": "clap",
-          "round": 2,
-          "at": 3150,
-          "local": 900,
-          "wall": 5729.399999999441
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
         },
         {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
         },
         {
-          "type": "third-beat",
-          "round": 2,
-          "at": 3780,
-          "local": 1800,
-          "wall": 6362.799999999814
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
         },
         {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
         },
         {
-          "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
         },
         {
-          "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.622312925170068
         },
         {
-          "type": "start",
-          "round": 3,
-          "at": 5040,
-          "local": 0,
-          "wall": 7612.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.6919727891156464
         },
         {
-          "type": "clap",
-          "round": 3,
-          "at": 5670,
-          "local": 900,
-          "wall": 8245.599999999627
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.252154195011338
         },
         {
-          "type": "window-open",
-          "round": 3,
-          "at": 5985,
-          "local": 1350,
-          "wall": 8562.399999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.861678004535148
         },
         {
-          "type": "third-beat",
-          "round": 3,
-          "at": 6300,
-          "local": 1800,
-          "wall": 8879.200000000186
+          "name": "guard1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "window-close",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9195.700000000186
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "reveal",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9196.700000000186
+          "name": "block",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.712108843537415
         },
         {
-          "type": "fx",
-          "round": 3,
-          "at": 6720,
-          "local": 2400,
-          "wall": 9295.700000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.321632653061225
         },
         {
-          "type": "commit",
-          "round": 3,
-          "at": 6930,
-          "local": 2700,
-          "wall": 9512.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.4
         },
         {
-          "type": "start",
-          "round": 4,
-          "at": 7560,
-          "local": 0,
-          "wall": 10145.799999999814
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.960181405895692
         },
         {
-          "type": "clap",
-          "round": 4,
-          "at": 8190,
-          "local": 900,
-          "wall": 10762.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 7.590022675736962
         },
         {
-          "type": "window-open",
-          "round": 4,
-          "at": 8505,
-          "local": 1350,
-          "wall": 11079.200000000186
+          "name": "quick",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "third-beat",
-          "round": 4,
-          "at": 8820,
-          "local": 1800,
-          "wall": 11395.700000000186
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "select",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.399999999441
+          "name": "interrupted",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.431746031746032
         },
         {
-          "type": "reveal",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.98031746031746
         },
         {
-          "type": "fx",
-          "round": 4,
-          "at": 8976.8,
-          "local": 2024,
-          "wall": 11562.399999999441
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.032562358276644
         },
         {
-          "type": "window-close",
-          "round": 4,
-          "at": 9135,
-          "local": 2250,
-          "wall": 11712.099999999627
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.61015873015873
         },
         {
-          "type": "commit",
-          "round": 4,
-          "at": 9186.8,
-          "local": 2324,
-          "wall": 11762.200000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 10.24
         },
         {
-          "type": "start",
-          "round": 5,
-          "at": 10080,
-          "local": 0,
-          "wall": 12662.700000000186
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 10.251609977324263
         },
         {
-          "type": "clap",
-          "round": 5,
-          "at": 10710,
-          "local": 900,
-          "wall": 13295.399999999441
+          "name": "guard2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "window-open",
-          "round": 5,
-          "at": 11025,
-          "local": 1350,
-          "wall": 13595.799999999814
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "third-beat",
-          "round": 5,
-          "at": 11340,
-          "local": 1800,
-          "wall": 13912.200000000186
+          "name": "at-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.252789115646259
         },
         {
-          "type": "select",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.830385487528345
         },
         {
-          "type": "reveal",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.931972789115646
         },
         {
-          "type": "fx",
-          "round": 5,
-          "at": 11506.8,
-          "local": 2038.285714,
-          "wall": 14078.700000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 14.471836734693877
         },
         {
-          "type": "window-close",
-          "round": 5,
-          "at": 11655,
-          "local": 2250,
-          "wall": 14228.899999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 15.090068027210885
         },
         {
-          "type": "commit",
-          "round": 5,
-          "at": 11716.8,
-          "local": 2338.285714,
-          "wall": 14295.5
+          "name": "wave3-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 15.090068027210885
+        },
+        {
+          "name": "guard3",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 17.690702947845804
+        },
+        {
+          "name": "wave3",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 17.690702947845804
+        },
+        {
+          "name": "psycho-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 18.54113378684807
         }
       ]
     },
     {
-      "actions": [
-        "guard1",
-        "wave2"
-      ],
-      "damage": [
-        2,
-        0
-      ],
-      "events": [
-        {
-          "type": "break",
-          "side": 0,
-          "amount": 2
-        }
-      ],
-      "energy": [
-        3,
-        0
-      ],
+      "name": "双魔法筒吸入与返射",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "reflect1",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 4,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          1
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          1,
+          1
+        ],
+        "events": [
+          {
+            "type": "reflect",
+            "side": 0,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 7,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 4,
+            "energy": 7,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
-        },
-        {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 19710.300000000745
         },
         {
           "type": "select",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
+          "at": 58.79999999999927,
+          "local": 83.99999999999896,
+          "phase": "select",
+          "phaseTime": 83.99999999999896,
+          "wall": 19768.10000000149
+        },
+        {
+          "type": "clap",
+          "round": 1,
+          "at": 629.9999999999999,
+          "local": 900,
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 20344.400000002235
+        },
+        {
+          "type": "third-beat",
+          "round": 1,
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 20977
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 20977.60000000149
+        },
+        {
+          "type": "launch",
+          "round": 1,
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 20977.800000000745
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
+          "at": 1659.0000000000005,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 21376.400000002235
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
+          "at": 2100.0000000000005,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 21826.400000002235
         },
         {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
+          "type": "recover",
+          "round": 1,
+          "at": 2100.0000000000005,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 21828
+        }
+      ],
+      "audio": [
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
         },
         {
-          "type": "clap",
-          "round": 2,
-          "at": 3150,
-          "local": 900,
-          "wall": 5729.399999999441
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
         },
         {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
         },
         {
-          "type": "third-beat",
-          "round": 2,
-          "at": 3780,
-          "local": 1800,
-          "wall": 6362.799999999814
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
         },
         {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
         },
         {
-          "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
         },
         {
-          "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.622312925170068
         },
         {
-          "type": "start",
-          "round": 3,
-          "at": 5040,
-          "local": 0,
-          "wall": 7612.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.6919727891156464
         },
         {
-          "type": "clap",
-          "round": 3,
-          "at": 5670,
-          "local": 900,
-          "wall": 8245.599999999627
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.252154195011338
         },
         {
-          "type": "window-open",
-          "round": 3,
-          "at": 5985,
-          "local": 1350,
-          "wall": 8562.399999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.861678004535148
         },
         {
-          "type": "third-beat",
-          "round": 3,
-          "at": 6300,
-          "local": 1800,
-          "wall": 8879.200000000186
+          "name": "guard1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "window-close",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9195.700000000186
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "reveal",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9196.700000000186
+          "name": "block",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.712108843537415
         },
         {
-          "type": "fx",
-          "round": 3,
-          "at": 6720,
-          "local": 2400,
-          "wall": 9295.700000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.321632653061225
         },
         {
-          "type": "commit",
-          "round": 3,
-          "at": 6930,
-          "local": 2700,
-          "wall": 9512.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.4
         },
         {
-          "type": "start",
-          "round": 4,
-          "at": 7560,
-          "local": 0,
-          "wall": 10145.799999999814
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.960181405895692
         },
         {
-          "type": "clap",
-          "round": 4,
-          "at": 8190,
-          "local": 900,
-          "wall": 10762.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 7.590022675736962
         },
         {
-          "type": "window-open",
-          "round": 4,
-          "at": 8505,
-          "local": 1350,
-          "wall": 11079.200000000186
+          "name": "quick",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "third-beat",
-          "round": 4,
-          "at": 8820,
-          "local": 1800,
-          "wall": 11395.700000000186
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "select",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.399999999441
+          "name": "interrupted",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.431746031746032
         },
         {
-          "type": "reveal",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.98031746031746
         },
         {
-          "type": "fx",
-          "round": 4,
-          "at": 8976.8,
-          "local": 2024,
-          "wall": 11562.399999999441
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.032562358276644
         },
         {
-          "type": "window-close",
-          "round": 4,
-          "at": 9135,
-          "local": 2250,
-          "wall": 11712.099999999627
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.61015873015873
         },
         {
-          "type": "commit",
-          "round": 4,
-          "at": 9186.8,
-          "local": 2324,
-          "wall": 11762.200000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 10.24
         },
         {
-          "type": "start",
-          "round": 5,
-          "at": 10080,
-          "local": 0,
-          "wall": 12662.700000000186
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 10.251609977324263
         },
         {
-          "type": "clap",
-          "round": 5,
-          "at": 10710,
-          "local": 900,
-          "wall": 13295.399999999441
+          "name": "guard2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "window-open",
-          "round": 5,
-          "at": 11025,
-          "local": 1350,
-          "wall": 13595.799999999814
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "third-beat",
-          "round": 5,
-          "at": 11340,
-          "local": 1800,
-          "wall": 13912.200000000186
+          "name": "at-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.252789115646259
         },
         {
-          "type": "select",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.830385487528345
         },
         {
-          "type": "reveal",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.931972789115646
         },
         {
-          "type": "fx",
-          "round": 5,
-          "at": 11506.8,
-          "local": 2038.285714,
-          "wall": 14078.700000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 14.471836734693877
         },
         {
-          "type": "window-close",
-          "round": 5,
-          "at": 11655,
-          "local": 2250,
-          "wall": 14228.899999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 15.090068027210885
         },
         {
-          "type": "commit",
-          "round": 5,
-          "at": 11716.8,
-          "local": 2338.285714,
-          "wall": 14295.5
+          "name": "wave3-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 15.090068027210885
         },
         {
-          "type": "start",
-          "round": 6,
-          "at": 12600,
-          "local": 0,
-          "wall": 15179.299999999814
+          "name": "guard3",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 17.690702947845804
         },
         {
-          "type": "clap",
-          "round": 6,
-          "at": 13230,
-          "local": 900,
-          "wall": 15811.899999999441
+          "name": "wave3",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 17.690702947845804
         },
         {
-          "type": "window-open",
-          "round": 6,
-          "at": 13545,
-          "local": 1350,
-          "wall": 16128.599999999627
+          "name": "psycho-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 18.54113378684807
         },
         {
-          "type": "third-beat",
-          "round": 6,
-          "at": 13860,
-          "local": 1800,
-          "wall": 16445.39999999944
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.092607709750567
         },
         {
-          "type": "select",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.141950113378684
         },
         {
-          "type": "reveal",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.722448979591835
         },
         {
-          "type": "fx",
-          "round": 6,
-          "at": 14026.5,
-          "local": 2037.857143,
-          "wall": 16612.200000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 20.352290249433107
         },
         {
-          "type": "window-close",
-          "round": 6,
-          "at": 14175,
-          "local": 2250,
-          "wall": 16745.39999999944
+          "name": "reflect1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 20.352290249433107
         },
         {
-          "type": "commit",
-          "round": 6,
-          "at": 14236.5,
-          "local": 2337.857143,
-          "wall": 16812.099999999627
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 20.352290249433107
+        },
+        {
+          "name": "cylinder-in",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 20.75283446712018
+        },
+        {
+          "name": "cylinder-out",
+          "offset": 0,
+          "pan": 0.5,
+          "at": 20.83683446712018
+        },
+        {
+          "name": "hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.202721088435375
         }
       ]
     },
     {
-      "actions": [
-        "quick",
-        "charge"
-      ],
-      "damage": [
-        0,
-        0
-      ],
-      "events": [
-        {
-          "type": "charge",
-          "side": 0,
-          "amount": 2
+      "name": "宇智波反弹",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "reflect2",
+          "wave2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 6,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 3,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
         },
-        {
-          "type": "charge",
-          "side": 1,
-          "amount": 1
-        }
-      ],
-      "energy": [
-        5,
-        1
-      ],
+        "damage": [
+          0,
+          2
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          2,
+          3
+        ],
+        "events": [
+          {
+            "type": "reflect",
+            "side": 0,
+            "amount": 2
+          }
+        ],
+        "winner": null
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 6,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 3,
+            "energy": 5,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
-        },
-        {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 22393.699999999255
         },
         {
           "type": "select",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
+          "at": 57.9000000007436,
+          "local": 82.714285715348,
+          "phase": "select",
+          "phaseTime": 82.714285715348,
+          "wall": 22450.300000000745
+        },
+        {
+          "type": "clap",
+          "round": 1,
+          "at": 629.9999999999999,
+          "local": 900,
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 23026.300000000745
+        },
+        {
+          "type": "third-beat",
+          "round": 1,
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 23660.800000000745
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 23661.5
+        },
+        {
+          "type": "cutin-start",
+          "round": 1,
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 23661.699999999255
+        },
+        {
+          "type": "cutin-end",
+          "round": 1,
+          "at": 3460.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 2200,
+          "wall": 25860.199999999255
+        },
+        {
+          "type": "launch",
+          "round": 1,
+          "at": 3460.0000000000005,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 25860.300000000745
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
+          "at": 3859.0000000000005,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 26259.5
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
+          "at": 4300.000000000001,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 26709.5
         },
         {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
+          "type": "recover",
+          "round": 1,
+          "at": 4300.000000000001,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 26711.10000000149
+        }
+      ],
+      "audio": [
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
         },
         {
-          "type": "clap",
-          "round": 2,
-          "at": 3150,
-          "local": 900,
-          "wall": 5729.399999999441
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
         },
         {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
         },
         {
-          "type": "third-beat",
-          "round": 2,
-          "at": 3780,
-          "local": 1800,
-          "wall": 6362.799999999814
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
         },
         {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
         },
         {
-          "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
         },
         {
-          "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.622312925170068
         },
         {
-          "type": "start",
-          "round": 3,
-          "at": 5040,
-          "local": 0,
-          "wall": 7612.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.6919727891156464
         },
         {
-          "type": "clap",
-          "round": 3,
-          "at": 5670,
-          "local": 900,
-          "wall": 8245.599999999627
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.252154195011338
         },
         {
-          "type": "window-open",
-          "round": 3,
-          "at": 5985,
-          "local": 1350,
-          "wall": 8562.399999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.861678004535148
         },
         {
-          "type": "third-beat",
-          "round": 3,
-          "at": 6300,
-          "local": 1800,
-          "wall": 8879.200000000186
+          "name": "guard1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "window-close",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9195.700000000186
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "reveal",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9196.700000000186
+          "name": "block",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.712108843537415
         },
         {
-          "type": "fx",
-          "round": 3,
-          "at": 6720,
-          "local": 2400,
-          "wall": 9295.700000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.321632653061225
         },
         {
-          "type": "commit",
-          "round": 3,
-          "at": 6930,
-          "local": 2700,
-          "wall": 9512.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.4
         },
         {
-          "type": "start",
-          "round": 4,
-          "at": 7560,
-          "local": 0,
-          "wall": 10145.799999999814
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.960181405895692
         },
         {
-          "type": "clap",
-          "round": 4,
-          "at": 8190,
-          "local": 900,
-          "wall": 10762.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 7.590022675736962
         },
         {
-          "type": "window-open",
-          "round": 4,
-          "at": 8505,
-          "local": 1350,
-          "wall": 11079.200000000186
+          "name": "quick",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "third-beat",
-          "round": 4,
-          "at": 8820,
-          "local": 1800,
-          "wall": 11395.700000000186
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "select",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.399999999441
+          "name": "interrupted",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.431746031746032
         },
         {
-          "type": "reveal",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.98031746031746
         },
         {
-          "type": "fx",
-          "round": 4,
-          "at": 8976.8,
-          "local": 2024,
-          "wall": 11562.399999999441
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.032562358276644
         },
         {
-          "type": "window-close",
-          "round": 4,
-          "at": 9135,
-          "local": 2250,
-          "wall": 11712.099999999627
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.61015873015873
         },
         {
-          "type": "commit",
-          "round": 4,
-          "at": 9186.8,
-          "local": 2324,
-          "wall": 11762.200000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 10.24
         },
         {
-          "type": "start",
-          "round": 5,
-          "at": 10080,
-          "local": 0,
-          "wall": 12662.700000000186
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 10.251609977324263
         },
         {
-          "type": "clap",
-          "round": 5,
-          "at": 10710,
-          "local": 900,
-          "wall": 13295.399999999441
+          "name": "guard2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "window-open",
-          "round": 5,
-          "at": 11025,
-          "local": 1350,
-          "wall": 13595.799999999814
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "third-beat",
-          "round": 5,
-          "at": 11340,
-          "local": 1800,
-          "wall": 13912.200000000186
+          "name": "at-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.252789115646259
         },
         {
-          "type": "select",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.830385487528345
         },
         {
-          "type": "reveal",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.931972789115646
         },
         {
-          "type": "fx",
-          "round": 5,
-          "at": 11506.8,
-          "local": 2038.285714,
-          "wall": 14078.700000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 14.471836734693877
         },
         {
-          "type": "window-close",
-          "round": 5,
-          "at": 11655,
-          "local": 2250,
-          "wall": 14228.899999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 15.090068027210885
         },
         {
-          "type": "commit",
-          "round": 5,
-          "at": 11716.8,
-          "local": 2338.285714,
-          "wall": 14295.5
+          "name": "wave3-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 15.090068027210885
         },
         {
-          "type": "start",
-          "round": 6,
-          "at": 12600,
-          "local": 0,
-          "wall": 15179.299999999814
+          "name": "guard3",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 17.690702947845804
         },
         {
-          "type": "clap",
-          "round": 6,
-          "at": 13230,
-          "local": 900,
-          "wall": 15811.899999999441
+          "name": "wave3",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 17.690702947845804
         },
         {
-          "type": "window-open",
-          "round": 6,
-          "at": 13545,
-          "local": 1350,
-          "wall": 16128.599999999627
+          "name": "psycho-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 18.54113378684807
         },
         {
-          "type": "third-beat",
-          "round": 6,
-          "at": 13860,
-          "local": 1800,
-          "wall": 16445.39999999944
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.092607709750567
         },
         {
-          "type": "select",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.141950113378684
         },
         {
-          "type": "reveal",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.722448979591835
         },
         {
-          "type": "fx",
-          "round": 6,
-          "at": 14026.5,
-          "local": 2037.857143,
-          "wall": 16612.200000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 20.352290249433107
         },
         {
-          "type": "window-close",
-          "round": 6,
-          "at": 14175,
-          "local": 2250,
-          "wall": 16745.39999999944
+          "name": "reflect1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 20.352290249433107
         },
         {
-          "type": "commit",
-          "round": 6,
-          "at": 14236.5,
-          "local": 2337.857143,
-          "wall": 16812.099999999627
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 20.352290249433107
         },
         {
-          "type": "start",
-          "round": 7,
-          "at": 15120,
-          "local": 0,
-          "wall": 17696.099999999627
+          "name": "cylinder-in",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 20.75283446712018
         },
         {
-          "type": "clap",
-          "round": 7,
-          "at": 15750,
-          "local": 900,
-          "wall": 18328.599999999627
+          "name": "cylinder-out",
+          "offset": 0,
+          "pan": 0.5,
+          "at": 20.83683446712018
         },
         {
-          "type": "window-open",
-          "round": 7,
-          "at": 16065,
-          "local": 1350,
-          "wall": 18645.5
+          "name": "hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.202721088435375
         },
         {
-          "type": "third-beat",
-          "round": 7,
-          "at": 16380,
-          "local": 1800,
-          "wall": 18963.200000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.771609977324264
         },
         {
-          "type": "select",
-          "round": 7,
-          "at": 16457.799999999814,
-          "local": 1911.142857,
-          "wall": 19026.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.832562358276643
         },
         {
-          "type": "reveal",
-          "round": 7,
-          "at": 16457.799999999814,
-          "local": 1911.142857,
-          "wall": 19026.5
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 22.401451247165532
         },
         {
-          "type": "fx",
-          "round": 7,
-          "at": 16562.8,
-          "local": 2061.142857,
-          "wall": 19145.799999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 23.04
         },
         {
-          "type": "window-close",
-          "round": 7,
-          "at": 16695,
-          "local": 2250,
-          "wall": 19278.5
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 23.04
         },
         {
-          "type": "commit",
-          "round": 7,
-          "at": 16772.8,
-          "local": 2361.142857,
-          "wall": 19345.39999999944
+          "name": "reflect2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 25.240090702947846
+        },
+        {
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 25.240090702947846
+        },
+        {
+          "name": "fan-return",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 25.72463492063492
+        },
+        {
+          "name": "hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 26.090521541950114
         }
       ]
     },
     {
-      "actions": [
-        "wave3",
-        "wave1"
-      ],
-      "damage": [
-        0,
-        2
-      ],
-      "events": [
-        {
-          "type": "partial",
-          "side": 1,
-          "amount": 2
-        }
-      ],
-      "energy": [
-        0,
-        0
-      ],
+      "name": "双方特写与异级对波",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "wave3",
+          "wave2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 3,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 4,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          1
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          5,
+          3
+        ],
+        "events": [
+          {
+            "type": "partial",
+            "side": 1,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 5,
+            "energy": 3,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 4,
+            "energy": 5,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
-        },
-        {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
-        },
-        {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 27297
         },
         {
           "type": "select",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
+          "at": 58.999999999254214,
+          "local": 84.28571428464888,
+          "phase": "select",
+          "phaseTime": 84.28571428464888,
+          "wall": 27351.199999999255
+        },
+        {
+          "type": "clap",
+          "round": 1,
+          "at": 629.9999999999999,
+          "local": 900,
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 27926.400000002235
+        },
+        {
+          "type": "third-beat",
+          "round": 1,
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 28559.60000000149
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 28560.400000002235
+        },
+        {
+          "type": "cutin-start",
+          "round": 1,
+          "at": 1260.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 28560.5
+        },
+        {
+          "type": "cutin-end",
+          "round": 1,
+          "at": 3860.0000000000005,
+          "local": 1800,
+          "phase": "cutin",
+          "phaseTime": 2600,
+          "wall": 31159.400000002235
+        },
+        {
+          "type": "launch",
+          "round": 1,
+          "at": 3860.0000000000005,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 31159.5
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
+          "at": 4259,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 31559.199999999255
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
+          "at": 4700.000000000001,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 32010.199999999255
         },
         {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
+          "type": "recover",
+          "round": 1,
+          "at": 4700.000000000001,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 32012
+        }
+      ],
+      "audio": [
+        {
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
         },
         {
-          "type": "clap",
-          "round": 2,
-          "at": 3150,
-          "local": 900,
-          "wall": 5729.399999999441
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
         },
         {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
         },
         {
-          "type": "third-beat",
-          "round": 2,
-          "at": 3780,
-          "local": 1800,
-          "wall": 6362.799999999814
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
         },
         {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
         },
         {
-          "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
         },
         {
-          "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.622312925170068
         },
         {
-          "type": "start",
-          "round": 3,
-          "at": 5040,
-          "local": 0,
-          "wall": 7612.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.6919727891156464
         },
         {
-          "type": "clap",
-          "round": 3,
-          "at": 5670,
-          "local": 900,
-          "wall": 8245.599999999627
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.252154195011338
         },
         {
-          "type": "window-open",
-          "round": 3,
-          "at": 5985,
-          "local": 1350,
-          "wall": 8562.399999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.861678004535148
         },
         {
-          "type": "third-beat",
-          "round": 3,
-          "at": 6300,
-          "local": 1800,
-          "wall": 8879.200000000186
+          "name": "guard1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "window-close",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9195.700000000186
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "reveal",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9196.700000000186
+          "name": "block",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.712108843537415
         },
         {
-          "type": "fx",
-          "round": 3,
-          "at": 6720,
-          "local": 2400,
-          "wall": 9295.700000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.321632653061225
         },
         {
-          "type": "commit",
-          "round": 3,
-          "at": 6930,
-          "local": 2700,
-          "wall": 9512.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.4
         },
         {
-          "type": "start",
-          "round": 4,
-          "at": 7560,
-          "local": 0,
-          "wall": 10145.799999999814
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.960181405895692
         },
         {
-          "type": "clap",
-          "round": 4,
-          "at": 8190,
-          "local": 900,
-          "wall": 10762.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 7.590022675736962
         },
         {
-          "type": "window-open",
-          "round": 4,
-          "at": 8505,
-          "local": 1350,
-          "wall": 11079.200000000186
+          "name": "quick",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "third-beat",
-          "round": 4,
-          "at": 8820,
-          "local": 1800,
-          "wall": 11395.700000000186
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "select",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.399999999441
+          "name": "interrupted",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.431746031746032
         },
         {
-          "type": "reveal",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.98031746031746
         },
         {
-          "type": "fx",
-          "round": 4,
-          "at": 8976.8,
-          "local": 2024,
-          "wall": 11562.399999999441
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.032562358276644
         },
         {
-          "type": "window-close",
-          "round": 4,
-          "at": 9135,
-          "local": 2250,
-          "wall": 11712.099999999627
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.61015873015873
         },
         {
-          "type": "commit",
-          "round": 4,
-          "at": 9186.8,
-          "local": 2324,
-          "wall": 11762.200000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 10.24
         },
         {
-          "type": "start",
-          "round": 5,
-          "at": 10080,
-          "local": 0,
-          "wall": 12662.700000000186
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 10.251609977324263
         },
         {
-          "type": "clap",
-          "round": 5,
-          "at": 10710,
-          "local": 900,
-          "wall": 13295.399999999441
+          "name": "guard2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "window-open",
-          "round": 5,
-          "at": 11025,
-          "local": 1350,
-          "wall": 13595.799999999814
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "third-beat",
-          "round": 5,
-          "at": 11340,
-          "local": 1800,
-          "wall": 13912.200000000186
+          "name": "at-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.252789115646259
         },
         {
-          "type": "select",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.830385487528345
         },
         {
-          "type": "reveal",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.931972789115646
         },
         {
-          "type": "fx",
-          "round": 5,
-          "at": 11506.8,
-          "local": 2038.285714,
-          "wall": 14078.700000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 14.471836734693877
         },
         {
-          "type": "window-close",
-          "round": 5,
-          "at": 11655,
-          "local": 2250,
-          "wall": 14228.899999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 15.090068027210885
         },
         {
-          "type": "commit",
-          "round": 5,
-          "at": 11716.8,
-          "local": 2338.285714,
-          "wall": 14295.5
+          "name": "wave3-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 15.090068027210885
         },
         {
-          "type": "start",
-          "round": 6,
-          "at": 12600,
-          "local": 0,
-          "wall": 15179.299999999814
+          "name": "guard3",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 17.690702947845804
         },
         {
-          "type": "clap",
-          "round": 6,
-          "at": 13230,
-          "local": 900,
-          "wall": 15811.899999999441
+          "name": "wave3",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 17.690702947845804
         },
         {
-          "type": "window-open",
-          "round": 6,
-          "at": 13545,
-          "local": 1350,
-          "wall": 16128.599999999627
+          "name": "psycho-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 18.54113378684807
         },
         {
-          "type": "third-beat",
-          "round": 6,
-          "at": 13860,
-          "local": 1800,
-          "wall": 16445.39999999944
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.092607709750567
         },
         {
-          "type": "select",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.141950113378684
         },
         {
-          "type": "reveal",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.722448979591835
         },
         {
-          "type": "fx",
-          "round": 6,
-          "at": 14026.5,
-          "local": 2037.857143,
-          "wall": 16612.200000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 20.352290249433107
         },
         {
-          "type": "window-close",
-          "round": 6,
-          "at": 14175,
-          "local": 2250,
-          "wall": 16745.39999999944
+          "name": "reflect1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 20.352290249433107
         },
         {
-          "type": "commit",
-          "round": 6,
-          "at": 14236.5,
-          "local": 2337.857143,
-          "wall": 16812.099999999627
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 20.352290249433107
         },
         {
-          "type": "start",
-          "round": 7,
-          "at": 15120,
-          "local": 0,
-          "wall": 17696.099999999627
+          "name": "cylinder-in",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 20.75283446712018
         },
         {
-          "type": "clap",
-          "round": 7,
-          "at": 15750,
-          "local": 900,
-          "wall": 18328.599999999627
+          "name": "cylinder-out",
+          "offset": 0,
+          "pan": 0.5,
+          "at": 20.83683446712018
         },
         {
-          "type": "window-open",
-          "round": 7,
-          "at": 16065,
-          "local": 1350,
-          "wall": 18645.5
+          "name": "hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.202721088435375
         },
         {
-          "type": "third-beat",
-          "round": 7,
-          "at": 16380,
-          "local": 1800,
-          "wall": 18963.200000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.771609977324264
         },
         {
-          "type": "select",
-          "round": 7,
-          "at": 16457.799999999814,
-          "local": 1911.142857,
-          "wall": 19026.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.832562358276643
         },
         {
-          "type": "reveal",
-          "round": 7,
-          "at": 16457.799999999814,
-          "local": 1911.142857,
-          "wall": 19026.5
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 22.401451247165532
         },
         {
-          "type": "fx",
-          "round": 7,
-          "at": 16562.8,
-          "local": 2061.142857,
-          "wall": 19145.799999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 23.04
         },
         {
-          "type": "window-close",
-          "round": 7,
-          "at": 16695,
-          "local": 2250,
-          "wall": 19278.5
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 23.04
         },
         {
-          "type": "commit",
-          "round": 7,
-          "at": 16772.8,
-          "local": 2361.142857,
-          "wall": 19345.39999999944
+          "name": "reflect2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 25.240090702947846
         },
         {
-          "type": "start",
-          "round": 8,
-          "at": 17640,
-          "local": 0,
-          "wall": 20212.299999999814
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 25.240090702947846
         },
         {
-          "type": "clap",
-          "round": 8,
-          "at": 18270,
-          "local": 900,
-          "wall": 20845.099999999627
+          "name": "fan-return",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 25.72463492063492
         },
         {
-          "type": "window-open",
-          "round": 8,
-          "at": 18585,
-          "local": 1350,
-          "wall": 21161.799999999814
+          "name": "hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 26.090521541950114
         },
         {
-          "type": "third-beat",
-          "round": 8,
-          "at": 18900,
-          "local": 1800,
-          "wall": 21478.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 26.682630385487528
         },
         {
-          "type": "select",
-          "round": 8,
-          "at": 18969.799999999814,
-          "local": 1899.714286,
-          "wall": 21538.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 26.731972789115645
         },
         {
-          "type": "reveal",
-          "round": 8,
-          "at": 18969.799999999814,
-          "local": 1899.714286,
-          "wall": 21538.5
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 27.300861678004534
         },
         {
-          "type": "fx",
-          "round": 8,
-          "at": 19074.8,
-          "local": 2049.714286,
-          "wall": 21645.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 27.942312925170068
         },
         {
-          "type": "window-close",
-          "round": 8,
-          "at": 19215,
-          "local": 2250,
-          "wall": 21795.099999999627
+          "name": "wave3-cutin",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 27.942312925170068
         },
         {
-          "type": "commit",
-          "round": 8,
-          "at": 19284.8,
-          "local": 2349.714286,
-          "wall": 21861.799999999814
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 27.942312925170068
+        },
+        {
+          "name": "wave3",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 30.54004535147392
+        },
+        {
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 30.54004535147392
+        },
+        {
+          "name": "partial",
+          "offset": 0,
+          "pan": 0,
+          "at": 31.39047619047619
         }
       ]
     },
     {
-      "actions": [
-        "charge",
-        "charge"
-      ],
-      "damage": [
-        0,
-        0
-      ],
-      "events": [
-        {
-          "type": "charge",
-          "side": 0,
-          "amount": 1
+      "name": "丝血胜利与JOJO姿势",
+      "initial": {
+        "round": 1,
+        "players": [
+          {
+            "hp": 1,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 1,
+            "energy": 8,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "phase": "recover",
+      "result": {
+        "actions": [
+          "wave1",
+          "charge"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 1,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 0,
+              "energy": 9,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
         },
-        {
-          "type": "charge",
-          "side": 1,
-          "amount": 1
-        }
-      ],
-      "energy": [
-        1,
-        1
-      ],
+        "damage": [
+          0,
+          1
+        ],
+        "gain": [
+          0,
+          1
+        ],
+        "cost": [
+          1,
+          0
+        ],
+        "events": [
+          {
+            "type": "hit",
+            "side": 1,
+            "amount": 1
+          },
+          {
+            "type": "charge",
+            "side": 1,
+            "amount": 1
+          }
+        ],
+        "winner": 0
+      },
+      "state": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 1,
+            "energy": 7,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 0,
+            "energy": 9,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
       "log": [
         {
           "type": "start",
           "round": 1,
           "at": 0,
           "local": 0,
-          "wall": 2568.5999999996275
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 32569
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 69.10000000149012,
+          "local": 98.71428571641445,
+          "phase": "select",
+          "phaseTime": 98.71428571641445,
+          "wall": 32638.10000000149
         },
         {
           "type": "clap",
           "round": 1,
           "at": 630,
           "local": 900,
-          "wall": 3212.5
-        },
-        {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 33210.300000000745
         },
         {
           "type": "third-beat",
           "round": 1,
-          "at": 1260,
+          "at": 1259.999999999999,
           "local": 1800,
-          "wall": 3832.5999999996275
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 33842.699999999255
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
+          "at": 1259.999999999999,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 33843.400000002235
+        },
+        {
+          "type": "launch",
+          "round": 1,
+          "at": 1259.999999999999,
+          "local": 1800,
+          "phase": "action",
+          "phaseTime": 0,
+          "wall": 33843.400000002235
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
-        },
-        {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
+          "at": 1658.999999999999,
+          "local": 2370,
+          "phase": "action",
+          "phaseTime": 570,
+          "wall": 34242.60000000149
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
-        },
-        {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
-        },
-        {
-          "type": "clap",
-          "round": 2,
-          "at": 3150,
-          "local": 900,
-          "wall": 5729.399999999441
-        },
-        {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
-        },
-        {
-          "type": "third-beat",
-          "round": 2,
-          "at": 3780,
-          "local": 1800,
-          "wall": 6362.799999999814
-        },
-        {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
-        },
-        {
-          "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
-        },
-        {
-          "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
-        },
-        {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
-        },
-        {
-          "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
-        },
-        {
-          "type": "start",
-          "round": 3,
-          "at": 5040,
-          "local": 0,
-          "wall": 7612.5
-        },
-        {
-          "type": "clap",
-          "round": 3,
-          "at": 5670,
-          "local": 900,
-          "wall": 8245.599999999627
-        },
-        {
-          "type": "window-open",
-          "round": 3,
-          "at": 5985,
-          "local": 1350,
-          "wall": 8562.399999999441
-        },
-        {
-          "type": "third-beat",
-          "round": 3,
-          "at": 6300,
-          "local": 1800,
-          "wall": 8879.200000000186
-        },
-        {
-          "type": "window-close",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9195.700000000186
-        },
-        {
-          "type": "reveal",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9196.700000000186
-        },
-        {
-          "type": "fx",
-          "round": 3,
-          "at": 6720,
-          "local": 2400,
-          "wall": 9295.700000000186
-        },
-        {
-          "type": "commit",
-          "round": 3,
-          "at": 6930,
-          "local": 2700,
-          "wall": 9512.5
-        },
-        {
-          "type": "start",
-          "round": 4,
-          "at": 7560,
-          "local": 0,
-          "wall": 10145.799999999814
-        },
-        {
-          "type": "clap",
-          "round": 4,
-          "at": 8190,
-          "local": 900,
-          "wall": 10762.299999999814
-        },
-        {
-          "type": "window-open",
-          "round": 4,
-          "at": 8505,
-          "local": 1350,
-          "wall": 11079.200000000186
-        },
-        {
-          "type": "third-beat",
-          "round": 4,
-          "at": 8820,
-          "local": 1800,
-          "wall": 11395.700000000186
-        },
-        {
-          "type": "select",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.399999999441
-        },
-        {
-          "type": "reveal",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.5
-        },
-        {
-          "type": "fx",
-          "round": 4,
-          "at": 8976.8,
-          "local": 2024,
-          "wall": 11562.399999999441
-        },
-        {
-          "type": "window-close",
-          "round": 4,
-          "at": 9135,
-          "local": 2250,
-          "wall": 11712.099999999627
-        },
-        {
-          "type": "commit",
-          "round": 4,
-          "at": 9186.8,
-          "local": 2324,
-          "wall": 11762.200000000186
-        },
-        {
-          "type": "start",
-          "round": 5,
-          "at": 10080,
-          "local": 0,
-          "wall": 12662.700000000186
-        },
-        {
-          "type": "clap",
-          "round": 5,
-          "at": 10710,
-          "local": 900,
-          "wall": 13295.399999999441
-        },
-        {
-          "type": "window-open",
-          "round": 5,
-          "at": 11025,
-          "local": 1350,
-          "wall": 13595.799999999814
-        },
-        {
-          "type": "third-beat",
-          "round": 5,
-          "at": 11340,
-          "local": 1800,
-          "wall": 13912.200000000186
-        },
-        {
-          "type": "select",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
-        },
-        {
-          "type": "reveal",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
-        },
-        {
-          "type": "fx",
-          "round": 5,
-          "at": 11506.8,
-          "local": 2038.285714,
-          "wall": 14078.700000000186
-        },
-        {
-          "type": "window-close",
-          "round": 5,
-          "at": 11655,
-          "local": 2250,
-          "wall": 14228.899999999441
-        },
-        {
-          "type": "commit",
-          "round": 5,
-          "at": 11716.8,
-          "local": 2338.285714,
-          "wall": 14295.5
-        },
-        {
-          "type": "start",
-          "round": 6,
-          "at": 12600,
-          "local": 0,
-          "wall": 15179.299999999814
-        },
-        {
-          "type": "clap",
-          "round": 6,
-          "at": 13230,
-          "local": 900,
-          "wall": 15811.899999999441
-        },
-        {
-          "type": "window-open",
-          "round": 6,
-          "at": 13545,
-          "local": 1350,
-          "wall": 16128.599999999627
-        },
-        {
-          "type": "third-beat",
-          "round": 6,
-          "at": 13860,
-          "local": 1800,
-          "wall": 16445.39999999944
-        },
-        {
-          "type": "select",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
-        },
-        {
-          "type": "reveal",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
-        },
-        {
-          "type": "fx",
-          "round": 6,
-          "at": 14026.5,
-          "local": 2037.857143,
-          "wall": 16612.200000000186
-        },
-        {
-          "type": "window-close",
-          "round": 6,
-          "at": 14175,
-          "local": 2250,
-          "wall": 16745.39999999944
-        },
-        {
-          "type": "commit",
-          "round": 6,
-          "at": 14236.5,
-          "local": 2337.857143,
-          "wall": 16812.099999999627
-        },
-        {
-          "type": "start",
-          "round": 7,
-          "at": 15120,
-          "local": 0,
-          "wall": 17696.099999999627
-        },
-        {
-          "type": "clap",
-          "round": 7,
-          "at": 15750,
-          "local": 900,
-          "wall": 18328.599999999627
-        },
-        {
-          "type": "window-open",
-          "round": 7,
-          "at": 16065,
-          "local": 1350,
-          "wall": 18645.5
-        },
-        {
-          "type": "third-beat",
-          "round": 7,
-          "at": 16380,
-          "local": 1800,
-          "wall": 18963.200000000186
-        },
-        {
-          "type": "select",
-          "round": 7,
-          "at": 16457.799999999814,
-          "local": 1911.142857,
-          "wall": 19026.5
-        },
-        {
-          "type": "reveal",
-          "round": 7,
-          "at": 16457.799999999814,
-          "local": 1911.142857,
-          "wall": 19026.5
-        },
-        {
-          "type": "fx",
-          "round": 7,
-          "at": 16562.8,
-          "local": 2061.142857,
-          "wall": 19145.799999999814
-        },
-        {
-          "type": "window-close",
-          "round": 7,
-          "at": 16695,
-          "local": 2250,
-          "wall": 19278.5
-        },
-        {
-          "type": "commit",
-          "round": 7,
-          "at": 16772.8,
-          "local": 2361.142857,
-          "wall": 19345.39999999944
-        },
-        {
-          "type": "start",
-          "round": 8,
-          "at": 17640,
-          "local": 0,
-          "wall": 20212.299999999814
-        },
-        {
-          "type": "clap",
-          "round": 8,
-          "at": 18270,
-          "local": 900,
-          "wall": 20845.099999999627
-        },
-        {
-          "type": "window-open",
-          "round": 8,
-          "at": 18585,
-          "local": 1350,
-          "wall": 21161.799999999814
-        },
-        {
-          "type": "third-beat",
-          "round": 8,
-          "at": 18900,
-          "local": 1800,
-          "wall": 21478.5
-        },
-        {
-          "type": "select",
-          "round": 8,
-          "at": 18969.799999999814,
-          "local": 1899.714286,
-          "wall": 21538.5
-        },
-        {
-          "type": "reveal",
-          "round": 8,
-          "at": 18969.799999999814,
-          "local": 1899.714286,
-          "wall": 21538.5
-        },
-        {
-          "type": "fx",
-          "round": 8,
-          "at": 19074.8,
-          "local": 2049.714286,
-          "wall": 21645.299999999814
-        },
-        {
-          "type": "window-close",
-          "round": 8,
-          "at": 19215,
-          "local": 2250,
-          "wall": 21795.099999999627
-        },
-        {
-          "type": "commit",
-          "round": 8,
-          "at": 19284.8,
-          "local": 2349.714286,
-          "wall": 21861.799999999814
-        },
-        {
-          "type": "start",
-          "round": 9,
-          "at": 20160,
-          "local": 0,
-          "wall": 22745.200000000186
-        },
-        {
-          "type": "clap",
-          "round": 9,
-          "at": 20790,
-          "local": 900,
-          "wall": 23361.599999999627
-        },
-        {
-          "type": "window-open",
-          "round": 9,
-          "at": 21105,
-          "local": 1350,
-          "wall": 23678.39999999944
-        },
-        {
-          "type": "third-beat",
-          "round": 9,
-          "at": 21420,
-          "local": 1800,
-          "wall": 23995.39999999944
-        },
-        {
-          "type": "select",
-          "round": 9,
-          "at": 21470.700000000186,
-          "local": 1872.428571,
-          "wall": 24039.299999999814
-        },
-        {
-          "type": "reveal",
-          "round": 9,
-          "at": 21470.700000000186,
-          "local": 1872.428571,
-          "wall": 24039.39999999944
-        },
-        {
-          "type": "fx",
-          "round": 9,
-          "at": 21575.7,
-          "local": 2022.428571,
-          "wall": 24145
-        },
-        {
-          "type": "window-close",
-          "round": 9,
-          "at": 21735,
-          "local": 2250,
-          "wall": 24311.799999999814
-        },
-        {
-          "type": "commit",
-          "round": 9,
-          "at": 21785.7,
-          "local": 2322.428571,
-          "wall": 24361.700000000186
-        }
-      ]
-    },
-    {
-      "actions": [
-        "reflect1",
-        "wave1"
-      ],
-      "damage": [
-        0,
-        1
-      ],
-      "events": [
-        {
-          "type": "reflect",
-          "side": 0,
-          "amount": 1
+          "at": 2099.999999999999,
+          "local": 3000,
+          "phase": "action",
+          "phaseTime": 1200,
+          "wall": 34675.699999999255
+        },
+        {
+          "type": "recover",
+          "round": 1,
+          "at": 2099.999999999999,
+          "local": 3000,
+          "phase": "recover",
+          "phaseTime": 0,
+          "wall": 34677.60000000149
         }
       ],
-      "energy": [
-        0,
-        0
-      ],
-      "log": [
+      "audio": [
         {
-          "type": "start",
-          "round": 1,
-          "at": 0,
-          "local": 0,
-          "wall": 2568.5999999996275
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.3512018140589569
         },
         {
-          "type": "clap",
-          "round": 1,
-          "at": 630,
-          "local": 900,
-          "wall": 3212.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 0.9317006802721088
         },
         {
-          "type": "window-open",
-          "round": 1,
-          "at": 945,
-          "local": 1350,
-          "wall": 3529.2999999998137
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.062312925170068
         },
         {
-          "type": "third-beat",
-          "round": 1,
-          "at": 1260,
-          "local": 1800,
-          "wall": 3832.5999999996275
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 1.5615419501133787
         },
         {
-          "type": "select",
-          "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.2000000001863
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.2000907029478456
         },
         {
-          "type": "reveal",
-          "round": 1,
-          "at": 1309.5,
-          "local": 1870.714286,
-          "wall": 3878.5
+          "name": "charge",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "fx",
-          "round": 1,
-          "at": 1414.5,
-          "local": 2020.714286,
-          "wall": 3995.899999999441
+          "name": "quick",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 2.2000907029478456
         },
         {
-          "type": "window-close",
-          "round": 1,
-          "at": 1575,
-          "local": 2250,
-          "wall": 4146
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.030204081632653
         },
         {
-          "type": "commit",
-          "round": 1,
-          "at": 1624.5,
-          "local": 2320.714286,
-          "wall": 4196.299999999814
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.622312925170068
         },
         {
-          "type": "start",
-          "round": 2,
-          "at": 2520,
-          "local": 0,
-          "wall": 5097.799999999814
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 3.6919727891156464
         },
         {
-          "type": "clap",
-          "round": 2,
-          "at": 3150,
-          "local": 900,
-          "wall": 5729.399999999441
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.252154195011338
         },
         {
-          "type": "window-open",
-          "round": 2,
-          "at": 3465,
-          "local": 1350,
-          "wall": 6045.899999999441
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 4.861678004535148
         },
         {
-          "type": "third-beat",
-          "round": 2,
-          "at": 3780,
-          "local": 1800,
-          "wall": 6362.799999999814
+          "name": "guard1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "select",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 4.861678004535148
         },
         {
-          "type": "reveal",
-          "round": 2,
-          "at": 3837.7000000001863,
-          "local": 1882.428571,
-          "wall": 6406.299999999814
+          "name": "block",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.712108843537415
         },
         {
-          "type": "fx",
-          "round": 2,
-          "at": 3942.7,
-          "local": 2032.428571,
-          "wall": 6512.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.321632653061225
         },
         {
-          "type": "window-close",
-          "round": 2,
-          "at": 4095,
-          "local": 2250,
-          "wall": 6680.5999999996275
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.4
         },
         {
-          "type": "commit",
-          "round": 2,
-          "at": 4152.7,
-          "local": 2332.428571,
-          "wall": 6729.0999999996275
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 6.960181405895692
         },
         {
-          "type": "start",
-          "round": 3,
-          "at": 5040,
-          "local": 0,
-          "wall": 7612.5
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 7.590022675736962
         },
         {
-          "type": "clap",
-          "round": 3,
-          "at": 5670,
-          "local": 900,
-          "wall": 8245.599999999627
+          "name": "quick",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "window-open",
-          "round": 3,
-          "at": 5985,
-          "local": 1350,
-          "wall": 8562.399999999441
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 7.590022675736962
         },
         {
-          "type": "third-beat",
-          "round": 3,
-          "at": 6300,
-          "local": 1800,
-          "wall": 8879.200000000186
+          "name": "interrupted",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.431746031746032
         },
         {
-          "type": "window-close",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9195.700000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.98031746031746
         },
         {
-          "type": "reveal",
-          "round": 3,
-          "at": 6615,
-          "local": 2250,
-          "wall": 9196.700000000186
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.032562358276644
         },
         {
-          "type": "fx",
-          "round": 3,
-          "at": 6720,
-          "local": 2400,
-          "wall": 9295.700000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 9.61015873015873
         },
         {
-          "type": "commit",
-          "round": 3,
-          "at": 6930,
-          "local": 2700,
-          "wall": 9512.5
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 10.24
         },
         {
-          "type": "start",
-          "round": 4,
-          "at": 7560,
-          "local": 0,
-          "wall": 10145.799999999814
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 10.251609977324263
         },
         {
-          "type": "clap",
-          "round": 4,
-          "at": 8190,
-          "local": 900,
-          "wall": 10762.299999999814
+          "name": "guard2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "window-open",
-          "round": 4,
-          "at": 8505,
-          "local": 1350,
-          "wall": 11079.200000000186
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 12.440090702947845
         },
         {
-          "type": "third-beat",
-          "round": 4,
-          "at": 8820,
-          "local": 1800,
-          "wall": 11395.700000000186
+          "name": "at-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.252789115646259
         },
         {
-          "type": "select",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.399999999441
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.830385487528345
         },
         {
-          "type": "reveal",
-          "round": 4,
-          "at": 8871.799999999814,
-          "local": 1874,
-          "wall": 11440.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 13.931972789115646
         },
         {
-          "type": "fx",
-          "round": 4,
-          "at": 8976.8,
-          "local": 2024,
-          "wall": 11562.399999999441
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 14.471836734693877
         },
         {
-          "type": "window-close",
-          "round": 4,
-          "at": 9135,
-          "local": 2250,
-          "wall": 11712.099999999627
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 15.090068027210885
         },
         {
-          "type": "commit",
-          "round": 4,
-          "at": 9186.8,
-          "local": 2324,
-          "wall": 11762.200000000186
+          "name": "wave3-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 15.090068027210885
         },
         {
-          "type": "start",
-          "round": 5,
-          "at": 10080,
-          "local": 0,
-          "wall": 12662.700000000186
+          "name": "guard3",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 17.690702947845804
         },
         {
-          "type": "clap",
-          "round": 5,
-          "at": 10710,
-          "local": 900,
-          "wall": 13295.399999999441
+          "name": "wave3",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 17.690702947845804
         },
         {
-          "type": "window-open",
-          "round": 5,
-          "at": 11025,
-          "local": 1350,
-          "wall": 13595.799999999814
+          "name": "psycho-hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 18.54113378684807
         },
         {
-          "type": "third-beat",
-          "round": 5,
-          "at": 11340,
-          "local": 1800,
-          "wall": 13912.200000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.092607709750567
         },
         {
-          "type": "select",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.141950113378684
         },
         {
-          "type": "reveal",
-          "round": 5,
-          "at": 11401.799999999814,
-          "local": 1888.285714,
-          "wall": 13970.5
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 19.722448979591835
         },
         {
-          "type": "fx",
-          "round": 5,
-          "at": 11506.8,
-          "local": 2038.285714,
-          "wall": 14078.700000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 20.352290249433107
         },
         {
-          "type": "window-close",
-          "round": 5,
-          "at": 11655,
-          "local": 2250,
-          "wall": 14228.899999999441
+          "name": "reflect1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 20.352290249433107
         },
         {
-          "type": "commit",
-          "round": 5,
-          "at": 11716.8,
-          "local": 2338.285714,
-          "wall": 14295.5
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 20.352290249433107
         },
         {
-          "type": "start",
-          "round": 6,
-          "at": 12600,
-          "local": 0,
-          "wall": 15179.299999999814
+          "name": "cylinder-in",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 20.75283446712018
         },
         {
-          "type": "clap",
-          "round": 6,
-          "at": 13230,
-          "local": 900,
-          "wall": 15811.899999999441
+          "name": "cylinder-out",
+          "offset": 0,
+          "pan": 0.5,
+          "at": 20.83683446712018
         },
         {
-          "type": "window-open",
-          "round": 6,
-          "at": 13545,
-          "local": 1350,
-          "wall": 16128.599999999627
+          "name": "hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.202721088435375
         },
         {
-          "type": "third-beat",
-          "round": 6,
-          "at": 13860,
-          "local": 1800,
-          "wall": 16445.39999999944
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.771609977324264
         },
         {
-          "type": "select",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.832562358276643
         },
         {
-          "type": "reveal",
-          "round": 6,
-          "at": 13921.5,
-          "local": 1887.857143,
-          "wall": 16490.200000000186
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 22.401451247165532
         },
         {
-          "type": "fx",
-          "round": 6,
-          "at": 14026.5,
-          "local": 2037.857143,
-          "wall": 16612.200000000186
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 23.04
         },
         {
-          "type": "window-close",
-          "round": 6,
-          "at": 14175,
-          "local": 2250,
-          "wall": 16745.39999999944
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 23.04
         },
         {
-          "type": "commit",
-          "round": 6,
-          "at": 14236.5,
-          "local": 2337.857143,
-          "wall": 16812.099999999627
+          "name": "reflect2",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 25.240090702947846
         },
         {
-          "type": "start",
-          "round": 7,
-          "at": 15120,
-          "local": 0,
-          "wall": 17696.099999999627
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 25.240090702947846
         },
         {
-          "type": "clap",
-          "round": 7,
-          "at": 15750,
-          "local": 900,
-          "wall": 18328.599999999627
+          "name": "fan-return",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 25.72463492063492
         },
         {
-          "type": "window-open",
-          "round": 7,
-          "at": 16065,
-          "local": 1350,
-          "wall": 18645.5
+          "name": "hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 26.090521541950114
         },
         {
-          "type": "third-beat",
-          "round": 7,
-          "at": 16380,
-          "local": 1800,
-          "wall": 18963.200000000186
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 26.682630385487528
         },
         {
-          "type": "select",
-          "round": 7,
-          "at": 16457.799999999814,
-          "local": 1911.142857,
-          "wall": 19026.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 26.731972789115645
         },
         {
-          "type": "reveal",
-          "round": 7,
-          "at": 16457.799999999814,
-          "local": 1911.142857,
-          "wall": 19026.5
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 27.300861678004534
         },
         {
-          "type": "fx",
-          "round": 7,
-          "at": 16562.8,
-          "local": 2061.142857,
-          "wall": 19145.799999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 27.942312925170068
         },
         {
-          "type": "window-close",
-          "round": 7,
-          "at": 16695,
-          "local": 2250,
-          "wall": 19278.5
+          "name": "wave3-cutin",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 27.942312925170068
         },
         {
-          "type": "commit",
-          "round": 7,
-          "at": 16772.8,
-          "local": 2361.142857,
-          "wall": 19345.39999999944
+          "name": "wave2-cutin",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 27.942312925170068
         },
         {
-          "type": "start",
-          "round": 8,
-          "at": 17640,
-          "local": 0,
-          "wall": 20212.299999999814
+          "name": "wave3",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 30.54004535147392
         },
         {
-          "type": "clap",
-          "round": 8,
-          "at": 18270,
-          "local": 900,
-          "wall": 20845.099999999627
+          "name": "wave2",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 30.54004535147392
         },
         {
-          "type": "window-open",
-          "round": 8,
-          "at": 18585,
-          "local": 1350,
-          "wall": 21161.799999999814
+          "name": "partial",
+          "offset": 0,
+          "pan": 0,
+          "at": 31.39047619047619
         },
         {
-          "type": "third-beat",
-          "round": 8,
-          "at": 18900,
-          "local": 1800,
-          "wall": 21478.5
+          "name": "clap1",
+          "offset": 0,
+          "pan": 0,
+          "at": 31.950657596371883
         },
         {
-          "type": "select",
-          "round": 8,
-          "at": 18969.799999999814,
-          "local": 1899.714286,
-          "wall": 21538.5
+          "name": "select",
+          "offset": 0,
+          "pan": 0,
+          "at": 32.02031746031746
         },
         {
-          "type": "reveal",
-          "round": 8,
-          "at": 18969.799999999814,
-          "local": 1899.714286,
-          "wall": 21538.5
+          "name": "clap2",
+          "offset": 0,
+          "pan": 0,
+          "at": 32.59210884353742
         },
         {
-          "type": "fx",
-          "round": 8,
-          "at": 19074.8,
-          "local": 2049.714286,
-          "wall": 21645.299999999814
+          "name": "reveal",
+          "offset": 0,
+          "pan": 0,
+          "at": 33.22195011337868
         },
         {
-          "type": "window-close",
-          "round": 8,
-          "at": 19215,
-          "local": 2250,
-          "wall": 21795.099999999627
+          "name": "wave1-1",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 33.22195011337868
         },
         {
-          "type": "commit",
-          "round": 8,
-          "at": 19284.8,
-          "local": 2349.714286,
-          "wall": 21861.799999999814
+          "name": "charge",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 33.22195011337868
         },
         {
-          "type": "start",
-          "round": 9,
-          "at": 20160,
-          "local": 0,
-          "wall": 22745.200000000186
+          "name": "hit",
+          "offset": 0,
+          "pan": 0,
+          "at": 34.05206349206349
         },
         {
-          "type": "clap",
-          "round": 9,
-          "at": 20790,
-          "local": 900,
-          "wall": 23361.599999999627
-        },
-        {
-          "type": "window-open",
-          "round": 9,
-          "at": 21105,
-          "local": 1350,
-          "wall": 23678.39999999944
-        },
-        {
-          "type": "third-beat",
-          "round": 9,
-          "at": 21420,
-          "local": 1800,
-          "wall": 23995.39999999944
-        },
-        {
-          "type": "select",
-          "round": 9,
-          "at": 21470.700000000186,
-          "local": 1872.428571,
-          "wall": 24039.299999999814
-        },
-        {
-          "type": "reveal",
-          "round": 9,
-          "at": 21470.700000000186,
-          "local": 1872.428571,
-          "wall": 24039.39999999944
-        },
-        {
-          "type": "fx",
-          "round": 9,
-          "at": 21575.7,
-          "local": 2022.428571,
-          "wall": 24145
-        },
-        {
-          "type": "window-close",
-          "round": 9,
-          "at": 21735,
-          "local": 2250,
-          "wall": 24311.799999999814
-        },
-        {
-          "type": "commit",
-          "round": 9,
-          "at": 21785.7,
-          "local": 2322.428571,
-          "wall": 24361.700000000186
-        },
-        {
-          "type": "start",
-          "round": 10,
-          "at": 22680,
-          "local": 0,
-          "wall": 25262.200000000186
-        },
-        {
-          "type": "clap",
-          "round": 10,
-          "at": 23310,
-          "local": 900,
-          "wall": 25895
-        },
-        {
-          "type": "window-open",
-          "round": 10,
-          "at": 23625,
-          "local": 1350,
-          "wall": 26194.89999999944
-        },
-        {
-          "type": "third-beat",
-          "round": 10,
-          "at": 23940,
-          "local": 1800,
-          "wall": 26511.700000000186
-        },
-        {
-          "type": "select",
-          "round": 10,
-          "at": 24000.5,
-          "local": 1886.428571,
-          "wall": 26569.200000000186
-        },
-        {
-          "type": "reveal",
-          "round": 10,
-          "at": 24000.5,
-          "local": 1886.428571,
-          "wall": 26569.200000000186
-        },
-        {
-          "type": "fx",
-          "round": 10,
-          "at": 24105.5,
-          "local": 2036.428571,
-          "wall": 26679.89999999944
-        },
-        {
-          "type": "window-close",
-          "round": 10,
-          "at": 24255,
-          "local": 2250,
-          "wall": 26828.299999999814
-        },
-        {
-          "type": "commit",
-          "round": 10,
-          "at": 24315.5,
-          "local": 2336.428571,
-          "wall": 26895.89999999944
+          "name": "qi-gain",
+          "offset": 0,
+          "pan": 0,
+          "at": 34.05206349206349
         }
       ]
     }
   ],
-  "audioDuration": 36.845100000000556,
-  "audioStartPerf": 611.5999999996275
+  "audioDuration": 38.30929999999702,
+  "audioStartPerf": 933.9000000022352,
+  "errors": []
 }

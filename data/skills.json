@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "2.0.0",
   "energyCap": 9,
   "maxRounds": 60,
   "skills": [
@@ -20,7 +20,7 @@
         "story",
         "advanced"
       ],
-      "description": "双手围圆，积蓄 1 气。受击仍加气。"
+      "description": "认真护住掌心气团，受击仍加1气。"
     },
     {
       "id": "quick",
@@ -38,7 +38,7 @@
         "story",
         "advanced"
       ],
-      "description": "未受击加 2 气；受击不加气，下回合禁充。"
+      "description": "电池双闪电：未受击加2气，受击断电不加气；下回合过热禁充。"
     },
     {
       "id": "wave1",
@@ -57,7 +57,7 @@
         "story",
         "advanced"
       ],
-      "description": "双掌推出。1 气，伤害 1，强度 1。"
+      "description": "并腕推掌，啵！1气，伤害1，强度1。"
     },
     {
       "id": "wave2",
@@ -75,7 +75,7 @@
         "story",
         "advanced"
       ],
-      "description": "踏步转髋。3 气，伤害 2，击穿普通防御和反弹。"
+      "description": "街霸波动拳：红头带特写，蓝波。3气，伤害2，强度2。"
     },
     {
       "id": "wave3",
@@ -93,7 +93,7 @@
         "story",
         "advanced"
       ],
-      "description": "深蹲蓄势。5 气，伤害 3；只有大防能完全挡下。"
+      "description": "初代斯派修姆光线：十字手臂特写。5气，伤害3，强度3。"
     },
     {
       "id": "guard1",
@@ -112,7 +112,7 @@
         "story",
         "advanced"
       ],
-      "description": "胸前竖掌，免费完全挡住强度 1。"
+      "description": "平底锅：0气，完全挡住强度1；中大波会破防。"
     },
     {
       "id": "guard2",
@@ -130,7 +130,7 @@
         "story",
         "advanced"
       ],
-      "description": "稳住重心。1 气，完全挡住强度 1–2。"
+      "description": "初号机 AT力场：1气，完全挡住强度1–2；大波破防。"
     },
     {
       "id": "guard3",
@@ -148,7 +148,7 @@
         "story",
         "advanced"
       ],
-      "description": "前后脚撑地。2 气，完全挡住强度 1–3。"
+      "description": "独角兽觉醒，三盾精神场：2气，完全挡住强度1–3。"
     },
     {
       "id": "reflect1",
@@ -166,7 +166,7 @@
         "story",
         "advanced"
       ],
-      "description": "手指交叠，接住强度 1 并原伤送回。"
+      "description": "魔法筒：1气，接住强度1，另一筒原伤返射。"
     },
     {
       "id": "reflect2",
@@ -184,7 +184,7 @@
         "story",
         "advanced"
       ],
-      "description": "压缩后伸展。2 气，反送强度 1–2。"
+      "description": "宇智波反弹：2气，挥团扇返还强度1–2的原伤。"
     }
   ],
   "missAction": {
@@ -204,6 +204,6 @@
       "story",
       "advanced"
     ],
-    "description": "错过节拍：本回合不行动、不加气、没有防护。"
+    "description": "内部兼容空动作；未选时实际默认普通充气，过热则普通防御。"
   }
 }

@@ -1,4 +1,5 @@
 {
+  "version": "2.0.0",
   "browser": "154.0.8037.57",
   "desktopTouchEmulation": true,
   "viewport": {
@@ -11,196 +12,243 @@
       "round": 1,
       "at": 0,
       "local": 0,
-      "wall": 1073.5
+      "phase": "select",
+      "phaseTime": 0,
+      "wall": 1912.8999999985099
+    },
+    {
+      "type": "select",
+      "round": 1,
+      "at": 225.49999999776492,
+      "local": 225.49999999776492,
+      "phase": "select",
+      "phaseTime": 225.49999999776492,
+      "wall": 2125.699999999255
     },
     {
       "type": "clap",
       "round": 1,
       "at": 900,
       "local": 900,
-      "wall": 1970.8999999994412
-    },
-    {
-      "type": "window-open",
-      "round": 1,
-      "at": 1350,
-      "local": 1350,
-      "wall": 2437.5999999996275
+      "phase": "select",
+      "phaseTime": 900,
+      "wall": 2819.099999997765
     },
     {
       "type": "third-beat",
       "round": 1,
       "at": 1800,
       "local": 1800,
-      "wall": 2871.199999999255
-    },
-    {
-      "type": "select",
-      "round": 1,
-      "at": 1890.4999999998138,
-      "local": 1890.5,
-      "wall": 2960.7999999998137
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 3718.199999999255
     },
     {
       "type": "reveal",
       "round": 1,
-      "at": 1890.4999999998138,
-      "local": 1890.5,
-      "wall": 2961.0999999996275
+      "at": 1800,
+      "local": 1800,
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 3719.199999999255
+    },
+    {
+      "type": "launch",
+      "round": 1,
+      "at": 1800,
+      "local": 1800,
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 3719.5
     },
     {
       "type": "fx",
       "round": 1,
-      "at": 2040.5,
-      "local": 2040.5,
-      "wall": 3121
-    },
-    {
-      "type": "window-close",
-      "round": 1,
-      "at": 2250,
-      "local": 2250,
-      "wall": 3337.2999999998137
+      "at": 2370,
+      "local": 2370,
+      "phase": "action",
+      "phaseTime": 570,
+      "wall": 4284.39999999851
     },
     {
       "type": "commit",
       "round": 1,
-      "at": 2340.5,
-      "local": 2340.5,
-      "wall": 3421.0999999996275
+      "at": 3000,
+      "local": 3000,
+      "phase": "action",
+      "phaseTime": 1200,
+      "wall": 4919.699999999255
+    },
+    {
+      "type": "recover",
+      "round": 1,
+      "at": 3000,
+      "local": 3000,
+      "phase": "recover",
+      "phaseTime": 0,
+      "wall": 4920.800000000745
     },
     {
       "type": "start",
       "round": 2,
-      "at": 3600,
+      "at": 3900,
       "local": 0,
-      "wall": 4687.799999999814
+      "phase": "select",
+      "phaseTime": 0,
+      "wall": 5826.39999999851
+    },
+    {
+      "type": "select",
+      "round": 2,
+      "at": 4032.700000000745,
+      "local": 132.70000000074515,
+      "phase": "select",
+      "phaseTime": 132.70000000074515,
+      "wall": 5932.89999999851
     },
     {
       "type": "clap",
       "round": 2,
-      "at": 4500,
+      "at": 4800,
       "local": 900,
-      "wall": 5587.5999999996275
-    },
-    {
-      "type": "window-open",
-      "round": 2,
-      "at": 4950,
-      "local": 1350,
-      "wall": 6037.199999999255
+      "phase": "select",
+      "phaseTime": 900,
+      "wall": 6717
     },
     {
       "type": "third-beat",
       "round": 2,
-      "at": 5400,
+      "at": 5700,
       "local": 1800,
-      "wall": 6487.199999999255
-    },
-    {
-      "type": "select",
-      "round": 2,
-      "at": 5506.999999999814,
-      "local": 1907,
-      "wall": 6577.399999999441
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 7617
     },
     {
       "type": "reveal",
       "round": 2,
-      "at": 5506.999999999814,
-      "local": 1907,
-      "wall": 6577.399999999441
+      "at": 5700,
+      "local": 1800,
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 7617.599999997765
+    },
+    {
+      "type": "launch",
+      "round": 2,
+      "at": 5700,
+      "local": 1800,
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 7617.599999997765
     },
     {
       "type": "fx",
       "round": 2,
-      "at": 5657,
-      "local": 2057,
-      "wall": 6737.899999999441
-    },
-    {
-      "type": "window-close",
-      "round": 2,
-      "at": 5850,
-      "local": 2250,
-      "wall": 6937.5
+      "at": 6270,
+      "local": 2370,
+      "phase": "action",
+      "phaseTime": 570,
+      "wall": 8183.89999999851
     },
     {
       "type": "commit",
       "round": 2,
-      "at": 5957,
-      "local": 2357,
-      "wall": 7037.799999999814
+      "at": 6900,
+      "local": 3000,
+      "phase": "action",
+      "phaseTime": 1200,
+      "wall": 8818.800000000745
+    },
+    {
+      "type": "recover",
+      "round": 2,
+      "at": 6900,
+      "local": 3000,
+      "phase": "recover",
+      "phaseTime": 0,
+      "wall": 8820.300000000745
     },
     {
       "type": "start",
       "round": 3,
-      "at": 7200,
+      "at": 7800,
       "local": 0,
-      "wall": 8287.299999999814
+      "phase": "select",
+      "phaseTime": 0,
+      "wall": 9717.89999999851
+    },
+    {
+      "type": "select",
+      "round": 3,
+      "at": 7907.200000000745,
+      "local": 107.20000000074515,
+      "phase": "select",
+      "phaseTime": 107.20000000074515,
+      "wall": 9807.300000000745
     },
     {
       "type": "clap",
       "round": 3,
-      "at": 8100,
+      "at": 8700,
       "local": 900,
-      "wall": 9187.199999999255
-    },
-    {
-      "type": "window-open",
-      "round": 3,
-      "at": 8550,
-      "local": 1350,
-      "wall": 9637.099999999627
+      "phase": "select",
+      "phaseTime": 900,
+      "wall": 10621.199999999255
     },
     {
       "type": "third-beat",
       "round": 3,
-      "at": 9000,
+      "at": 9600,
       "local": 1800,
-      "wall": 10087.099999999627
-    },
-    {
-      "type": "select",
-      "round": 3,
-      "at": 9123.899999999256,
-      "local": 1923.9,
-      "wall": 10194.299999999814
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 11517
     },
     {
       "type": "reveal",
       "round": 3,
-      "at": 9123.899999999256,
-      "local": 1923.9,
-      "wall": 10194.399999999441
+      "at": 9600,
+      "local": 1800,
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 11517.5
+    },
+    {
+      "type": "launch",
+      "round": 3,
+      "at": 9600,
+      "local": 1800,
+      "phase": "action",
+      "phaseTime": 0,
+      "wall": 11517.699999999255
     },
     {
       "type": "fx",
       "round": 3,
-      "at": 9273.9,
-      "local": 2073.9,
-      "wall": 10354
-    },
-    {
-      "type": "window-close",
-      "round": 3,
-      "at": 9450,
-      "local": 2250,
-      "wall": 10537.099999999627
+      "at": 10170,
+      "local": 2370,
+      "phase": "action",
+      "phaseTime": 570,
+      "wall": 12083.800000000745
     },
     {
       "type": "commit",
       "round": 3,
-      "at": 9573.9,
-      "local": 2373.9,
-      "wall": 10653.799999999814
-    },
-    {
-      "type": "start",
-      "round": 4,
       "at": 10800,
-      "local": 0,
-      "wall": 11887.299999999814
+      "local": 3000,
+      "phase": "action",
+      "phaseTime": 1200,
+      "wall": 12727.099999997765
+    },
+    {
+      "type": "recover",
+      "round": 3,
+      "at": 10800,
+      "local": 3000,
+      "phase": "recover",
+      "phaseTime": 0,
+      "wall": 12727.599999997765
     }
   ]
 }

@@ -1,14 +1,15 @@
 # 拍拍波
 
-拍拍手，攒一口气。暖纸与墨线风格的本地单机手势对战游戏。
+两个小学生，把课间气功打出了热血动漫最终决战的气势。暖纸、墨线、漫画特写与道具反差的本地单机手势对战。
 
-试玩（所有者私有）：https://paipai-wave-playground.zhipijun1996.chatgpt.site
+公开试玩（无需登录）：https://paipai-wave-playground.zhipijun1996.chatgpt.site
 
 完整下载与待验收项：[交付索引](docs/DELIVERY.md)、[逐条验收](docs/ACCEPTANCE.md)、[平衡报告](docs/BALANCE_REPORT.md)。当前为可玩候选；物理手机、人类手感与Toy账号容器仍待验。
 
 - 故事模式：放学后的八位同学、七招逐关解锁与毕业战。
 - 开始游戏：充气 / 小波 / 防御；1或3血，三档AI。
 - 进阶游戏：故事8关通关后解锁十招，双方5血。普通/进阶均可选连战，胜后满血，分别保存最高连胜。
+- 十招动漫手绘演出、暂停特写与双人分屏、两力场/双反弹、快充断电与JOJO胜利。37个本地声音，作品原声仍为原创暂用（见[原声缺口](docs/AUDIO_RESEARCH.md)）。
 - 四款纯外观皮肤、可跳过实操教学、本地自动存档、音量/震动/减弱动效与慢速/标准/快档设置。
 
 ## 运行
@@ -31,6 +32,8 @@ python3 scripts/usage_report.py
 python3 -m http.server 4173 --directory dist
 # 另一个终端，安装系统Chromium后：
 npm run qa
+npx tsx scripts/cinematic-qa.ts
+npx tsx scripts/audio-qa.ts
 # 视频录制另需：npx playwright install ffmpeg
 ```
 
@@ -44,7 +47,7 @@ npm run package
 
 ## 操作与规则
 
-跟随前两拍，第三拍“出”时点击立即发动；稍早输入排队到第三拍，稍晚也能接上。标准容错900ms、慢速1350ms、快档630ms，第四拍收招。没有窗口内合法点击则空过：不充气、不防御、不攻击。桌面可用数字1–0选招、空格暂停。切后台暂停，返回后手动继续。
+两次拍手时选招和改选，第三拍双方锁定；未选默认普通充气，过热禁充时默认普通防御。中波/大波进入独立特写（双触发分屏），战场冻结，特写后同步出招并在统一结果点结算一次。总时长随特写变化，快档/慢档不改变特写音轨语速。桌面数字1–0选招，空格暂停；切后台暂停，返回手动继续。
 
 完整权威规格在 [docs/GAME_SPEC.md](docs/GAME_SPEC.md)。进度与验收证据在 [docs/PROGRESS.md](docs/PROGRESS.md)。
 
@@ -54,9 +57,9 @@ npm run package
 | --- | --- |
 | `data/skills.json` | TS/Python共享版本化数值 |
 | `src/rules.ts` / `scripts/rules.py` | 两套独立确定性规则实现 |
-| `src/clock.ts` | 固定节拍、截止、单次提交与暂停恢复 |
+| `src/clock.ts` | 两拍选招、暂停特写、同步交战、单次提交与终局演出 |
 | `src/ai.ts` | 公共状态/已揭晓历史/独立PRNG，第一拍前封存 |
-| `data/motions.json` / `src/renderer.ts` | 原创骨架关键姿势、手掌手指、全身动作与特效 |
+| `data/motions.json` / `src/renderer.ts` / `src/spectacle.ts` | 原创骨架关键姿势、手掌手指、全身动作与特效 |
 | `src/content.ts` / `src/main.ts` | 八关、解锁、界面、教程、衣橱 |
 | `src/platform.ts` | 可注入的Toy接口隔离层；无SDK时完全离线可玩 |
 | `public/assets` / `scripts/make_assets.py` | 原创SVG/WAV与生成源代码 |
