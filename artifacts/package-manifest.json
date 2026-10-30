@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
   "entryBytes": 723,
-  "uncompressedBytes": 1991315,
-  "zipBytes": 1621839,
+  "uncompressedBytes": 1991508,
+  "zipBytes": 1621903,
   "files": 53,
   "under10MB": true,
-  "zipSHA256": "f1290bd3456a9f76c3c7e0b6d2ef4ac7012648c0e78ede716502ff7448c6e96b",
+  "zipSHA256": "7402d697c52d8bc1bf9da487c004b6f2282684f3a4ae152e9813f6c8a7e9376e",
   "assets": {
     "assets/audio/at-hit.wav": "407097774c358b55f9c0ad2263faa3d7f8a681aa0fca251047e23ad58100ecde",
     "assets/audio/block.wav": "3619d1cfdd4c116423f33184731060c398ca821d88f1996b9eb4ed0aaa9591fb",
@@ -57,8 +57,8 @@
     "assets/icons/wave1.svg": "1d6eaaca5c2951afa70886bc7a001fd9966c6d5e0b55fb192124bb175dab9474",
     "assets/icons/wave2.svg": "cc91b24caee3c9cc00e9452bb3e9b000fdf6b4e9838c62d945051ac921abbb61",
     "assets/icons/wave3.svg": "f4b5ed92a0603a53aabe13a12b488489f56e56bc44c93e04b8efc4ebafcc214c",
+    "assets/index-BsCmSCCb.js": "850a5242bdfb47d2fbde7ec69d2ba9e5676dcf9f28baf8b80ea4cd6af5e5ee97",
     "assets/index-Dt1XCSGg.css": "a355bcf8d7d9f40b9bd1a06da6dd86ce67f6fe5668d90b211575d6c22394fda2",
-    "assets/index-sptJbfDe.js": "56a61357988b2e8ab3b06d668846b07708c803a63d6b9d8a57a9c51b02507e0f",
-    "index.html": "1b90f9f7b5c0f78dff11c8d58eb62314dceaab3a5e38a31c0df3a5d38171de81"
+    "index.html": "f54bb9857cd2bc10900049a40968ac5b19bf76d714b341e987ece36a6525bcac"
   }
 }

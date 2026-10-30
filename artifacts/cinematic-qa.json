@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T10:48:04.079Z",
+  "checkedAt": "2026-10-30T10:56:01.446Z",
   "browser": "154.0.8037.57",
   "desktopEmulation": true,
   "checks": [
@@ -568,6 +568,10 @@
     },
     {
       "name": "draw complete before buttons",
+      "passed": true
+    },
+    {
+      "name": "defeated fighter settles into a seated pose before winner closeup",
       "passed": true
     },
     {

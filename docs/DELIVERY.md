@@ -4,18 +4,18 @@
 
 源码仓库：https://github.com/zhipijun1996/wave-game
 
-版本索引：https://github.com/zhipijun1996/wave-game/releases/tag/v2.0.0-rc.1
+版本索引：https://github.com/zhipijun1996/wave-game/releases/tag/v2.0.0-rc.2
 
 ## 下载
 
-固定交付分支`deliveries/v2.0.0-rc.1`，每个链接直接取固定版本文件：
+固定交付分支`deliveries/v2.0.0-rc.2`，每个链接直接取固定版本文件：
 
-- [完整交付包](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.1/paipai-wave-delivery-v2.0.0.zip)：包含构建、源码、证据、带声展示和三档时序/触摸模拟录像。
-- [可运行网页/Toy上传ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.1/paipai-wave-toy-v2.0.0.zip)：解压后通过静态HTTP服务打开index.html；根入口与相对路径适配Toy。
-- [完整源码ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.1/paipai-wave-source-v2.0.0.zip)
-- [约38秒带游戏实际声音的展示MP4](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.1/paipai-wave-showcase.mp4)
-- [验收证据与报告ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.1/paipai-wave-evidence-v2.0.0.zip)
-- [SHA256、大小及源码提交清单](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.1/delivery-manifest.json)
+- [完整交付包](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-delivery-v2.0.0.zip)：包含构建、源码、证据、带声展示和三档时序/触摸模拟录像。
+- [可运行网页/Toy上传ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-toy-v2.0.0.zip)：解压后通过静态HTTP服务打开index.html；根入口与相对路径适配Toy。
+- [完整源码ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-source-v2.0.0.zip)
+- [约38秒带游戏实际声音的展示MP4](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-showcase.mp4)
+- [验收证据与报告ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-evidence-v2.0.0.zip)
+- [SHA256、大小及源码提交清单](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/delivery-manifest.json)
 
 GitHub上传附件接口的既有401限制仍在，采用版本分支托管二进制和Release索引；不把失败的附件上传说成成功。
 
@@ -29,4 +29,4 @@ GitHub上传附件接口的既有401限制仍在，采用版本分支托管二�
 
 实际打包37个本地WAV；目前作品相关喊招/光线/力场/反弹/胜利均为原创暂用音，合成喊招非原配音。七类对应原声没有确认可随公开游戏与ZIP再分发的素材，因此没有接入。具体目标作品、片段、来源和许可核查见[AUDIO_RESEARCH.md](AUDIO_RESEARCH.md)，逐文件实际采用清单见[data/audio-manifest.json](../data/audio-manifest.json)。后续需提供有明确使用许可的片段和来源即可替换。
 
-21项测试（1007共享用例）、44项镜头/五视口检查、11组连战/解锁、13组完整流程、三档各20回合时序、真实双音轨暂停续播及子路径资源加载均已完成。具体证据与范围见[ACCEPTANCE.md](ACCEPTANCE.md)。物理手机、人类手感/辨识度试玩以及Toy授权账号实际容器/审核仍是既有外部待验条件，未将桌面模拟冒称真机或Toy上线。
+21项测试（1007共享用例）、45项镜头/五视口检查、11组连战/解锁、13组完整流程、三档各20回合时序、真实双音轨暂停续播及子路径资源加载均已完成。具体证据与范围见[ACCEPTANCE.md](ACCEPTANCE.md)。物理手机、人类手感/辨识度试玩以及Toy授权账号实际容器/审核仍是既有外部待验条件，未将桌面模拟冒称真机或Toy上线。

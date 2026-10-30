@@ -15,7 +15,7 @@ with zipfile.ZipFile(evidence,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
  for p in sorted((ROOT/'docs').rglob('*')):
   if p.is_file():z.write(p,'docs/'+str(p.relative_to(ROOT/'docs')))
 files=[A/f'paipai-wave-toy-{V}.zip',source,evidence,A/'paipai-wave-showcase.mp4',A/'timing-standard.webm',A/'timing-slow.webm',A/'timing-fast.webm',A/'touch-portrait.webm',A/'touch-landscape.webm']
-manifest={'version':V.lstrip('v')+'-rc.1','sourceCommit':sha,'files':{p.name:{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in files},'screenshots':len(images),'allExternalAcceptanceComplete':False,'pending':['licensed original franchise audio (7 categories; temporary originals included)','physical-phone testing','human timing/recognition/balance playtest','Toy authorized account/container/review']}
+manifest={'version':V.lstrip('v')+'-rc.2','sourceCommit':sha,'files':{p.name:{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in files},'screenshots':len(images),'allExternalAcceptanceComplete':False,'pending':['licensed original franchise audio (7 categories; temporary originals included)','physical-phone testing','human timing/recognition/balance playtest','Toy authorized account/container/review']}
 (A/'delivery-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
 full=A/f'paipai-wave-delivery-{V}.zip'
 with zipfile.ZipFile(full,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:

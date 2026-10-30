@@ -14,14 +14,14 @@ export class Spectacle {
  speedlines(w:number,h:number,t:number,reduced=false,col='#35333d22'){for(let k=0;k<30;k++){const a=k*.73,dx=Math.cos(a),dy=Math.sin(a),r=110+(k%4)*12;const pulse=reduced?0:Math.sin(t*.003+k)*9;this.line([w/2+dx*r,h*.48+dy*r*.45,w/2+dx*(r+150+pulse),h*.48+dy*(r+150+pulse)*.55],col,k%4===0?3:1);}}
  mech(type:'eva'|'unicorn',x:number,y:number,scale:number,t:number,alpha=.42){
   const c=this.c;c.save();c.translate(x,y);c.scale(scale,scale);c.globalAlpha=alpha;
-  const eva=type==='eva',armor=eva?'#79639c':'#f4f6ed',edge=eva?'#453c62':'#65777a',frame='#7fe9a6';
+  const lift=ease(t/450),eva=type==='eva',armor=eva?'#79639c':'#f4f6ed',edge=eva?'#453c62':'#65777a',frame='#7fe9a6';
   // Long pointed shoulders, layered breast plates and articulated arms.
   this.path([-53,-50,-78,-116,-95,-129,-106,-61,-92,-12,-59,6],armor,edge,3);
   this.path([53,-50,78,-116,95,-129,106,-61,92,-12,59,6],armor,edge,3);
   this.path([-64,-60,-28,-85,28,-85,64,-60,48,27,24,53,-24,53,-48,27],armor,edge,4);
   this.path([-45,-51,-12,-33,0,-7,-29,4,-46,-9],eva?'#45345e':'#e7eeec',edge,2);
   this.path([45,-51,12,-33,0,-7,29,4,46,-9],eva?'#45345e':'#e7eeec',edge,2);
-  for(const side of [-1,1]){this.line([side*53,-65,side*42,-40],frame,8);this.line([side*28,-19,side*14,5,side*16,34],frame,5);this.path([side*68,-43,side*(93+Math.sin(t*.005)*2),-13,side*67,6,side*57,-13],armor,edge,3);}
+  for(const side of [-1,1]){this.line([side*53,-65,side*42,-40],frame,8);this.line([side*28,-19,side*14,5,side*16,34],frame,5);this.path([side*68,-43,side*(93+Math.sin(t*.005)*2),-13-lift*55,side*67,6-lift*42,side*57,-13],armor,edge,3);}
   // Helmet silhouette: EVA's single horn versus awakened Unicorn's golden V.
   this.path([-33,-105,-27,-151,0,-171,27,-151,33,-105,12,-85,-12,-85],armor,edge,4);
   if(eva){this.path([-8,-150,3,-215,12,-151],'#82709e',edge,3);this.path([-26,-139,-9,-126,-26,-122],frame,edge,2);this.path([26,-139,9,-126,26,-122],frame,edge,2);this.path([-15,-113,0,-98,15,-113],'#e8e9db',edge,2);this.line([-19,-155,-24,-143],frame,5);}

@@ -94,6 +94,7 @@ export class Renderer {
   for(let i=0;i<2;i++){
    let p=this.pose(local,actions[i],o.result,i,false,o.finishTime||0);
    if(p.emotion==='surprised'&&joke!=='surprised')p.emotion='hit';
+   if(o.result?.winner!==null&&o.result?.winner!==undefined&&o.result.winner!=='draw'&&o.result.winner!==i&&u>1.4){p={pose:mix(p.pose,P.lose,(u-1.4)/.6),hand:'idle',emotion:'lose'};}
    if(o.home)p={pose:P.idle,hand:'idle',emotion:'idle'};
    if(o.preview)p={pose:P[o.preview]||P.charge,hand:SKILLS[o.preview].kind,emotion:'serious'};
    if(joke==='stretch'&&u>1.12&&actions[i]&&SKILLS[actions[i]!].kind==='reflect'){p={pose:mix(p.pose,P.stretch,Math.sin(clamp((u-1.12)/.8)*Math.PI)),hand:'idle',emotion:'idle'};}
