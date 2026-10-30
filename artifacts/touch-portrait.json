@@ -1,0 +1,115 @@
+{
+  "browser": "154.0.8037.57",
+  "desktopTouchEmulation": true,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "log": [
+    {
+      "type": "start",
+      "round": 1,
+      "at": 0,
+      "local": 0,
+      "wall": 953.3000000000466
+    },
+    {
+      "type": "select",
+      "round": 1,
+      "at": 111.4000000001397,
+      "local": 111.4000000001397,
+      "wall": 1065
+    },
+    {
+      "type": "clap",
+      "round": 1,
+      "at": 900,
+      "local": 900,
+      "wall": 1861.6999999999534
+    },
+    {
+      "type": "reveal",
+      "round": 1,
+      "at": 1800,
+      "local": 1800,
+      "wall": 2760.600000000093
+    },
+    {
+      "type": "commit",
+      "round": 1,
+      "at": 2250,
+      "local": 2250,
+      "wall": 3210.600000000093
+    },
+    {
+      "type": "start",
+      "round": 2,
+      "at": 2700,
+      "local": 0,
+      "wall": 3660
+    },
+    {
+      "type": "select",
+      "round": 2,
+      "at": 2793.7000000001863,
+      "local": 93.70000000018626,
+      "wall": 3747.1999999999534
+    },
+    {
+      "type": "clap",
+      "round": 2,
+      "at": 3600,
+      "local": 900,
+      "wall": 4560.100000000093
+    },
+    {
+      "type": "reveal",
+      "round": 2,
+      "at": 4500,
+      "local": 1800,
+      "wall": 5459.800000000047
+    },
+    {
+      "type": "commit",
+      "round": 2,
+      "at": 4950,
+      "local": 2250,
+      "wall": 5909.699999999953
+    },
+    {
+      "type": "start",
+      "round": 3,
+      "at": 5400,
+      "local": 0,
+      "wall": 6360
+    },
+    {
+      "type": "select",
+      "round": 3,
+      "at": 5478.5,
+      "local": 78.5,
+      "wall": 6432
+    },
+    {
+      "type": "clap",
+      "round": 3,
+      "at": 6300,
+      "local": 900,
+      "wall": 7259.600000000093
+    },
+    {
+      "type": "reveal",
+      "round": 3,
+      "at": 7200,
+      "local": 1800,
+      "wall": 8159.600000000093
+    },
+    {
+      "type": "commit",
+      "round": 3,
+      "at": 7650,
+      "local": 2250,
+      "wall": 8609.600000000093
+    }
+  ]
+}

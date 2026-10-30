@@ -7,3 +7,8 @@ artifacts/*.mp4
 artifacts/*.png
 artifacts/browser-qa.json
 .playwright/
+
+__pycache__/
+*.pyc
+
+artifacts/raw/

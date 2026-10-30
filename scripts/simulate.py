@@ -63,7 +63,7 @@ def run_match(name,a,b,seed,hp,skills,enemy=None,start=(0,0),metrics=None,record
                 for x in legal(p):m['available'][x]+=1
                 m['selected'][acts[i]]+=1;m['energySpent'][acts[i]]+=r['cost'][i]
                 if p['blocked']:
-                    m['blockedTurns']+=1
+                    m['blockedTurns']+=1;m['blockedWithRoom']+=int(p['energy']<CONFIG['energyCap'])
                     if legal(p)==['guard1']:m['forcedDefense']+=1
                 if acts[i]=='quick':
                     can=any(SKILLS[x]['kind']=='attack' for x in legal(op));low=p['hp']<=2;freq=sum(SKILLS[h[1-i]]['kind']=='attack' for h in hist[-5:]);key=f"enemyCanAttack={can}/lowHP={low}/recentAttack={freq>=3}/startEnergy={p['energy']}"
@@ -78,12 +78,16 @@ def run_match(name,a,b,seed,hp,skills,enemy=None,start=(0,0),metrics=None,record
                     elif any(e['type']=='reflect' and e['side']==1-i for e in r['events']):typ='reflected'
                     elif any(e['type']=='break' and e['side']==1-i for e in r['events']):typ='break'
                     k[typ]+=1
+                if s['kind']=='guard' and s['cost']>0:
+                    ds=m['paidDefense'][acts[i]];ds['attempts']+=1
+                    blocks=[e for e in r['events'] if e['type']=='block' and e['side']==i]
+                    ds['blocks']+=int(bool(blocks));ds['preventedDamage']+=sum(e['amount'] for e in blocks);ds['empty']+=int(SKILLS[acts[1-i]]['kind']!='attack');ds['broken']+=int(r['damage'][i]>0)
                 if s['kind']=='reflect':m['reflectAttempts']+=1;m['reflectSuccess']+=int(any(e['type']=='reflect' and e['side']==i for e in r['events']))
         hist.append(acts);st=r['next']
         if r['winner'] is not None:break
     return dict(scenario=name,a=a,b=b,seed=seed,swapStreams=swapStreams,start0=start[0],start1=start[1],winner=r['winner'],rounds=st['round']-1,cost0=cost[0],cost1=cost[1],first3_0=first3[0],first3_1=first3[1],first5_0=first5[0],first5_1=first5[1],actualWave2_0=used3[0],actualWave2_1=used3[1],actualWave3_0=used5[0],actualWave3_1=used5[1])
 
-def newmetrics():return dict(rounds=0,available=Counter(),selected=Counter(),energySpent=Counter(),blockedTurns=0,forcedDefense=0,zeroInterruptedSurvived=0,reflectAttempts=0,reflectSuccess=0,attacks=defaultdict(Counter),quickStrata=defaultdict(Counter))
+def newmetrics():return dict(rounds=0,available=Counter(),selected=Counter(),energySpent=Counter(),blockedTurns=0,blockedWithRoom=0,paidDefense=defaultdict(Counter),forcedDefense=0,zeroInterruptedSurvived=0,reflectAttempts=0,reflectSuccess=0,attacks=defaultdict(Counter),quickStrata=defaultdict(Counter))
 def summarize(rows):
     n=len(rows);wins=sum(r['winner']==0 for r in rows);draw=sum(r['winner']=='draw' for r in rows)
     turns=[r['rounds'] for r in rows]
@@ -129,7 +133,7 @@ def main():
         w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
     summaries={name:summarize([r for r in rows if r['scenario']==name]) for name in sorted(set(r['scenario'] for r in rows))}
     opportunity={a:dict(selected=metrics['selected'][a],available=metrics['available'][a],rate=round(metrics['selected'][a]/max(1,metrics['available'][a]),5),energySpent=metrics['energySpent'][a]) for a in ALL}
-    thresholds={k:dict(observed=sum(r[k] is not None for r in rows),median=statistics.median([r[k] for r in rows if r[k] is not None])) for k in ['first3_0','first5_0','actualWave2_0','actualWave3_0']}
+    thresholdRows=[r for r in rows if r['scenario']=='advanced5'];thresholds={k:dict(observed=sum(r[k] is not None for r in thresholdRows),median=statistics.median([r[k] for r in thresholdRows if r[k] is not None])) for k in ['first3_0','first5_0','actualWave2_0','actualWave3_0']}
     bystrategy={name:{a:summarize([r for r in rows if r['scenario']==name and r['a']==a]) for a in STRATEGIES} for name,_,_ in scenarios}
     output=dict(version=CONFIG['version'],seeds=[173+i*97 for i in range(args.seeds)],totalMatches=len(rows),seconds=round(time.time()-t,2),search=search,adopted='initial',summaries=summaries,opportunity=opportunity,thresholds=thresholds,byStrategy=bystrategy,metrics=metrics,sequences=sequences())
     (OUT/'balance-results.json').write_text(json.dumps(output,ensure_ascii=False,indent=2));print('done',len(rows),round(time.time()-t,1),'seconds',flush=True)
