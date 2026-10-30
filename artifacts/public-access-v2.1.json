@@ -1,0 +1,97 @@
+{
+  "version": "2.1.0",
+  "url": "https://paipai-wave-playground.zhipijun1996.chatgpt.site",
+  "httpStatus": 200,
+  "anonymousNewContext": true,
+  "loginUsed": false,
+  "debugGlobals": false,
+  "browser": "154.0.8037.57",
+  "sourceCommit": "a54d77e0b62accc9ae42ace226753fc4fde5712f",
+  "originalAudioAssets": [
+    {
+      "id": "wave2-cutin",
+      "status": 200,
+      "sha256": "de4af64ded70d1e9adc249a3d8e69cd2098bf3e1f7dc9442adae7e2236750fa2"
+    },
+    {
+      "id": "wave3-cutin",
+      "status": 200,
+      "sha256": "f6c08124e72b96c88048c8606ed48b2bd3daeb5d3b3d0ca5f9ad55f6e7f3e834"
+    },
+    {
+      "id": "wave3",
+      "status": 200,
+      "sha256": "6eaae5b0d7c1781cdd2fb3e6ad46435a00e670bf356b05ddd72f9731c793524a"
+    },
+    {
+      "id": "guard2",
+      "status": 200,
+      "sha256": "27eb3215519e5ff1732e2023af15dd2943314116dd77c08c5d4d2f4d2d1be32b"
+    },
+    {
+      "id": "guard3",
+      "status": 200,
+      "sha256": "be204815df1c688722b07d0ffe7bd90cee00709fc856c6c4b2cfb88ccc60e657"
+    },
+    {
+      "id": "reflect1",
+      "status": 200,
+      "sha256": "2be4124aa2bcac98b9bfef4cfecaa167beb9cedfb623df645175264fdc3719db"
+    },
+    {
+      "id": "cylinder-in",
+      "status": 200,
+      "sha256": "83cb006f19d50d2a5d2f458e029fe92a2b062061988cadde9df016d303ac2fd8"
+    },
+    {
+      "id": "cylinder-out",
+      "status": 200,
+      "sha256": "7a7988661a2e5187231dc24fc08bcd02f49fdc79b521be456b94ed878c3dd86e"
+    },
+    {
+      "id": "reflect2",
+      "status": 200,
+      "sha256": "72658e6e6f32de35ebcb05c8b5a44e5262c084afa4769b818ce83c35ae4763bc"
+    },
+    {
+      "id": "fan-return",
+      "status": 200,
+      "sha256": "031a201603f6cd5267e8076eebf087bb08ae7dbfb0dc6652ab1fe2d55d67cec4"
+    },
+    {
+      "id": "at-hit",
+      "status": 200,
+      "sha256": "2a9e777d564268c1d1459d7b58fc453e71eedc1511965a3e0ebd54e43344af86"
+    },
+    {
+      "id": "psycho-hit",
+      "status": 200,
+      "sha256": "7789e02a9fcfd7da8d7ab5fb199f2bd0da25c2319bf9c049b7be4d5e23845cb8"
+    },
+    {
+      "id": "win",
+      "status": 200,
+      "sha256": "b5798f143b9692900741c27163f75367de62e01435954f0d32d52d3d55f818fd"
+    }
+  ],
+  "earlyClickRejected": true,
+  "rounds": [
+    {
+      "round": "1",
+      "chosen": "charge"
+    },
+    {
+      "round": "2",
+      "chosen": "guard1"
+    },
+    {
+      "round": "3",
+      "chosen": "charge"
+    },
+    {
+      "round": "4",
+      "chosen": "guard1"
+    }
+  ],
+  "errors": []
+}

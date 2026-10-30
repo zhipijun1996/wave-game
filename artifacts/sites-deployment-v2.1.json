@@ -1,0 +1,17 @@
+{
+  "id": "appgdep_6ae48ea3bf108191ab1351021fd44c88",
+  "project_id": "appgprj_6ae421b89c5c819197eef66851003bac",
+  "title": "拍拍波",
+  "version_id": "appgprj_6ae421b89c5c819197eef66851003bac~appgver_e4d6feec19e081919a5a5db553b36ea2",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://paipai-wave-playground.zhipijun1996.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ae421b89c5c819197eef66851003bac",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-10-30T12:33:45.492656+00:00",
+  "sourceCommit": "a54d77e0b62accc9ae42ace226753fc4fde5712f",
+  "accessMode": "public"
+}
