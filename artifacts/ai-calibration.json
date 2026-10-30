@@ -1,0 +1,218 @@
+[
+  {
+    "level": 1,
+    "enemyDifficulty": "easy",
+    "samples": 200,
+    "playerWins": 127,
+    "enemyWins": 73,
+    "draws": 0,
+    "roundMedian": 18
+  },
+  {
+    "level": 1,
+    "enemyDifficulty": "normal",
+    "samples": 200,
+    "playerWins": 107,
+    "enemyWins": 93,
+    "draws": 0,
+    "roundMedian": 19
+  },
+  {
+    "level": 1,
+    "enemyDifficulty": "hard",
+    "samples": 200,
+    "playerWins": 88,
+    "enemyWins": 112,
+    "draws": 0,
+    "roundMedian": 19
+  },
+  {
+    "level": 2,
+    "enemyDifficulty": "easy",
+    "samples": 200,
+    "playerWins": 88,
+    "enemyWins": 112,
+    "draws": 0,
+    "roundMedian": 16
+  },
+  {
+    "level": 2,
+    "enemyDifficulty": "normal",
+    "samples": 200,
+    "playerWins": 68,
+    "enemyWins": 132,
+    "draws": 0,
+    "roundMedian": 15
+  },
+  {
+    "level": 2,
+    "enemyDifficulty": "hard",
+    "samples": 200,
+    "playerWins": 69,
+    "enemyWins": 131,
+    "draws": 0,
+    "roundMedian": 15
+  },
+  {
+    "level": 3,
+    "enemyDifficulty": "easy",
+    "samples": 200,
+    "playerWins": 60,
+    "enemyWins": 140,
+    "draws": 0,
+    "roundMedian": 12
+  },
+  {
+    "level": 3,
+    "enemyDifficulty": "normal",
+    "samples": 200,
+    "playerWins": 59,
+    "enemyWins": 141,
+    "draws": 0,
+    "roundMedian": 10
+  },
+  {
+    "level": 3,
+    "enemyDifficulty": "hard",
+    "samples": 200,
+    "playerWins": 35,
+    "enemyWins": 165,
+    "draws": 0,
+    "roundMedian": 9
+  },
+  {
+    "level": 4,
+    "enemyDifficulty": "easy",
+    "samples": 200,
+    "playerWins": 139,
+    "enemyWins": 61,
+    "draws": 0,
+    "roundMedian": 11
+  },
+  {
+    "level": 4,
+    "enemyDifficulty": "normal",
+    "samples": 200,
+    "playerWins": 122,
+    "enemyWins": 78,
+    "draws": 0,
+    "roundMedian": 11
+  },
+  {
+    "level": 4,
+    "enemyDifficulty": "hard",
+    "samples": 200,
+    "playerWins": 103,
+    "enemyWins": 97,
+    "draws": 0,
+    "roundMedian": 10
+  },
+  {
+    "level": 5,
+    "enemyDifficulty": "easy",
+    "samples": 200,
+    "playerWins": 140,
+    "enemyWins": 60,
+    "draws": 0,
+    "roundMedian": 13
+  },
+  {
+    "level": 5,
+    "enemyDifficulty": "normal",
+    "samples": 200,
+    "playerWins": 126,
+    "enemyWins": 74,
+    "draws": 0,
+    "roundMedian": 12
+  },
+  {
+    "level": 5,
+    "enemyDifficulty": "hard",
+    "samples": 200,
+    "playerWins": 101,
+    "enemyWins": 99,
+    "draws": 0,
+    "roundMedian": 11
+  },
+  {
+    "level": 6,
+    "enemyDifficulty": "easy",
+    "samples": 200,
+    "playerWins": 118,
+    "enemyWins": 82,
+    "draws": 0,
+    "roundMedian": 13
+  },
+  {
+    "level": 6,
+    "enemyDifficulty": "normal",
+    "samples": 200,
+    "playerWins": 94,
+    "enemyWins": 106,
+    "draws": 0,
+    "roundMedian": 11
+  },
+  {
+    "level": 6,
+    "enemyDifficulty": "hard",
+    "samples": 200,
+    "playerWins": 78,
+    "enemyWins": 122,
+    "draws": 0,
+    "roundMedian": 10
+  },
+  {
+    "level": 7,
+    "enemyDifficulty": "easy",
+    "samples": 200,
+    "playerWins": 142,
+    "enemyWins": 58,
+    "draws": 0,
+    "roundMedian": 14
+  },
+  {
+    "level": 7,
+    "enemyDifficulty": "normal",
+    "samples": 200,
+    "playerWins": 122,
+    "enemyWins": 78,
+    "draws": 0,
+    "roundMedian": 12
+  },
+  {
+    "level": 7,
+    "enemyDifficulty": "hard",
+    "samples": 200,
+    "playerWins": 86,
+    "enemyWins": 114,
+    "draws": 0,
+    "roundMedian": 12
+  },
+  {
+    "level": 8,
+    "enemyDifficulty": "easy",
+    "samples": 200,
+    "playerWins": 137,
+    "enemyWins": 63,
+    "draws": 0,
+    "roundMedian": 15
+  },
+  {
+    "level": 8,
+    "enemyDifficulty": "normal",
+    "samples": 200,
+    "playerWins": 101,
+    "enemyWins": 99,
+    "draws": 0,
+    "roundMedian": 13
+  },
+  {
+    "level": 8,
+    "enemyDifficulty": "hard",
+    "samples": 200,
+    "playerWins": 70,
+    "enemyWins": 130,
+    "draws": 0,
+    "roundMedian": 11
+  }
+]

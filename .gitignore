@@ -1,0 +1,9 @@
+node_modules/
+dist/
+artifacts/*.zip
+artifacts/*.tar.gz
+artifacts/*.webm
+artifacts/*.mp4
+artifacts/*.png
+artifacts/browser-qa.json
+.playwright/

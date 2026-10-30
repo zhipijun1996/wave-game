@@ -1,0 +1,15 @@
+{
+  "version":"1.0.0","energyCap":9,"maxRounds":60,
+  "skills":[
+    {"id":"charge","name":"充气","kind":"charge","cost":0,"gain":1,"gainCondition":"always","hitCancelsGain":false,"power":0,"damage":0,"cover":0,"lockCharge":false,"modes":["basic","story","advanced"],"description":"双手围圆，积蓄 1 气。受击仍加气。"},
+    {"id":"quick","name":"快充","kind":"charge","cost":0,"gain":2,"gainCondition":"unhit","hitCancelsGain":true,"power":0,"damage":0,"cover":0,"lockCharge":true,"modes":["story","advanced"],"description":"未受击加 2 气；受击不加气，下回合禁充。"},
+    {"id":"wave1","name":"小波","kind":"attack","cost":1,"gain":0,"gainCondition":"none","hitCancelsGain":false,"power":1,"damage":1,"cover":0,"lockCharge":false,"modes":["basic","story","advanced"],"description":"双掌推出。1 气，伤害 1，强度 1。"},
+    {"id":"wave2","name":"中波","kind":"attack","cost":3,"gain":0,"gainCondition":"none","hitCancelsGain":false,"power":2,"damage":2,"cover":0,"lockCharge":false,"modes":["story","advanced"],"description":"踏步转髋。3 气，伤害 2，击穿普通防御和反弹。"},
+    {"id":"wave3","name":"大波","kind":"attack","cost":5,"gain":0,"gainCondition":"none","hitCancelsGain":false,"power":3,"damage":3,"cover":0,"lockCharge":false,"modes":["story","advanced"],"description":"深蹲蓄势。5 气，伤害 3；只有大防能完全挡下。"},
+    {"id":"guard1","name":"防御","kind":"guard","cost":0,"gain":0,"gainCondition":"none","hitCancelsGain":false,"power":0,"damage":0,"cover":1,"lockCharge":false,"modes":["basic","story","advanced"],"description":"胸前竖掌，免费完全挡住强度 1。"},
+    {"id":"guard2","name":"中防","kind":"guard","cost":1,"gain":0,"gainCondition":"none","hitCancelsGain":false,"power":0,"damage":0,"cover":2,"lockCharge":false,"modes":["story","advanced"],"description":"稳住重心。1 气，完全挡住强度 1–2。"},
+    {"id":"guard3","name":"大防","kind":"guard","cost":2,"gain":0,"gainCondition":"none","hitCancelsGain":false,"power":0,"damage":0,"cover":3,"lockCharge":false,"modes":["story","advanced"],"description":"前后脚撑地。2 气，完全挡住强度 1–3。"},
+    {"id":"reflect1","name":"反弹","kind":"reflect","cost":1,"gain":0,"gainCondition":"none","hitCancelsGain":false,"power":0,"damage":0,"cover":1,"lockCharge":false,"modes":["story","advanced"],"description":"手指交叠，接住强度 1 并原伤送回。"},
+    {"id":"reflect2","name":"中反弹","kind":"reflect","cost":2,"gain":0,"gainCondition":"none","hitCancelsGain":false,"power":0,"damage":0,"cover":2,"lockCharge":false,"modes":["story","advanced"],"description":"压缩后伸展。2 气，反送强度 1–2。"}
+  ]
+}
