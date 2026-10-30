@@ -1,0 +1,141 @@
+{
+  "version": "1.2.0",
+  "browser": "154.0.8037.57",
+  "desktopEmulation": true,
+  "checks": [
+    {
+      "name": "7/8 story remains locked, including direct start",
+      "passed": true
+    },
+    {
+      "name": "graduation unlocks advanced and persists before reward modal",
+      "passed": true
+    },
+    {
+      "name": "two wins, full reset, loss/retry and one-time records",
+      "state": {
+        "s": {
+          "round": 7,
+          "players": [
+            {
+              "hp": 2,
+              "energy": 0,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "wave1",
+                "guard1"
+              ]
+            },
+            {
+              "hp": 0,
+              "energy": 4,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "wave1",
+                "guard1"
+              ]
+            }
+          ]
+        },
+        "run": {
+          "enabled": true,
+          "running": true,
+          "wins": 1,
+          "match": 1,
+          "mode": "basic"
+        },
+        "save": {
+          "version": 2,
+          "completed": 8,
+          "skin": "cat",
+          "tutorial": true,
+          "settings": {
+            "music": 0.3,
+            "sfx": 0.7,
+            "shake": false,
+            "reduced": false,
+            "speed": 0.7
+          },
+          "bestStreaks": {
+            "basic": 1,
+            "advanced": 0
+          }
+        }
+      },
+      "next": {
+        "s": {
+          "round": 1,
+          "players": [
+            {
+              "hp": 3,
+              "energy": 0,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "wave1",
+                "guard1"
+              ]
+            },
+            {
+              "hp": 3,
+              "energy": 0,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "wave1",
+                "guard1"
+              ]
+            }
+          ]
+        },
+        "run": {
+          "enabled": true,
+          "running": true,
+          "wins": 1,
+          "match": 2,
+          "mode": "basic"
+        }
+      }
+    },
+    {
+      "name": "draw ends streak and preserves best",
+      "passed": true
+    },
+    {
+      "name": "advanced streak restores 5hp and has independent best",
+      "passed": true
+    },
+    {
+      "name": "refresh retains best; single matches do not count",
+      "passed": true
+    },
+    {
+      "name": "streak viewport",
+      "width": 360,
+      "height": 640
+    },
+    {
+      "name": "streak viewport",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "streak viewport",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "streak viewport",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "streak viewport",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "errors": []
+}

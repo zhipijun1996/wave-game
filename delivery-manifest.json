@@ -1,0 +1,49 @@
+{
+  "version": "1.2.0-rc.1",
+  "sourceCommit": "b8fdd16385f6cc6d9f13508d796ba1ef6b4a8915",
+  "files": {
+    "paipai-wave-toy-v1.2.0.zip": {
+      "bytes": 746922,
+      "sha256": "08200533c94d7ae89a399b10a9d43587b6c6ee384adf516112c9b357c4ab2940"
+    },
+    "paipai-wave-source-v1.2.0.zip": {
+      "bytes": 1303241,
+      "sha256": "68e52eb2aa72993959fe2831c255a529cff4a972c13f24668f4af7b278f97bf2"
+    },
+    "paipai-wave-evidence-v1.2.0.zip": {
+      "bytes": 4600984,
+      "sha256": "4b0dc59f927f7efba39596435d350df1195fae54889047dee29d2bad810e01d9"
+    },
+    "paipai-wave-showcase.mp4": {
+      "bytes": 2403072,
+      "sha256": "085796c921339b31b3cd69641eace91df2804c9258e89f11d6e9a53dbf1d46d1"
+    },
+    "timing-standard.webm": {
+      "bytes": 5845452,
+      "sha256": "cee84e691ceee5380b2d657d899ab25d478f5ac5953d85f4a795b6cad8724184"
+    },
+    "timing-slow.webm": {
+      "bytes": 7766521,
+      "sha256": "33fb499e99a1587e3220deb5163d61883ebf8004de2a8cb1d4d16ecb2d33b1a6"
+    },
+    "timing-fast.webm": {
+      "bytes": 4615710,
+      "sha256": "767a887fa23b11c1920c14d2ba41607e238d569cb062e9193e5cf39532b0f87c"
+    },
+    "touch-portrait.webm": {
+      "bytes": 1021357,
+      "sha256": "fdcd738507b7aeaed759beb21936faade929cb52cea80fed5b56b97e352e2fdc"
+    },
+    "touch-landscape.webm": {
+      "bytes": 872094,
+      "sha256": "4d17226c1f39e0b3883a554fae8a6be802e17592dde3d683ef92267dd3148738"
+    }
+  },
+  "screenshots": 59,
+  "allExternalAcceptanceComplete": false,
+  "pending": [
+    "physical-phone testing",
+    "human timing/recognition/balance playtest",
+    "Toy authorized account/container/review"
+  ]
+}
