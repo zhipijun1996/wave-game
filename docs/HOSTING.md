@@ -2,7 +2,7 @@
 
 目标仓库：https://github.com/zhipijun1996/wave-game
 
-Sites project identity 固定保存在 `.openai/hosting.json`。静态资源目录为 `dist`；新Site默认仅所有者访问。不得为发布更改访问范围。
+Sites project identity 固定保存在 `.openai/hosting.json`。静态资源目录为 `dist`；新Site默认仅所有者访问；仅在用户明确要求改变受众时修改访问范围。
 
 本次环境中 Sites 源码/打包辅助脚本 `site-workflow.mjs` 未安装，云技能资源也不包含该文件，因此使用等价步骤：本地验证构建、将同一提交推入返回的专用源码仓库、将 `.openai/hosting.json` 与 `dist/` 打成 tar.gz、用原生 Sites 保存/发布工具提交该 SHA 与归档。短期凭据只经隐藏stdin进入内存，不写入仓库、文件或日志。
 
@@ -11,4 +11,6 @@ Sites project identity 固定保存在 `.openai/hosting.json`。静态资源目�
 首次成功发布：2026-10-30T05:02:35Z，原生工具返回 `succeeded`，URL：
 https://paipai-wave-playground.zhipijun1996.chatgpt.site
 
-该站点为新建所有者私有Site；可分享的公开工程与下载包位于用户指定的公开GitHub仓库。此次未更改站点受众。
+首次发布时站点为所有者私有。2026-10-30，按用户“部署一个不需要登陆的网站试玩”的明确要求，将同一站点访问模式改为 `public`（访问策略revision 2），保留当前v1.2游戏版本与网址。任何持有链接的访客均可匿名试玩，无需ChatGPT账号。
+
+匿名验证：全新Chromium浏览器上下文，不提供Cookie、认证或绕过请求头；首页HTTP 200，正常进入基础对战并显示3个技能，无脚本或HTTP错误。证据：`artifacts/public-access-qa.json`、`artifacts/public-anonymous-game.png`。此操作只改变托管访问权限，无需重新构建或发布游戏源码。

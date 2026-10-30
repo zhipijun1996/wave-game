@@ -3,6 +3,12 @@
 更新：2026-10-30 UTC。附件已完整读取，旧的缺附件阻塞解除。仓库初始只有进度文档，无游戏代码与 AGENTS.md。
 
 
+## 公开试玩（2026-10-30）
+
+- 按用户要求，将现有Sites试玩站访问模式从所有者私有改为public，保留当前v1.2版本与原网址；无需账号登录。
+- 匿名HTTP请求200且无登录跳转；全新浏览器上下文可从首页进入基础对战，3个技能正常，无脚本或资源错误。证据见artifacts/public-access-qa.json与public-anonymous-game.png。
+- 试玩：https://paipai-wave-playground.zhipijun1996.chatgpt.site
+
 ## 当前迭代：v1.2 第三拍输入、连战与进阶解锁
 
 - 用户追加普通/进阶的连战选择、胜后满血与最高连胜；进阶需故事8关通关。
