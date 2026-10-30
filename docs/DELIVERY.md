@@ -8,13 +8,13 @@
 
 | 文件 | 用途与可访问地址 |
 | --- | --- |
-| Toy网页ZIP（根目录index.html） | [paipai-wave-toy-v1.0.0.zip](https://github.com/zhipijun1996/wave-game/releases/download/v1.0.0-rc.1/paipai-wave-toy-v1.0.0.zip) |
-| 全部源码、锁文件、资源、模拟代码 | [paipai-wave-source-v1.0.0.zip](https://github.com/zhipijun1996/wave-game/releases/download/v1.0.0-rc.1/paipai-wave-source-v1.0.0.zip) |
-| 约39秒真实构建展示，含实际游戏音频 | [paipai-wave-showcase.mp4](https://github.com/zhipijun1996/wave-game/releases/download/v1.0.0-rc.1/paipai-wave-showcase.mp4) |
-| 所有截图、报告、规则/回放/时间日志与原始数据 | [paipai-wave-evidence-v1.0.0.zip](https://github.com/zhipijun1996/wave-game/releases/download/v1.0.0-rc.1/paipai-wave-evidence-v1.0.0.zip) |
-| 一次下载全部，另含标准/慢速20回合完整录像、横竖触控模拟录像 | [paipai-wave-delivery-v1.0.0.zip](https://github.com/zhipijun1996/wave-game/releases/download/v1.0.0-rc.1/paipai-wave-delivery-v1.0.0.zip) |
-| 构建每文件SHA256与包大小 | [package-manifest.json](https://github.com/zhipijun1996/wave-game/releases/download/v1.0.0-rc.1/package-manifest.json) |
-| 交付归档SHA256 | [delivery-manifest.json](https://github.com/zhipijun1996/wave-game/releases/download/v1.0.0-rc.1/delivery-manifest.json) |
+| Toy网页ZIP（根目录index.html） | [paipai-wave-toy-v1.0.0.zip](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v1.0.0-rc.1/paipai-wave-toy-v1.0.0.zip) |
+| 全部源码、锁文件、资源、模拟代码 | [paipai-wave-source-v1.0.0.zip](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v1.0.0-rc.1/paipai-wave-source-v1.0.0.zip) |
+| 约39秒真实构建展示，含实际游戏音频 | [paipai-wave-showcase.mp4](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v1.0.0-rc.1/paipai-wave-showcase.mp4) |
+| 所有截图、报告、规则/回放/时间日志与原始数据 | [paipai-wave-evidence-v1.0.0.zip](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v1.0.0-rc.1/paipai-wave-evidence-v1.0.0.zip) |
+| 一次下载全部，另含标准/慢速20回合完整录像、横竖触控模拟录像 | [paipai-wave-delivery-v1.0.0.zip](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v1.0.0-rc.1/paipai-wave-delivery-v1.0.0.zip) |
+| 构建每文件SHA256与包大小 | [package-manifest.json](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v1.0.0-rc.1/package-manifest.json) |
+| 交付归档SHA256 | [delivery-manifest.json](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v1.0.0-rc.1/delivery-manifest.json) |
 
 ## 内容
 
@@ -44,3 +44,5 @@
 2. **Toy开发者发布会话与实际容器**：当前未连接具备发布权限的Toy账号，未取得官方SDK授权接口。需在 [Toy发布入口](https://www.bilibili.com/toy/intro) 登录有发布权限账号，上传Toy ZIP，配置标题“拍拍波”和独立PNG封面/图标，确认预览、容器安全区与资源白名单后提交审核。`toy-poster.png` 和 `toy-icon.png` 已提供；云存档为可选增强，不影响本地玩。
 
 试玩站点已发布不等于Toy正式上线。上述外部验收完成前，不将本候选标记为规格全部验收完成；所有不依赖这些条件的工程、资源、模拟、发布包与下载交付已完成。
+
+下载文件通过固定版本分支 `deliveries/v1.0.0-rc.1` 提供。GitHub Release附件上传接口在本会话返回401；已通过普通Git推送托管这些文件，Release页面作为索引。请按delivery-manifest核对SHA256。
