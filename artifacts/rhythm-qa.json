@@ -1,315 +1,332 @@
 {
-  "version": "1.2.0",
-  "browser": "154.0.8037.57",
-  "desktopEmulation": true,
+  "version": "2.1.0",
   "checks": [
     {
       "speed": 0.7,
-      "windowMs": 630,
-      "earlyQueuedAtThird": true,
-      "thirdImmediate": true,
-      "lateImmediate": true,
-      "missTakesFullDamage": true
+      "passed": true,
+      "name": "early mouse/touch/keyboard rejected; opening/third/late/deadline correct; AI hidden until deadline",
+      "log": [
+        {
+          "type": "start",
+          "round": 1,
+          "at": 0,
+          "local": 0,
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 1000
+        },
+        {
+          "type": "clap",
+          "round": 1,
+          "at": 630,
+          "local": 900,
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 1000
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 944.9999999999999,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 1000
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 944.9999999999999,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 1000
+        },
+        {
+          "type": "third-beat",
+          "round": 1,
+          "at": 1260,
+          "local": 1800,
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 1000
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1260,
+          "local": 1800,
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 1000
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1574.9993,
+          "local": 2249.999,
+          "phase": "select",
+          "phaseTime": 2249.999,
+          "wall": 1000
+        },
+        {
+          "type": "reveal",
+          "round": 1,
+          "at": 1575,
+          "local": 2250,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 1000
+        },
+        {
+          "type": "cutin-start",
+          "round": 1,
+          "at": 1575,
+          "local": 2250,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 1000
+        }
+      ]
     },
     {
       "speed": 1,
-      "windowMs": 900,
-      "earlyQueuedAtThird": true,
-      "thirdImmediate": true,
-      "lateImmediate": true,
-      "missTakesFullDamage": true
+      "passed": true,
+      "name": "early mouse/touch/keyboard rejected; opening/third/late/deadline correct; AI hidden until deadline",
+      "log": [
+        {
+          "type": "start",
+          "round": 1,
+          "at": 0,
+          "local": 0,
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 1000
+        },
+        {
+          "type": "clap",
+          "round": 1,
+          "at": 900,
+          "local": 900,
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 1000
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 1350,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 1000
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1350,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 1000
+        },
+        {
+          "type": "third-beat",
+          "round": 1,
+          "at": 1800,
+          "local": 1800,
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 1000
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1800,
+          "local": 1800,
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 1000
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 2249.999,
+          "local": 2249.999,
+          "phase": "select",
+          "phaseTime": 2249.999,
+          "wall": 1000
+        },
+        {
+          "type": "reveal",
+          "round": 1,
+          "at": 2250,
+          "local": 2250,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 1000
+        },
+        {
+          "type": "cutin-start",
+          "round": 1,
+          "at": 2250,
+          "local": 2250,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 1000
+        }
+      ]
     },
     {
       "speed": 1.5,
-      "windowMs": 1350,
-      "earlyQueuedAtThird": true,
-      "thirdImmediate": true,
-      "lateImmediate": true,
-      "missTakesFullDamage": true
-    },
-    {
-      "pauseBeforeAndAfterReveal": true
-    },
-    {
-      "width": 360,
-      "height": 640,
-      "buttons": [
+      "passed": true,
+      "name": "early mouse/touch/keyboard rejected; opening/third/late/deadline correct; AI hidden until deadline",
+      "log": [
         {
-          "w": 57.1875,
-          "h": 70,
-          "b": 476
+          "type": "start",
+          "round": 1,
+          "at": 0,
+          "local": 0,
+          "phase": "select",
+          "phaseTime": 0,
+          "wall": 1000
         },
         {
-          "w": 57.203125,
-          "h": 70,
-          "b": 476
+          "type": "clap",
+          "round": 1,
+          "at": 1350,
+          "local": 900,
+          "phase": "select",
+          "phaseTime": 900,
+          "wall": 1000
         },
         {
-          "w": 57.203125,
-          "h": 70,
-          "b": 476
+          "type": "window-open",
+          "round": 1,
+          "at": 2025,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 1000
         },
         {
-          "w": 57.203125,
-          "h": 70,
-          "b": 476
+          "type": "select",
+          "round": 1,
+          "at": 2025,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 1000
         },
         {
-          "w": 57.203125,
-          "h": 70,
-          "b": 476
+          "type": "third-beat",
+          "round": 1,
+          "at": 2700,
+          "local": 1800,
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 1000
         },
         {
-          "w": 57.1875,
-          "h": 70,
-          "b": 551
+          "type": "select",
+          "round": 1,
+          "at": 2700,
+          "local": 1800,
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 1000
         },
         {
-          "w": 57.203125,
-          "h": 70,
-          "b": 551
+          "type": "select",
+          "round": 1,
+          "at": 3374.9985,
+          "local": 2249.999,
+          "phase": "select",
+          "phaseTime": 2249.999,
+          "wall": 1000
         },
         {
-          "w": 57.203125,
-          "h": 70,
-          "b": 551
+          "type": "reveal",
+          "round": 1,
+          "at": 3375,
+          "local": 2250,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 1000
         },
         {
-          "w": 57.203125,
-          "h": 70,
-          "b": 551
-        },
-        {
-          "w": 57.203125,
-          "h": 70,
-          "b": 551
+          "type": "cutin-start",
+          "round": 1,
+          "at": 3375,
+          "local": 2250,
+          "phase": "cutin",
+          "phaseTime": 0,
+          "wall": 1000
         }
       ]
     },
     {
-      "width": 390,
-      "height": 844,
-      "buttons": [
-        {
-          "w": 62.390625,
-          "h": 77,
-          "b": 571.875
-        },
-        {
-          "w": 62.40625,
-          "h": 77,
-          "b": 571.875
-        },
-        {
-          "w": 62.390625,
-          "h": 77,
-          "b": 571.875
-        },
-        {
-          "w": 62.40625,
-          "h": 77,
-          "b": 571.875
-        },
-        {
-          "w": 62.40625,
-          "h": 77,
-          "b": 571.875
-        },
-        {
-          "w": 62.390625,
-          "h": 77,
-          "b": 653.875
-        },
-        {
-          "w": 62.40625,
-          "h": 77,
-          "b": 653.875
-        },
-        {
-          "w": 62.390625,
-          "h": 77,
-          "b": 653.875
-        },
-        {
-          "w": 62.40625,
-          "h": 77,
-          "b": 653.875
-        },
-        {
-          "w": 62.40625,
-          "h": 77,
-          "b": 653.875
-        }
-      ]
+      "name": "mode uses same post-clap input gate",
+      "mode": "basic",
+      "passed": true
     },
     {
-      "width": 844,
-      "height": 390,
-      "buttons": [
-        {
-          "w": 53.59375,
-          "h": 68,
-          "b": 207.5
-        },
-        {
-          "w": 53.59375,
-          "h": 68,
-          "b": 207.5
-        },
-        {
-          "w": 53.609375,
-          "h": 68,
-          "b": 207.5
-        },
-        {
-          "w": 53.59375,
-          "h": 68,
-          "b": 207.5
-        },
-        {
-          "w": 53.59375,
-          "h": 68,
-          "b": 207.5
-        },
-        {
-          "w": 53.59375,
-          "h": 68,
-          "b": 280.5
-        },
-        {
-          "w": 53.59375,
-          "h": 68,
-          "b": 280.5
-        },
-        {
-          "w": 53.609375,
-          "h": 68,
-          "b": 280.5
-        },
-        {
-          "w": 53.59375,
-          "h": 68,
-          "b": 280.5
-        },
-        {
-          "w": 53.59375,
-          "h": 68,
-          "b": 280.5
-        }
-      ]
+      "name": "mode uses same post-clap input gate",
+      "mode": "advanced",
+      "passed": true
     },
     {
-      "width": 1280,
-      "height": 720,
-      "buttons": [
-        {
-          "w": 59.59375,
-          "h": 80,
-          "b": 376
-        },
-        {
-          "w": 59.59375,
-          "h": 80,
-          "b": 376
-        },
-        {
-          "w": 59.609375,
-          "h": 80,
-          "b": 376
-        },
-        {
-          "w": 59.59375,
-          "h": 80,
-          "b": 376
-        },
-        {
-          "w": 59.59375,
-          "h": 80,
-          "b": 376
-        },
-        {
-          "w": 59.59375,
-          "h": 80,
-          "b": 462
-        },
-        {
-          "w": 59.59375,
-          "h": 80,
-          "b": 462
-        },
-        {
-          "w": 59.609375,
-          "h": 80,
-          "b": 462
-        },
-        {
-          "w": 59.59375,
-          "h": 80,
-          "b": 462
-        },
-        {
-          "w": 59.59375,
-          "h": 80,
-          "b": 462
-        }
-      ]
+      "name": "mode uses same post-clap input gate",
+      "mode": "story",
+      "passed": true
     },
     {
-      "width": 1920,
-      "height": 1080,
-      "buttons": [
-        {
-          "w": 208.390625,
-          "h": 96,
-          "b": 840
-        },
-        {
-          "w": 208.40625,
-          "h": 96,
-          "b": 840
-        },
-        {
-          "w": 208.390625,
-          "h": 96,
-          "b": 840
-        },
-        {
-          "w": 208.40625,
-          "h": 96,
-          "b": 840
-        },
-        {
-          "w": 208.390625,
-          "h": 96,
-          "b": 840
-        },
-        {
-          "w": 208.390625,
-          "h": 96,
-          "b": 945
-        },
-        {
-          "w": 208.40625,
-          "h": 96,
-          "b": 945
-        },
-        {
-          "w": 208.390625,
-          "h": 96,
-          "b": 945
-        },
-        {
-          "w": 208.40625,
-          "h": 96,
-          "b": 945
-        },
-        {
-          "w": 208.390625,
-          "h": 96,
-          "b": 945
-        }
-      ]
+      "name": "mode uses same post-clap input gate",
+      "mode": "tutorial",
+      "passed": true
+    },
+    {
+      "name": "open window readable and controls fit",
+      "viewport": [
+        360,
+        640
+      ],
+      "passed": true
+    },
+    {
+      "name": "open window readable and controls fit",
+      "viewport": [
+        390,
+        844
+      ],
+      "passed": true
+    },
+    {
+      "name": "open window readable and controls fit",
+      "viewport": [
+        844,
+        390
+      ],
+      "passed": true
+    },
+    {
+      "name": "open window readable and controls fit",
+      "viewport": [
+        1280,
+        720
+      ],
+      "passed": true
+    },
+    {
+      "name": "open window readable and controls fit",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "passed": true
     }
   ],
-  "errors": []
+  "errors": [],
+  "browser": "154.0.8037.57",
+  "desktopTouchEmulation": true
 }

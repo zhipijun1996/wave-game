@@ -1,0 +1,69 @@
+拍拍波 v2.1 实际作品录音来源 / Third-party audio notices
+本目录中13个音轨槽含第三方作品录音，其余24槽为本项目原创音效。
+第三方录音权利归原权利人，游戏代码MIT许可不授予这些录音的权利。
+第三方录音再分发许可未确认；具体版本、裁切、来源和身份/干声未确认项如下及manifest.json。
+
+wave2-cutin / Street Fighter；站点标注经典版，具体街机修订未确认
+https://soundfxcenter.com/download-sound/street-fighter-hadouken-sound-effect/
+源片段: source-assets/audio/01-hadouken-classic.wav [0, None]
+具体集数/版本以来源记录为准。
+
+wave3-cutin / 1966初代音效合集；原上传者标注
+https://www.bilibili.com/video/BV1tUvQB5EMW/
+源片段: source-assets/audio/03-ultraman-spacium.wav [0.74, 1.18]
+剪入少量前后余量；未降噪或分离声轨
+
+wave3 / 1966初代音效合集；原上传者标注
+https://www.bilibili.com/video/BV1tUvQB5EMW/
+源片段: source-assets/audio/03-ultraman-spacium.wav [1.18, 2.33]
+剪入少量前后余量；未降噪或分离声轨
+
+guard2 / Neon Genesis Evangelion；具体集数未确认
+https://soundinstants.com/sound/at-field-impact
+源片段: source-assets/audio/04-eva-at-field-impact.wav [0, 1.05]
+具体集数/版本以来源记录为准。
+
+guard3 / Gundam UC官方账号，结局场景
+https://twitter.com/gundam_unicorn/status/1304359033801908224
+源片段: source-assets/audio/05-unicorn-field-deploy-mix.wav [0.35, 1.5]
+官方UC结局场景混音，含原配乐；不是独立干声音轨
+
+reflect1 / Yu-Gi-Oh! ARC-V Tag Force Special / Yami Yugi / 日语
+https://sounds.spriters-resource.com/psp/yugioharcvtagforcespecial/asset/431791/
+源片段: source-assets/audio/08-cylinder-jp-game.wav [1.03, 2.313878]
+独立游戏语音，不冒充动画直录
+
+cylinder-in / 游戏王动画魔法筒合集；日语
+https://www.bilibili.com/video/BV1oN411d77p/
+源片段: source-assets/audio/11-cylinder-anime-return-reference.wav [1.0, 1.32]
+取魔法筒反击动画场景；仍含少量背景声，非独立SE
+
+cylinder-out / 游戏王动画魔法筒合集；日语
+https://www.bilibili.com/video/BV1oN411d77p/
+源片段: source-assets/audio/11-cylinder-anime-return-reference.wav [3.6, 4.0]
+取魔法筒反击动画场景；仍含少量背景声，非独立SE
+
+reflect2 / Jump Force / Madara / 日语
+https://sounds.spriters-resource.com/pc_computer/jumpforce/asset/444554/
+源片段: source-assets/audio/13-uchiha-gaeshi-jp-game.wav [0, None]
+原游戏编号#104高度匹配；保留最终人工核听待办，不冒充已核实动画直录
+
+fan-return / Naruto Shippuden / Madara / English dub
+https://editpacks.org/i/1540
+源片段: source-assets/audio/15-uchiha-en-anime-return-reference.wav [3.5, 4.0]
+英语配音版原动画场景的非对白气浪，仍含背景声
+
+at-hit / Neon Genesis Evangelion；具体集数未确认
+https://soundinstants.com/sound/at-field-impact
+源片段: source-assets/audio/04-eva-at-field-impact.wav [0.18, 0.78]
+具体集数/版本以来源记录为准。
+
+psycho-hit / Gundam UC官方账号，结局场景
+https://twitter.com/gundam_unicorn/status/1304359033801908224
+源片段: source-assets/audio/06-unicorn-field-block-mix.wav [2.0, 2.6]
+官方UC结局场景混音，含原配乐；不是独立干声音轨
+
+win / JOJO / Jotaro日语候选；具体集数未确认
+https://www.soundboardly.com/sounds/yare-yare-daze/
+源片段: source-assets/audio/16-jojo-jotaro-yare.wav [0, None]
+短台词候选，尚非配乐亮相完整短句

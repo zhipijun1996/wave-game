@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T10:56:01.446Z",
+  "checkedAt": "2026-10-30T12:23:24.964Z",
   "browser": "154.0.8037.57",
   "desktopEmulation": true,
   "checks": [
@@ -449,7 +449,7 @@
       "before": {
         "phase": "cutin",
         "phaseTime": 1200,
-        "local": 1800,
+        "local": 2250,
         "sealed": "wave3",
         "result": {
           "actions": [
@@ -558,7 +558,7 @@
       },
       "after": {
         "phase": "cutin",
-        "phaseTime": 1264,
+        "phaseTime": 1216,
         "sealed": "wave3"
       }
     },

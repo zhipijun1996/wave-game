@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "browser": "154.0.8037.57",
   "desktopTouchEmulation": true,
   "viewport": {
@@ -14,241 +14,268 @@
       "local": 0,
       "phase": "select",
       "phaseTime": 0,
-      "wall": 1612.7999999970198
-    },
-    {
-      "type": "select",
-      "round": 1,
-      "at": 202.5,
-      "local": 202.5,
-      "phase": "select",
-      "phaseTime": 202.5,
-      "wall": 1815.5
+      "wall": 1373
     },
     {
       "type": "clap",
       "round": 1,
-      "at": 900,
+      "at": 899.9999999999998,
       "local": 900,
       "phase": "select",
       "phaseTime": 900,
-      "wall": 2521.699999999255
+      "wall": 2274.5
+    },
+    {
+      "type": "window-open",
+      "round": 1,
+      "at": 1349.9999999999998,
+      "local": 1350,
+      "phase": "select",
+      "phaseTime": 1350,
+      "wall": 2740
+    },
+    {
+      "type": "select",
+      "round": 1,
+      "at": 1458.7000000022351,
+      "local": 1458.7000000022354,
+      "phase": "select",
+      "phaseTime": 1458.7000000022354,
+      "wall": 2831.60000000149
     },
     {
       "type": "third-beat",
       "round": 1,
-      "at": 1800,
+      "at": 1799.9999999999998,
       "local": 1800,
-      "phase": "action",
-      "phaseTime": 0,
-      "wall": 3420.599999997765
+      "phase": "select",
+      "phaseTime": 1800,
+      "wall": 3173.2000000029802
     },
     {
       "type": "reveal",
       "round": 1,
-      "at": 1800,
-      "local": 1800,
+      "at": 2249.9999999999995,
+      "local": 2250,
       "phase": "action",
       "phaseTime": 0,
-      "wall": 3421.199999999255
+      "wall": 3642.900000002235
     },
     {
       "type": "launch",
       "round": 1,
-      "at": 1800,
-      "local": 1800,
+      "at": 2249.9999999999995,
+      "local": 2250,
       "phase": "action",
       "phaseTime": 0,
-      "wall": 3421.7999999970198
+      "wall": 3643.300000000745
     },
     {
       "type": "fx",
       "round": 1,
-      "at": 2370,
-      "local": 2370,
+      "at": 2819.9999999999995,
+      "local": 2820,
       "phase": "action",
       "phaseTime": 570,
-      "wall": 3989.2999999970198
+      "wall": 4206.300000000745
     },
     {
       "type": "commit",
       "round": 1,
-      "at": 3000,
-      "local": 3000,
+      "at": 3449.9999999999995,
+      "local": 3450,
       "phase": "action",
       "phaseTime": 1200,
-      "wall": 4622.5
+      "wall": 4839.70000000298
     },
     {
       "type": "recover",
       "round": 1,
-      "at": 3000,
-      "local": 3000,
+      "at": 3449.9999999999995,
+      "local": 3450,
       "phase": "recover",
       "phaseTime": 0,
-      "wall": 4623.5
+      "wall": 4840.60000000149
     },
     {
       "type": "start",
       "round": 2,
-      "at": 3900,
+      "at": 4349.999999999999,
       "local": 0,
       "phase": "select",
       "phaseTime": 0,
-      "wall": 5521.5
-    },
-    {
-      "type": "select",
-      "round": 2,
-      "at": 4001.900000002235,
-      "local": 101.90000000223517,
-      "phase": "select",
-      "phaseTime": 101.90000000223517,
-      "wall": 5614.699999999255
+      "wall": 5740.800000000745
     },
     {
       "type": "clap",
       "round": 2,
-      "at": 4800,
+      "at": 5249.999999999999,
       "local": 900,
       "phase": "select",
       "phaseTime": 900,
-      "wall": 6421.89999999851
+      "wall": 6643.20000000298
+    },
+    {
+      "type": "window-open",
+      "round": 2,
+      "at": 5699.999999999999,
+      "local": 1350,
+      "phase": "select",
+      "phaseTime": 1350,
+      "wall": 7089.400000002235
+    },
+    {
+      "type": "select",
+      "round": 2,
+      "at": 5809.200000002234,
+      "local": 1459.2000000022354,
+      "phase": "select",
+      "phaseTime": 1459.2000000022354,
+      "wall": 7182
     },
     {
       "type": "third-beat",
       "round": 2,
-      "at": 5700,
+      "at": 6149.999999999999,
       "local": 1800,
-      "phase": "action",
-      "phaseTime": 0,
-      "wall": 7320.099999997765
+      "phase": "select",
+      "phaseTime": 1800,
+      "wall": 7540.300000000745
     },
     {
       "type": "reveal",
       "round": 2,
-      "at": 5700,
-      "local": 1800,
+      "at": 6599.999999999999,
+      "local": 2250,
       "phase": "action",
       "phaseTime": 0,
-      "wall": 7321.099999997765
+      "wall": 7990.10000000149
     },
     {
       "type": "launch",
       "round": 2,
-      "at": 5700,
-      "local": 1800,
+      "at": 6599.999999999999,
+      "local": 2250,
       "phase": "action",
       "phaseTime": 0,
-      "wall": 7321.29999999702
+      "wall": 7991.10000000149
     },
     {
       "type": "fx",
       "round": 2,
-      "at": 6270,
-      "local": 2370,
+      "at": 7169.999999999999,
+      "local": 2820,
       "phase": "action",
       "phaseTime": 570,
-      "wall": 7886.39999999851
+      "wall": 8556.300000000745
     },
     {
       "type": "commit",
       "round": 2,
-      "at": 6900,
-      "local": 3000,
+      "at": 7799.999999999999,
+      "local": 3450,
       "phase": "action",
       "phaseTime": 1200,
-      "wall": 8525.199999999255
+      "wall": 9190
     },
     {
       "type": "recover",
       "round": 2,
-      "at": 6900,
-      "local": 3000,
+      "at": 7799.999999999999,
+      "local": 3450,
       "phase": "recover",
       "phaseTime": 0,
-      "wall": 8526.599999997765
+      "wall": 9191.300000000745
     },
     {
       "type": "start",
-      "round": 3,
-      "at": 7800,
-      "local": 0,
-      "phase": "select",
-      "phaseTime": 0,
-      "wall": 9422.79999999702
-    },
-    {
-      "type": "select",
-      "round": 3,
-      "at": 7916.20000000298,
-      "local": 116.20000000298023,
-      "phase": "select",
-      "phaseTime": 116.20000000298023,
-      "wall": 9529
-    },
-    {
-      "type": "clap",
       "round": 3,
       "at": 8700,
+      "local": 0,
+      "phase": "select",
+      "phaseTime": 0,
+      "wall": 10089.70000000298
+    },
+    {
+      "type": "clap",
+      "round": 3,
+      "at": 9600,
       "local": 900,
       "phase": "select",
       "phaseTime": 900,
-      "wall": 10320.699999999255
+      "wall": 10990.20000000298
+    },
+    {
+      "type": "window-open",
+      "round": 3,
+      "at": 10050,
+      "local": 1350,
+      "phase": "select",
+      "phaseTime": 1350,
+      "wall": 11443.20000000298
+    },
+    {
+      "type": "select",
+      "round": 3,
+      "at": 10209.300000000001,
+      "local": 1509.3000000000002,
+      "phase": "select",
+      "phaseTime": 1509.3000000000002,
+      "wall": 11582
     },
     {
       "type": "third-beat",
       "round": 3,
-      "at": 9600,
+      "at": 10500,
       "local": 1800,
-      "phase": "action",
-      "phaseTime": 0,
-      "wall": 11219.5
+      "phase": "select",
+      "phaseTime": 1800,
+      "wall": 11964.60000000149
     },
     {
       "type": "reveal",
       "round": 3,
-      "at": 9600,
-      "local": 1800,
+      "at": 10950,
+      "local": 2250,
       "phase": "action",
       "phaseTime": 0,
-      "wall": 11220.199999999255
+      "wall": 12340.900000002235
     },
     {
       "type": "launch",
       "round": 3,
-      "at": 9600,
-      "local": 1800,
+      "at": 10950,
+      "local": 2250,
       "phase": "action",
       "phaseTime": 0,
-      "wall": 11220.39999999851
+      "wall": 12341.300000000745
     },
     {
       "type": "fx",
       "round": 3,
-      "at": 10170,
-      "local": 2370,
+      "at": 11520,
+      "local": 2820,
       "phase": "action",
       "phaseTime": 570,
-      "wall": 11789.5
+      "wall": 12906.300000000745
     },
     {
       "type": "commit",
       "round": 3,
-      "at": 10800,
-      "local": 3000,
+      "at": 12150,
+      "local": 3450,
       "phase": "action",
       "phaseTime": 1200,
-      "wall": 12421.79999999702
+      "wall": 13540.5
     },
     {
       "type": "recover",
       "round": 3,
-      "at": 10800,
-      "local": 3000,
+      "at": 12150,
+      "local": 3450,
       "phase": "recover",
       "phaseTime": 0,
-      "wall": 12422.39999999851
+      "wall": 13541.400000002235
     }
   ]
 }

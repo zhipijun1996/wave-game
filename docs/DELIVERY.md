@@ -1,32 +1,31 @@
-# 《拍拍波》v2.0 交付
+# 《拍拍波》v2.1 交付
 
 公开试玩（无需登录）：https://paipai-wave-playground.zhipijun1996.chatgpt.site
 
-源码仓库：https://github.com/zhipijun1996/wave-game
-
-版本索引：https://github.com/zhipijun1996/wave-game/releases/tag/v2.0.0-rc.2
+已将对应作品录音合入13个本地音轨槽，并恢复“拍拍后选招”：0/900ms两次拍手及收掌期间不接受输入；标准[1350,2250)ms亮框，围绕1800ms第三拍选择，窗口结束双方才同时亮招。标准900ms、慢速1350ms、快档630ms；保留独立特写、默认充气/禁充防御、统一结算。拍手中的鼠标、触摸和数字键都不会提前排队选招。
 
 ## 下载
 
-固定交付分支`deliveries/v2.0.0-rc.2`，每个链接直接取固定版本文件：
+固定交付分支`deliveries/v2.1.0`，保留以前版本不覆盖：
 
-- [完整交付包](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-delivery-v2.0.0.zip)：包含构建、源码、证据、带声展示和三档时序/触摸模拟录像。
-- [可运行网页/Toy上传ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-toy-v2.0.0.zip)：解压后通过静态HTTP服务打开index.html；根入口与相对路径适配Toy。
-- [完整源码ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-source-v2.0.0.zip)
-- [约38秒带游戏实际声音的展示MP4](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-showcase.mp4)
-- [验收证据与报告ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/paipai-wave-evidence-v2.0.0.zip)
-- [SHA256、大小及源码提交清单](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.0.0-rc.2/delivery-manifest.json)
+- [网页/Toy构建ZIP](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.1.0/paipai-wave-toy-v2.1.0.zip)
+- [完整源码（含原录音重建输入）](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.1.0/paipai-wave-source-v2.1.0.zip)
+- [约41秒实际游戏声音录屏](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.1.0/paipai-wave-showcase.mp4)
+- [截图、日志与验证证据](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.1.0/paipai-wave-evidence-v2.1.0.zip)
+- [完整交付包](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.1.0/paipai-wave-delivery-v2.1.0.zip)
+- [SHA256、文件大小与源码提交](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.1.0/delivery-manifest.json)
 
-GitHub上传附件接口的既有401限制仍在，采用版本分支托管二进制和Release索引；不把失败的附件上传说成成功。
+## 实施与验证
 
-## 本次内容
+- 21项单元测试含1007个TS/Python共享规则用例；拍拍前/窗口左界/第三拍/右界、三档20回合时序、暂停与一次结算均覆盖。
+- 12组实际UI检查验证鼠标、触摸、数字键门控、四种模式共用窗口、五视口；45项十招/特写/结果场景、11组连战解锁、13组完整模式流程通过。
+- 37个本地WAV成功加载，其中13槽含原作录音；源/成品SHA、PCM格式、非静音、响度峰值和快档尾音预算检查通过。双人特写左右声像、暂停同位置续播、后台暂停、快档魔法筒收势阶段续播已实际验证。
+- 三档各20回合实际时间录屏/日志通过；桌面Chromium帧间隔中位数约16.7ms，P95约16.8ms，不冒充手机真机测量。
+- 原声实际播放与录屏使用同一WebAudio输出。录像九个合法初态场景覆盖全部十招核心、两力场、两反弹、快充断电、双特写、异级对波及JOJO胜利；13个原声音轨均有运行播放记录，未后配替换声音。
+- Toy ZIP 55文件、入口723字节，压缩约1.53MB、解压约2.04MB；doctor预检无findings，包含原声清单与归属NOTICE。技能费用/伤害/AI策略未改，因此沿用已有平衡报告与原始数据。
 
-统一规格v0.8、两次拍手选招/第三拍锁定、默认普通充气/禁充普通防御、独立暂停特写/双人分屏、共享交战一次结算，整回合不固定。十招完整手绘表现、作品道具/机体虚影、两种力场、双筒吸返、团扇回浪、快充断电过热、低频笑点和JOJO完整胜利姿势已接入实际游戏。保留八关、皮肤、连战、进阶解锁和旧存档。
+## 实际采用音频及余项
 
-录像直接来自生产构建：九个合法初态验收场景，真实按钮操作，音频从最终WebAudio输出采集；固定对手选择仅供展示，正常AI仍独立暗选。未用外部影片替代游戏画面，也未后配假装游戏已接入的音轨。
+实际清单见[data/audio-manifest.json](../data/audio-manifest.json)，来源及核查见[AUDIO_RESEARCH.md](AUDIO_RESEARCH.md)和[ASSETS.md](ASSETS.md)。包括波动拳、初代光线、AT力场、官方UC结局精神场、魔法筒、斑日语游戏喊招候选/动画气浪和承太郎短台词；13槽中含纯录音裁切及与本项目原创层混合的音轨，不能把所有文件都称为纯原声。
 
-## 音频状态与验证
-
-实际打包37个本地WAV；目前作品相关喊招/光线/力场/反弹/胜利均为原创暂用音，合成喊招非原配音。七类对应原声没有确认可随公开游戏与ZIP再分发的素材，因此没有接入。具体目标作品、片段、来源和许可核查见[AUDIO_RESEARCH.md](AUDIO_RESEARCH.md)，逐文件实际采用清单见[data/audio-manifest.json](../data/audio-manifest.json)。后续需提供有明确使用许可的片段和来源即可替换。
-
-21项测试（1007共享用例）、45项镜头/五视口检查、11组连战/解锁、13组完整流程、三档各20回合时序、真实双音轨暂停续播及子路径资源加载均已完成。具体证据与范围见[ACCEPTANCE.md](ACCEPTANCE.md)。物理手机、人类手感/辨识度试玩以及Toy授权账号实际容器/审核仍是既有外部待验条件，未将桌面模拟冒称真机或Toy上线。
+独角兽等场景声仍含原配乐；斑#104保留最终人工核听待办；部分集数/版本与独立干声仍待核实。第三方录音再分发许可未确认，不属于项目MIT授权，实际包保留来源/归属/未确认状态。物理手机/人工手感与Toy账号实际容器审核仍为既有外部条件。

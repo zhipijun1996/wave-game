@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "description": "Actual production build scenes with legal fixture starting resources, real controls and actual compressed WebAudio. Original temporary effects/synthetic chants, zero franchise recordings. No fabricated poses or replacement audio.",
+  "version": "2.1.0",
+  "description": "Actual production build scenes with legal fixture starting resources, real controls and actual compressed WebAudio. 13 local audio slots contain actual franchise recording excerpts or mixed original layers; sourced/trimmed versioned files from the shipped build. No fabricated poses or replacement audio.",
   "scenes": [
     {
       "name": "普通充气与超级快充",
@@ -161,16 +161,7 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 1377.800000000745
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 112.80000000074506,
-          "local": 161.14285714392153,
-          "phase": "select",
-          "phaseTime": 161.14285714392153,
-          "wall": 1490.7000000029802
+          "wall": 2127.60000000149
         },
         {
           "type": "clap",
@@ -179,111 +170,137 @@
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 2017.7000000029802
+          "wall": 2764.900000002235
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 945,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 3081.2000000029802
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1020.6000000014901,
+          "local": 1458.000000002129,
+          "phase": "select",
+          "phaseTime": 1458.000000002129,
+          "wall": 3148.2000000029802
         },
         {
           "type": "third-beat",
           "round": 1,
-          "at": 1260,
+          "at": 1259.9999999999995,
           "local": 1800,
-          "phase": "action",
-          "phaseTime": 0,
-          "wall": 2651.800000000745
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 3397.10000000149
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1260,
-          "local": 1800,
+          "at": 1574.999999999999,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 2652.300000000745
+          "wall": 3714.60000000149
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 1260,
-          "local": 1800,
+          "at": 1574.999999999999,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 2652.7000000029802
+          "wall": 3715.2000000029802
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1659,
-          "local": 2370,
+          "at": 1973.999999999999,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 3048.7000000029802
+          "wall": 4113.60000000149
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 2100,
-          "local": 3000,
+          "at": 2414.999999999999,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 3482
+          "wall": 4546.900000002235
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 2100,
-          "local": 3000,
+          "at": 2414.999999999999,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 3482.800000000745
+          "wall": 4548.10000000149
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         }
       ]
     },
@@ -441,171 +458,195 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 4077.300000000745
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 68.30000000074506,
-          "local": 97.57142857249293,
-          "phase": "select",
-          "phaseTime": 97.57142857249293,
-          "wall": 4145.60000000149
+          "wall": 5128.800000000745
         },
         {
           "type": "clap",
           "round": 1,
-          "at": 630.0000000000002,
+          "at": 630.0000000000003,
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 4715.60000000149
+          "wall": 5763.60000000149
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 945.0000000000001,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 6080.20000000298
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1010.8000000007451,
+          "local": 1444.0000000010639,
+          "phase": "select",
+          "phaseTime": 1444.0000000010639,
+          "wall": 6139.70000000298
         },
         {
           "type": "third-beat",
           "round": 1,
-          "at": 1259.9999999999998,
+          "at": 1260.0000000000002,
           "local": 1800,
-          "phase": "action",
-          "phaseTime": 0,
-          "wall": 5348.70000000298
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 6397.300000000745
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1259.9999999999998,
-          "local": 1800,
+          "at": 1575.0000000000005,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 5349.20000000298
+          "wall": 6713.800000000745
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 1259.9999999999998,
-          "local": 1800,
+          "at": 1575.0000000000005,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 5349.5
+          "wall": 6714.300000000745
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1658.9999999999998,
-          "local": 2370,
+          "at": 1974.0000000000005,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 5748.70000000298
+          "wall": 7118.300000000745
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 2100,
-          "local": 3000,
+          "at": 2415.0000000000005,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 6183.60000000149
+          "wall": 7548.60000000149
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 2100,
-          "local": 3000,
+          "at": 2415.0000000000005,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 6184.5
+          "wall": 7549.20000000298
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 3.5700680272108842
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 3.642630385487528
+          "at": 4.01124716553288
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.170884353741497
+          "at": 4.652698412698412
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.0213151927437645
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.800725623582767
+          "at": 5.282539682539682
         },
         {
           "name": "guard1",
+          "file": "./assets/audio/guard1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 4.800725623582767
+          "at": 5.601814058956916
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 4.800725623582767
+          "at": 5.870614058956916
         },
         {
           "name": "block",
+          "file": "./assets/audio/block.wav",
           "offset": 0,
           "pan": 0,
-          "at": 5.642448979591837
+          "at": 6.431927437641724
         }
       ]
     },
@@ -768,213 +809,244 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 6744.70000000298
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 61.899999998509884,
-          "local": 88.42857142644269,
-          "phase": "select",
-          "phaseTime": 88.42857142644269,
-          "wall": 6806.60000000149
+          "wall": 8118.800000000745
         },
         {
           "type": "clap",
           "round": 1,
-          "at": 630,
+          "at": 629.9999999999999,
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 7382.20000000298
+          "wall": 8763.300000000745
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 945.0000000000001,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 9080.400000002235
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1019.1000000014901,
+          "local": 1455.857142859271,
+          "phase": "select",
+          "phaseTime": 1455.857142859271,
+          "wall": 9138
         },
         {
           "type": "third-beat",
           "round": 1,
-          "at": 1259.9999999999998,
+          "at": 1260.0000000000007,
           "local": 1800,
-          "phase": "action",
-          "phaseTime": 0,
-          "wall": 8015.300000000745
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 9381.5
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1259.9999999999998,
-          "local": 1800,
+          "at": 1575.0000000000005,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 8016.10000000149
+          "wall": 9697.10000000149
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 1259.9999999999998,
-          "local": 1800,
+          "at": 1575.0000000000005,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 8016.300000000745
+          "wall": 9697.70000000298
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1658.9999999999998,
-          "local": 2370,
+          "at": 1974.0000000000005,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 8416.20000000298
+          "wall": 10096.800000000745
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 2100,
-          "local": 3000,
+          "at": 2415.000000000001,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 8848.5
+          "wall": 10546.900000002235
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 2100,
-          "local": 3000,
+          "at": 2415.000000000001,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 8850.300000000745
+          "wall": 10549
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 3.5700680272108842
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 3.642630385487528
+          "at": 4.01124716553288
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.170884353741497
+          "at": 4.652698412698412
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.0213151927437645
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.800725623582767
+          "at": 5.282539682539682
         },
         {
           "name": "guard1",
+          "file": "./assets/audio/guard1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 4.800725623582767
+          "at": 5.601814058956916
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 4.800725623582767
+          "at": 5.870614058956916
         },
         {
           "name": "block",
+          "file": "./assets/audio/block.wav",
           "offset": 0,
           "pan": 0,
-          "at": 5.642448979591837
+          "at": 6.431927437641724
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.202630385487528
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 6.260680272108844
+          "at": 7.000816326530612
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.841179138321995
+          "at": 7.650975056689342
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.02249433106576
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 7.471020408163265
+          "at": 8.272108843537415
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 7.471020408163265
+          "at": 8.582675736961452
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 7.471020408163265
+          "at": 8.851475736961453
         },
         {
           "name": "interrupted",
+          "file": "./assets/audio/interrupted.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.301133786848073
+          "at": 9.430204081632652
         }
       ]
     },
@@ -1132,16 +1204,7 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 9430.5
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 58.80000000074506,
-          "local": 84.00000000106436,
-          "phase": "select",
-          "phaseTime": 84.00000000106436,
-          "wall": 9489.300000000745
+          "wall": 11127.60000000149
         },
         {
           "type": "clap",
@@ -1150,261 +1213,309 @@
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 10065.5
+          "wall": 11763.400000002235
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 945.0000000000003,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 12082.70000000298
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1009.8000000007451,
+          "local": 1442.5714285724923,
+          "phase": "select",
+          "phaseTime": 1442.5714285724923,
+          "wall": 12137.5
         },
         {
           "type": "third-beat",
           "round": 1,
-          "at": 1260.0000000000005,
+          "at": 1260.0000000000007,
           "local": 1800,
-          "phase": "cutin",
-          "phaseTime": 0,
-          "wall": 10698.5
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 12397
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1260.0000000000005,
-          "local": 1800,
+          "at": 1575.0000000000007,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 0,
-          "wall": 10699.10000000149
+          "wall": 12714.10000000149
         },
         {
           "type": "cutin-start",
           "round": 1,
-          "at": 1260.0000000000005,
-          "local": 1800,
+          "at": 1575.0000000000007,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 0,
-          "wall": 10699.300000000745
+          "wall": 12714.60000000149
         },
         {
           "type": "cutin-end",
           "round": 1,
-          "at": 3460.0000000000005,
-          "local": 1800,
+          "at": 3775.000000000001,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 2200,
-          "wall": 12898.20000000298
+          "wall": 14913.900000002235
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 3460.0000000000005,
-          "local": 1800,
+          "at": 3775.000000000001,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 12898.20000000298
+          "wall": 14913.900000002235
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 3859.0000000000005,
-          "local": 2370,
+          "at": 4174.000000000001,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 13300.60000000149
+          "wall": 15313.10000000149
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 4300.000000000001,
-          "local": 3000,
+          "at": 4615.000000000001,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 13731.70000000298
+          "wall": 15748.10000000149
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 4300.000000000001,
-          "local": 3000,
+          "at": 4615.000000000001,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 13732.400000002235
+          "wall": 15749
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 3.5700680272108842
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 3.642630385487528
+          "at": 4.01124716553288
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.170884353741497
+          "at": 4.652698412698412
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.0213151927437645
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.800725623582767
+          "at": 5.282539682539682
         },
         {
           "name": "guard1",
+          "file": "./assets/audio/guard1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 4.800725623582767
+          "at": 5.601814058956916
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 4.800725623582767
+          "at": 5.870614058956916
         },
         {
           "name": "block",
+          "file": "./assets/audio/block.wav",
           "offset": 0,
           "pan": 0,
-          "at": 5.642448979591837
+          "at": 6.431927437641724
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.202630385487528
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 6.260680272108844
+          "at": 7.000816326530612
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.841179138321995
+          "at": 7.650975056689342
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.02249433106576
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 7.471020408163265
+          "at": 8.272108843537415
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 7.471020408163265
+          "at": 8.582675736961452
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 7.471020408163265
+          "at": 8.851475736961453
         },
         {
           "name": "interrupted",
+          "file": "./assets/audio/interrupted.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.301133786848073
+          "at": 9.430204081632652
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.881632653061224
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 8.942585034013605
+          "at": 10.010702947845806
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 9.520181405895691
+          "at": 10.652154195011338
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 11.020770975056688
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 10.150022675736961
+          "at": 11.281995464852608
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 10.150022675736961
+          "at": 11.601269841269842
         },
         {
           "name": "guard2",
+          "file": "./assets/audio/guard2-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 12.350113378684807
+          "at": 13.75201814058957
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 12.350113378684807
+          "at": 14.02081814058957
         },
         {
           "name": "at-hit",
+          "file": "./assets/audio/at-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.191836734693878
+          "at": 14.582131519274377
         }
       ]
     },
@@ -1562,16 +1673,7 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 14302.60000000149
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 53,
-          "local": 75.71428571428572,
-          "phase": "select",
-          "phaseTime": 75.71428571428572,
-          "wall": 14355.60000000149
+          "wall": 16323.400000002235
         },
         {
           "type": "clap",
@@ -1580,309 +1682,365 @@
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 14948.300000000745
+          "wall": 16968.800000000745
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 945.0000000000002,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 17286.400000002235
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1015.6999999992549,
+          "local": 1450.9999999989354,
+          "phase": "select",
+          "phaseTime": 1450.9999999989354,
+          "wall": 17339.20000000298
         },
         {
           "type": "third-beat",
           "round": 1,
           "at": 1260.0000000000005,
           "local": 1800,
-          "phase": "cutin",
-          "phaseTime": 0,
-          "wall": 15565.300000000745
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 17597.70000000298
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1260.0000000000005,
-          "local": 1800,
+          "at": 1575.0000000000005,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 0,
-          "wall": 15566.10000000149
+          "wall": 17915
         },
         {
           "type": "cutin-start",
           "round": 1,
-          "at": 1260.0000000000005,
-          "local": 1800,
+          "at": 1575.0000000000005,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 0,
-          "wall": 15566.20000000298
+          "wall": 17915.5
         },
         {
           "type": "cutin-end",
           "round": 1,
-          "at": 3860.0000000000005,
-          "local": 1800,
+          "at": 4175,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 2600,
-          "wall": 18169.60000000149
+          "wall": 20513.20000000298
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 3860.0000000000005,
-          "local": 1800,
+          "at": 4175,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 18169.70000000298
+          "wall": 20513.20000000298
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 4259,
-          "local": 2370,
+          "at": 4574,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 18565
+          "wall": 20913.300000000745
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 4700,
-          "local": 3000,
+          "at": 5015.000000000001,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 19014.60000000149
+          "wall": 21346.400000002235
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 4700,
-          "local": 3000,
+          "at": 5015.000000000001,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 19015.300000000745
+          "wall": 21348.800000000745
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 3.5700680272108842
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 3.642630385487528
+          "at": 4.01124716553288
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.170884353741497
+          "at": 4.652698412698412
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.0213151927437645
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.800725623582767
+          "at": 5.282539682539682
         },
         {
           "name": "guard1",
+          "file": "./assets/audio/guard1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 4.800725623582767
+          "at": 5.601814058956916
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 4.800725623582767
+          "at": 5.870614058956916
         },
         {
           "name": "block",
+          "file": "./assets/audio/block.wav",
           "offset": 0,
           "pan": 0,
-          "at": 5.642448979591837
+          "at": 6.431927437641724
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.202630385487528
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 6.260680272108844
+          "at": 7.000816326530612
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.841179138321995
+          "at": 7.650975056689342
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.02249433106576
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 7.471020408163265
+          "at": 8.272108843537415
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 7.471020408163265
+          "at": 8.582675736961452
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 7.471020408163265
+          "at": 8.851475736961453
         },
         {
           "name": "interrupted",
+          "file": "./assets/audio/interrupted.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.301133786848073
+          "at": 9.430204081632652
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.881632653061224
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 8.942585034013605
+          "at": 10.010702947845806
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 9.520181405895691
+          "at": 10.652154195011338
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 11.020770975056688
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 10.150022675736961
+          "at": 11.281995464852608
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 10.150022675736961
+          "at": 11.601269841269842
         },
         {
           "name": "guard2",
+          "file": "./assets/audio/guard2-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 12.350113378684807
+          "at": 13.75201814058957
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 12.350113378684807
+          "at": 14.02081814058957
         },
         {
           "name": "at-hit",
+          "file": "./assets/audio/at-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.191836734693878
+          "at": 14.582131519274377
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.760725623582767
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 13.810068027210884
+          "at": 15.162630385487528
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 14.402176870748299
+          "at": 15.801179138321995
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 16.172698412698413
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 15.020408163265307
+          "at": 16.431020408163267
         },
         {
           "name": "wave3-cutin",
+          "file": "./assets/audio/wave3-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 15.020408163265307
+          "at": 16.7502947845805
         },
         {
           "name": "guard3",
+          "file": "./assets/audio/guard3-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 17.621043083900226
+          "at": 19.342222222222222
         },
         {
           "name": "wave3",
+          "file": "./assets/audio/wave3-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 17.621043083900226
+          "at": 19.61102222222222
         },
         {
           "name": "psycho-hit",
+          "file": "./assets/audio/psycho-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 18.471473922902494
+          "at": 20.17233560090703
         }
       ]
     },
@@ -2040,16 +2198,7 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 19564.300000000745
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 58.40000000148939,
-          "local": 83.42857143069912,
-          "phase": "select",
-          "phaseTime": 83.42857143069912,
-          "wall": 19622.60000000149
+          "wall": 21907.10000000149
         },
         {
           "type": "clap",
@@ -2058,345 +2207,410 @@
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 20198
+          "wall": 22547.5
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 945,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 22862.800000000745
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 998.1999999992549,
+          "local": 1425.9999999989354,
+          "phase": "select",
+          "phaseTime": 1425.9999999989354,
+          "wall": 22905.400000002235
         },
         {
           "type": "third-beat",
           "round": 1,
-          "at": 1260.0000000000007,
+          "at": 1260.0000000000005,
           "local": 1800,
-          "phase": "action",
-          "phaseTime": 0,
-          "wall": 20833.10000000149
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 23180.400000002235
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1260.0000000000007,
-          "local": 1800,
+          "at": 1575.0000000000005,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 20833.70000000298
+          "wall": 23496.60000000149
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 1260.0000000000007,
-          "local": 1800,
+          "at": 1575.0000000000005,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 20833.800000000745
+          "wall": 23497.10000000149
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1659.0000000000005,
-          "local": 2370,
+          "at": 1974.0000000000002,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 21231.20000000298
+          "wall": 23896.20000000298
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 2100,
-          "local": 3000,
+          "at": 2415.0000000000005,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 21664.5
+          "wall": 24329.800000000745
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 2100,
-          "local": 3000,
+          "at": 2415.0000000000005,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 21666
+          "wall": 24331.10000000149
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 3.5700680272108842
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 3.642630385487528
+          "at": 4.01124716553288
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.170884353741497
+          "at": 4.652698412698412
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.0213151927437645
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.800725623582767
+          "at": 5.282539682539682
         },
         {
           "name": "guard1",
+          "file": "./assets/audio/guard1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 4.800725623582767
+          "at": 5.601814058956916
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 4.800725623582767
+          "at": 5.870614058956916
         },
         {
           "name": "block",
+          "file": "./assets/audio/block.wav",
           "offset": 0,
           "pan": 0,
-          "at": 5.642448979591837
+          "at": 6.431927437641724
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.202630385487528
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 6.260680272108844
+          "at": 7.000816326530612
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.841179138321995
+          "at": 7.650975056689342
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.02249433106576
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 7.471020408163265
+          "at": 8.272108843537415
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 7.471020408163265
+          "at": 8.582675736961452
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 7.471020408163265
+          "at": 8.851475736961453
         },
         {
           "name": "interrupted",
+          "file": "./assets/audio/interrupted.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.301133786848073
+          "at": 9.430204081632652
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.881632653061224
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 8.942585034013605
+          "at": 10.010702947845806
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 9.520181405895691
+          "at": 10.652154195011338
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 11.020770975056688
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 10.150022675736961
+          "at": 11.281995464852608
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 10.150022675736961
+          "at": 11.601269841269842
         },
         {
           "name": "guard2",
+          "file": "./assets/audio/guard2-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 12.350113378684807
+          "at": 13.75201814058957
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 12.350113378684807
+          "at": 14.02081814058957
         },
         {
           "name": "at-hit",
+          "file": "./assets/audio/at-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.191836734693878
+          "at": 14.582131519274377
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.760725623582767
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 13.810068027210884
+          "at": 15.162630385487528
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 14.402176870748299
+          "at": 15.801179138321995
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 16.172698412698413
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 15.020408163265307
+          "at": 16.431020408163267
         },
         {
           "name": "wave3-cutin",
+          "file": "./assets/audio/wave3-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 15.020408163265307
+          "at": 16.7502947845805
         },
         {
           "name": "guard3",
+          "file": "./assets/audio/guard3-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 17.621043083900226
+          "at": 19.342222222222222
         },
         {
           "name": "wave3",
+          "file": "./assets/audio/wave3-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 17.621043083900226
+          "at": 19.61102222222222
         },
         {
           "name": "psycho-hit",
+          "file": "./assets/audio/psycho-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 18.471473922902494
+          "at": 20.17233560090703
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 19.02004535147392
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 19.080997732426304
+          "at": 20.73251700680272
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 19.652789115646257
+          "at": 21.371065759637187
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 21.730975056689342
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 20.291337868480724
+          "at": 22.00090702947846
         },
         {
           "name": "reflect1",
+          "file": "./assets/audio/reflect1-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 20.291337868480724
+          "at": 22.320181405895692
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 20.291337868480724
+          "at": 22.58898140589569
         },
         {
           "name": "cylinder-in",
+          "file": "./assets/audio/cylinder-in-v2.1.wav",
           "offset": 0,
           "pan": -0.5,
-          "at": 20.6918820861678
+          "at": 22.720725623582766
         },
         {
           "name": "cylinder-out",
+          "file": "./assets/audio/cylinder-out-v2.1.wav",
           "offset": 0,
           "pan": 0.5,
-          "at": 20.7758820861678
+          "at": 22.804725623582765
         },
         {
           "name": "hit",
+          "file": "./assets/audio/hit.wav",
           "offset": 0,
           "pan": 0,
-          "at": 21.12145124716553
+          "at": 23.1502947845805
         }
       ]
     },
@@ -2554,16 +2768,7 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 22233.900000002235
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 37.30000000074506,
-          "local": 53.285714286778656,
-          "phase": "select",
-          "phaseTime": 53.285714286778656,
-          "wall": 22271.20000000298
+          "wall": 24918
         },
         {
           "type": "clap",
@@ -2572,417 +2777,491 @@
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 22864.70000000298
+          "wall": 25546.300000000745
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 945,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 25871.60000000149
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1133.7999999999993,
+          "local": 1619.7142857142849,
+          "phase": "select",
+          "phaseTime": 1619.7142857142849,
+          "wall": 26046
         },
         {
           "type": "third-beat",
           "round": 1,
-          "at": 1260.0000000000005,
+          "at": 1260,
           "local": 1800,
-          "phase": "cutin",
-          "phaseTime": 0,
-          "wall": 23498.20000000298
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 26179.800000000745
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1260.0000000000005,
-          "local": 1800,
+          "at": 1574.9999999999998,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 0,
-          "wall": 23499.10000000149
+          "wall": 26498.400000002235
         },
         {
           "type": "cutin-start",
           "round": 1,
-          "at": 1260.0000000000005,
-          "local": 1800,
+          "at": 1574.9999999999998,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 0,
-          "wall": 23499.300000000745
+          "wall": 26499
         },
         {
           "type": "cutin-end",
           "round": 1,
-          "at": 3460.0000000000005,
-          "local": 1800,
+          "at": 3775,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 2200,
-          "wall": 25697.60000000149
+          "wall": 28696.300000000745
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 3460.0000000000005,
-          "local": 1800,
+          "at": 3775,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 25697.60000000149
+          "wall": 28696.300000000745
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 3859.0000000000005,
-          "local": 2370,
+          "at": 4174,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 26097.800000000745
+          "wall": 29097.400000002235
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 4300,
-          "local": 3000,
+          "at": 4615,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 26547.800000000745
+          "wall": 29529.400000002235
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 4300,
-          "local": 3000,
+          "at": 4615,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 26549
+          "wall": 29531.300000000745
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 3.5700680272108842
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 3.642630385487528
+          "at": 4.01124716553288
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.170884353741497
+          "at": 4.652698412698412
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.0213151927437645
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.800725623582767
+          "at": 5.282539682539682
         },
         {
           "name": "guard1",
+          "file": "./assets/audio/guard1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 4.800725623582767
+          "at": 5.601814058956916
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 4.800725623582767
+          "at": 5.870614058956916
         },
         {
           "name": "block",
+          "file": "./assets/audio/block.wav",
           "offset": 0,
           "pan": 0,
-          "at": 5.642448979591837
+          "at": 6.431927437641724
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.202630385487528
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 6.260680272108844
+          "at": 7.000816326530612
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.841179138321995
+          "at": 7.650975056689342
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.02249433106576
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 7.471020408163265
+          "at": 8.272108843537415
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 7.471020408163265
+          "at": 8.582675736961452
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 7.471020408163265
+          "at": 8.851475736961453
         },
         {
           "name": "interrupted",
+          "file": "./assets/audio/interrupted.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.301133786848073
+          "at": 9.430204081632652
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.881632653061224
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 8.942585034013605
+          "at": 10.010702947845806
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 9.520181405895691
+          "at": 10.652154195011338
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 11.020770975056688
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 10.150022675736961
+          "at": 11.281995464852608
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 10.150022675736961
+          "at": 11.601269841269842
         },
         {
           "name": "guard2",
+          "file": "./assets/audio/guard2-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 12.350113378684807
+          "at": 13.75201814058957
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 12.350113378684807
+          "at": 14.02081814058957
         },
         {
           "name": "at-hit",
+          "file": "./assets/audio/at-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.191836734693878
+          "at": 14.582131519274377
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.760725623582767
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 13.810068027210884
+          "at": 15.162630385487528
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 14.402176870748299
+          "at": 15.801179138321995
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 16.172698412698413
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 15.020408163265307
+          "at": 16.431020408163267
         },
         {
           "name": "wave3-cutin",
+          "file": "./assets/audio/wave3-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 15.020408163265307
+          "at": 16.7502947845805
         },
         {
           "name": "guard3",
+          "file": "./assets/audio/guard3-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 17.621043083900226
+          "at": 19.342222222222222
         },
         {
           "name": "wave3",
+          "file": "./assets/audio/wave3-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 17.621043083900226
+          "at": 19.61102222222222
         },
         {
           "name": "psycho-hit",
+          "file": "./assets/audio/psycho-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 18.471473922902494
+          "at": 20.17233560090703
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 19.02004535147392
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 19.080997732426304
+          "at": 20.73251700680272
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 19.652789115646257
-        },
-        {
-          "name": "reveal",
-          "offset": 0,
-          "pan": 0,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "reflect1",
-          "offset": 0,
-          "pan": -0.45,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "wave1-1",
-          "offset": 0,
-          "pan": 0.45,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "cylinder-in",
-          "offset": 0,
-          "pan": -0.5,
-          "at": 20.6918820861678
-        },
-        {
-          "name": "cylinder-out",
-          "offset": 0,
-          "pan": 0.5,
-          "at": 20.7758820861678
-        },
-        {
-          "name": "hit",
-          "offset": 0,
-          "pan": 0,
-          "at": 21.12145124716553
-        },
-        {
-          "name": "clap1",
-          "offset": 0,
-          "pan": 0,
-          "at": 21.69034013605442
+          "at": 21.371065759637187
         },
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
           "at": 21.730975056689342
         },
         {
-          "name": "clap2",
+          "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
+          "at": 22.00090702947846
+        },
+        {
+          "name": "reflect1",
+          "file": "./assets/audio/reflect1-v2.1.wav",
+          "offset": 0,
+          "pan": -0.45,
           "at": 22.320181405895692
         },
         {
-          "name": "reveal",
-          "offset": 0,
-          "pan": 0,
-          "at": 22.95002267573696
-        },
-        {
-          "name": "wave2-cutin",
+          "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 22.95002267573696
+          "at": 22.58898140589569
         },
         {
-          "name": "reflect2",
-          "offset": 0,
-          "pan": -0.45,
-          "at": 25.150113378684807
-        },
-        {
-          "name": "wave2",
-          "offset": 0,
-          "pan": 0.45,
-          "at": 25.150113378684807
-        },
-        {
-          "name": "fan-return",
+          "name": "cylinder-in",
+          "file": "./assets/audio/cylinder-in-v2.1.wav",
           "offset": 0,
           "pan": -0.5,
-          "at": 25.63465759637188
+          "at": 22.720725623582766
+        },
+        {
+          "name": "cylinder-out",
+          "file": "./assets/audio/cylinder-out-v2.1.wav",
+          "offset": 0,
+          "pan": 0.5,
+          "at": 22.804725623582765
         },
         {
           "name": "hit",
+          "file": "./assets/audio/hit.wav",
           "offset": 0,
           "pan": 0,
-          "at": 26.000544217687075
+          "at": 23.1502947845805
+        },
+        {
+          "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 23.742403628117913
+        },
+        {
+          "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 24.372244897959185
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 24.871473922902496
+        },
+        {
+          "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 25.002086167800453
+        },
+        {
+          "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 25.321360544217686
+        },
+        {
+          "name": "reflect2",
+          "file": "./assets/audio/reflect2-v2.1.wav",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 27.521451247165533
+        },
+        {
+          "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 27.790251247165532
+        },
+        {
+          "name": "fan-return",
+          "file": "./assets/audio/fan-return-v2.1.wav",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 28.005995464852607
+        },
+        {
+          "name": "hit",
+          "file": "./assets/audio/hit.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 28.35156462585034
         }
       ]
     },
@@ -3140,16 +3419,7 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 27114.10000000149
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 74.4000000007436,
-          "local": 106.28571428677658,
-          "phase": "select",
-          "phaseTime": 106.28571428677658,
-          "wall": 27188.300000000745
+          "wall": 30127
         },
         {
           "type": "clap",
@@ -3158,471 +3428,554 @@
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 27747.70000000298
+          "wall": 30762.60000000149
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 945.0000000000002,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 31082
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1004.4000000022352,
+          "local": 1434.8571428603354,
+          "phase": "select",
+          "phaseTime": 1434.8571428603354,
+          "wall": 31131.5
         },
         {
           "type": "third-beat",
           "round": 1,
           "at": 1260.0000000000007,
           "local": 1800,
-          "phase": "cutin",
-          "phaseTime": 0,
-          "wall": 28381.70000000298
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 31396.300000000745
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1260.0000000000007,
-          "local": 1800,
+          "at": 1575.000000000001,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 0,
-          "wall": 28382.5
+          "wall": 31712.900000002235
         },
         {
           "type": "cutin-start",
           "round": 1,
-          "at": 1260.0000000000007,
-          "local": 1800,
+          "at": 1575.000000000001,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 0,
-          "wall": 28382.70000000298
+          "wall": 31713.300000000745
         },
         {
           "type": "cutin-end",
           "round": 1,
-          "at": 3860.0000000000005,
-          "local": 1800,
+          "at": 4175.000000000001,
+          "local": 2250,
           "phase": "cutin",
           "phaseTime": 2600,
-          "wall": 30981.20000000298
+          "wall": 34312.800000000745
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 3860.0000000000005,
-          "local": 1800,
+          "at": 4175.000000000001,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 30981.20000000298
+          "wall": 34312.800000000745
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 4259,
-          "local": 2370,
+          "at": 4574.000000000001,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 31380.900000002235
+          "wall": 34712.400000002235
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 4700.000000000001,
-          "local": 3000,
+          "at": 5015.000000000001,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 31831
+          "wall": 35146
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 4700.000000000001,
-          "local": 3000,
+          "at": 5015.000000000001,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 31832.5
+          "wall": 35147.900000002235
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 3.5700680272108842
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 3.642630385487528
+          "at": 4.01124716553288
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.170884353741497
+          "at": 4.652698412698412
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.0213151927437645
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.800725623582767
+          "at": 5.282539682539682
         },
         {
           "name": "guard1",
+          "file": "./assets/audio/guard1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 4.800725623582767
+          "at": 5.601814058956916
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 4.800725623582767
+          "at": 5.870614058956916
         },
         {
           "name": "block",
+          "file": "./assets/audio/block.wav",
           "offset": 0,
           "pan": 0,
-          "at": 5.642448979591837
+          "at": 6.431927437641724
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.202630385487528
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 6.260680272108844
+          "at": 7.000816326530612
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.841179138321995
+          "at": 7.650975056689342
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.02249433106576
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 7.471020408163265
+          "at": 8.272108843537415
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 7.471020408163265
+          "at": 8.582675736961452
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 7.471020408163265
+          "at": 8.851475736961453
         },
         {
           "name": "interrupted",
+          "file": "./assets/audio/interrupted.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.301133786848073
+          "at": 9.430204081632652
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.881632653061224
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 8.942585034013605
+          "at": 10.010702947845806
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 9.520181405895691
+          "at": 10.652154195011338
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 11.020770975056688
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 10.150022675736961
+          "at": 11.281995464852608
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 10.150022675736961
+          "at": 11.601269841269842
         },
         {
           "name": "guard2",
+          "file": "./assets/audio/guard2-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 12.350113378684807
+          "at": 13.75201814058957
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 12.350113378684807
+          "at": 14.02081814058957
         },
         {
           "name": "at-hit",
+          "file": "./assets/audio/at-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.191836734693878
+          "at": 14.582131519274377
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.760725623582767
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 13.810068027210884
+          "at": 15.162630385487528
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 14.402176870748299
+          "at": 15.801179138321995
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 16.172698412698413
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 15.020408163265307
+          "at": 16.431020408163267
         },
         {
           "name": "wave3-cutin",
+          "file": "./assets/audio/wave3-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 15.020408163265307
+          "at": 16.7502947845805
         },
         {
           "name": "guard3",
+          "file": "./assets/audio/guard3-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 17.621043083900226
+          "at": 19.342222222222222
         },
         {
           "name": "wave3",
+          "file": "./assets/audio/wave3-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 17.621043083900226
+          "at": 19.61102222222222
         },
         {
           "name": "psycho-hit",
+          "file": "./assets/audio/psycho-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 18.471473922902494
+          "at": 20.17233560090703
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 19.02004535147392
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 19.080997732426304
+          "at": 20.73251700680272
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 19.652789115646257
-        },
-        {
-          "name": "reveal",
-          "offset": 0,
-          "pan": 0,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "reflect1",
-          "offset": 0,
-          "pan": -0.45,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "wave1-1",
-          "offset": 0,
-          "pan": 0.45,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "cylinder-in",
-          "offset": 0,
-          "pan": -0.5,
-          "at": 20.6918820861678
-        },
-        {
-          "name": "cylinder-out",
-          "offset": 0,
-          "pan": 0.5,
-          "at": 20.7758820861678
-        },
-        {
-          "name": "hit",
-          "offset": 0,
-          "pan": 0,
-          "at": 21.12145124716553
-        },
-        {
-          "name": "clap1",
-          "offset": 0,
-          "pan": 0,
-          "at": 21.69034013605442
+          "at": 21.371065759637187
         },
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
           "at": 21.730975056689342
         },
         {
-          "name": "clap2",
+          "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
+          "at": 22.00090702947846
+        },
+        {
+          "name": "reflect1",
+          "file": "./assets/audio/reflect1-v2.1.wav",
+          "offset": 0,
+          "pan": -0.45,
           "at": 22.320181405895692
         },
         {
-          "name": "reveal",
-          "offset": 0,
-          "pan": 0,
-          "at": 22.95002267573696
-        },
-        {
-          "name": "wave2-cutin",
+          "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 22.95002267573696
+          "at": 22.58898140589569
         },
         {
-          "name": "reflect2",
-          "offset": 0,
-          "pan": -0.45,
-          "at": 25.150113378684807
-        },
-        {
-          "name": "wave2",
-          "offset": 0,
-          "pan": 0.45,
-          "at": 25.150113378684807
-        },
-        {
-          "name": "fan-return",
+          "name": "cylinder-in",
+          "file": "./assets/audio/cylinder-in-v2.1.wav",
           "offset": 0,
           "pan": -0.5,
-          "at": 25.63465759637188
+          "at": 22.720725623582766
+        },
+        {
+          "name": "cylinder-out",
+          "file": "./assets/audio/cylinder-out-v2.1.wav",
+          "offset": 0,
+          "pan": 0.5,
+          "at": 22.804725623582765
         },
         {
           "name": "hit",
+          "file": "./assets/audio/hit.wav",
           "offset": 0,
           "pan": 0,
-          "at": 26.000544217687075
+          "at": 23.1502947845805
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 26.572335600907028
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 26.64199546485261
+          "at": 23.742403628117913
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 27.2021768707483
+          "at": 24.372244897959185
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 24.871473922902496
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 27.840725623582767
-        },
-        {
-          "name": "wave3-cutin",
-          "offset": 0,
-          "pan": -0.45,
-          "at": 27.840725623582767
+          "at": 25.002086167800453
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 27.840725623582767
+          "at": 25.321360544217686
         },
         {
-          "name": "wave3",
+          "name": "reflect2",
+          "file": "./assets/audio/reflect2-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 30.43845804988662
+          "at": 27.521451247165533
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 30.441360544217687
+          "at": 27.790251247165532
+        },
+        {
+          "name": "fan-return",
+          "file": "./assets/audio/fan-return-v2.1.wav",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 28.005995464852607
+        },
+        {
+          "name": "hit",
+          "file": "./assets/audio/hit.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 28.35156462585034
+        },
+        {
+          "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 28.952380952380953
+        },
+        {
+          "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 29.59092970521542
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 29.962448979591837
+        },
+        {
+          "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 30.220770975056688
+        },
+        {
+          "name": "wave3-cutin",
+          "file": "./assets/audio/wave3-cutin-v2.1.wav",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 30.54004535147392
+        },
+        {
+          "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 30.54004535147392
+        },
+        {
+          "name": "wave3",
+          "file": "./assets/audio/wave3-v2.1.wav",
+          "offset": 0,
+          "pan": -0.45,
+          "at": 33.409480272108844
+        },
+        {
+          "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 33.409480272108844
         },
         {
           "name": "partial",
+          "file": "./assets/audio/partial.wav",
           "offset": 0,
           "pan": 0,
-          "at": 31.280181405895693
+          "at": 33.97079365079365
         }
       ]
     },
@@ -3785,524 +4138,1126 @@
           "local": 0,
           "phase": "select",
           "phaseTime": 0,
-          "wall": 32380.300000000745
-        },
-        {
-          "type": "select",
-          "round": 1,
-          "at": 59.900000002235174,
-          "local": 85.57142857462169,
-          "phase": "select",
-          "phaseTime": 85.57142857462169,
-          "wall": 32440.20000000298
+          "wall": 35719.900000002235
         },
         {
           "type": "clap",
           "round": 1,
-          "at": 629.9999999999999,
+          "at": 630,
           "local": 900,
           "phase": "select",
           "phaseTime": 900,
-          "wall": 33014.60000000149
+          "wall": 36362.300000000745
+        },
+        {
+          "type": "window-open",
+          "round": 1,
+          "at": 944.9999999999994,
+          "local": 1350,
+          "phase": "select",
+          "phaseTime": 1350,
+          "wall": 36679
+        },
+        {
+          "type": "select",
+          "round": 1,
+          "at": 1023.5,
+          "local": 1462.142857142858,
+          "phase": "select",
+          "phaseTime": 1462.142857142858,
+          "wall": 36743.400000002235
         },
         {
           "type": "third-beat",
           "round": 1,
           "at": 1259.999999999999,
           "local": 1800,
-          "phase": "action",
-          "phaseTime": 0,
-          "wall": 33648
+          "phase": "select",
+          "phaseTime": 1800,
+          "wall": 36995.60000000149
         },
         {
           "type": "reveal",
           "round": 1,
-          "at": 1259.999999999999,
-          "local": 1800,
+          "at": 1574.9999999999993,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 33648.60000000149
+          "wall": 37296.300000000745
         },
         {
           "type": "launch",
           "round": 1,
-          "at": 1259.999999999999,
-          "local": 1800,
+          "at": 1574.9999999999993,
+          "local": 2250,
           "phase": "action",
           "phaseTime": 0,
-          "wall": 33648.800000000745
+          "wall": 37297.10000000149
         },
         {
           "type": "fx",
           "round": 1,
-          "at": 1658.999999999999,
-          "local": 2370,
+          "at": 1973.9999999999993,
+          "local": 2820,
           "phase": "action",
           "phaseTime": 570,
-          "wall": 34047.400000002235
+          "wall": 37700.900000002235
         },
         {
           "type": "commit",
           "round": 1,
-          "at": 2099.999999999258,
-          "local": 3000,
+          "at": 2414.999999999999,
+          "local": 3450,
           "phase": "action",
           "phaseTime": 1200,
-          "wall": 34481
+          "wall": 38145.800000000745
         },
         {
           "type": "recover",
           "round": 1,
-          "at": 2099.999999999258,
-          "local": 3000,
+          "at": 2414.999999999999,
+          "local": 3450,
           "phase": "recover",
           "phaseTime": 0,
-          "wall": 34482.60000000149
+          "wall": 38147.900000002235
         }
       ],
       "audio": [
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.301859410430839
+          "at": 0.42086167800453517
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 0.8707482993197279
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 0.9810430839002268
+          "at": 1.0100680272108844
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 1.5121995464852607
+          "at": 1.6515192743764173
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 2.0317460317460316
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.1420408163265305
+          "at": 2.281360544217687
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 2.1420408163265305
+          "at": 2.6006349206349206
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 2.980861678004535
+          "at": 3.430748299319728
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 3.5700680272108842
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 3.642630385487528
+          "at": 4.01124716553288
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.170884353741497
+          "at": 4.652698412698412
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 5.0213151927437645
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 4.800725623582767
+          "at": 5.282539682539682
         },
         {
           "name": "guard1",
+          "file": "./assets/audio/guard1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 4.800725623582767
+          "at": 5.601814058956916
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 4.800725623582767
+          "at": 5.870614058956916
         },
         {
           "name": "block",
+          "file": "./assets/audio/block.wav",
           "offset": 0,
           "pan": 0,
-          "at": 5.642448979591837
+          "at": 6.431927437641724
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.202630385487528
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 6.260680272108844
+          "at": 7.000816326530612
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 6.841179138321995
+          "at": 7.650975056689342
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 8.02249433106576
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 7.471020408163265
+          "at": 8.272108843537415
         },
         {
           "name": "quick",
+          "file": "./assets/audio/quick.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 7.471020408163265
+          "at": 8.582675736961452
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 7.471020408163265
+          "at": 8.851475736961453
         },
         {
           "name": "interrupted",
+          "file": "./assets/audio/interrupted.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.301133786848073
+          "at": 9.430204081632652
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 8.881632653061224
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 8.942585034013605
+          "at": 10.010702947845806
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 9.520181405895691
+          "at": 10.652154195011338
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 11.020770975056688
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 10.150022675736961
+          "at": 11.281995464852608
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 10.150022675736961
+          "at": 11.601269841269842
         },
         {
           "name": "guard2",
+          "file": "./assets/audio/guard2-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 12.350113378684807
+          "at": 13.75201814058957
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 12.350113378684807
+          "at": 14.02081814058957
         },
         {
           "name": "at-hit",
+          "file": "./assets/audio/at-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.191836734693878
+          "at": 14.582131519274377
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 13.760725623582767
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 13.810068027210884
+          "at": 15.162630385487528
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 14.402176870748299
+          "at": 15.801179138321995
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 16.172698412698413
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 15.020408163265307
+          "at": 16.431020408163267
         },
         {
           "name": "wave3-cutin",
+          "file": "./assets/audio/wave3-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 15.020408163265307
+          "at": 16.7502947845805
         },
         {
           "name": "guard3",
+          "file": "./assets/audio/guard3-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 17.621043083900226
+          "at": 19.342222222222222
         },
         {
           "name": "wave3",
+          "file": "./assets/audio/wave3-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 17.621043083900226
+          "at": 19.61102222222222
         },
         {
           "name": "psycho-hit",
+          "file": "./assets/audio/psycho-hit-v2.1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 18.471473922902494
+          "at": 20.17233560090703
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 19.02004535147392
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 19.080997732426304
+          "at": 20.73251700680272
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 19.652789115646257
-        },
-        {
-          "name": "reveal",
-          "offset": 0,
-          "pan": 0,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "reflect1",
-          "offset": 0,
-          "pan": -0.45,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "wave1-1",
-          "offset": 0,
-          "pan": 0.45,
-          "at": 20.291337868480724
-        },
-        {
-          "name": "cylinder-in",
-          "offset": 0,
-          "pan": -0.5,
-          "at": 20.6918820861678
-        },
-        {
-          "name": "cylinder-out",
-          "offset": 0,
-          "pan": 0.5,
-          "at": 20.7758820861678
-        },
-        {
-          "name": "hit",
-          "offset": 0,
-          "pan": 0,
-          "at": 21.12145124716553
-        },
-        {
-          "name": "clap1",
-          "offset": 0,
-          "pan": 0,
-          "at": 21.69034013605442
+          "at": 21.371065759637187
         },
         {
           "name": "select",
+          "file": "./assets/audio/select.wav",
           "offset": 0,
           "pan": 0,
           "at": 21.730975056689342
         },
         {
-          "name": "clap2",
+          "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
+          "at": 22.00090702947846
+        },
+        {
+          "name": "reflect1",
+          "file": "./assets/audio/reflect1-v2.1.wav",
+          "offset": 0,
+          "pan": -0.45,
           "at": 22.320181405895692
         },
         {
-          "name": "reveal",
+          "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
+          "offset": 0,
+          "pan": 0.45,
+          "at": 22.58898140589569
+        },
+        {
+          "name": "cylinder-in",
+          "file": "./assets/audio/cylinder-in-v2.1.wav",
+          "offset": 0,
+          "pan": -0.5,
+          "at": 22.720725623582766
+        },
+        {
+          "name": "cylinder-out",
+          "file": "./assets/audio/cylinder-out-v2.1.wav",
+          "offset": 0,
+          "pan": 0.5,
+          "at": 22.804725623582765
+        },
+        {
+          "name": "hit",
+          "file": "./assets/audio/hit.wav",
           "offset": 0,
           "pan": 0,
-          "at": 22.95002267573696
+          "at": 23.1502947845805
+        },
+        {
+          "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 23.742403628117913
+        },
+        {
+          "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 24.372244897959185
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 24.871473922902496
+        },
+        {
+          "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 25.002086167800453
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 22.95002267573696
+          "at": 25.321360544217686
         },
         {
           "name": "reflect2",
+          "file": "./assets/audio/reflect2-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 25.150113378684807
+          "at": 27.521451247165533
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 25.150113378684807
+          "at": 27.790251247165532
         },
         {
           "name": "fan-return",
+          "file": "./assets/audio/fan-return-v2.1.wav",
           "offset": 0,
           "pan": -0.5,
-          "at": 25.63465759637188
+          "at": 28.005995464852607
         },
         {
           "name": "hit",
+          "file": "./assets/audio/hit.wav",
           "offset": 0,
           "pan": 0,
-          "at": 26.000544217687075
+          "at": 28.35156462585034
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 26.572335600907028
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 26.64199546485261
+          "at": 28.952380952380953
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 27.2021768707483
+          "at": 29.59092970521542
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 29.962448979591837
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 27.840725623582767
+          "at": 30.220770975056688
         },
         {
           "name": "wave3-cutin",
+          "file": "./assets/audio/wave3-cutin-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 27.840725623582767
+          "at": 30.54004535147392
         },
         {
           "name": "wave2-cutin",
+          "file": "./assets/audio/wave2-cutin-v2.1.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 27.840725623582767
+          "at": 30.54004535147392
         },
         {
           "name": "wave3",
+          "file": "./assets/audio/wave3-v2.1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 30.43845804988662
+          "at": 33.409480272108844
         },
         {
           "name": "wave2",
+          "file": "./assets/audio/wave2.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 30.441360544217687
+          "at": 33.409480272108844
         },
         {
           "name": "partial",
+          "file": "./assets/audio/partial.wav",
           "offset": 0,
           "pan": 0,
-          "at": 31.280181405895693
+          "at": 33.97079365079365
         },
         {
           "name": "clap1",
+          "file": "./assets/audio/clap1.wav",
           "offset": 0,
           "pan": 0,
-          "at": 31.840362811791383
-        },
-        {
-          "name": "select",
-          "offset": 0,
-          "pan": 0,
-          "at": 31.892607709750568
+          "at": 34.542585034013605
         },
         {
           "name": "clap2",
+          "file": "./assets/audio/clap2.wav",
           "offset": 0,
           "pan": 0,
-          "at": 32.47020408163265
+          "at": 35.192743764172334
+        },
+        {
+          "name": "select",
+          "file": "./assets/audio/select.wav",
+          "offset": 0,
+          "pan": 0,
+          "at": 35.57006802721089
         },
         {
           "name": "reveal",
+          "file": "./assets/audio/reveal.wav",
           "offset": 0,
           "pan": 0,
-          "at": 33.10004535147392
+          "at": 35.822585034013606
         },
         {
           "name": "wave1-1",
+          "file": "./assets/audio/wave1-1.wav",
           "offset": 0,
           "pan": -0.45,
-          "at": 33.10004535147392
+          "at": 36.390341950113374
         },
         {
           "name": "charge",
+          "file": "./assets/audio/charge.wav",
           "offset": 0,
           "pan": 0.45,
-          "at": 33.10004535147392
+          "at": 36.121541950113375
         },
         {
           "name": "hit",
+          "file": "./assets/audio/hit.wav",
           "offset": 0,
           "pan": 0,
-          "at": 33.94176870748299
+          "at": 36.97197278911565
         },
         {
           "name": "qi-gain",
+          "file": "./assets/audio/qi-gain.wav",
           "offset": 0,
           "pan": 0,
-          "at": 33.94176870748299
+          "at": 36.97197278911565
         }
       ]
     }
   ],
-  "audioDuration": 38.23319999999926,
-  "audioStartPerf": 820.4000000022352,
+  "finalAudio": [
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 0.42086167800453517
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 1.0100680272108844
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 1.6515192743764173
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 2.0317460317460316
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 2.281360544217687
+    },
+    {
+      "name": "charge",
+      "file": "./assets/audio/charge.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 2.6006349206349206
+    },
+    {
+      "name": "quick",
+      "file": "./assets/audio/quick.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 2.6006349206349206
+    },
+    {
+      "name": "qi-gain",
+      "file": "./assets/audio/qi-gain.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 3.430748299319728
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 4.01124716553288
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 4.652698412698412
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 5.0213151927437645
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 5.282539682539682
+    },
+    {
+      "name": "guard1",
+      "file": "./assets/audio/guard1.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 5.601814058956916
+    },
+    {
+      "name": "wave1-1",
+      "file": "./assets/audio/wave1-1.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 5.870614058956916
+    },
+    {
+      "name": "block",
+      "file": "./assets/audio/block.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 6.431927437641724
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 7.000816326530612
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 7.650975056689342
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 8.02249433106576
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 8.272108843537415
+    },
+    {
+      "name": "quick",
+      "file": "./assets/audio/quick.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 8.582675736961452
+    },
+    {
+      "name": "wave1-1",
+      "file": "./assets/audio/wave1-1.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 8.851475736961453
+    },
+    {
+      "name": "interrupted",
+      "file": "./assets/audio/interrupted.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 9.430204081632652
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 10.010702947845806
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 10.652154195011338
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 11.020770975056688
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 11.281995464852608
+    },
+    {
+      "name": "wave2-cutin",
+      "file": "./assets/audio/wave2-cutin-v2.1.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 11.601269841269842
+    },
+    {
+      "name": "guard2",
+      "file": "./assets/audio/guard2-v2.1.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 13.75201814058957
+    },
+    {
+      "name": "wave2",
+      "file": "./assets/audio/wave2.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 14.02081814058957
+    },
+    {
+      "name": "at-hit",
+      "file": "./assets/audio/at-hit-v2.1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 14.582131519274377
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 15.162630385487528
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 15.801179138321995
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 16.172698412698413
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 16.431020408163267
+    },
+    {
+      "name": "wave3-cutin",
+      "file": "./assets/audio/wave3-cutin-v2.1.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 16.7502947845805
+    },
+    {
+      "name": "guard3",
+      "file": "./assets/audio/guard3-v2.1.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 19.342222222222222
+    },
+    {
+      "name": "wave3",
+      "file": "./assets/audio/wave3-v2.1.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 19.61102222222222
+    },
+    {
+      "name": "psycho-hit",
+      "file": "./assets/audio/psycho-hit-v2.1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 20.17233560090703
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 20.73251700680272
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 21.371065759637187
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 21.730975056689342
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 22.00090702947846
+    },
+    {
+      "name": "reflect1",
+      "file": "./assets/audio/reflect1-v2.1.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 22.320181405895692
+    },
+    {
+      "name": "wave1-1",
+      "file": "./assets/audio/wave1-1.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 22.58898140589569
+    },
+    {
+      "name": "cylinder-in",
+      "file": "./assets/audio/cylinder-in-v2.1.wav",
+      "offset": 0,
+      "pan": -0.5,
+      "at": 22.720725623582766
+    },
+    {
+      "name": "cylinder-out",
+      "file": "./assets/audio/cylinder-out-v2.1.wav",
+      "offset": 0,
+      "pan": 0.5,
+      "at": 22.804725623582765
+    },
+    {
+      "name": "hit",
+      "file": "./assets/audio/hit.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 23.1502947845805
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 23.742403628117913
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 24.372244897959185
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 24.871473922902496
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 25.002086167800453
+    },
+    {
+      "name": "wave2-cutin",
+      "file": "./assets/audio/wave2-cutin-v2.1.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 25.321360544217686
+    },
+    {
+      "name": "reflect2",
+      "file": "./assets/audio/reflect2-v2.1.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 27.521451247165533
+    },
+    {
+      "name": "wave2",
+      "file": "./assets/audio/wave2.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 27.790251247165532
+    },
+    {
+      "name": "fan-return",
+      "file": "./assets/audio/fan-return-v2.1.wav",
+      "offset": 0,
+      "pan": -0.5,
+      "at": 28.005995464852607
+    },
+    {
+      "name": "hit",
+      "file": "./assets/audio/hit.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 28.35156462585034
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 28.952380952380953
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 29.59092970521542
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 29.962448979591837
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 30.220770975056688
+    },
+    {
+      "name": "wave3-cutin",
+      "file": "./assets/audio/wave3-cutin-v2.1.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 30.54004535147392
+    },
+    {
+      "name": "wave2-cutin",
+      "file": "./assets/audio/wave2-cutin-v2.1.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 30.54004535147392
+    },
+    {
+      "name": "wave3",
+      "file": "./assets/audio/wave3-v2.1.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 33.409480272108844
+    },
+    {
+      "name": "wave2",
+      "file": "./assets/audio/wave2.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 33.409480272108844
+    },
+    {
+      "name": "partial",
+      "file": "./assets/audio/partial.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 33.97079365079365
+    },
+    {
+      "name": "clap1",
+      "file": "./assets/audio/clap1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 34.542585034013605
+    },
+    {
+      "name": "clap2",
+      "file": "./assets/audio/clap2.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 35.192743764172334
+    },
+    {
+      "name": "select",
+      "file": "./assets/audio/select.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 35.57006802721089
+    },
+    {
+      "name": "reveal",
+      "file": "./assets/audio/reveal.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 35.822585034013606
+    },
+    {
+      "name": "wave1-1",
+      "file": "./assets/audio/wave1-1.wav",
+      "offset": 0,
+      "pan": -0.45,
+      "at": 36.390341950113374
+    },
+    {
+      "name": "charge",
+      "file": "./assets/audio/charge.wav",
+      "offset": 0,
+      "pan": 0.45,
+      "at": 36.121541950113375
+    },
+    {
+      "name": "hit",
+      "file": "./assets/audio/hit.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 36.97197278911565
+    },
+    {
+      "name": "qi-gain",
+      "file": "./assets/audio/qi-gain.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 36.97197278911565
+    },
+    {
+      "name": "win",
+      "file": "./assets/audio/win-v2.1.wav",
+      "offset": 0,
+      "pan": 0,
+      "at": 37.60181405895692
+    }
+  ],
+  "audioDuration": 41.153,
+  "audioStartPerf": 1572.6000000014901,
   "errors": []
 }

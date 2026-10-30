@@ -1,0 +1,123 @@
+{
+  "version": "2.1.0",
+  "checks": [
+    {
+      "id": "wave2-cutin",
+      "file": "./assets/audio/wave2-cutin-v2.1.wav",
+      "duration": 2.2,
+      "peakDbFS": -4.0000883347026726,
+      "fastStart": 0,
+      "fastBudget": 2.2,
+      "passed": true
+    },
+    {
+      "id": "wave3-cutin",
+      "file": "./assets/audio/wave3-cutin-v2.1.wav",
+      "duration": 2.6,
+      "peakDbFS": -4.0000883347026726,
+      "fastStart": 0,
+      "fastBudget": 2.6,
+      "passed": true
+    },
+    {
+      "id": "wave3",
+      "file": "./assets/audio/wave3-v2.1.wav",
+      "duration": 1.1500226757369614,
+      "peakDbFS": -9.251273994066722,
+      "fastStart": 0.26879999999999993,
+      "fastBudget": 1.47,
+      "passed": true
+    },
+    {
+      "id": "guard2",
+      "file": "./assets/audio/guard2-v2.1.wav",
+      "duration": 1.0500226757369615,
+      "peakDbFS": -8.390276655578653,
+      "fastStart": 0,
+      "fastBudget": 1.47,
+      "passed": true
+    },
+    {
+      "id": "guard3",
+      "file": "./assets/audio/guard3-v2.1.wav",
+      "duration": 1.1500226757369614,
+      "peakDbFS": -6.852271496740147,
+      "fastStart": 0,
+      "fastBudget": 1.47,
+      "passed": true
+    },
+    {
+      "id": "reflect1",
+      "file": "./assets/audio/reflect1-v2.1.wav",
+      "duration": 1.2838548752834467,
+      "peakDbFS": -6.045020864722195,
+      "fastStart": 0,
+      "fastBudget": 1.47,
+      "passed": true
+    },
+    {
+      "id": "cylinder-in",
+      "file": "./assets/audio/cylinder-in-v2.1.wav",
+      "duration": 0.32,
+      "peakDbFS": -9.727007362723501,
+      "fastStart": 0.399,
+      "fastBudget": 1.47,
+      "passed": true
+    },
+    {
+      "id": "cylinder-out",
+      "file": "./assets/audio/cylinder-out-v2.1.wav",
+      "duration": 0.4,
+      "peakDbFS": -9.323862754549815,
+      "fastStart": 0.48299999999999993,
+      "fastBudget": 1.47,
+      "passed": true
+    },
+    {
+      "id": "reflect2",
+      "file": "./assets/audio/reflect2-v2.1.wav",
+      "duration": 0.9812698412698413,
+      "peakDbFS": -4.0000883347026726,
+      "fastStart": 0,
+      "fastBudget": 1.47,
+      "passed": true
+    },
+    {
+      "id": "fan-return",
+      "file": "./assets/audio/fan-return-v2.1.wav",
+      "duration": 0.5,
+      "peakDbFS": -6.601555832973556,
+      "fastStart": 0.48299999999999993,
+      "fastBudget": 1.47,
+      "passed": true
+    },
+    {
+      "id": "at-hit",
+      "file": "./assets/audio/at-hit-v2.1.wav",
+      "duration": 0.6,
+      "peakDbFS": -7.646527191141965,
+      "fastStart": 0,
+      "fastBudget": 0.63,
+      "passed": true
+    },
+    {
+      "id": "psycho-hit",
+      "file": "./assets/audio/psycho-hit-v2.1.wav",
+      "duration": 0.6,
+      "peakDbFS": -7.516453729581607,
+      "fastStart": 0,
+      "fastBudget": 0.63,
+      "passed": true
+    },
+    {
+      "id": "win",
+      "file": "./assets/audio/win-v2.1.wav",
+      "duration": 2.8,
+      "peakDbFS": -6.17409981811941,
+      "fastStart": 0,
+      "fastBudget": 2.8,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

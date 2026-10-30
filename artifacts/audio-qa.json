@@ -1,11 +1,11 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "browser": "154.0.8037.57",
   "realTime": true,
   "before": {
     "phase": "cutin",
-    "phaseTime": 849.7999999977649,
-    "local": 1800,
+    "phaseTime": 889.9000000022352,
+    "local": 2250,
     "result": {
       "actions": [
         "wave2",
@@ -81,66 +81,76 @@
     "log": [
       {
         "name": "select",
+        "file": "./assets/audio/select.wav",
         "offset": 0,
         "pan": 0,
-        "at": 0.34249433106575966
+        "at": 0.4121541950113379
       },
       {
         "name": "clap1",
+        "file": "./assets/audio/clap1.wav",
         "offset": 0,
         "pan": 0,
-        "at": 0.3512018140589569
-      },
-      {
-        "name": "select",
-        "offset": 0,
-        "pan": 0,
-        "at": 0.3512018140589569
+        "at": 0.4527891156462585
       },
       {
         "name": "clap2",
+        "file": "./assets/audio/clap2.wav",
         "offset": 0,
         "pan": 0,
-        "at": 1.2509750566893425
-      },
-      {
-        "name": "reveal",
-        "offset": 0,
-        "pan": 0,
-        "at": 2.1507482993197278
-      },
-      {
-        "name": "wave2-cutin",
-        "offset": 0,
-        "pan": -0.45,
-        "at": 2.1507482993197278
-      },
-      {
-        "name": "wave3-cutin",
-        "offset": 0,
-        "pan": 0.45,
-        "at": 2.1507482993197278
+        "at": 1.352562358276644
       },
       {
         "name": "select",
+        "file": "./assets/audio/select.wav",
         "offset": 0,
         "pan": 0,
-        "at": 2.992471655328798
+        "at": 1.8604988662131519
+      },
+      {
+        "name": "reveal",
+        "file": "./assets/audio/reveal.wav",
+        "offset": 0,
+        "pan": 0,
+        "at": 2.2523356009070294
+      },
+      {
+        "name": "wave2-cutin",
+        "file": "./assets/audio/wave2-cutin-v2.1.wav",
+        "offset": 0,
+        "pan": -0.45,
+        "at": 2.7109297052154195
+      },
+      {
+        "name": "wave3-cutin",
+        "file": "./assets/audio/wave3-cutin-v2.1.wav",
+        "offset": 0,
+        "pan": 0.45,
+        "at": 2.7109297052154195
+      },
+      {
+        "name": "select",
+        "file": "./assets/audio/select.wav",
+        "offset": 0,
+        "pan": 0,
+        "at": 3.5816780045351475
       }
     ]
   },
   "offsets": [
     {
       "name": "wave2-cutin",
-      "offset": 0.8497999999977649,
+      "file": "./assets/audio/wave2-cutin-v2.1.wav",
+      "offset": 0.8899000000022351,
       "pan": -0.45,
-      "at": 3.0127891156462585
+      "at": 3.610702947845805
     },
     {
       "name": "wave3-cutin",
-      "offset": 0.8497999999977649,
+      "file": "./assets/audio/wave3-cutin-v2.1.wav",
+      "offset": 0.8899000000022351,
       "pan": 0.45,
-      "at": 3.0127891156462585
+      "at": 3.610702947845805
     }
   ],
   "after": {
@@ -152,16 +162,7 @@
         "local": 0,
         "phase": "select",
         "phaseTime": 0,
-        "wall": 736.7999999970198
-      },
-      {
-        "type": "select",
-        "round": 1,
-        "at": 4,
-        "local": 4,
-        "phase": "select",
-        "phaseTime": 4,
-        "wall": 741
+        "wall": 1459.199999999255
       },
       {
         "type": "clap",
@@ -170,97 +171,115 @@
         "local": 900,
         "phase": "select",
         "phaseTime": 900,
-        "wall": 1639.199999999255
+        "wall": 2368.300000000745
+      },
+      {
+        "type": "window-open",
+        "round": 1,
+        "at": 1350,
+        "local": 1350,
+        "phase": "select",
+        "phaseTime": 1350,
+        "wall": 2818.900000002235
+      },
+      {
+        "type": "select",
+        "round": 1,
+        "at": 1423.2000000029802,
+        "local": 1423.2000000029802,
+        "phase": "select",
+        "phaseTime": 1423.2000000029802,
+        "wall": 2882.60000000149
       },
       {
         "type": "third-beat",
         "round": 1,
         "at": 1800,
         "local": 1800,
-        "phase": "cutin",
-        "phaseTime": 0,
-        "wall": 2538.89999999851
+        "phase": "select",
+        "phaseTime": 1800,
+        "wall": 3268.300000000745
       },
       {
         "type": "reveal",
         "round": 1,
-        "at": 1800,
-        "local": 1800,
+        "at": 2250,
+        "local": 2250,
         "phase": "cutin",
         "phaseTime": 0,
-        "wall": 2539.5
+        "wall": 3730.699999999255
       },
       {
         "type": "cutin-start",
         "round": 1,
-        "at": 1800,
-        "local": 1800,
+        "at": 2250,
+        "local": 2250,
         "phase": "cutin",
         "phaseTime": 0,
-        "wall": 2539.7999999970198
+        "wall": 3731.5
       },
       {
         "type": "pause",
         "round": 1,
-        "at": 2649.799999997765,
-        "local": 1800,
+        "at": 3139.900000002235,
+        "local": 2250,
         "phase": "cutin",
-        "phaseTime": 849.7999999977649,
-        "wall": 3383.699999999255
+        "phaseTime": 889.9000000022352,
+        "wall": 4599.10000000149
       },
       {
         "type": "resume",
         "round": 1,
-        "at": 2649.799999997765,
-        "local": 1800,
+        "at": 3139.900000002235,
+        "local": 2250,
         "phase": "cutin",
-        "phaseTime": 849.7999999977649,
-        "wall": 4067.2999999970198
+        "phaseTime": 889.9000000022352,
+        "wall": 5264
       },
       {
         "type": "cutin-end",
         "round": 1,
-        "at": 4400.000000000001,
-        "local": 1800,
+        "at": 4850,
+        "local": 2250,
         "phase": "cutin",
         "phaseTime": 2600,
-        "wall": 5821.5
+        "wall": 6984.5
       },
       {
         "type": "launch",
         "round": 1,
-        "at": 4400.000000000001,
-        "local": 1800,
+        "at": 4850,
+        "local": 2250,
         "phase": "action",
         "phaseTime": 0,
-        "wall": 5821.5
+        "wall": 6984.60000000149
       },
       {
         "type": "fx",
         "round": 1,
-        "at": 4970.000000000001,
-        "local": 2370,
+        "at": 5420,
+        "local": 2820,
         "phase": "action",
         "phaseTime": 570,
-        "wall": 6393.199999999255
+        "wall": 7551.5
       },
       {
         "type": "commit",
         "round": 1,
-        "at": 5600.000000000001,
-        "local": 3000,
+        "at": 6050,
+        "local": 3450,
         "phase": "action",
         "phaseTime": 1200,
-        "wall": 7021.5
+        "wall": 8184.60000000149
       },
       {
         "type": "recover",
         "round": 1,
-        "at": 5600.000000000001,
-        "local": 3000,
+        "at": 6050,
+        "local": 3450,
         "phase": "recover",
         "phaseTime": 0,
-        "wall": 7023.699999999255
+        "wall": 8186.800000000745
       }
     ],
     "state": {
@@ -305,84 +324,109 @@
     "audioLog": [
       {
         "name": "select",
+        "file": "./assets/audio/select.wav",
         "offset": 0,
         "pan": 0,
-        "at": 0.34249433106575966
+        "at": 0.4121541950113379
       },
       {
         "name": "clap1",
+        "file": "./assets/audio/clap1.wav",
         "offset": 0,
         "pan": 0,
-        "at": 0.3512018140589569
-      },
-      {
-        "name": "select",
-        "offset": 0,
-        "pan": 0,
-        "at": 0.3512018140589569
+        "at": 0.4527891156462585
       },
       {
         "name": "clap2",
+        "file": "./assets/audio/clap2.wav",
         "offset": 0,
         "pan": 0,
-        "at": 1.2509750566893425
-      },
-      {
-        "name": "reveal",
-        "offset": 0,
-        "pan": 0,
-        "at": 2.1507482993197278
-      },
-      {
-        "name": "wave2-cutin",
-        "offset": 0,
-        "pan": -0.45,
-        "at": 2.1507482993197278
-      },
-      {
-        "name": "wave3-cutin",
-        "offset": 0,
-        "pan": 0.45,
-        "at": 2.1507482993197278
+        "at": 1.352562358276644
       },
       {
         "name": "select",
+        "file": "./assets/audio/select.wav",
         "offset": 0,
         "pan": 0,
-        "at": 2.992471655328798
+        "at": 1.8604988662131519
+      },
+      {
+        "name": "reveal",
+        "file": "./assets/audio/reveal.wav",
+        "offset": 0,
+        "pan": 0,
+        "at": 2.2523356009070294
       },
       {
         "name": "wave2-cutin",
-        "offset": 0.8497999999977649,
+        "file": "./assets/audio/wave2-cutin-v2.1.wav",
+        "offset": 0,
         "pan": -0.45,
-        "at": 3.0127891156462585
+        "at": 2.7109297052154195
       },
       {
         "name": "wave3-cutin",
-        "offset": 0.8497999999977649,
+        "file": "./assets/audio/wave3-cutin-v2.1.wav",
+        "offset": 0,
         "pan": 0.45,
-        "at": 3.0127891156462585
+        "at": 2.7109297052154195
+      },
+      {
+        "name": "select",
+        "file": "./assets/audio/select.wav",
+        "offset": 0,
+        "pan": 0,
+        "at": 3.5816780045351475
+      },
+      {
+        "name": "wave2-cutin",
+        "file": "./assets/audio/wave2-cutin-v2.1.wav",
+        "offset": 0.8899000000022351,
+        "pan": -0.45,
+        "at": 3.610702947845805
+      },
+      {
+        "name": "wave3-cutin",
+        "file": "./assets/audio/wave3-cutin-v2.1.wav",
+        "offset": 0.8899000000022351,
+        "pan": 0.45,
+        "at": 3.610702947845805
       },
       {
         "name": "wave2",
+        "file": "./assets/audio/wave2.wav",
         "offset": 0,
         "pan": -0.45,
-        "at": 4.760090702947846
+        "at": 5.715882086167801
       },
       {
         "name": "wave3",
+        "file": "./assets/audio/wave3-v2.1.wav",
         "offset": 0,
         "pan": 0.45,
-        "at": 4.760090702947846
+        "at": 5.715882086167801
       },
       {
         "name": "partial",
+        "file": "./assets/audio/partial.wav",
         "offset": 0,
         "pan": 0,
-        "at": 5.932698412698413
+        "at": 6.521904761904762
       }
     ],
-    "active": 2
+    "active": 3
   },
-  "visibilityHandlerPaused": true
+  "visibilityHandlerPaused": true,
+  "recovery": {
+    "phase": "recover",
+    "phaseTime": 106.28571428358445,
+    "scale": 0.7
+  },
+  "recoveryVoice": {
+    "name": "reflect1",
+    "file": "./assets/audio/reflect1-v2.1.wav",
+    "offset": 0.914399999998509,
+    "pan": -0.45,
+    "at": 9.21251700680272
+  }
 }

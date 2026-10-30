@@ -18,3 +18,7 @@ https://paipai-wave-playground.zhipijun1996.chatgpt.site
 ## v2.0公开更新
 
 保留用户已明确设置的public受众和同一project_id，不创建新站。公开站按原生save_site_version（匹配的完整提交SHA与构建归档）→deploy_site_version发布；不使用owner-private部署接口。部署结果及匿名构建检查记录在交付证据的sites-deployment-v2.json、public-access-v2.json。源码与构建不含账号或原声素材授权依赖，所有运行声音为包内37个文件。
+
+## v2.1原声与拍拍后选招
+
+复用同一project_id/public受众/免登录URL。13个原声槽用带版本的`*-v2.1.wav`路径，避免旧WAV缓存；37音轨和NOTICE/manifest均本地打包。标准1350–2250ms输入窗口在第二拍收掌后开放，窗口截止才亮招。发布归档仅含本提交构建的dist与hosting配置，源码同步到站点专用远端；部署与匿名验证结果以artifacts/sites-deployment-v2.1.json、public-access-v2.1.json为准。

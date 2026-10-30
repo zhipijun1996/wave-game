@@ -1,15 +1,14 @@
 {
-  "videoMarkerStart": 1.04,
-  "videoMarkerEnd": 44.76,
-  "audioDuration": 38.140406,
-  "videoClockCorrection": 1.1462908916071843,
+  "videoMarkerStart": 1.56,
+  "videoMarkerEnd": 49.12,
+  "audioDuration": 41.039718,
+  "videoClockCorrection": 1.1588773587576795,
   "trimmedAudioSeconds": 0.22,
   "output": {
-    "duration": "37.920000"
+    "duration": "40.820000"
   },
   "description": "Actual game frames and actual recorded WebAudio; start/end marker calibration only, no synthesized poses or substituted game audio.",
-  "version": "2.0.0",
-  "originalFranchiseClipsIncluded": 0,
-  "audioMeasuredMeanDbFS": -24.6,
-  "audioMeasuredPeakDbFS": -6.0
+  "peakDbFS": -5.63,
+  "clippedSamples": 0,
+  "franchiseSlotsHeard": 13
 }
