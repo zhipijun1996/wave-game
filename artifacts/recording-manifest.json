@@ -7,5 +7,9 @@
   "output": {
     "duration": "37.999000"
   },
-  "description": "Actual game frames and actual recorded WebAudio; start/end marker calibration only, no synthesized poses or substituted game audio."
+  "description": "Actual game frames and actual recorded WebAudio; start/end marker calibration only, no synthesized poses or substituted game audio.",
+  "version": "2.0.0",
+  "originalFranchiseClipsIncluded": 0,
+  "audioMeasuredMeanDbFS": -24.6,
+  "audioMeasuredPeakDbFS": -5.4
 }
