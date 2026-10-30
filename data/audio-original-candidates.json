@@ -1,0 +1,1329 @@
+{
+  "date": "2026-10-30",
+  "scope": "本地搜集/下载/试听，未接入公开游戏",
+  "sourceDownloads": [
+    {
+      "id": "hadouken-meme",
+      "audioURL": "https://media.memesoundeffects.com/2022/02/Street-Fighter-Hadouken-Sound-Effect.mp3",
+      "sourcePage": "https://memesoundeffects.com/hadouken-sound-effect/",
+      "work": "Street Fighter",
+      "slot": "wave2-cutin",
+      "classification": "原作录音候选；具体版本需核对",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:19:39Z",
+      "file": "originals/hadouken-meme.mp3",
+      "bytes": 34560,
+      "sha256": "15b5e9163fda431b3aa73773c39708fdd7b143b7d995c4d2ebda9e764c2c8760",
+      "contentType": "audio/mpeg",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2.160000"
+        }
+      }
+    },
+    {
+      "id": "at-field-impact",
+      "audioURL": "https://storage.soundinstants.com/at-field-impact.mp3",
+      "sourcePage": "https://soundinstants.com/sound/at-field-impact",
+      "work": "Neon Genesis Evangelion",
+      "slot": "guard2-open-and-impact",
+      "classification": "原作录音候选；具体版本需核对",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:19:40Z",
+      "file": "originals/at-field-impact.mp3",
+      "bytes": 34200,
+      "sha256": "fff84215861578777e7cf639b7c2c630492a890cebc27a1fc8317fea96b46981",
+      "contentType": "application/octet-stream",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2.115918"
+        }
+      }
+    },
+    {
+      "id": "street-fighter-hadouken-sound-effect",
+      "audioURL": "https://soundfxcenter.com/video-games/street-fighter/8d82b5_Street_Fighter_Hadouken_Sound_Effect.mp3",
+      "sourcePage": "https://soundfxcenter.com/download-sound/street-fighter-hadouken-sound-effect/",
+      "work": "Street Fighter II",
+      "slot": "wave2-cutin",
+      "classification": "原作录音候选；具体版本需核对",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:19:40Z",
+      "file": "originals/street-fighter-hadouken-sound-effect.mp3",
+      "bytes": 17580,
+      "sha256": "e8d4077e0270769170c6a3a743bca94749dbd7c8c29551d3e8de1abaed94fee2",
+      "contentType": "audio/mpeg",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1.097125"
+        }
+      }
+    },
+    {
+      "id": "sfiv-ryu-hadouken-sound-effect",
+      "audioURL": "https://soundfxcenter.com/video-games/street-fighter-iv/8d82b5_SFIV_Ryu_Hadouken_Sound_Effect.mp3",
+      "sourcePage": "https://soundfxcenter.com/download-sound/sfiv-ryu-hadouken-sound-effect/",
+      "work": "Street Fighter IV / Ryu",
+      "slot": "wave2-cutin",
+      "classification": "原作录音候选；具体版本需核对",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:19:41Z",
+      "file": "originals/sfiv-ryu-hadouken-sound-effect.mp3",
+      "bytes": 10010,
+      "sha256": "60dc928f61c0f660d2d53a111c39326a0b300ef7db2a3e854d091da960287d80",
+      "contentType": "audio/mpeg",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "0.624000"
+        }
+      }
+    },
+    {
+      "id": "madara-jump-force-pack",
+      "audioURL": "https://sounds.spriters-resource.com/media/assets/441/444554.zip?updated=1755553406",
+      "sourcePage": "https://sounds.spriters-resource.com/pc_computer/jumpforce/asset/444554/",
+      "work": "Jump Force / Madara Uchiha",
+      "slot": "reflect2",
+      "classification": "Jump Force 斑日语原游戏录音包；#104为宇智波返し喊招候选（small识别ウチハガイシ）；不是动画直录",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:22:37Z",
+      "file": "originals/madara-jump-force-pack.zip",
+      "bytes": 28304935,
+      "sha256": "00640e4fe4ac181020f0cdd84a0c3d3d2d9c169e4b152bcae929ffe360c2e468",
+      "contentType": "application/zip",
+      "probe": {}
+    },
+    {
+      "id": "yugi-duel-links-en-pack",
+      "audioURL": "https://sounds.spriters-resource.com/media/assets/408/410715.zip?updated=1755537402",
+      "sourcePage": "https://sounds.spriters-resource.com/mobile/yugiohduellinks/asset/410715/",
+      "work": "Yu-Gi-Oh Duel Links / Yami Yugi / English",
+      "slot": "reflect1",
+      "classification": "Duel Links 暗游戏英语游戏录音；v0001_08_00_02_0为Magic Cylinder；不是日语",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:22:39Z",
+      "file": "originals/yugi-duel-links-en-pack.zip",
+      "bytes": 29154371,
+      "sha256": "377506b704c4acbf4e8bdb6e476925fcdcc13478c1da78f8555e67344eceb6e4",
+      "contentType": "application/zip",
+      "probe": {}
+    },
+    {
+      "id": "jojo-yare",
+      "audioURL": "https://www.soundboardly.com/api/file/uploads/2021/07/yare-yare-daze.mp3/?download=1&filename=yare-yare-daze.mp3",
+      "sourcePage": "https://www.soundboardly.com/sounds/yare-yare-daze/",
+      "work": "JoJo / Jotaro",
+      "slot": "win",
+      "classification": "原作短音候选；Newtype并非UC精神场专用声，JOJO pose须排除同名流行歌",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:23:13Z",
+      "file": "originals/jojo-yare.mp3",
+      "bytes": 61845,
+      "sha256": "a4a22b7df5b6431d6d85a5c1679d9d2330c9fd77a2556d0b333a1e4db6430055",
+      "contentType": "audio/mpeg",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1.512100"
+        }
+      }
+    },
+    {
+      "id": "gundam-newtype",
+      "audioURL": "https://quicksounds.com/uploads/tracks/1418742543_1119515341_958522784.mp3",
+      "sourcePage": "https://quicksounds.com/sound/23651/gundam-newtype",
+      "work": "Gundam / Newtype",
+      "slot": "guard3",
+      "classification": "高达通用Newtype提示音；不能当作独角兽专属精神力场",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:23:14Z",
+      "file": "originals/gundam-newtype.mp3",
+      "bytes": 44974,
+      "sha256": "cb5252acb83b67c6d5d85985e9491f2239123c4ad10a602a5779bdddba7b18d8",
+      "contentType": "audio/mpeg",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2.795102"
+        }
+      }
+    },
+    {
+      "id": "newtype-sfx",
+      "sourcePage": "https://www.bilibili.com/video/BV11RghzGEdn/",
+      "work": "Gundam / Newtype（非UC专用力场）",
+      "slot": "guard3",
+      "classification": "高达通用Newtype提示音；不能当作独角兽专属精神力场",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:24:24Z",
+      "file": "originals/newtype-sfx.m4a",
+      "bytes": 42621,
+      "sha256": "008965259c974b54118420072f9e52eddfd1de0e8d35e258ee12532d72dd328a",
+      "contentType": "video/mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "7.003946"
+        }
+      }
+    },
+    {
+      "id": "ultraman-1966-sfx",
+      "sourcePage": "https://www.bilibili.com/video/BV1tUvQB5EMW/",
+      "work": "Ultraman / 1966",
+      "slot": "wave3",
+      "file": "originals/ultraman-1966-sfx.m4a",
+      "bytes": 384655,
+      "sha256": "1d0c32e6cd9563f8d4fa421e8a4902c2a754dd92dd2b7bc438bf83cc9760661a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "46.695102"
+        }
+      },
+      "classification": "1966初代变身/战吼/八分光轮/斯派修姆/红灯合集；33秒附近斯派修姆字幕已逐帧核对",
+      "redistributionLicense": "未确认"
+    },
+    {
+      "id": "uchiha-clip",
+      "sourcePage": "https://www.bilibili.com/video/BV1GvhezjEFh/",
+      "work": "Naruto / Uchiha Gaeshi",
+      "slot": "reflect2",
+      "file": "originals/uchiha-clip.m4a",
+      "bytes": 183131,
+      "sha256": "dd4839ecf26ca9f0d4b781be81a6c1fba53d04bd144272ed38e9e49c53b6d599",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "22.081973"
+        }
+      },
+      "classification": "排除：标题命中但音轨识别为无关内容，不能作为宇智波反弹原声",
+      "redistributionLicense": "未确认"
+    },
+    {
+      "id": "yugi-tag-force-jp-pack",
+      "audioURL": "https://sounds.spriters-resource.com/media/assets/429/431791.zip?updated=1755547723",
+      "sourcePage": "https://sounds.spriters-resource.com/psp/yugioharcvtagforcespecial/asset/431791/",
+      "work": "Yu-Gi-Oh ARC-V Tag Force Special / Yami Yugi / Japanese",
+      "slot": "reflect1",
+      "classification": "ARC-V Tag Force Special 暗游戏日语游戏录音；#38对应トラップ発動 マジックシリンダー",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:28:12Z",
+      "file": "originals/yugi-tag-force-jp-pack.zip",
+      "bytes": 23873954,
+      "sha256": "2c8dca3a6be2a6566e3c66c054c60d1eb9ac22da02a536cc7af4e62b449908c3",
+      "contentType": "application/zip",
+      "probe": {}
+    },
+    {
+      "id": "magic-cylinder-anime",
+      "file": "originals/magic-cylinder-anime.m4a",
+      "sourcePage": "https://www.bilibili.com/video/BV1oN411d77p/",
+      "work": "游戏王",
+      "slot": "魔法筒",
+      "classification": "公开视频音轨；游戏王魔法筒合集",
+      "bytes": 1388496,
+      "sha256": "5d83e738dc3ce013f5b0dd585885ded6d24ef48525548379bbd17b8980c3dd98",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "85.634966"
+        }
+      },
+      "redistributionLicense": "未确认；下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:33:43Z"
+    },
+    {
+      "id": "gundam-genesis-combat-sfx-pack",
+      "file": "originals/gundam-genesis-combat-sfx-pack.zip",
+      "bytes": 77469349,
+      "sha256": "1d566b7d6aa35fa1d71655d8db1902e55a6e0f1e43d846a8b1eda28a7edc0423",
+      "sourcePage": "https://sounds.spriters-resource.com/nintendo_switch/sdgundamggenerationgenesis/asset/415614/",
+      "work": "SD Gundam G Generation Genesis",
+      "slot": "独角兽力场效果音待定位",
+      "classification": "原游戏战斗音效整包；尚未定位独角兽专用文件，不算精确命中",
+      "redistributionLicense": "未确认；下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:34:01Z"
+    },
+    {
+      "id": "unicorn-awakening-reference",
+      "file": "originals/unicorn-awakening-reference.m4a",
+      "sourcePage": "https://www.bilibili.com/video/BV1vG4y1e7iV/",
+      "work": "机动战士高达UC",
+      "slot": "独角兽觉醒解说参考非干声",
+      "classification": "公开视频音轨；觉醒的野兽，闪耀于宇宙的人类可能性 RX-0 独角兽高达(觉醒)",
+      "bytes": 2924671,
+      "sha256": "ab85ed06f20e3d60a9dc3bedfc8ca67ea945b5c62e6c177d893284dec0f5114b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "279.405714"
+        }
+      },
+      "redistributionLicense": "未确认；下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:36:12Z"
+    },
+    {
+      "id": "madara-anime-en-public-preview",
+      "audioURL": "https://editpacks.org/media/upload-60a185f2af5a-preview.mp4",
+      "sourcePage": "https://editpacks.org/i/1540",
+      "work": "Naruto Shippuden 英语配音",
+      "slot": "宇智波反弹动画英文场景备选",
+      "classification": "网站公开预览文件；英语动画版，非日语；仅预览与后续定位",
+      "redistributionLicense": "未确认，下载不等于再分发授权",
+      "checkedAt": "2026-10-30T11:36:47Z",
+      "file": "originals/madara-anime-en-public-preview.mp4",
+      "bytes": 12411528,
+      "sha256": "c44bf5207a6d19cd5450858e8479a54dd7c8e8af0e6dc4bd07dd5f3dd476ce68",
+      "contentType": "video/mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264"
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "90.000000"
+        }
+      }
+    },
+    {
+      "id": "unicorn-official-psycho-field",
+      "file": "originals/unicorn-official-psycho-field.mp4",
+      "sourcePage": "https://twitter.com/gundam_unicorn/status/1303635508682162176",
+      "work": "机动战士高达UC 官方账号动画片段",
+      "slot": "精神感应场展开原作混音参考",
+      "classification": "官方发布的UC动画原作混音：EP5牵引时精神感应场，含BGM/少量对白，不是觉醒三盾或独立干声",
+      "bytes": 1440800,
+      "sha256": "8223f0da762e3916c8acd3f226b40f5623340dda7c983c876804941cf0a3a057",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264"
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "54.029417"
+        }
+      },
+      "redistributionLicense": "未确认；公开发布不等于授权嵌入新游戏",
+      "checkedAt": "2026-10-30T11:37:43Z"
+    },
+    {
+      "id": "unicorn-official-20140517",
+      "file": "originals/unicorn-official-20140517.mp4",
+      "sourcePage": "https://twitter.com/gundam_unicorn/status/1304359033801908224",
+      "work": "机动战士高达UC 官方账号动画片段",
+      "slot": "大防：绿色精神感应场展开/挡光束",
+      "classification": "官方发布的UC动画原作混音：结局三层精神力场挡殖民镭射，画面对照已确认；含BGM/对白，不是独立干声",
+      "bytes": 1752270,
+      "sha256": "28c95e958ddce2fe317bf8320185e71e5cfdc1d594ed79ac97d9ec26f1d5c107",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264"
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "56.192000"
+        }
+      },
+      "redistributionLicense": "未确认；公开发布不等于授权嵌入新游戏",
+      "checkedAt": "2026-10-30T11:37:43Z"
+    }
+  ],
+  "selectedClips": [
+    {
+      "id": "01-hadouken-classic",
+      "title": "中波：经典波动拳",
+      "file": "selected/01-hadouken-classic.wav",
+      "sourceId": "street-fighter-hadouken-sound-effect",
+      "sourcePage": "https://soundfxcenter.com/download-sound/street-fighter-hadouken-sound-effect/",
+      "sourceFile": "originals/street-fighter-hadouken-sound-effect.mp3",
+      "sourceEntry": null,
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": null,
+      "version": "Street Fighter；站点标注经典版，具体街机修订未确认",
+      "identity": "来源名称对应招式；非自制合成",
+      "note": "",
+      "bytes": 193628,
+      "sha256": "40c309803b54439bb5bd96e11c4fd7d5678c07b965de26eecedbbd191ac01fbc",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1.097143"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "02-hadouken-sfiv",
+      "title": "中波备选：SFIV隆",
+      "file": "selected/02-hadouken-sfiv.wav",
+      "sourceId": "sfiv-ryu-hadouken-sound-effect",
+      "sourcePage": "https://soundfxcenter.com/download-sound/sfiv-ryu-hadouken-sound-effect/",
+      "sourceFile": "originals/sfiv-ryu-hadouken-sound-effect.mp3",
+      "sourceEntry": null,
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": null,
+      "version": "Street Fighter IV / Ryu",
+      "identity": "站点明确角色与版本；不要标成SFII",
+      "note": "",
+      "bytes": 110168,
+      "sha256": "f5bccae363d22575aadddca418d9a04562c9c5d19b90b73c61a0c42bbb7328bb",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "0.624014"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "03-ultraman-spacium",
+      "title": "大波：初代斯派修姆光线",
+      "file": "selected/03-ultraman-spacium.wav",
+      "sourceId": "ultraman-1966-sfx",
+      "sourcePage": "https://www.bilibili.com/video/BV1tUvQB5EMW/",
+      "sourceFile": "originals/ultraman-1966-sfx.m4a",
+      "sourceEntry": null,
+      "sourceStartSeconds": 32.5,
+      "sourceEndSeconds": 37.5,
+      "version": "1966初代音效合集；原上传者标注",
+      "identity": "画面33–36秒字幕为斯派修姆，已核对",
+      "note": "剪入少量前后余量；未降噪或分离声轨",
+      "bytes": 882078,
+      "sha256": "f893ad4fda9b48a9b42ff54cd45619d51a11436cf943f9cab9fd79100b38822f",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      },
+      "redistributionLicense": "未确认"
+    },
+    {
+      "id": "04-eva-at-field-impact",
+      "title": "中防：AT力场冲击",
+      "file": "selected/04-eva-at-field-impact.wav",
+      "sourceId": "at-field-impact",
+      "sourcePage": "https://soundinstants.com/sound/at-field-impact",
+      "sourceFile": "originals/at-field-impact.mp3",
+      "sourceEntry": null,
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": null,
+      "version": "Neon Genesis Evangelion；具体集数未确认",
+      "identity": "来源明确标注EVA AT Field；仍需对照正式动画逐耳核听",
+      "note": "",
+      "bytes": 368718,
+      "sha256": "0eaec22f70f178080ea15000d437cc61a82733e6057cbd133e44244025f719a0",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2.089796"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "05-unicorn-field-deploy-mix",
+      "title": "大防：绿色精神力场展开（混音）",
+      "file": "selected/05-unicorn-field-deploy-mix.wav",
+      "sourceId": "unicorn-official-20140517",
+      "sourcePage": "https://twitter.com/gundam_unicorn/status/1304359033801908224",
+      "sourceFile": "originals/unicorn-official-20140517.mp4",
+      "sourceEntry": null,
+      "sourceStartSeconds": 6,
+      "sourceEndSeconds": 14,
+      "version": "Gundam UC官方账号，结局场景",
+      "identity": "已对照画面：绿色精神力场展开",
+      "note": "保留原配乐/对白；不是纯SE；与三盾场景对应",
+      "bytes": 1411278,
+      "sha256": "d50c7918c8dc44f19d182d9ce72c3dcd621a98f172cee13dd3ae5101fe775d0b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      },
+      "redistributionLicense": "未确认；公开发布不等于授权嵌入新游戏"
+    },
+    {
+      "id": "06-unicorn-field-block-mix",
+      "title": "大防：力场挡光束（混音）",
+      "file": "selected/06-unicorn-field-block-mix.wav",
+      "sourceId": "unicorn-official-20140517",
+      "sourcePage": "https://twitter.com/gundam_unicorn/status/1304359033801908224",
+      "sourceFile": "originals/unicorn-official-20140517.mp4",
+      "sourceEntry": null,
+      "sourceStartSeconds": 14,
+      "sourceEndSeconds": 20,
+      "version": "Gundam UC官方账号，结局场景",
+      "identity": "已对照画面：光束撞击层层力场",
+      "note": "保留原配乐/对白；不是纯SE",
+      "bytes": 1058478,
+      "sha256": "2fee63c0d050b2a9d367ebf18df3055f1400c2dcfb686fab9780b855d08d9e6f",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "6.000000"
+        }
+      },
+      "redistributionLicense": "未确认；公开发布不等于授权嵌入新游戏"
+    },
+    {
+      "id": "07-unicorn-resonance-mix",
+      "title": "大防补充：精神感应共鸣（混音）",
+      "file": "selected/07-unicorn-resonance-mix.wav",
+      "sourceId": "unicorn-official-psycho-field",
+      "sourcePage": "https://twitter.com/gundam_unicorn/status/1303635508682162176",
+      "sourceFile": "originals/unicorn-official-psycho-field.mp4",
+      "sourceEntry": null,
+      "sourceStartSeconds": 28,
+      "sourceEndSeconds": 36,
+      "version": "Gundam UC官方账号，EP5牵引场景",
+      "identity": "已对照画面：机体被绿色精神感应光包围",
+      "note": "不同场景、非觉醒三盾；保留原配乐",
+      "bytes": 1411278,
+      "sha256": "b7cc8c555e9d819583d536dacfaa0ca45cb0baa1c9be053e0afdf7406d3f6cbe",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      },
+      "redistributionLicense": "未确认；公开发布不等于授权嵌入新游戏"
+    },
+    {
+      "id": "08-cylinder-jp-game",
+      "title": "小反弹：魔法筒日语游戏喊招",
+      "file": "selected/08-cylinder-jp-game.wav",
+      "sourceId": "yugi-tag-force-jp-pack",
+      "sourcePage": "https://sounds.spriters-resource.com/psp/yugioharcvtagforcespecial/asset/431791/",
+      "sourceFile": "originals/yugi-tag-force-jp-pack.zip",
+      "sourceEntry": "unpacked/yugi-tag-force-jp-pack/Yami Yugi/pack#38 (VA01_08_00_02_0).wav",
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": null,
+      "version": "Yu-Gi-Oh! ARC-V Tag Force Special / Yami Yugi / 日语",
+      "identity": "ASR识别：トラップ発動 マジックシリンダー",
+      "note": "独立游戏语音，不冒充动画直录",
+      "bytes": 408280,
+      "sha256": "850a90be57118e010bfd000d8163f0be980bfcaf0330d2ed1bf641d11289f441",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2.313878"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "09-cylinder-en-game",
+      "title": "小反弹备选：魔法筒英语游戏喊招",
+      "file": "selected/09-cylinder-en-game.wav",
+      "sourceId": "yugi-duel-links-en-pack",
+      "sourcePage": "https://sounds.spriters-resource.com/mobile/yugiohduellinks/asset/410715/",
+      "sourceFile": "originals/yugi-duel-links-en-pack.zip",
+      "sourceEntry": "unpacked/yugi-duel-links-en-pack/Yami Yugi/v0001/v0001_08_00_02_0.wav",
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": null,
+      "version": "Yu-Gi-Oh! Duel Links / Yami Yugi / English",
+      "identity": "ASR识别：I activate my trap, magic cylinder!",
+      "note": "英语备选",
+      "bytes": 462862,
+      "sha256": "25b80f5b452aebb16a4adcfba3ff3b82ea15eae87708fc4437925244aa0fee8c",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2.623492"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "10-cylinder-anime-call",
+      "title": "小反弹：动画魔法筒喊招",
+      "file": "selected/10-cylinder-anime-call.wav",
+      "sourceId": "magic-cylinder-anime",
+      "sourcePage": "https://www.bilibili.com/video/BV1oN411d77p/",
+      "sourceFile": "originals/magic-cylinder-anime.m4a",
+      "sourceEntry": null,
+      "sourceStartSeconds": 37.7,
+      "sourceEndSeconds": 41.3,
+      "version": "游戏王动画合集；日语；具体集数待进一步对照",
+      "identity": "ASR识别38–41秒：トラップ発動! マジックシリンダ!",
+      "note": "含原背景音；保留喊招前后余量",
+      "bytes": 635118,
+      "sha256": "176acdfdd963c22c42209260b3ff1c4326585bd949f173699b2af6ef7f754053",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "3.600000"
+        }
+      },
+      "redistributionLicense": "未确认；下载不等于再分发授权"
+    },
+    {
+      "id": "11-cylinder-anime-return-reference",
+      "title": "小反弹：动画接波/返送参考",
+      "file": "selected/11-cylinder-anime-return-reference.wav",
+      "sourceId": "magic-cylinder-anime",
+      "sourcePage": "https://www.bilibili.com/video/BV1oN411d77p/",
+      "sourceFile": "originals/magic-cylinder-anime.m4a",
+      "sourceEntry": null,
+      "sourceStartSeconds": 29.8,
+      "sourceEndSeconds": 37.5,
+      "version": "游戏王动画魔法筒合集；日语",
+      "identity": "同招式动画场景连续声音参考",
+      "note": "含背景音，尚未分离成独立吸入/返射干声",
+      "bytes": 1358358,
+      "sha256": "3eae3725e2efcca201f2b98f3b62889795213babe6a3029cdb292edc4c3b9c0d",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "7.700000"
+        }
+      },
+      "redistributionLicense": "未确认；下载不等于再分发授权"
+    },
+    {
+      "id": "12-cylinder-anime-call-alt",
+      "title": "小反弹：动画喊招另一段",
+      "file": "selected/12-cylinder-anime-call-alt.wav",
+      "sourceId": "magic-cylinder-anime",
+      "sourcePage": "https://www.bilibili.com/video/BV1oN411d77p/",
+      "sourceFile": "originals/magic-cylinder-anime.m4a",
+      "sourceEntry": null,
+      "sourceStartSeconds": 52.7,
+      "sourceEndSeconds": 56.3,
+      "version": "游戏王动画魔法筒合集；日语；角色/集数待核对",
+      "identity": "ASR识别53–56秒：トラップ発動! マジックシリンダ!",
+      "note": "含原背景音",
+      "bytes": 635118,
+      "sha256": "146082e41fda068548e4c9117c825b95186442190ea0bb60fe0cee0575e892d6",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "3.600000"
+        }
+      },
+      "redistributionLicense": "未确认；下载不等于再分发授权"
+    },
+    {
+      "id": "13-uchiha-gaeshi-jp-game",
+      "title": "中反弹：宇智波返し日语游戏喊招候选",
+      "file": "selected/13-uchiha-gaeshi-jp-game.wav",
+      "sourceId": "madara-jump-force-pack",
+      "sourcePage": "https://sounds.spriters-resource.com/pc_computer/jumpforce/asset/444554/",
+      "sourceFile": "originals/madara-jump-force-pack.zip",
+      "sourceEntry": "unpacked/madara-jump-force-pack/Madara_ActVoice/Madara_ActVoice#104.wav",
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": null,
+      "version": "Jump Force / Madara / 日语",
+      "identity": "#104；small模型识别ウチハガイシ；结合游戏招式列表高度匹配，仍需最终人工核听",
+      "note": "保留诚实核对状态，不当作已确认动画录音",
+      "bytes": 173202,
+      "sha256": "a36227b767be5a4a4af46af9d282a5e2aaeb5db6da03154bcd6c29adcf2c9dec",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "0.981270"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "14-uchiha-reflection-en-anime",
+      "title": "中反弹备选：英语动画喊招",
+      "file": "selected/14-uchiha-reflection-en-anime.wav",
+      "sourceId": "madara-anime-en-public-preview",
+      "sourcePage": "https://editpacks.org/i/1540",
+      "sourceFile": "originals/madara-anime-en-public-preview.mp4",
+      "sourceEntry": null,
+      "sourceStartSeconds": 19.5,
+      "sourceEndSeconds": 21.5,
+      "version": "Naruto Shippuden / Madara / English dub",
+      "identity": "公开预览20–21秒ASR：Ujiha Reflection!",
+      "note": "仅取网站公开预览；未触及会员下载",
+      "bytes": 352878,
+      "sha256": "6d09f95b563303f1d107ea97cfd0751177d8139b8b87602e87e66ee1f7bd7ea5",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2.000000"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "15-uchiha-en-anime-return-reference",
+      "title": "中反弹：英语动画团扇反击参考",
+      "file": "selected/15-uchiha-en-anime-return-reference.wav",
+      "sourceId": "madara-anime-en-public-preview",
+      "sourcePage": "https://editpacks.org/i/1540",
+      "sourceFile": "originals/madara-anime-en-public-preview.mp4",
+      "sourceEntry": null,
+      "sourceStartSeconds": 18.5,
+      "sourceEndSeconds": 28.5,
+      "version": "Naruto Shippuden / Madara / English dub",
+      "identity": "公开预览19–28秒，连续接招/返送参考",
+      "note": "包含英语喊招和原场景背景音，非独立干声",
+      "bytes": 1764078,
+      "sha256": "45fa3349ac8823aed45ad7ae59b562f4676c19f1083b51c6e28fb3cf58d7d5c8",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "16-jojo-jotaro-yare",
+      "title": "胜利：承太郎やれやれだぜ",
+      "file": "selected/16-jojo-jotaro-yare.wav",
+      "sourceId": "jojo-yare",
+      "sourcePage": "https://www.soundboardly.com/sounds/yare-yare-daze/",
+      "sourceFile": "originals/jojo-yare.mp3",
+      "sourceEntry": null,
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": null,
+      "version": "JOJO / Jotaro日语候选；具体集数未确认",
+      "identity": "ASR识别やりやりだぜ，和来源标题Yare Yare Daze一致",
+      "note": "短台词候选，尚非配乐亮相完整短句",
+      "bytes": 271026,
+      "sha256": "e6275b23872eacb1c99e93d21cb9927252d8e0ad48a897e332aa116b63e5b56c",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "1.535986"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    },
+    {
+      "id": "17-gundam-newtype-generic-alt",
+      "title": "相关备选：通用Newtype提示音",
+      "file": "selected/17-gundam-newtype-generic-alt.wav",
+      "sourceId": "gundam-newtype",
+      "sourcePage": "https://quicksounds.com/sound/23651/gundam-newtype",
+      "sourceFile": "originals/gundam-newtype.mp3",
+      "sourceEntry": null,
+      "sourceStartSeconds": 0,
+      "sourceEndSeconds": null,
+      "version": "Gundam通用提示音，非UC专属",
+      "identity": "只按通用Newtype备选存放",
+      "note": "不能替代已核对的三盾精神力场录音",
+      "bytes": 488526,
+      "sha256": "86624ec064cee0a8d1a8f5258fbaec9edfc643f197f8f44798c3370398c89a2d",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "2.768980"
+        }
+      },
+      "redistributionLicense": "未确认，下载不等于再分发授权"
+    }
+  ],
+  "verification": {
+    "date": "2026-10-30T11:40:42Z",
+    "selectedFiles": 17,
+    "sourceDownloads": 18,
+    "rawArchiveWavs": 1258,
+    "results": [
+      {
+        "file": "originals/hadouken-meme.mp3",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/at-field-impact.mp3",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/street-fighter-hadouken-sound-effect.mp3",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/sfiv-ryu-hadouken-sound-effect.mp3",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/madara-jump-force-pack.zip",
+        "archiveIntegrity": "CRC all passed",
+        "entries": 233,
+        "wavCount": 231
+      },
+      {
+        "file": "originals/yugi-duel-links-en-pack.zip",
+        "archiveIntegrity": "CRC all passed",
+        "entries": 180,
+        "wavCount": 179
+      },
+      {
+        "file": "originals/jojo-yare.mp3",
+        "decodeExitCode": 0,
+        "decoderNote": "[mp3float @ 0x563d6ee709c0] invalid new backstep -1"
+      },
+      {
+        "file": "originals/gundam-newtype.mp3",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/newtype-sfx.m4a",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/ultraman-1966-sfx.m4a",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/uchiha-clip.m4a",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/yugi-tag-force-jp-pack.zip",
+        "archiveIntegrity": "CRC all passed",
+        "entries": 173,
+        "wavCount": 172
+      },
+      {
+        "file": "originals/magic-cylinder-anime.m4a",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/gundam-genesis-combat-sfx-pack.zip",
+        "archiveIntegrity": "CRC all passed",
+        "entries": 677,
+        "wavCount": 676
+      },
+      {
+        "file": "originals/unicorn-awakening-reference.m4a",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/madara-anime-en-public-preview.mp4",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/unicorn-official-psycho-field.mp4",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "originals/unicorn-official-20140517.mp4",
+        "decodeExitCode": 0,
+        "decoderNote": ""
+      },
+      {
+        "file": "selected/01-hadouken-classic.wav",
+        "decodeExitCode": 0,
+        "duration": 1.097143,
+        "peak": 0.9334716796875,
+        "rms": 0.15193647146224976,
+        "sha256": "40c309803b54439bb5bd96e11c4fd7d5678c07b965de26eecedbbd191ac01fbc"
+      },
+      {
+        "file": "selected/02-hadouken-sfiv.wav",
+        "decodeExitCode": 0,
+        "duration": 0.624014,
+        "peak": 0.47003173828125,
+        "rms": 0.08365052193403244,
+        "sha256": "f5bccae363d22575aadddca418d9a04562c9c5d19b90b73c61a0c42bbb7328bb"
+      },
+      {
+        "file": "selected/03-ultraman-spacium.wav",
+        "decodeExitCode": 0,
+        "duration": 5.0,
+        "peak": 0.7705078125,
+        "rms": 0.20153191685676575,
+        "sha256": "f893ad4fda9b48a9b42ff54cd45619d51a11436cf943f9cab9fd79100b38822f"
+      },
+      {
+        "file": "selected/04-eva-at-field-impact.wav",
+        "decodeExitCode": 0,
+        "duration": 2.089796,
+        "peak": 0.431854248046875,
+        "rms": 0.11654017120599747,
+        "sha256": "0eaec22f70f178080ea15000d437cc61a82733e6057cbd133e44244025f719a0"
+      },
+      {
+        "file": "selected/05-unicorn-field-deploy-mix.wav",
+        "decodeExitCode": 0,
+        "duration": 8.0,
+        "peak": 0.280487060546875,
+        "rms": 0.05563312768936157,
+        "sha256": "d50c7918c8dc44f19d182d9ce72c3dcd621a98f172cee13dd3ae5101fe775d0b"
+      },
+      {
+        "file": "selected/06-unicorn-field-block-mix.wav",
+        "decodeExitCode": 0,
+        "duration": 6.0,
+        "peak": 0.35064697265625,
+        "rms": 0.06533845514059067,
+        "sha256": "2fee63c0d050b2a9d367ebf18df3055f1400c2dcfb686fab9780b855d08d9e6f"
+      },
+      {
+        "file": "selected/07-unicorn-resonance-mix.wav",
+        "decodeExitCode": 0,
+        "duration": 8.0,
+        "peak": 0.30047607421875,
+        "rms": 0.04742768779397011,
+        "sha256": "b7cc8c555e9d819583d536dacfaa0ca45cb0baa1c9be053e0afdf7406d3f6cbe"
+      },
+      {
+        "file": "selected/08-cylinder-jp-game.wav",
+        "decodeExitCode": 0,
+        "duration": 2.313878,
+        "peak": 0.68768310546875,
+        "rms": 0.16101524233818054,
+        "sha256": "850a90be57118e010bfd000d8163f0be980bfcaf0330d2ed1bf641d11289f441"
+      },
+      {
+        "file": "selected/09-cylinder-en-game.wav",
+        "decodeExitCode": 0,
+        "duration": 2.623492,
+        "peak": 0.70709228515625,
+        "rms": 0.16125842928886414,
+        "sha256": "25b80f5b452aebb16a4adcfba3ff3b82ea15eae87708fc4437925244aa0fee8c"
+      },
+      {
+        "file": "selected/10-cylinder-anime-call.wav",
+        "decodeExitCode": 0,
+        "duration": 3.6,
+        "peak": 0.470245361328125,
+        "rms": 0.07497066259384155,
+        "sha256": "176acdfdd963c22c42209260b3ff1c4326585bd949f173699b2af6ef7f754053"
+      },
+      {
+        "file": "selected/11-cylinder-anime-return-reference.wav",
+        "decodeExitCode": 0,
+        "duration": 7.7,
+        "peak": 0.460723876953125,
+        "rms": 0.1164325475692749,
+        "sha256": "3eae3725e2efcca201f2b98f3b62889795213babe6a3029cdb292edc4c3b9c0d"
+      },
+      {
+        "file": "selected/12-cylinder-anime-call-alt.wav",
+        "decodeExitCode": 0,
+        "duration": 3.6,
+        "peak": 0.328948974609375,
+        "rms": 0.04972469061613083,
+        "sha256": "146082e41fda068548e4c9117c825b95186442190ea0bb60fe0cee0575e892d6"
+      },
+      {
+        "file": "selected/13-uchiha-gaeshi-jp-game.wav",
+        "decodeExitCode": 0,
+        "duration": 0.98127,
+        "peak": 0.706207275390625,
+        "rms": 0.11216834932565689,
+        "sha256": "a36227b767be5a4a4af46af9d282a5e2aaeb5db6da03154bcd6c29adcf2c9dec"
+      },
+      {
+        "file": "selected/14-uchiha-reflection-en-anime.wav",
+        "decodeExitCode": 0,
+        "duration": 2.0,
+        "peak": 0.445037841796875,
+        "rms": 0.05469263717532158,
+        "sha256": "6d09f95b563303f1d107ea97cfd0751177d8139b8b87602e87e66ee1f7bd7ea5"
+      },
+      {
+        "file": "selected/15-uchiha-en-anime-return-reference.wav",
+        "decodeExitCode": 0,
+        "duration": 10.0,
+        "peak": 0.445037841796875,
+        "rms": 0.054866157472133636,
+        "sha256": "45fa3349ac8823aed45ad7ae59b562f4676c19f1083b51c6e28fb3cf58d7d5c8"
+      },
+      {
+        "file": "selected/16-jojo-jotaro-yare.wav",
+        "decodeExitCode": 0,
+        "duration": 1.535986,
+        "peak": 1.0,
+        "rms": 0.31436392664909363,
+        "sha256": "e6275b23872eacb1c99e93d21cb9927252d8e0ad48a897e332aa116b63e5b56c"
+      },
+      {
+        "file": "selected/17-gundam-newtype-generic-alt.wav",
+        "decodeExitCode": 0,
+        "duration": 2.76898,
+        "peak": 0.551300048828125,
+        "rms": 0.10434013605117798,
+        "sha256": "86624ec064cee0a8d1a8f5258fbaec9edfc643f197f8f44798c3370398c89a2d"
+      }
+    ],
+    "limitations": [
+      "机器转写只是定位证据，未冒充真人听审",
+      "独角兽官方动画片段含配乐/对白，未获得独立干声音轨",
+      "宇智波返し日语#104高度匹配，仍保留最终人工核听待办",
+      "没有改动当前公开游戏或发布未经核实的原声构建"
+    ]
+  },
+  "downloadArtifacts": [
+    {
+      "file": "paipai-original-audio-preview.zip",
+      "bytes": 8980209,
+      "sha256": "546ea2b2ff63b5288046c093ace2d0d982fc360afafcf0830846845127737fb4"
+    },
+    {
+      "file": "paipai-original-audio-sources.zip",
+      "bytes": 187987031,
+      "sha256": "2ff76d7e811bdd270043e6ad00b0fefbd51111e7354aff9523ea1494f8517b5e"
+    }
+  ],
+  "auditionPageVerification": {
+    "viewport": [
+      390,
+      844
+    ],
+    "count": 17,
+    "overflow": false,
+    "rows": [
+      {
+        "file": "selected/01-hadouken-classic.wav",
+        "duration": 1.097143,
+        "ok": true
+      },
+      {
+        "file": "selected/02-hadouken-sfiv.wav",
+        "duration": 0.624014,
+        "ok": true
+      },
+      {
+        "file": "selected/03-ultraman-spacium.wav",
+        "duration": 5,
+        "ok": true
+      },
+      {
+        "file": "selected/04-eva-at-field-impact.wav",
+        "duration": 2.089796,
+        "ok": true
+      },
+      {
+        "file": "selected/05-unicorn-field-deploy-mix.wav",
+        "duration": 8,
+        "ok": true
+      },
+      {
+        "file": "selected/06-unicorn-field-block-mix.wav",
+        "duration": 6,
+        "ok": true
+      },
+      {
+        "file": "selected/07-unicorn-resonance-mix.wav",
+        "duration": 8,
+        "ok": true
+      },
+      {
+        "file": "selected/08-cylinder-jp-game.wav",
+        "duration": 2.313878,
+        "ok": true
+      },
+      {
+        "file": "selected/09-cylinder-en-game.wav",
+        "duration": 2.623492,
+        "ok": true
+      },
+      {
+        "file": "selected/10-cylinder-anime-call.wav",
+        "duration": 3.6,
+        "ok": true
+      },
+      {
+        "file": "selected/11-cylinder-anime-return-reference.wav",
+        "duration": 7.7,
+        "ok": true
+      },
+      {
+        "file": "selected/12-cylinder-anime-call-alt.wav",
+        "duration": 3.6,
+        "ok": true
+      },
+      {
+        "file": "selected/13-uchiha-gaeshi-jp-game.wav",
+        "duration": 0.98127,
+        "ok": true
+      },
+      {
+        "file": "selected/14-uchiha-reflection-en-anime.wav",
+        "duration": 2,
+        "ok": true
+      },
+      {
+        "file": "selected/15-uchiha-en-anime-return-reference.wav",
+        "duration": 10,
+        "ok": true
+      },
+      {
+        "file": "selected/16-jojo-jotaro-yare.wav",
+        "duration": 1.535986,
+        "ok": true
+      },
+      {
+        "file": "selected/17-gundam-newtype-generic-alt.wav",
+        "duration": 2.76898,
+        "ok": true
+      }
+    ]
+  }
+}
