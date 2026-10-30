@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
   "entryBytes": 723,
-  "uncompressedBytes": 1007278,
-  "zipBytes": 731304,
+  "uncompressedBytes": 1008478,
+  "zipBytes": 731605,
   "files": 36,
   "under10MB": true,
-  "zipSHA256": "0463cce65f25ee8f348ad8aa8022121fd2c12934fe78cd7547afe86abdf1ed41",
+  "zipSHA256": "13e68579f89e3e401873801740d8c678498c018941c3d5cc57793440658625a6",
   "assets": {
     "assets/audio/block.wav": "1f9b4c5b46842f1104c23e4b17d8c86fad0b50bf637222afc7fd11cc68a3a7fa",
     "assets/audio/break.wav": "2b72752e26085ff45150f4516eb585eb6107a8648fcf9dc0c693de4bee4bdd3d",
@@ -40,8 +40,8 @@
     "assets/icons/wave1.svg": "a6a4a687d2ec7bbade4c1b7abb8216bc9d242b366785900d6a674b2154f057c1",
     "assets/icons/wave2.svg": "10ece3a6f0ec845ff754e4281ea35d5ea116a83d6b2546ac3a4a7d0d783e6310",
     "assets/icons/wave3.svg": "fc4a5519e63ddc781ce733802f5fcace1cbf770f410c26799c8dc33463115ad3",
-    "assets/index-DZm0fxa5.js": "4c94a67cda89f84e0afcc6bdb9c924329a00a41ab039fd4952109aafea5e7049",
-    "assets/index-Ddg8fKk7.css": "7fea233f8941cf056f174f209b15c8c4adf48514b93e155403011965116ef44a",
-    "index.html": "8eb5c13d7e031852e2b3a4e2fcc60afcbf9dd3e85b59041d26a8cbd9cf01c193"
+    "assets/index-B0AkkNVi.js": "297f5ef92d178bef8ba66f8a4d8e22f15ab2e0385d96b02df2d7f1c3aeb13a0c",
+    "assets/index-CugEL8uF.css": "826de06029890dd1d19444b5ba03989844786874eae0b93b0f205ab0dba50916",
+    "index.html": "b2b855d3e8203a5aa06cdff3ce699c9f88ca572fb371a50caa280ace737f51ce"
   }
 }

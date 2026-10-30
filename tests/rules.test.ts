@@ -30,3 +30,6 @@ test('20 rounds per speed have exact beat intervals and single commit; cutoff re
 test('pause before reveal retains selection and AI; after reveal preserves commit marker',()=>{
  const c=new BattleClock(initial(),()=> 'charge');c.select('quick');c.advance(1000);const sealed=c.sealed;c.pause();c.advance(9000);assert.equal(c.time,1000);c.resume();assert.equal(c.local,0);assert.equal(c.selected,'quick');assert.equal(c.sealed,sealed);c.advance(2300);assert.equal(c.state.players[0].energy,2);c.pause();c.resume();c.advance(400);assert.equal(c.state.players[0].energy,2);assert.equal(c.log.filter(e=>e.type==='commit').length,1);
 });
+test('pause after reveal before commit retains unique result and applies tempo only on following round',()=>{
+ let calls=0;const c=new BattleClock(initial(),()=>{calls++;return 'charge';});c.select('quick');c.advance(1900);const result=c.result;c.pause();c.nextScale=1.5;c.resume();assert.equal(c.result,result);assert.equal(c.committed,false);c.advance(800);assert.equal(c.state.players[0].energy,2);assert.equal(c.scale,1.5);assert.equal(calls,2);assert.equal(c.log.filter(e=>e.type==='commit').length,1);
+});

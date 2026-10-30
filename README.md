@@ -2,6 +2,10 @@
 
 拍拍手，攒一口气。暖纸与墨线风格的本地单机手势对战游戏。
 
+试玩（所有者私有）：https://paipai-wave-playground.zhipijun1996.chatgpt.site
+
+完整下载与待验收项：[交付索引](docs/DELIVERY.md)、[逐条验收](docs/ACCEPTANCE.md)、[平衡报告](docs/BALANCE_REPORT.md)。当前为可玩候选；物理手机、人类手感与Toy账号容器仍待验。
+
 - 故事模式：放学后的八位同学、七招逐关解锁与毕业战。
 - 开始游戏：充气 / 小波 / 防御；1或3血，三档AI。
 - 进阶游戏：十招齐开，双方5血。
@@ -23,9 +27,11 @@ npm test
 npm run build
 python3 scripts/simulate.py --search-seeds 5 --seeds 40
 npx tsx scripts/ai-calibrate.ts
+python3 scripts/report.py
 python3 -m http.server 4173 --directory dist
 # 另一个终端，安装系统Chromium后：
 npm run qa
+# 视频录制另需：npx playwright install ffmpeg
 ```
 
 `npm run qa` 默认使用 `/usr/bin/chromium`，可设置 `CHROMIUM_PATH`。测试直接加载生产 `dist/`，不依赖开发服务器。构建资源为相对路径，支持Toy子目录。
@@ -62,3 +68,8 @@ npm run package
 浏览器仅在 `localhost` / `127.0.0.1` 暴露 `window.__PAIPAI_TEST__` 供自动验收、固定动作场景和录屏使用。正式站点无调试界面与这项全局接口。普通游戏不依赖网络、Python或外部模型。
 
 Toy云存档与安全区适配可通过 `Platform.connect(adapter)` 挂接已获授权的官方SDK。当前不猜测未公开接口，也不声称Toy容器或正式上线已经验证。
+
+
+## 固定种子回放
+
+运行 `npx tsx scripts/seeded-replay.ts` 生成27回合真实AI回放JSON（seed=173）。本地网页调用 `__PAIPAI_TEST__.start('advanced', {seed:173, difficulty:'hard'})`，按回放的玩家动作逐回合点击即可重现封存AI序列。`__PAIPAI_TEST__.exportReplay()` 导出当前对局的初态、种子与已揭晓动作。验收录像另使用固定合法动作场景，和正常独立暗选AI对战明确区分。

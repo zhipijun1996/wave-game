@@ -1,0 +1,12 @@
+{
+  "browser": "154.0.8037.57",
+  "subpath": "/wave-game/dist/",
+  "checks": [
+    "basic 3hp",
+    "active rotation retains round/selection/sealed AI",
+    "8 energy quick previews +1 and interruption condition",
+    "browser seeded fairness",
+    "relative fonts/icons/audio loading"
+  ],
+  "errors": []
+}

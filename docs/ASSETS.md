@@ -5,3 +5,4 @@
 - 音乐与音效：本项目原创程序合成，无外部音频样本。`scripts/make_assets.py` 为源代码，固定随机种子；20个22.05kHz单声道 WAV，包括八秒轻音乐循环。
 - 字体：LXGW WenKai v1.530 Regular，https://github.com/lxgw/LxgwWenKai/releases/tag/v1.530 ，SIL Open Font License 1.1；完整许可在 `public/assets/fonts/OFL.txt`。覆盖游戏全部实际中文、拉丁字符和符号的子集已按保留字体名规定改名为 Playground WenKai。用 `python3 scripts/subset_font.py /path/to/LXGWWenKai-Regular.ttf` 重建；需要 fonttools 与 brotli。运行时不请求字体服务。
 - 游戏原创代码、美术与合成音频按仓库 MIT 许可提供；字体单独遵守 OFL。
+- Toy上游清单与预检脚本来自 https://github.com/bilibili/toy （2026-10-30读取）；MIT许可证在 `docs/licenses/toy-MIT.txt`，仓库中的预检副本未改动。

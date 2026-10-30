@@ -7,3 +7,8 @@ Sites project identity 固定保存在 `.openai/hosting.json`。静态资源目�
 本次环境中 Sites 源码/打包辅助脚本 `site-workflow.mjs` 未安装，云技能资源也不包含该文件，因此使用等价步骤：本地验证构建、将同一提交推入返回的专用源码仓库、将 `.openai/hosting.json` 与 `dist/` 打成 tar.gz、用原生 Sites 保存/发布工具提交该 SHA 与归档。短期凭据只经隐藏stdin进入内存，不写入仓库、文件或日志。
 
 试玩站点的发布成功与Toy正式上线分开记录。Toy需有权限的开发者账号上传ZIP并审核；未接入未知的SDK接口，云存档是增强项。
+
+首次成功发布：2026-10-30T05:02:35Z，原生工具返回 `succeeded`，URL：
+https://paipai-wave-playground.zhipijun1996.chatgpt.site
+
+该站点为新建所有者私有Site；可分享的公开工程与下载包位于用户指定的公开GitHub仓库。此次未更改站点受众。

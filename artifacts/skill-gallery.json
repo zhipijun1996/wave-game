@@ -1,0 +1,1356 @@
+{
+  "browser": "154.0.8037.57",
+  "description": "Actual production build; each of ten skills exercised through the full round with legal public fixture energy.",
+  "logs": [
+    {
+      "id": "charge",
+      "expected": {
+        "actions": [
+          "charge",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 4,
+              "energy": 9,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          1,
+          0
+        ],
+        "gain": [
+          1,
+          0
+        ],
+        "cost": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "type": "hit",
+            "side": 0,
+            "amount": 1
+          },
+          {
+            "type": "charge",
+            "side": 0,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "charge",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 4,
+              "energy": 9,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          1,
+          0
+        ],
+        "gain": [
+          1,
+          0
+        ],
+        "cost": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "type": "hit",
+            "side": 0,
+            "amount": 1
+          },
+          {
+            "type": "charge",
+            "side": 0,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "quick",
+      "expected": {
+        "actions": [
+          "quick",
+          "charge"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 9,
+              "blocked": true,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 9,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          1,
+          1
+        ],
+        "cost": [
+          0,
+          0
+        ],
+        "events": [
+          {
+            "type": "charge",
+            "side": 0,
+            "amount": 1
+          },
+          {
+            "type": "charge",
+            "side": 1,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "quick",
+          "charge"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 9,
+              "blocked": true,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 9,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          1,
+          1
+        ],
+        "cost": [
+          0,
+          0
+        ],
+        "events": [
+          {
+            "type": "charge",
+            "side": 0,
+            "amount": 1
+          },
+          {
+            "type": "charge",
+            "side": 1,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "wave1",
+      "expected": {
+        "actions": [
+          "wave1",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          1,
+          1
+        ],
+        "events": [
+          {
+            "type": "cancel",
+            "side": 1,
+            "amount": 0
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "wave1",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          1,
+          1
+        ],
+        "events": [
+          {
+            "type": "cancel",
+            "side": 1,
+            "amount": 0
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "wave2",
+      "expected": {
+        "actions": [
+          "wave2",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 4,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          1
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          3,
+          1
+        ],
+        "events": [
+          {
+            "type": "partial",
+            "side": 1,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "wave2",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 4,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          1
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          3,
+          1
+        ],
+        "events": [
+          {
+            "type": "partial",
+            "side": 1,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "wave3",
+      "expected": {
+        "actions": [
+          "wave3",
+          "guard2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 3,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 2,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          3
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          5,
+          1
+        ],
+        "events": [
+          {
+            "type": "break",
+            "side": 1,
+            "amount": 3
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "wave3",
+          "guard2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 3,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 2,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          3
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          5,
+          1
+        ],
+        "events": [
+          {
+            "type": "break",
+            "side": 1,
+            "amount": 3
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "guard1",
+      "expected": {
+        "actions": [
+          "guard1",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 8,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "guard1",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 8,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "guard2",
+      "expected": {
+        "actions": [
+          "guard2",
+          "wave2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          1,
+          3
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 2
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "guard2",
+          "wave2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          1,
+          3
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 2
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "guard3",
+      "expected": {
+        "actions": [
+          "guard3",
+          "wave3"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 6,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 3,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          2,
+          5
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 3
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "guard3",
+          "wave3"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 6,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 3,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          0
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          2,
+          5
+        ],
+        "events": [
+          {
+            "type": "block",
+            "side": 0,
+            "amount": 3
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "reflect1",
+      "expected": {
+        "actions": [
+          "reflect1",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 4,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          1
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          1,
+          1
+        ],
+        "events": [
+          {
+            "type": "reflect",
+            "side": 0,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "reflect1",
+          "wave1"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 4,
+              "energy": 7,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          1
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          1,
+          1
+        ],
+        "events": [
+          {
+            "type": "reflect",
+            "side": 0,
+            "amount": 1
+          }
+        ],
+        "winner": null
+      }
+    },
+    {
+      "id": "reflect2",
+      "expected": {
+        "actions": [
+          "reflect2",
+          "wave2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 6,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 3,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          2
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          2,
+          3
+        ],
+        "events": [
+          {
+            "type": "reflect",
+            "side": 0,
+            "amount": 2
+          }
+        ],
+        "winner": null
+      },
+      "actual": {
+        "actions": [
+          "reflect2",
+          "wave2"
+        ],
+        "next": {
+          "round": 2,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 6,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 3,
+              "energy": 5,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        },
+        "damage": [
+          0,
+          2
+        ],
+        "gain": [
+          0,
+          0
+        ],
+        "cost": [
+          2,
+          3
+        ],
+        "events": [
+          {
+            "type": "reflect",
+            "side": 0,
+            "amount": 2
+          }
+        ],
+        "winner": null
+      }
+    }
+  ]
+}

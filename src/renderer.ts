@@ -62,7 +62,7 @@ export class Renderer {
   let p=u<.2?mix(P.idle,prep,u/.2):u<.7?mix(prep,target,(u-.2)/.5):target;
   let emotion='idle',hand=s.kind;
   if(u>=1&&result){const e=result.events.find(e=>e.side===side&&['break','block','reflect'].includes(e.type));
-   if(result.damage[side]>0){emotion='hit';const hit=e?.type==='break'?P.broken:P.hit;p=mix(target,hit,clamp((u-1)/.22));if(u>1.5)p=mix(hit,P.idle,(u-1.5)/.5);hand=e?.type==='break'?'idle':hand;}
+   if(result.damage[side]>0){emotion='hit';const hit=e?.type==='break'?P.broken:P.hit;p=mix(target,hit,clamp((u-1)/.22));const lag=mix(target,hit,clamp((u-1-35/450)/.22));p[4]=lag[4];p[5]=lag[5];if(u>1.5)p=mix(hit,P.idle,(u-1.5)/.5);hand=e?.type==='break'?'idle':hand;}
    else if(e?.type==='block'){const compressed=[...target];compressed[0]-=9;compressed[2]-=11;compressed[1]+=6;compressed[3]+=6;p=mix(target,compressed,Math.sin(clamp((u-1)*2)*Math.PI));}
    if(emotion!=='hit'&&u>1.2)p=mix(p,P.idle,(u-1.2)/.8);
   }
@@ -93,7 +93,7 @@ export class Renderer {
     if(o.preview){p={pose:P[o.preview]||P.charge,hand:SKILLS[o.preview].kind,emotion:'idle'};}
     this.actor(xs[i],baseY,scale,i===0?1:-1,p.pose,p.hand,o.styles[i],o.time,p.emotion);
     if((o.result&&local>=1800&&local<2550)||o.preview){const id=o.preview||actions[i]!;const s=SKILLS[id];const u=o.preview?.9:(local-1800)/450;
-      if(s.kind==='charge'&&u>.2){const interrupted=o.result?.events.some(e=>e.type==='interrupted'&&e.side===i)&&u>=1;const a=interrupted?clamp(1-(u-1)*3):clamp(u*1.5)*clamp(2-u);if(a>0){c.save();c.globalAlpha=a;const f=i===0?1:-1;this.orb(xs[i]+f*58,baseY-122,id==='quick'?24:19,o.styles[i].accent||'#338b86',o.time);if(id==='quick')this.orb(xs[i]+f*58,baseY-104,11,o.styles[i].accent||'#338b86',o.time);c.restore();}}
+      if(s.kind==='charge'&&u>.2){const interrupted=o.result?.events.some(e=>e.type==='interrupted'&&e.side===i)&&u>=1;const a=interrupted?clamp(1-(u-1)*3):clamp(u*1.5)*clamp(2-u);if(interrupted&&u<1.45){const f=i===0?1:-1;for(let k=0;k<7;k++){const angle=k*Math.PI*2/7,radius=25+(u-1)*80;this.line([xs[i]+f*58+Math.cos(angle)*radius,baseY-122+Math.sin(angle)*radius,xs[i]+f*58+Math.cos(angle)*(radius+6),baseY-122+Math.sin(angle)*(radius+6)],(o.styles[i].accent||'#338b86')+'88',2);}}if(a>0){c.save();c.globalAlpha=a;const f=i===0?1:-1;this.orb(xs[i]+f*58,baseY-122,id==='quick'?24:19,o.styles[i].accent||'#338b86',o.time);if(id==='quick')this.orb(xs[i]+f*58,baseY-104,11,o.styles[i].accent||'#338b86',o.time);c.restore();}}
     }
   }
   if(o.result&&local>=1800&&!o.finished)this.effects(o.result,local,o.time,xs,baseY,o.styles);
@@ -105,7 +105,7 @@ export class Renderer {
    const s=SKILLS[r.actions[i]];if(s.kind!=='attack'||u<.32||u>1.22)continue;
    const j=1-i,f=i===0?1:-1,from=xs[i]+f*104,to=xs[j]-f*57,col=styles[i].accent||'#338b86';
    const reflect=r.events.find(e=>e.type==='reflect'&&e.side===j);let x=from,power=s.damage;
-   if(reflect){if(u<.6)x=from+(to-from)*clamp((u-.32)/.28);else x=to+(xs[i]-to)*clamp((u-.6)/.4);}
+   if(reflect){if(u<.45)x=from+(to-from)*clamp((u-.32)/.13);else x=to+(xs[i]-to)*clamp((u-.45)/.55);}
    else if(both){const collision=equal?1:.65;if(u<collision)x=from+(mid-from)*clamp((u-.32)/(collision-.32));else{if(equal||r.damage[j]===0)continue;power=r.damage[j];x=mid+(xs[j]-mid)*clamp((u-collision)/(1-collision));}}
    else x=from+(to-from)*clamp((u-.32)/.68);
    if(u>1)x=reflect?xs[i]:to;
