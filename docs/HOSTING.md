@@ -22,3 +22,11 @@ https://paipai-wave-playground.zhipijun1996.chatgpt.site
 ## v2.1原声与拍拍后选招
 
 复用同一project_id/public受众/免登录URL。13个原声槽用带版本的`*-v2.1.wav`路径，避免旧WAV缓存；37音轨和NOTICE/manifest均本地打包。标准1350–2250ms输入窗口在第二拍收掌后开放，窗口截止才亮招。发布归档仅含本提交构建的dist与hosting配置，源码同步到站点专用远端；部署与匿名验证结果以artifacts/sites-deployment-v2.1.json、public-access-v2.1.json为准。
+
+## GitHub Pages独立备用入口
+
+目标：https://zhipijun1996.github.io/wave-game/。保留原Sites地址，新增独立域名的v2.1镜像；此举不等同于大陆直连验证。相对路径构建同样适配/wave-game/子路径，完整构建放在gh-pages分支，带.nojekyll。
+
+仓库原Pages配置为workflow，但没有工作流且站点404。当前GitHub连接的Pages设置写入权限返回403，因此新增`.github/workflows/pages.yml`，通过已有workflow模式部署；工作流只读取gh-pages构建并调用官方upload/deploy-pages。以后更新gh-pages构建后，在Actions手动运行该工作流即可发布；原Sites身份和受众不改变。发布是否成功及大陆直连状态须分别记录，不能用海外测试代替大陆测试。
+
+发布结果：2026-10-30，工作流41065441899成功，Pages返回HTTP200；build-info为2.1.0，运行源码a54d77e。全新匿名Chromium通过一次实际基础回合及13个原声音轨SHA检查，证据artifacts/github-pages-v2.1.json；`mainlandConnectivityVerified:false`，不声称已测大陆直连。

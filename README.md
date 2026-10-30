@@ -4,6 +4,8 @@
 
 公开试玩（无需登录）：https://paipai-wave-playground.zhipijun1996.chatgpt.site
 
+独立备用入口（当前v2.1镜像）：https://zhipijun1996.github.io/wave-game/ 。已验证公开访问与游戏运行，尚未做大陆网络直连实测。
+
 完整下载与待验收项：[交付索引](docs/DELIVERY.md)、[逐条验收](docs/ACCEPTANCE.md)、[平衡报告](docs/BALANCE_REPORT.md)。当前为可玩候选；物理手机、人类手感与Toy账号容器仍待验。
 
 - 故事模式：放学后的八位同学、七招逐关解锁与毕业战。
