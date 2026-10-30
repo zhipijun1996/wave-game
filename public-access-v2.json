@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "checkedAt": "2026-10-30T10:51:48.534Z",
+  "browser": "154.0.8037.57",
+  "accessMode": "public",
+  "authentication": "new browser context with no cookies, auth headers or bypass token",
+  "status": 200,
+  "finalUrl": "https://paipai-wave-playground.zhipijun1996.chatgpt.site/",
+  "productionScript": "./assets/index-sptJbfDe.js",
+  "debugGlobalExposed": false,
+  "normalUIPlayedAgainstRealAI": true,
+  "turns": [
+    {
+      "round": 1,
+      "action": "charge",
+      "energyBefore": 0
+    },
+    {
+      "round": 2,
+      "action": "wave1",
+      "energyBefore": 1
+    },
+    {
+      "round": 3,
+      "action": "charge",
+      "energyBefore": 0
+    },
+    {
+      "round": 4,
+      "action": "charge",
+      "energyBefore": 1
+    },
+    {
+      "round": 5,
+      "action": "wave1",
+      "energyBefore": 2
+    },
+    {
+      "round": 6,
+      "action": "wave1",
+      "energyBefore": 1
+    },
+    {
+      "round": 7,
+      "action": "charge",
+      "energyBefore": 0
+    },
+    {
+      "round": 8,
+      "action": "wave1",
+      "energyBefore": 1
+    }
+  ],
+  "errors": []
+}

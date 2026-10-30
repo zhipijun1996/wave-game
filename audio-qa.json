@@ -1,0 +1,388 @@
+{
+  "version": "2.0.0",
+  "browser": "154.0.8037.57",
+  "realTime": true,
+  "before": {
+    "phase": "cutin",
+    "phaseTime": 849.7999999977649,
+    "local": 1800,
+    "result": {
+      "actions": [
+        "wave2",
+        "wave3"
+      ],
+      "next": {
+        "round": 2,
+        "players": [
+          {
+            "hp": 4,
+            "energy": 5,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          },
+          {
+            "hp": 5,
+            "energy": 3,
+            "blocked": false,
+            "skills": [
+              "charge",
+              "quick",
+              "wave1",
+              "wave2",
+              "wave3",
+              "guard1",
+              "guard2",
+              "guard3",
+              "reflect1",
+              "reflect2"
+            ]
+          }
+        ]
+      },
+      "damage": [
+        1,
+        0
+      ],
+      "gain": [
+        0,
+        0
+      ],
+      "cost": [
+        3,
+        5
+      ],
+      "events": [
+        {
+          "type": "partial",
+          "side": 0,
+          "amount": 1
+        }
+      ],
+      "winner": null
+    },
+    "energy": [
+      8,
+      8
+    ],
+    "active": 0,
+    "enabled": false,
+    "bufferCount": 37,
+    "log": [
+      {
+        "name": "select",
+        "offset": 0,
+        "pan": 0,
+        "at": 0.34249433106575966
+      },
+      {
+        "name": "clap1",
+        "offset": 0,
+        "pan": 0,
+        "at": 0.3512018140589569
+      },
+      {
+        "name": "select",
+        "offset": 0,
+        "pan": 0,
+        "at": 0.3512018140589569
+      },
+      {
+        "name": "clap2",
+        "offset": 0,
+        "pan": 0,
+        "at": 1.2509750566893425
+      },
+      {
+        "name": "reveal",
+        "offset": 0,
+        "pan": 0,
+        "at": 2.1507482993197278
+      },
+      {
+        "name": "wave2-cutin",
+        "offset": 0,
+        "pan": -0.45,
+        "at": 2.1507482993197278
+      },
+      {
+        "name": "wave3-cutin",
+        "offset": 0,
+        "pan": 0.45,
+        "at": 2.1507482993197278
+      },
+      {
+        "name": "select",
+        "offset": 0,
+        "pan": 0,
+        "at": 2.992471655328798
+      }
+    ]
+  },
+  "offsets": [
+    {
+      "name": "wave2-cutin",
+      "offset": 0.8497999999977649,
+      "pan": -0.45,
+      "at": 3.0127891156462585
+    },
+    {
+      "name": "wave3-cutin",
+      "offset": 0.8497999999977649,
+      "pan": 0.45,
+      "at": 3.0127891156462585
+    }
+  ],
+  "after": {
+    "log": [
+      {
+        "type": "start",
+        "round": 1,
+        "at": 0,
+        "local": 0,
+        "phase": "select",
+        "phaseTime": 0,
+        "wall": 736.7999999970198
+      },
+      {
+        "type": "select",
+        "round": 1,
+        "at": 4,
+        "local": 4,
+        "phase": "select",
+        "phaseTime": 4,
+        "wall": 741
+      },
+      {
+        "type": "clap",
+        "round": 1,
+        "at": 900,
+        "local": 900,
+        "phase": "select",
+        "phaseTime": 900,
+        "wall": 1639.199999999255
+      },
+      {
+        "type": "third-beat",
+        "round": 1,
+        "at": 1800,
+        "local": 1800,
+        "phase": "cutin",
+        "phaseTime": 0,
+        "wall": 2538.89999999851
+      },
+      {
+        "type": "reveal",
+        "round": 1,
+        "at": 1800,
+        "local": 1800,
+        "phase": "cutin",
+        "phaseTime": 0,
+        "wall": 2539.5
+      },
+      {
+        "type": "cutin-start",
+        "round": 1,
+        "at": 1800,
+        "local": 1800,
+        "phase": "cutin",
+        "phaseTime": 0,
+        "wall": 2539.7999999970198
+      },
+      {
+        "type": "pause",
+        "round": 1,
+        "at": 2649.799999997765,
+        "local": 1800,
+        "phase": "cutin",
+        "phaseTime": 849.7999999977649,
+        "wall": 3383.699999999255
+      },
+      {
+        "type": "resume",
+        "round": 1,
+        "at": 2649.799999997765,
+        "local": 1800,
+        "phase": "cutin",
+        "phaseTime": 849.7999999977649,
+        "wall": 4067.2999999970198
+      },
+      {
+        "type": "cutin-end",
+        "round": 1,
+        "at": 4400.000000000001,
+        "local": 1800,
+        "phase": "cutin",
+        "phaseTime": 2600,
+        "wall": 5821.5
+      },
+      {
+        "type": "launch",
+        "round": 1,
+        "at": 4400.000000000001,
+        "local": 1800,
+        "phase": "action",
+        "phaseTime": 0,
+        "wall": 5821.5
+      },
+      {
+        "type": "fx",
+        "round": 1,
+        "at": 4970.000000000001,
+        "local": 2370,
+        "phase": "action",
+        "phaseTime": 570,
+        "wall": 6393.199999999255
+      },
+      {
+        "type": "commit",
+        "round": 1,
+        "at": 5600.000000000001,
+        "local": 3000,
+        "phase": "action",
+        "phaseTime": 1200,
+        "wall": 7021.5
+      },
+      {
+        "type": "recover",
+        "round": 1,
+        "at": 5600.000000000001,
+        "local": 3000,
+        "phase": "recover",
+        "phaseTime": 0,
+        "wall": 7023.699999999255
+      }
+    ],
+    "state": {
+      "round": 2,
+      "players": [
+        {
+          "hp": 4,
+          "energy": 5,
+          "blocked": false,
+          "skills": [
+            "charge",
+            "quick",
+            "wave1",
+            "wave2",
+            "wave3",
+            "guard1",
+            "guard2",
+            "guard3",
+            "reflect1",
+            "reflect2"
+          ]
+        },
+        {
+          "hp": 5,
+          "energy": 3,
+          "blocked": false,
+          "skills": [
+            "charge",
+            "quick",
+            "wave1",
+            "wave2",
+            "wave3",
+            "guard1",
+            "guard2",
+            "guard3",
+            "reflect1",
+            "reflect2"
+          ]
+        }
+      ]
+    },
+    "audioLog": [
+      {
+        "name": "select",
+        "offset": 0,
+        "pan": 0,
+        "at": 0.34249433106575966
+      },
+      {
+        "name": "clap1",
+        "offset": 0,
+        "pan": 0,
+        "at": 0.3512018140589569
+      },
+      {
+        "name": "select",
+        "offset": 0,
+        "pan": 0,
+        "at": 0.3512018140589569
+      },
+      {
+        "name": "clap2",
+        "offset": 0,
+        "pan": 0,
+        "at": 1.2509750566893425
+      },
+      {
+        "name": "reveal",
+        "offset": 0,
+        "pan": 0,
+        "at": 2.1507482993197278
+      },
+      {
+        "name": "wave2-cutin",
+        "offset": 0,
+        "pan": -0.45,
+        "at": 2.1507482993197278
+      },
+      {
+        "name": "wave3-cutin",
+        "offset": 0,
+        "pan": 0.45,
+        "at": 2.1507482993197278
+      },
+      {
+        "name": "select",
+        "offset": 0,
+        "pan": 0,
+        "at": 2.992471655328798
+      },
+      {
+        "name": "wave2-cutin",
+        "offset": 0.8497999999977649,
+        "pan": -0.45,
+        "at": 3.0127891156462585
+      },
+      {
+        "name": "wave3-cutin",
+        "offset": 0.8497999999977649,
+        "pan": 0.45,
+        "at": 3.0127891156462585
+      },
+      {
+        "name": "wave2",
+        "offset": 0,
+        "pan": -0.45,
+        "at": 4.760090702947846
+      },
+      {
+        "name": "wave3",
+        "offset": 0,
+        "pan": 0.45,
+        "at": 4.760090702947846
+      },
+      {
+        "name": "partial",
+        "offset": 0,
+        "pan": 0,
+        "at": 5.932698412698413
+      }
+    ],
+    "active": 2
+  },
+  "visibilityHandlerPaused": true
+}
