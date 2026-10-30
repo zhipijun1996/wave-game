@@ -1,0 +1,595 @@
+{
+  "checkedAt": "2026-10-30T10:56:01.446Z",
+  "browser": "154.0.8037.57",
+  "desktopEmulation": true,
+  "checks": [
+    {
+      "name": "charge-hit",
+      "passed": true,
+      "phase": "recover",
+      "actions": [
+        "charge",
+        "wave1"
+      ],
+      "damage": [
+        1,
+        0
+      ],
+      "cost": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "quick-success",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "quick",
+        "charge"
+      ],
+      "damage": [
+        0,
+        0
+      ],
+      "cost": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "quick-unplug",
+      "passed": true,
+      "phase": "recover",
+      "actions": [
+        "quick",
+        "wave1"
+      ],
+      "damage": [
+        1,
+        0
+      ],
+      "cost": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "little-wave",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "wave1",
+        "charge"
+      ],
+      "damage": [
+        0,
+        1
+      ],
+      "cost": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "hadouken-cutin",
+      "passed": true,
+      "phase": "cutin",
+      "actions": [
+        "wave2",
+        "charge"
+      ],
+      "damage": [
+        0,
+        2
+      ],
+      "cost": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "hadouken-flight",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "wave2",
+        "charge"
+      ],
+      "damage": [
+        0,
+        2
+      ],
+      "cost": [
+        3,
+        0
+      ]
+    },
+    {
+      "name": "specium-cutin",
+      "passed": true,
+      "phase": "cutin",
+      "actions": [
+        "wave3",
+        "guard1"
+      ],
+      "damage": [
+        0,
+        3
+      ],
+      "cost": [
+        5,
+        0
+      ]
+    },
+    {
+      "name": "specium-ray",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "wave3",
+        "guard1"
+      ],
+      "damage": [
+        0,
+        3
+      ],
+      "cost": [
+        5,
+        0
+      ]
+    },
+    {
+      "name": "pan-block",
+      "passed": true,
+      "phase": "recover",
+      "actions": [
+        "guard1",
+        "wave1"
+      ],
+      "damage": [
+        0,
+        0
+      ],
+      "cost": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pan-break",
+      "passed": true,
+      "phase": "recover",
+      "actions": [
+        "guard1",
+        "wave2"
+      ],
+      "damage": [
+        2,
+        0
+      ],
+      "cost": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": "at-field",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "guard2",
+        "wave2"
+      ],
+      "damage": [
+        0,
+        0
+      ],
+      "cost": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "at-shatter",
+      "passed": true,
+      "phase": "recover",
+      "actions": [
+        "guard2",
+        "wave3"
+      ],
+      "damage": [
+        3,
+        0
+      ],
+      "cost": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "psycho-field",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "guard3",
+        "wave3"
+      ],
+      "damage": [
+        0,
+        0
+      ],
+      "cost": [
+        2,
+        5
+      ]
+    },
+    {
+      "name": "magic-cylinders",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "reflect1",
+        "wave1"
+      ],
+      "damage": [
+        0,
+        1
+      ],
+      "cost": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "cylinders-pierced",
+      "passed": true,
+      "phase": "recover",
+      "actions": [
+        "reflect1",
+        "wave2"
+      ],
+      "damage": [
+        2,
+        0
+      ],
+      "cost": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "uchiha-return",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "reflect2",
+        "wave2"
+      ],
+      "damage": [
+        0,
+        2
+      ],
+      "cost": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "fan-pierced",
+      "passed": true,
+      "phase": "recover",
+      "actions": [
+        "reflect2",
+        "wave3"
+      ],
+      "damage": [
+        3,
+        0
+      ],
+      "cost": [
+        2,
+        5
+      ]
+    },
+    {
+      "name": "dual-cutin",
+      "passed": true,
+      "phase": "cutin",
+      "actions": [
+        "wave2",
+        "wave3"
+      ],
+      "damage": [
+        1,
+        0
+      ],
+      "cost": [
+        3,
+        5
+      ]
+    },
+    {
+      "name": "unequal-ray",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "wave3",
+        "wave1"
+      ],
+      "damage": [
+        0,
+        2
+      ],
+      "cost": [
+        5,
+        1
+      ]
+    },
+    {
+      "name": "equal-cancel",
+      "passed": true,
+      "phase": "action",
+      "actions": [
+        "wave2",
+        "wave2"
+      ],
+      "damage": [
+        0,
+        0
+      ],
+      "cost": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "dual viewport",
+      "w": 360,
+      "h": 640,
+      "passed": true
+    },
+    {
+      "name": "fields viewport",
+      "w": 360,
+      "h": 640,
+      "passed": true
+    },
+    {
+      "name": "psycho viewport",
+      "w": 360,
+      "h": 640,
+      "passed": true
+    },
+    {
+      "name": "dual viewport",
+      "w": 390,
+      "h": 844,
+      "passed": true
+    },
+    {
+      "name": "fields viewport",
+      "w": 390,
+      "h": 844,
+      "passed": true
+    },
+    {
+      "name": "psycho viewport",
+      "w": 390,
+      "h": 844,
+      "passed": true
+    },
+    {
+      "name": "dual viewport",
+      "w": 844,
+      "h": 390,
+      "passed": true
+    },
+    {
+      "name": "fields viewport",
+      "w": 844,
+      "h": 390,
+      "passed": true
+    },
+    {
+      "name": "psycho viewport",
+      "w": 844,
+      "h": 390,
+      "passed": true
+    },
+    {
+      "name": "dual viewport",
+      "w": 1280,
+      "h": 720,
+      "passed": true
+    },
+    {
+      "name": "fields viewport",
+      "w": 1280,
+      "h": 720,
+      "passed": true
+    },
+    {
+      "name": "psycho viewport",
+      "w": 1280,
+      "h": 720,
+      "passed": true
+    },
+    {
+      "name": "dual viewport",
+      "w": 1920,
+      "h": 1080,
+      "passed": true
+    },
+    {
+      "name": "fields viewport",
+      "w": 1920,
+      "h": 1080,
+      "passed": true
+    },
+    {
+      "name": "psycho viewport",
+      "w": 1920,
+      "h": 1080,
+      "passed": true
+    },
+    {
+      "name": "default action",
+      "blocked": false,
+      "passed": true
+    },
+    {
+      "name": "default action",
+      "blocked": true,
+      "passed": true
+    },
+    {
+      "name": "dual cutin pause/resume",
+      "passed": true,
+      "before": {
+        "phase": "cutin",
+        "phaseTime": 1200,
+        "local": 1800,
+        "sealed": "wave3",
+        "result": {
+          "actions": [
+            "wave2",
+            "wave3"
+          ],
+          "next": {
+            "round": 2,
+            "players": [
+              {
+                "hp": 4,
+                "energy": 5,
+                "blocked": false,
+                "skills": [
+                  "charge",
+                  "quick",
+                  "wave1",
+                  "wave2",
+                  "wave3",
+                  "guard1",
+                  "guard2",
+                  "guard3",
+                  "reflect1",
+                  "reflect2"
+                ]
+              },
+              {
+                "hp": 5,
+                "energy": 3,
+                "blocked": false,
+                "skills": [
+                  "charge",
+                  "quick",
+                  "wave1",
+                  "wave2",
+                  "wave3",
+                  "guard1",
+                  "guard2",
+                  "guard3",
+                  "reflect1",
+                  "reflect2"
+                ]
+              }
+            ]
+          },
+          "damage": [
+            1,
+            0
+          ],
+          "gain": [
+            0,
+            0
+          ],
+          "cost": [
+            3,
+            5
+          ],
+          "events": [
+            {
+              "type": "partial",
+              "side": 0,
+              "amount": 1
+            }
+          ],
+          "winner": null
+        },
+        "state": {
+          "round": 1,
+          "players": [
+            {
+              "hp": 5,
+              "energy": 8,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            },
+            {
+              "hp": 5,
+              "energy": 8,
+              "blocked": false,
+              "skills": [
+                "charge",
+                "quick",
+                "wave1",
+                "wave2",
+                "wave3",
+                "guard1",
+                "guard2",
+                "guard3",
+                "reflect1",
+                "reflect2"
+              ]
+            }
+          ]
+        }
+      },
+      "after": {
+        "phase": "cutin",
+        "phaseTime": 1264,
+        "sealed": "wave3"
+      }
+    },
+    {
+      "name": "jojo complete before buttons",
+      "passed": true
+    },
+    {
+      "name": "draw complete before buttons",
+      "passed": true
+    },
+    {
+      "name": "defeated fighter settles into a seated pose before winner closeup",
+      "passed": true
+    },
+    {
+      "name": "recovery gag egg",
+      "passed": true
+    },
+    {
+      "name": "recovery gag both-pans",
+      "passed": true
+    },
+    {
+      "name": "recovery gag stretch",
+      "passed": true
+    },
+    {
+      "name": "recovery gag smoke",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
