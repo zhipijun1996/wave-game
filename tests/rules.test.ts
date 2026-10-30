@@ -22,26 +22,25 @@ test('exchange symmetry, invariant bounds and damage difference uses damage rath
 });
 test('60-round free defense is an intentional draw',()=>{let s=initial(3,BASIC);for(let i=1;i<=60;i++){const r=resolve(s,['guard1','guard1']);assert.equal(r.winner,i===60?'draw':null);s=r.next;}});
 test('AI is sealed before input, same public state/seed regardless of player selection',()=>{
- const s=initial();s.players.forEach(p=>p.energy=5);const choices=ALL.map(a=>{const c=new BattleClock(s,st=>chooseAI(st,1,random(91),'hard'));c.advance(900);c.select(a);return c.sealed;});assert.equal(new Set(choices).size,1);
+ const s=initial();s.players.forEach(p=>p.energy=5);const choices=ALL.map(a=>{const c=new BattleClock(s,st=>chooseAI(st,1,random(91),'hard'));c.advance(1500);c.select(a);return c.sealed;});assert.equal(new Set(choices).size,1);
 });
-test('20 rounds per speed have exact beat intervals and single commit; cutoff rejects selections',()=>{
- for(const scale of [.7,1,1.5]){const c=new BattleClock(initial(3,BASIC),()=> 'guard1',scale);let commits=0;c.onEvent=t=>{if(t==='commit')commits++;};for(let i=0;i<20;i++){c.advance(900*scale);c.select('guard1');c.advance(900*scale);assert.equal(c.select('charge'),false);c.advance(900*scale);}assert.equal(commits,20);assert.equal(c.state.round,21);for(const e of c.log.filter(e=>['clap','reveal','commit'].includes(e.type)))assert.equal(e.local,{clap:900,reveal:1800,commit:2250}[e.type]);assert.equal(c.time,54000*scale);}
+test('three tempos keep a stable four-beat round; queued inputs fire on beat three',()=>{
+ for(const scale of [.7,1,1.5]){const c=new BattleClock(initial(3,BASIC),()=> 'guard1',scale);for(let i=0;i<20;i++){c.advance(1500*scale);assert.equal(c.select('guard1'),true);c.advance(2100*scale);}assert.equal(c.state.round,21);assert.equal(c.time,72000*scale);assert.equal(c.log.filter(e=>e.type==='commit').length,20);for(const e of c.log.filter(e=>e.type==='reveal'))assert.equal(e.local,1800);}
 });
-test('pause before reveal retains selection and AI; after reveal preserves commit marker',()=>{
- const c=new BattleClock(initial(),()=> 'charge');c.advance(900);c.select('quick');c.advance(100);const sealed=c.sealed;c.pause();c.advance(9000);assert.equal(c.time,1000);c.resume();assert.equal(c.local,0);assert.equal(c.selected,'quick');assert.equal(c.sealed,sealed);c.advance(2300);assert.equal(c.state.players[0].energy,2);c.pause();c.resume();c.advance(400);assert.equal(c.state.players[0].energy,2);assert.equal(c.log.filter(e=>e.type==='commit').length,1);
+test('third-beat and late clicks reveal immediately; early clicks wait for beat three',()=>{
+ for(const scale of [.7,1,1.5]){for(const at of [1350,1800,2100,2249]){const c=new BattleClock(initial(),()=> 'charge',scale);assert.equal(c.select('charge'),false);c.advance(at*scale);assert.equal(c.select('charge'),true);if(at<1800){assert.equal(c.result,null);c.advance((1800-at)*scale);}assert.ok(c.result);assert.equal(c.revealAt,Math.max(1800,at));assert.equal(c.select('guard1'),false);c.advance(450*scale);assert.equal(c.state.players[0].energy,1);}}
+ const c=new BattleClock(initial(),()=> 'charge');c.advance(1349);assert.equal(c.select('charge'),false);c.advance(901);assert.equal(c.select('charge'),false);assert.equal(c.result!.actions[0],'idle');c.advance(450);assert.equal(c.state.players[0].energy,0);
 });
-test('pause after reveal before commit retains unique result and applies tempo only on following round',()=>{
- let calls=0;const c=new BattleClock(initial(),()=>{calls++;return 'charge';});c.advance(900);c.select('quick');c.advance(1000);const result=c.result;c.pause();c.nextScale=1.5;c.resume();assert.equal(c.result,result);assert.equal(c.committed,false);c.advance(800);assert.equal(c.state.players[0].energy,2);assert.equal(c.scale,1.5);assert.equal(calls,2);assert.equal(c.log.filter(e=>e.type==='commit').length,1);
+test('pause before reveal preserves queued input and AI; after reveal commits only once',()=>{
+ const c=new BattleClock(initial(),()=> 'charge');c.advance(1500);c.select('quick');const sealed=c.sealed;c.pause();c.advance(9000);assert.equal(c.time,1500);c.resume();assert.equal(c.local,0);assert.equal(c.selected,'quick');assert.equal(c.sealed,sealed);c.advance(2300);assert.equal(c.state.players[0].energy,2);c.pause();c.resume();c.advance(1300);assert.equal(c.state.players[0].energy,2);assert.equal(c.log.filter(e=>e.type==='commit').length,1);
 });
-
-test('input opens only after second clap, closes at exact edge; misses do nothing',()=>{
- for(const scale of [.7,1,1.5]){const c=new BattleClock(initial(),()=> 'charge',scale);assert.equal(c.select('charge'),false);c.advance(899*scale);assert.equal(c.select('charge'),false);c.advance(1*scale);assert.equal(c.select('charge'),true);c.advance(599*scale);assert.equal(c.select('guard1'),true);c.advance(1*scale);assert.equal(c.select('charge'),false);assert.equal(c.selected,'guard1');c.advance(750*scale);assert.deepEqual(c.result!.actions,['guard1','charge']);assert.equal(c.state.players[0].energy,0);}
- const c=new BattleClock(initial(),()=> 'charge');c.select('charge');c.advance(2250);assert.equal(c.result!.actions[0],'idle');assert.equal(c.state.players[0].energy,0);assert.equal(c.result!.cost[0],0);
+test('late result survives pause and tempo changes apply on next whole round',()=>{
+ let calls=0;const c=new BattleClock(initial(),()=>{calls++;return 'charge';});c.advance(2000);c.select('quick');const result=c.result;c.pause();c.nextScale=1.5;c.resume();assert.equal(c.result,result);assert.equal(c.committed,false);c.advance(1600);assert.equal(c.state.players[0].energy,2);assert.equal(c.scale,1.5);assert.equal(calls,2);assert.equal(c.log.filter(e=>e.type==='commit').length,1);
 });
-test('miss has neither protection nor charge; old quick lock still expires after passing',()=>{
- const s=initial();s.players[0].energy=2;s.players[0].blocked=true;s.players[1].energy=5;const r=resolve(s,[null,'wave3']);assert.deepEqual(r.damage,[3,0]);assert.equal(r.next.players[0].energy,2);assert.equal(r.next.players[0].blocked,false);assert.equal(r.gain[0],0);assert.equal(r.cost[0],0);assert.ok(!r.events.some(e=>e.type==='block'||e.type==='reflect'));
+test('miss has neither protection nor charge and old quick lock expires',()=>{
+ const s=initial();s.players[0].energy=2;s.players[0].blocked=true;s.players[1].energy=5;const r=resolve(s,[null,'wave3']);assert.deepEqual(r.damage,[3,0]);assert.equal(r.next.players[0].energy,2);assert.equal(r.next.players[0].blocked,false);assert.equal(r.gain[0],0);assert.equal(r.cost[0],0);
 });
-test('both zero energy AI always chooses ordinary or quick charge when legal',()=>{
+test('both zero energy AI charges when legal; paid defenses respect public threats',()=>{
  const chosen=new Set<string>();for(let seed=0;seed<200;seed++){const s=initial();for(const d of ['easy','normal','hard']){const id=chooseAI(s,1,random(seed),d);assert.ok(['charge','quick'].includes(id));chosen.add(id);}s.players[1].blocked=true;assert.equal(chooseAI(s,1,random(seed)),'guard1');}
  for(let seed=0;seed<100;seed++){const s=initial();s.players[1].energy=8;for(const d of ['normal','hard']){const id=chooseAI(s,1,random(seed),d);assert.ok(!(['guard','reflect'].includes(CONFIG.skills.find(x=>x.id===id)!.kind)&&CONFIG.skills.find(x=>x.id===id)!.cost>0));}s.players[0].energy=1;assert.ok(!['guard2','guard3','reflect2'].includes(chooseAI(s,1,random(seed),'normal')));}
  assert.deepEqual([...chosen].sort(),['charge','quick']);assert.equal(chooseAI(initial(3,BASIC),1,random(1)),'charge');

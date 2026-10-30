@@ -1,383 +1,314 @@
 {
+  "version": "1.2.0",
   "browser": "154.0.8037.57",
-  "version": "1.1.0",
   "desktopEmulation": true,
   "checks": [
     {
       "speed": 0.7,
-      "windowMs": 420,
-      "earlyRejected": true,
-      "lateRejected": true,
-      "missedAction": "idle",
-      "missHitDamage": [
-        3,
-        0
-      ]
+      "windowMs": 630,
+      "earlyQueuedAtThird": true,
+      "thirdImmediate": true,
+      "lateImmediate": true,
+      "missTakesFullDamage": true
     },
     {
       "speed": 1,
-      "windowMs": 600,
-      "earlyRejected": true,
-      "lateRejected": true,
-      "missedAction": "idle",
-      "missHitDamage": [
-        3,
-        0
-      ]
+      "windowMs": 900,
+      "earlyQueuedAtThird": true,
+      "thirdImmediate": true,
+      "lateImmediate": true,
+      "missTakesFullDamage": true
     },
     {
       "speed": 1.5,
-      "windowMs": 900,
-      "earlyRejected": true,
-      "lateRejected": true,
-      "missedAction": "idle",
-      "missHitDamage": [
-        3,
-        0
-      ]
+      "windowMs": 1350,
+      "earlyQueuedAtThird": true,
+      "thirdImmediate": true,
+      "lateImmediate": true,
+      "missTakesFullDamage": true
     },
     {
-      "viewport": {
-        "width": 360,
-        "height": 640
-      },
-      "skills": [
+      "pauseBeforeAndAfterReveal": true
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "buttons": [
         {
-          "width": 57.1875,
-          "height": 70,
-          "bottom": 476,
-          "right": 84.1875
+          "w": 57.1875,
+          "h": 70,
+          "b": 476
         },
         {
-          "width": 57.203125,
-          "height": 70,
-          "bottom": 476,
-          "right": 146.390625
+          "w": 57.203125,
+          "h": 70,
+          "b": 476
         },
         {
-          "width": 57.203125,
-          "height": 70,
-          "bottom": 476,
-          "right": 208.59375
+          "w": 57.203125,
+          "h": 70,
+          "b": 476
         },
         {
-          "width": 57.203125,
-          "height": 70,
-          "bottom": 476,
-          "right": 270.796875
+          "w": 57.203125,
+          "h": 70,
+          "b": 476
         },
         {
-          "width": 57.203125,
-          "height": 70,
-          "bottom": 476,
-          "right": 333
+          "w": 57.203125,
+          "h": 70,
+          "b": 476
         },
         {
-          "width": 57.1875,
-          "height": 70,
-          "bottom": 551,
-          "right": 84.1875
+          "w": 57.1875,
+          "h": 70,
+          "b": 551
         },
         {
-          "width": 57.203125,
-          "height": 70,
-          "bottom": 551,
-          "right": 146.390625
+          "w": 57.203125,
+          "h": 70,
+          "b": 551
         },
         {
-          "width": 57.203125,
-          "height": 70,
-          "bottom": 551,
-          "right": 208.59375
+          "w": 57.203125,
+          "h": 70,
+          "b": 551
         },
         {
-          "width": 57.203125,
-          "height": 70,
-          "bottom": 551,
-          "right": 270.796875
+          "w": 57.203125,
+          "h": 70,
+          "b": 551
         },
         {
-          "width": 57.203125,
-          "height": 70,
-          "bottom": 551,
-          "right": 333
+          "w": 57.203125,
+          "h": 70,
+          "b": 551
         }
       ]
     },
     {
-      "viewport": {
-        "width": 390,
-        "height": 844
-      },
-      "skills": [
+      "width": 390,
+      "height": 844,
+      "buttons": [
         {
-          "width": 62.390625,
-          "height": 77,
-          "bottom": 571.875,
-          "right": 91.390625
+          "w": 62.390625,
+          "h": 77,
+          "b": 571.875
         },
         {
-          "width": 62.40625,
-          "height": 77,
-          "bottom": 571.875,
-          "right": 158.796875
+          "w": 62.40625,
+          "h": 77,
+          "b": 571.875
         },
         {
-          "width": 62.390625,
-          "height": 77,
-          "bottom": 571.875,
-          "right": 226.1875
+          "w": 62.390625,
+          "h": 77,
+          "b": 571.875
         },
         {
-          "width": 62.40625,
-          "height": 77,
-          "bottom": 571.875,
-          "right": 293.59375
+          "w": 62.40625,
+          "h": 77,
+          "b": 571.875
         },
         {
-          "width": 62.40625,
-          "height": 77,
-          "bottom": 571.875,
-          "right": 361
+          "w": 62.40625,
+          "h": 77,
+          "b": 571.875
         },
         {
-          "width": 62.390625,
-          "height": 77,
-          "bottom": 653.875,
-          "right": 91.390625
+          "w": 62.390625,
+          "h": 77,
+          "b": 653.875
         },
         {
-          "width": 62.40625,
-          "height": 77,
-          "bottom": 653.875,
-          "right": 158.796875
+          "w": 62.40625,
+          "h": 77,
+          "b": 653.875
         },
         {
-          "width": 62.390625,
-          "height": 77,
-          "bottom": 653.875,
-          "right": 226.1875
+          "w": 62.390625,
+          "h": 77,
+          "b": 653.875
         },
         {
-          "width": 62.40625,
-          "height": 77,
-          "bottom": 653.875,
-          "right": 293.59375
+          "w": 62.40625,
+          "h": 77,
+          "b": 653.875
         },
         {
-          "width": 62.40625,
-          "height": 77,
-          "bottom": 653.875,
-          "right": 361
+          "w": 62.40625,
+          "h": 77,
+          "b": 653.875
         }
       ]
     },
     {
-      "viewport": {
-        "width": 844,
-        "height": 390
-      },
-      "skills": [
+      "width": 844,
+      "height": 390,
+      "buttons": [
         {
-          "width": 53.59375,
-          "height": 68,
-          "bottom": 207.5,
-          "right": 576.59375
+          "w": 53.59375,
+          "h": 68,
+          "b": 207.5
         },
         {
-          "width": 53.59375,
-          "height": 68,
-          "bottom": 207.5,
-          "right": 635.1875
+          "w": 53.59375,
+          "h": 68,
+          "b": 207.5
         },
         {
-          "width": 53.609375,
-          "height": 68,
-          "bottom": 207.5,
-          "right": 693.796875
+          "w": 53.609375,
+          "h": 68,
+          "b": 207.5
         },
         {
-          "width": 53.59375,
-          "height": 68,
-          "bottom": 207.5,
-          "right": 752.390625
+          "w": 53.59375,
+          "h": 68,
+          "b": 207.5
         },
         {
-          "width": 53.59375,
-          "height": 68,
-          "bottom": 207.5,
-          "right": 810.984375
+          "w": 53.59375,
+          "h": 68,
+          "b": 207.5
         },
         {
-          "width": 53.59375,
-          "height": 68,
-          "bottom": 280.5,
-          "right": 576.59375
+          "w": 53.59375,
+          "h": 68,
+          "b": 280.5
         },
         {
-          "width": 53.59375,
-          "height": 68,
-          "bottom": 280.5,
-          "right": 635.1875
+          "w": 53.59375,
+          "h": 68,
+          "b": 280.5
         },
         {
-          "width": 53.609375,
-          "height": 68,
-          "bottom": 280.5,
-          "right": 693.796875
+          "w": 53.609375,
+          "h": 68,
+          "b": 280.5
         },
         {
-          "width": 53.59375,
-          "height": 68,
-          "bottom": 280.5,
-          "right": 752.390625
+          "w": 53.59375,
+          "h": 68,
+          "b": 280.5
         },
         {
-          "width": 53.59375,
-          "height": 68,
-          "bottom": 280.5,
-          "right": 810.984375
+          "w": 53.59375,
+          "h": 68,
+          "b": 280.5
         }
       ]
     },
     {
-      "viewport": {
-        "width": 1280,
-        "height": 720
-      },
-      "skills": [
+      "width": 1280,
+      "height": 720,
+      "buttons": [
         {
-          "width": 59.59375,
-          "height": 80,
-          "bottom": 376,
-          "right": 921.59375
+          "w": 59.59375,
+          "h": 80,
+          "b": 376
         },
         {
-          "width": 59.59375,
-          "height": 80,
-          "bottom": 376,
-          "right": 987.1875
+          "w": 59.59375,
+          "h": 80,
+          "b": 376
         },
         {
-          "width": 59.609375,
-          "height": 80,
-          "bottom": 376,
-          "right": 1052.796875
+          "w": 59.609375,
+          "h": 80,
+          "b": 376
         },
         {
-          "width": 59.59375,
-          "height": 80,
-          "bottom": 376,
-          "right": 1118.390625
+          "w": 59.59375,
+          "h": 80,
+          "b": 376
         },
         {
-          "width": 59.59375,
-          "height": 80,
-          "bottom": 376,
-          "right": 1183.984375
+          "w": 59.59375,
+          "h": 80,
+          "b": 376
         },
         {
-          "width": 59.59375,
-          "height": 80,
-          "bottom": 462,
-          "right": 921.59375
+          "w": 59.59375,
+          "h": 80,
+          "b": 462
         },
         {
-          "width": 59.59375,
-          "height": 80,
-          "bottom": 462,
-          "right": 987.1875
+          "w": 59.59375,
+          "h": 80,
+          "b": 462
         },
         {
-          "width": 59.609375,
-          "height": 80,
-          "bottom": 462,
-          "right": 1052.796875
+          "w": 59.609375,
+          "h": 80,
+          "b": 462
         },
         {
-          "width": 59.59375,
-          "height": 80,
-          "bottom": 462,
-          "right": 1118.390625
+          "w": 59.59375,
+          "h": 80,
+          "b": 462
         },
         {
-          "width": 59.59375,
-          "height": 80,
-          "bottom": 462,
-          "right": 1183.984375
+          "w": 59.59375,
+          "h": 80,
+          "b": 462
         }
       ]
     },
     {
-      "viewport": {
-        "width": 1920,
-        "height": 1080
-      },
-      "skills": [
+      "width": 1920,
+      "height": 1080,
+      "buttons": [
         {
-          "width": 208.390625,
-          "height": 96,
-          "bottom": 840,
-          "right": 629.390625
+          "w": 208.390625,
+          "h": 96,
+          "b": 840
         },
         {
-          "width": 208.40625,
-          "height": 96,
-          "bottom": 840,
-          "right": 846.796875
+          "w": 208.40625,
+          "h": 96,
+          "b": 840
         },
         {
-          "width": 208.390625,
-          "height": 96,
-          "bottom": 840,
-          "right": 1064.1875
+          "w": 208.390625,
+          "h": 96,
+          "b": 840
         },
         {
-          "width": 208.40625,
-          "height": 96,
-          "bottom": 840,
-          "right": 1281.59375
+          "w": 208.40625,
+          "h": 96,
+          "b": 840
         },
         {
-          "width": 208.390625,
-          "height": 96,
-          "bottom": 840,
-          "right": 1498.984375
+          "w": 208.390625,
+          "h": 96,
+          "b": 840
         },
         {
-          "width": 208.390625,
-          "height": 96,
-          "bottom": 945,
-          "right": 629.390625
+          "w": 208.390625,
+          "h": 96,
+          "b": 945
         },
         {
-          "width": 208.40625,
-          "height": 96,
-          "bottom": 945,
-          "right": 846.796875
+          "w": 208.40625,
+          "h": 96,
+          "b": 945
         },
         {
-          "width": 208.390625,
-          "height": 96,
-          "bottom": 945,
-          "right": 1064.1875
+          "w": 208.390625,
+          "h": 96,
+          "b": 945
         },
         {
-          "width": 208.40625,
-          "height": 96,
-          "bottom": 945,
-          "right": 1281.59375
+          "w": 208.40625,
+          "h": 96,
+          "b": 945
         },
         {
-          "width": 208.390625,
-          "height": 96,
-          "bottom": 945,
-          "right": 1498.984375
+          "w": 208.390625,
+          "h": 96,
+          "b": 945
         }
       ]
-    },
-    {
-      "tutorial": "four steps including missed-beat idle"
     }
   ],
   "errors": []

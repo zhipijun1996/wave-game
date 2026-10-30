@@ -4,7 +4,7 @@ import subprocess,json,zipfile,hashlib
 ROOT=Path(__file__).resolve().parents[1];A=ROOT/'artifacts';V='v'+json.loads((ROOT/'package.json').read_text())['version']
 sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
 source=A/f'paipai-wave-source-{V}.zip';subprocess.run(['git','archive','--format=zip','-o',str(source),sha],cwd=ROOT,check=True)
-patterns=['home-*x*.png','advanced-*x*.png','battle-gesture-*.png','gesture-*.png','skill-*.png','showcase-round-*.png','graduation-unlock.png','defeat.png','touch-*.png','toy-poster.png','toy-icon.png','rhythm-*.png']
+patterns=['home-*x*.png','advanced-*x*.png','battle-gesture-*.png','gesture-*.png','skill-*.png','showcase-round-*.png','graduation-unlock.png','defeat.png','touch-*.png','toy-poster.png','toy-icon.png','rhythm-*.png','streak-*.png','advanced-locked.png','home-locked.png']
 images=sorted(set(p for pattern in patterns for p in A.glob(pattern)))
 logs=sorted(set(A.glob('*.json'))|set(A.glob('*.csv')))
 logs=[p for p in logs if p.name!='delivery-manifest.json']

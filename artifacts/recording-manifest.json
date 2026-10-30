@@ -1,11 +1,11 @@
 {
-  "videoMarkerStart": 0.96,
-  "videoMarkerEnd": 45.52,
-  "audioDuration": 38.829085,
-  "videoClockCorrection": 1.1475933568869832,
+  "videoMarkerStart": 0.84,
+  "videoMarkerEnd": 42.68,
+  "audioDuration": 36.728605,
+  "videoClockCorrection": 1.1391665978057155,
   "trimmedAudioSeconds": 0.22,
   "output": {
-    "duration": "38.609000"
+    "duration": "36.509000"
   },
   "description": "Actual game frames and actual recorded WebAudio; start/end marker calibration only, no synthesized poses or substituted game audio."
 }

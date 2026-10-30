@@ -23,3 +23,7 @@
 @media(max-width:600px) and (max-height:700px) and (orientation:portrait){.controls.rhythm-open{padding:9px 7px 7px}}
 @media(orientation:landscape) and (max-height:600px){.controls.rhythm-open{padding:10px 9px}}
 @media(min-width:1000px) and (max-height:850px){.controls.rhythm-open{padding:14px 12px}}
+.mode-card.advanced.locked{background:#efeee6;border-style:dashed;color:#8e927f}.mode-card.advanced.locked .mode-icon{font-size:20px;color:#9e9d88}
+.modal p.streak-description{font-size:12px;line-height:1.65;color:#85917b;margin:3px 0 13px}.streak-banner{min-height:25px;margin:7px 0 0;text-align:center;font-size:13px;color:#8f8054;letter-spacing:1px}.streak-reward{text-align:left}
+@media(orientation:landscape) and (max-height:600px){.streak-banner{min-height:18px;margin-top:0;font-size:11px}.modal p.streak-description{margin-bottom:8px}}
+@media(max-width:600px) and (orientation:portrait){.streak-banner{font-size:12px;min-height:23px;margin-top:4px}}

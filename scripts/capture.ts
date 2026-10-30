@@ -3,29 +3,29 @@ const root=new URL('../',import.meta.url).pathname;
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']});
 const run=process.argv[2]||'all';
 const api=(p:Page,fn:string,arg?:any)=>p.evaluate(({fn,arg})=>new Function('t','arg',fn)((window as any).__PAIPAI_TEST__,arg),{fn,arg});
-async function clickOnBeat(p:Page,id:string,touch=false){await p.waitForFunction(()=>(window as any).__PAIPAI_TEST__.clock.inputOpen);if(touch)await p.tap(`[data-skill="${id}"]`);else await p.click(`[data-skill="${id}"]`);}
+async function clickOnBeat(p:Page,id:string,touch=false){await p.waitForFunction(()=>(window as any).__PAIPAI_TEST__.clock.inputOpen&&(window as any).__PAIPAI_TEST__.clock.local>=1800);if(touch)await p.tap(`[data-skill="${id}"]`);else await p.click(`[data-skill="${id}"]`);}
 const sequence:[string|null,string][]=[['charge','charge'],['wave1','wave1'],[null,'quick'],['charge','guard1'],['quick','charge'],['guard1','wave2'],['quick','charge'],['wave3','wave1'],['charge','charge'],['reflect1','wave1'],[null,'charge'],['charge','guard1'],['guard1','charge'],['charge','guard1'],['wave1','guard1'],[null,'charge'],['quick','charge'],[null,'guard1'],['guard1','charge'],['charge','guard1']];
 async function timing(speed:number){
  const name=speed===1?'standard':speed===.7?'fast':'slow';const context=await browser.newContext({viewport:{width:390,height:844},recordVideo:{dir:root+'artifacts/raw',size:{width:390,height:844}}});const page=await context.newPage();
- await page.goto('http://localhost:4173');await page.evaluate(()=>document.fonts.ready);await page.click('[data-action="settings"]');await page.click('[data-action="close"]');await api(page,'t.start("advanced",{enemy:"charge",speed:arg})',speed);
+ await page.goto('http://localhost:4173');await page.evaluate(()=>document.fonts.ready);await page.click('[data-action="settings"]');await page.click('[data-action="close"]');await api(page,'t.setSave({completed:8});t.start("advanced",{enemy:"charge",speed:arg})',speed);
  for(let i=0;i<20;i++){
   await page.waitForFunction(n=>(window as any).__PAIPAI_TEST__.clock.startState.round===n,i+1);
   await api(page,'t.setEnemy(arg)',sequence[i][1]);
-  if(sequence[i][0])await clickOnBeat(page,sequence[i][0]!);
-  if(i===11){await page.click('[data-skill="guard1"]');await clickOnBeat(page,'charge');}
+  if(i===11){await page.waitForFunction(()=>(window as any).__PAIPAI_TEST__.clock.inputOpen);for(const id of ['charge','guard1','charge'])await page.click(`[data-skill="${id}"]`,{force:true});}else if(sequence[i][0])await clickOnBeat(page,sequence[i][0]!);
   await page.waitForFunction(n=>(window as any).__PAIPAI_TEST__.clock.state.round===n,i+2,{timeout:8000});
  }
  await page.waitForFunction(()=>(window as any).__PAIPAI_TEST__.clock.startState.round===21,null,{timeout:6000});await api(page,'t.pause()');
  const data=await api(page,'return {log:t.clock.log,history:t.clock.history,frames:t.frameTimes,state:t.clock.state,seed:t.seed}');
- const logs=data.log.filter((e:any)=>e.round<=20&&['start','clap','window-close','reveal','commit'].includes(e.type));
- for(let round=1;round<=20;round++){const ls=logs.filter((e:any)=>e.round===round);assert.deepEqual(ls.map((e:any)=>e.local),[0,900,1500,1800,2250]);assert.ok(Math.abs(ls[0].at-(round-1)*2700*speed)<1e-6);}
+ const logs=data.log.filter((e:any)=>e.round<=20&&['start','clap','third-beat','window-close'].includes(e.type));
+ for(let round=1;round<=20;round++){const ls=logs.filter((e:any)=>e.round===round);assert.deepEqual(ls.map((e:any)=>e.local),[0,900,1800,2250]);assert.ok(Math.abs(ls[0].at-(round-1)*3600*speed)<1e-6);}
+ for(let n=1;n<=20;n++){const es=data.log.filter((e:any)=>e.round===n);const r=es.filter((e:any)=>e.type==='reveal'),c=es.filter((e:any)=>e.type==='commit');assert.equal(r.length,1);assert.equal(c.length,1);assert.ok(Math.abs(c[0].local-r[0].local-450)<.00001);assert.ok(es.filter((e:any)=>e.type==='select').every((e:any)=>e.local>=1350&&e.local<2250));}
  assert.equal(data.history.length,20);assert.ok(data.history.some((h:any)=>h.actions[0]==='reflect1'));
  await fs.writeFile(root+`artifacts/timing-${name}.json`,JSON.stringify({browser:await browser.version(),viewport:{width:390,height:844},speed,automatedDesktopEmulation:true,...data},null,2));
  const video=page.video()!;await context.close();await video.saveAs(root+`artifacts/timing-${name}.webm`);console.log('timing complete',name);
 }
 async function showcase(){
  const context=await browser.newContext({viewport:{width:1280,height:720},recordVideo:{dir:root+'artifacts/raw',size:{width:1280,height:720}}});const page=await context.newPage();await page.goto('http://localhost:4173');await page.evaluate(()=>document.fonts.ready);
- await api(page,'t.setSave({completed:7,tutorial:true,skin:"ribbon"})');await page.click('[data-action="settings"]');await page.click('[data-action="close"]');
+ await api(page,'t.setSave({completed:7,tutorial:true,skin:"ribbon",settings:{...t.save.settings,speed:.7}})');await page.click('[data-action="settings"]');await page.click('[data-action="close"]');
  await page.evaluate(`(async()=>{const a=window.__PAIPAI_TEST__.audio;await a.unlock();const dest=a.ctx.createMediaStreamDestination();a.output.connect(dest);window._captureChunks=[];window._captureRecorder=new MediaRecorder(dest.stream,{mimeType:'audio/webm;codecs=opus'});window._captureRecorder.ondataavailable=e=>window._captureChunks.push(e.data);window._captureRecorder.start();window._captureAudioAt=performance.now();const marker=document.createElement('div');marker.style.cssText='position:fixed;left:0;top:0;width:10px;height:10px;background:#ff00ff;z-index:9999';document.body.append(marker);setTimeout(()=>marker.remove(),160);})()`);
  await page.waitForTimeout(800);await page.click('[data-action="story"]');await page.click('[data-level="7"]');await page.waitForTimeout(1000);await page.click('[data-action="start-story"]');
  const checks=[];
