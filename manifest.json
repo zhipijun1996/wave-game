@@ -1,0 +1,32 @@
+{
+  "version": "2.1.1",
+  "runtimeSourceCommit": "cd8ec8d319471d42e730016cae83a6bb503f7910",
+  "toyName": "拍拍波",
+  "suggestedSlug": "paipai-wave",
+  "formats": {
+    "cover": "PNG 1200x900 4:3",
+    "icon": "PNG 500x500 1:1"
+  },
+  "doctor": {
+    "ok": true,
+    "findings": []
+  },
+  "files": {
+    "paipai-wave-toy-v2.1.1.zip": {
+      "bytes": 1534960,
+      "sha256": "338a205a80f4305905214256ccae0d366206d626fe884b413e1b129eda69c570"
+    },
+    "上传填写说明.md": {
+      "bytes": 2499,
+      "sha256": "b0c9aeac09eca117e45d75f34e8b4c12cde374e0b3d1e831b4a78461b900bb41"
+    },
+    "toy-cover-1200x900.png": {
+      "bytes": 95028,
+      "sha256": "9c849fdee4f4463e429e1c59ae15823508dcd9253b05793114aa2069b9032af7"
+    },
+    "toy-icon-500x500.png": {
+      "bytes": 19202,
+      "sha256": "94f0177fc7e4b7286113098f18abd38300151f15d6d95c14710fd08df1842cb8"
+    }
+  }
+}
