@@ -1,3 +1,13 @@
+# v2.1.1 横屏与Toy上传资料更新
+
+- [最新试玩](https://zhipijun1996.github.io/wave-game/)
+- [Sites备用](https://paipai-wave-playground.zhipijun1996.chatgpt.site)
+- [完整Toy上传资料套装](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.1.1/paipai-wave-toy-upload-kit-v2.1.1.zip)：游戏ZIP、1200×900封面、500×500图标和中文填写说明。
+- [逐字段填写说明](TOY_PUBLISHING.md)。横屏战场在上、十招底部单行，角色和机体虚影按宽高完整适配；竖屏维持两行。
+- 本次修改布局与渲染适配，技能数值、AI、节奏和音轨文件保持v2.1；先前带声展示视频是v2.1，不能作为本次横屏修复证据。本次截图/布局与演出检查记录在artifacts。
+
+以下保留前一版本完整源码、平衡、音频与录像索引。
+
 # 《拍拍波》v2.1 交付
 
 原生发布结果：Sites第8版，状态succeeded；运行源码`a54d77e0b62accc9ae42ace226753fc4fde5712f`。全新匿名浏览器核实13个原声文件SHA，并实际操作4回合；无脚本/资源错误，未登录、无调试接口。

@@ -83,7 +83,8 @@ export class Renderer {
  }
  draw(o:{local:number;time:number;result:Resolution|null;finished?:boolean;finishTime?:number;styles:[ActorStyle,ActorStyle];preview?:SkillId|null;home?:boolean;reduced?:boolean;phase?:Phase;phaseTime?:number;cutinDuration?:number;round?:number;winnerHP?:number}){
   this.fit();const c=this.ctx,w=this.canvas.width,h=this.canvas.height;
-  const worldW=w/h<2.1?640:1000,unit=w/worldW,worldH=h/unit,baseY=worldH-40;
+  // Fit the full actor and the tallest mech silhouette even in a shallow landscape canvas.
+  const nominalWidth=w/h<2.1?640:1000,unit=Math.min(w/nominalWidth,h/320),worldW=w/unit,worldH=h/unit,baseY=worldH-40;
   c.setTransform(unit,0,0,unit,0,0);c.clearRect(0,0,worldW,worldH);c.lineCap='round';c.lineJoin='round';
   this.line([30,baseY+9,worldW-30,baseY+9],'#c9c9b8',1.2);
   this.line([45,baseY+9,65,baseY+2,worldW-80,baseY+2,worldW-45,baseY+9],'#d7d7c6',1);

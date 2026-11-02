@@ -1,3 +1,5 @@
+Toy发布资料：[字段填写说明](docs/TOY_PUBLISHING.md) · [v2.1.1上传套装](https://raw.githubusercontent.com/zhipijun1996/wave-game/refs/heads/deliveries/v2.1.1/paipai-wave-toy-upload-kit-v2.1.1.zip)。横屏已改为底部单行，战场角色完整适配宽高。
+
 # 拍拍波
 
 两个小学生，把课间气功打出了热血动漫最终决战的气势。暖纸、墨线、漫画特写与道具反差的本地单机手势对战。

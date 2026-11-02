@@ -30,3 +30,7 @@ https://paipai-wave-playground.zhipijun1996.chatgpt.site
 仓库原Pages配置为workflow，但没有工作流且站点404。当前GitHub连接的Pages设置写入权限返回403，因此新增`.github/workflows/pages.yml`，通过已有workflow模式部署；工作流只读取gh-pages构建并调用官方upload/deploy-pages。以后更新gh-pages构建后，在Actions手动运行该工作流即可发布；原Sites身份和受众不改变。发布是否成功及大陆直连状态须分别记录，不能用海外测试代替大陆测试。
 
 发布结果：2026-10-30，工作流41065441899成功，Pages返回HTTP200；build-info为2.1.0，运行源码a54d77e。全新匿名Chromium通过一次实际基础回合及13个原声音轨SHA检查，证据artifacts/github-pages-v2.1.json；`mainlandConnectivityVerified:false`，不声称已测大陆直连。
+
+## v2.1.1 横屏更新
+
+2026-11-02：更新横屏底部单行与战场宽高适配，保留两处公开URL与Sites public受众。重新构建dist，Toy上传素材独立放在deliveries/v2.1.1；Pages更新gh-pages后手动派发已有工作流，Sites按原生保存/部署流程。发布状态见artifacts/hosting-v2.1.1.json。无大陆直连实测，未改变网络可达性结论。
