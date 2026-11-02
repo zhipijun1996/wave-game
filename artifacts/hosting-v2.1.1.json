@@ -1,0 +1,25 @@
+{
+  "runtimeSourceCommit": "cd8ec8d319471d42e730016cae83a6bb503f7910",
+  "version": "2.1.1",
+  "pages": {
+    "url": "https://zhipijun1996.github.io/wave-game/",
+    "runId": 41403831411,
+    "status": "success",
+    "mainlandConnectivityVerified": false
+  },
+  "sites": {
+    "id": "appgdep_6ae83612194c819191d0d5cc8236eddb",
+    "project_id": "appgprj_6ae421b89c5c819197eef66851003bac",
+    "title": "拍拍波",
+    "version_id": "appgprj_6ae421b89c5c819197eef66851003bac~appgver_3c552ab45f8c81919b04e9d093df21c7",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://paipai-wave-playground.zhipijun1996.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae421b89c5c819197eef66851003bac",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-02T07:04:55.373910+00:00"
+  }
+}

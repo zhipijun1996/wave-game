@@ -1,0 +1,63 @@
+{
+  "url": "https://zhipijun1996.github.io/wave-game/",
+  "checkedAt": "2026-11-02T07:05:04.733Z",
+  "anonymous": true,
+  "mainlandConnectivityVerified": false,
+  "metrics": {
+    "debug": "undefined",
+    "stage": {
+      "x": 12,
+      "y": 80,
+      "width": 820,
+      "height": 188,
+      "top": 80,
+      "right": 832,
+      "bottom": 268,
+      "left": 12
+    },
+    "controls": {
+      "x": 12,
+      "y": 271,
+      "width": 820,
+      "height": 113.59375,
+      "top": 271,
+      "right": 832,
+      "bottom": 384.59375,
+      "left": 12
+    },
+    "skills": [
+      {
+        "x": 20,
+        "y": 298,
+        "width": 265.328125,
+        "height": 62.59375,
+        "top": 298,
+        "right": 285.328125,
+        "bottom": 360.59375,
+        "left": 20
+      },
+      {
+        "x": 289.328125,
+        "y": 298,
+        "width": 265.328125,
+        "height": 62.59375,
+        "top": 298,
+        "right": 554.65625,
+        "bottom": 360.59375,
+        "left": 289.328125
+      },
+      {
+        "x": 558.65625,
+        "y": 298,
+        "width": 265.34375,
+        "height": 62.59375,
+        "top": 298,
+        "right": 824,
+        "bottom": 360.59375,
+        "left": 558.65625
+      }
+    ],
+    "round": "2"
+  },
+  "errors": []
+}
